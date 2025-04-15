@@ -131,30 +131,6 @@
                 ]
             },
             {
-                "name": "Elevator Room Stairs",
-                "access_rules": [
-                    "@CastleTopFloorBElevatorRoomStairs"
-                ],
-                "sections": [
-                    {
-                        "name": "Elixir",
-                        "item_count": 1
-                    }
-                ],
-                "map_locations": [
-                    {
-                        "map": "Castle B",
-                        "x": 652,
-                        "y": 212
-                    },
-                    {
-                        "map": "Castle Top Floor B",
-                        "x": 132,
-                        "y": 212
-                    }
-                ]
-            },
-            {
                 "name": "Above Minotaur Corridor",
                 "access_rules": [
                     "@CastleTopFloorBAboveMinotaurCorridor"

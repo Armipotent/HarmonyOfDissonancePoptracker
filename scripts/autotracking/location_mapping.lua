@@ -244,6 +244,23 @@ LOCATION_MAPPING = {
     [BASE_LOCATION_ID + 0x6E] = { { "@Clock Tower A/Pinball Zone End/Bottom Right (Heart Max Up)" } },
     [BASE_LOCATION_ID + 0x16] = { { "@Clock Tower A/Pinball Zone Illusory Crawlspace/Fang of Vlad" } },
 
+    -- Clock Tower B
+    [BASE_LOCATION_ID + 0x45] { { "@Clock Tower B/Skeleton Fatality Attic/Kaiser Knuckles" } },
+    [BASE_LOCATION_ID + 0xA5] { { "@Clock Tower B/Wrecked Attic/Wind Cloak" } },
+    [BASE_LOCATION_ID + 0x105] { { "@Clock Tower B/Above Peeping Big/Elixir" } },
+    [BASE_LOCATION_ID + 0x4C] { { "@Clock Tower B/Behind Peeping Big/Life Max Up" } },
+    [BASE_LOCATION_ID + 0x106] { { "@Clock Tower B/Perilous Pendulum Passage - Middle/Big Mana Prism" } },
+    [BASE_LOCATION_ID + 0x107] { { "@Clock Tower B/Perilous Pendulum Passage - Right/High Potion" } },
+    [BASE_LOCATION_ID + 0x108] { { "@Clock Tower B/Near Lower Crankshaft/Medicine Jar" } },
+    [BASE_LOCATION_ID + 0x05] { { "@Clock Tower B/Upper Crankshaft Crawlspace/Crushing Stone" } },
+    [BASE_LOCATION_ID + 0x109] { { "@Clock Tower B/Peeping Lookout/Tall Clock" } },
+    [BASE_LOCATION_ID + 0x7E] { { "@Clock Tower B/Gear-Jammed Dragon Shelter/Heart Max Up" } },
+    [BASE_LOCATION_ID + 0x5F] { { "@Clock Tower B/Armored Ambush Room/Life Max Up" } },
+    [BASE_LOCATION_ID + 0x37] { { "@Clock Tower B/Steel Ball Run End/Top (Heart Choker)" } },
+    [BASE_LOCATION_ID + 0x38] { { "@Clock Tower B/Steel Ball Run End/Bottom (Healing Mail)" } },
+    [BASE_LOCATION_ID + 0x10A] { { "@Clock Tower B/Steel Ball Run Side Chamber/Left (Raccoon Figure)" } },
+    [BASE_LOCATION_ID + 0x39] { { "@Clock Tower B/Steel Ball Run Side Chamber/Right (Lucky Ring)" } },
+
     -- Aqueduct of Dragons A
     [BASE_LOCATION_ID + 0x15] = { { "@Aqueduct of Dragons A/Goddess's Illusory Wall/Nail of Vlad" } },
     [BASE_LOCATION_ID + 0xA9] = { { "@Aqueduct of Dragons A/Slimy Pipe Shaft/Hard Gloves" } },
@@ -251,6 +268,13 @@ LOCATION_MAPPING = {
     [BASE_LOCATION_ID + 0x27] = { { "@Aqueduct of Dragons A/Guillotine Corridor/Blue Stone" } },
     [BASE_LOCATION_ID + 0x57] = { { "@Aqueduct of Dragons A/Behind Giant Merman/Left (Life Max Up)" } },
     [BASE_LOCATION_ID + 0x75] = { { "@Aqueduct of Dragons A/Behind Giant Merman/Right (Heart Max Up)" } },
+    
+    -- Aqueduct of Dragons B
+    [BASE_LOCATION_ID + 0x43] = { { "@Aqueduct of Dragons B/Luminous Cavern Shortcut/Earth Ring" } },
+    [BASE_LOCATION_ID + 0x61] = { { "@Aqueduct of Dragons B/Goddess's Illusory Wall/Life Max Up" } },
+    [BASE_LOCATION_ID + 0x113] = { { "@Aqueduct of Dragons B/Dry Pipe Shaft/Uncurse Potion" } },
+    [BASE_LOCATION_ID + 0x114] = { { "@Aqueduct of Dragons B/West Zombie Zone/Elixir" } },
+    [BASE_LOCATION_ID + 0x62] = { { "@Aqueduct of Dragons B/East Zombie Zone/Life Max Up" } },
 
     -- Castle Top Floor A
     [BASE_LOCATION_ID + 0xC0] = { { "@Castle Top Floor A/Handy Statue Attic - Middle/Left (Elixir)" } },
@@ -265,7 +289,18 @@ LOCATION_MAPPING = {
     [BASE_LOCATION_ID + 0x8E] = { { "@Castle Top Floor A/Corridor Griffin Passage/Silver Armor" } },
     [BASE_LOCATION_ID + 0x2A] = { { "@Castle Top Floor A/Behind Minotaur Lv2/Steel Tip" } },
     [BASE_LOCATION_ID + 0x87] = { { "@Castle Top Floor A/Before Pazuzu Warp Room/Mystic Brooch" } },
-
+    
+    -- Castle Top Floor B
+    [BASE_LOCATION_ID + 0x8F] = { { "@Castle Top Floor B/Kaiser's Attic Storage Left/Kaiser Mail" } },
+    [BASE_LOCATION_ID + 0x40] = { { "@Castle Top Floor B/Kaiser's Attic Storage Center/Left (Medicine Jar)" } },
+    [BASE_LOCATION_ID + 0x41] = { { "@Castle Top Floor B/Kaiser's Attic Storage Center/Right (Medicine Jar)" } },
+    [BASE_LOCATION_ID + 0x6D] = { { "@Castle Top Floor B/Kaiser's Attic Storage Right/Left (Heart Max Up)" } },
+    [BASE_LOCATION_ID + 0xF9] = { { "@Castle Top Floor B/Kaiser's Attic Storage Right/Right (Wine Glass)" } },
+    [BASE_LOCATION_ID + 0x3F] = { { "@Castle Top Floor B/Wrecked Throne Room/Mystical Robe" } },
+    [BASE_LOCATION_ID + 0xFA] = { { "@Castle Top Floor B/Below Throne Room Corridor/Potion" } },
+    [BASE_LOCATION_ID + 0xFB] = { { "@Castle Top Floor B/Above Minotaur Corridor/High Potion" } },
+    [BASE_LOCATION_ID + 0x5C] = { { "@Castle Top Floor B/Behind Minotaur/Left (Life Max Up)" } },
+    [BASE_LOCATION_ID + 0x1B] = { { "@Castle Top Floor B/Behind Minotaur/Right (Wind Book)" } },
 
 	-- Endings (don't work because AP doesn't send ID-less data 😔)
     --["Medium Ending"] = { { "@Castle Treasury A/Ending/Bad" } },
