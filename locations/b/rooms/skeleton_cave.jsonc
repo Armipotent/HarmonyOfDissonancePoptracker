@@ -1,0 +1,140 @@
+[
+    {
+        "name": "SkeletonCaveBStairsToTreasury",
+        "access_rules": [
+            "@CastleTreasuryBSkeletonEntrance",
+            "@SkeletonCaveBGiantGhostsRemainsChamber"
+        ]
+    },
+    {
+        "name": "SkeletonCaveBGiantGhostsRemainsChamber",
+        "access_rules": [
+            "@SkeletonCaveBStairsToTreasury",
+            "@SkeletonCaveBRollingSkullChamber",
+            "@SkeletonCaveBLowerSpiderDen"
+        ]
+    },
+    {
+        "name": "SkeletonCaveBLowerSpiderDen",
+        "access_rules": [
+            "@SkeletonCaveBGiantGhostsRemainsChamber",
+            "@SkeletonCaveBMonumentToCarmilla"
+        ]
+    },
+    {
+        "name": "SkeletonCaveBMonumentToCarmilla",
+        "access_rules": [
+            "@SkeletonCaveBLowerSpiderDen"
+        ]
+    },
+    {
+        "name": "SkeletonCaveBRollingSkullChamber",
+        "access_rules": [
+            "@SkeletonCaveBGiantGhostsRemainsChamber"
+        ]
+    },
+    {
+        "name": "SkeletonCaveBCrocomireGraveyard",
+        "access_rules": [
+            "@SkeletonCaveBRollingSkullChamber",
+            "@SkeletonCaveBAxeRoom"
+        ]
+    },
+    {
+        "name": "SkeletonCaveBAxeRoom",
+        "access_rules": [
+            "@SkeletonCaveBCrocomireGraveyard",
+            "@SkeletonCaveBBloodSkeletonRoom"
+        ]
+    },
+    {
+        "name": "SkeletonCaveBBloodSkeletonRoom",
+        "access_rules": [
+            "@SkeletonCaveBAxeRoom",
+            "@SkeletonCaveBSaveRoom"
+        ]
+    },
+    {
+        "name": "SkeletonCaveBSaveRoom",
+        "access_rules": [
+            "@SkeletonCaveBBloodSkeletonRoom",
+            "@SkeletonCaveBSecretAtticAboveSaveRoom",
+            "@SkeletonCaveBBeforeSkullKnight"
+        ]
+    },
+    {
+        "name": "SkeletonCaveBSecretAtticAboveSaveRoom",
+        "access_rules": [
+            "@SkeletonCaveBSaveRoom,$fly"
+        ]
+    },
+    {
+        "name": "SkeletonCaveBBeforeSkullKnight",
+        "access_rules": [
+            "@SkeletonCaveBSaveRoom",
+            "@SkeletonCaveBMuseumOfSkullsLeft",
+            "@SkeletonCaveBSkullKnightArena"
+        ]
+    },
+    {
+        "name": "SkeletonCaveBSkullKnightArena",
+        "access_rules": [
+            "@SkeletonCaveBBeforeSkullKnight",
+            "@SkeletonCaveBBehindSkullKnight"
+        ]
+    },
+    {
+        "name": "SkeletonCaveBBehindSkullKnight",
+        "access_rules": [
+            "@SkeletonCaveBSkullKnightArena"
+        ]
+    },
+    {
+        "name": "SkeletonCaveBMuseumOfSkullsLeft",
+        "access_rules": [
+            "@SkeletonCaveBBeforeSkullKnight,$jump",
+            "@SkeletonCaveBMuseumOfSkullsMiddle",
+            "@SkeletonCaveBToEntranceAscent"
+        ]
+    },
+    {
+        "name": "SkeletonCaveBMuseumOfSkullsMiddle",
+        "access_rules": [
+            "@SkeletonCaveBMuseumOfSkullsLeft",
+            "@SkeletonCaveBMuseumOfSkullsRight"
+        ]
+    },
+    {
+        "name": "SkeletonCaveBMuseumOfSkullsRight",
+        "access_rules": [
+            "@SkeletonCaveBMuseumOfSkullsMiddle",
+            "@SkeletonCaveBMuseumOfSkullsAboveEndRoom"
+        ]
+    },
+    {
+        "name": "SkeletonCaveBMuseumOfSkullsAboveEndRoom",
+        "access_rules": [
+            "@SkeletonCaveBMuseumOfSkullsRight",
+            "@SkeletonCaveBMuseumOfSkullsEndRoom"
+        ]
+    },
+    {
+        "name": "SkeletonCaveBMuseumOfSkullsEndRoom",
+        "access_rules": [
+            "@SkeletonCaveBMuseumOfSkullsAboveEndRoom"
+        ]
+    },
+    {
+        "name": "SkeletonCaveBToEntranceAscent",
+        "access_rules": [
+            "@SkeletonCaveBMuseumOfSkullsLeft"
+        ]
+    },
+    {
+        "name": "SkeletonCaveBCastleEntranceAscentPoint",
+        "access_rules": [
+            "@SkeletonCaveBToEntranceAscent",
+            "@EntranceBSecretSkeletalPassageBottom"
+        ]
+    }
+]

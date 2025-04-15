@@ -1,0 +1,37 @@
+[
+    {
+        "name": "ChapelOfDissonanceAToSkyWalkway",
+        "access_rules": [
+            "@SkyWalkwayAToChapelOfDissonance",
+            "@ChapelOfDissonanceASnakingSteps"
+        ]
+    },
+    {
+        "name": "ChapelOfDissonanceASnakingSteps",
+        "access_rules": [
+            "@ChapelOfDissonanceAToSkyWalkway",
+            "@ChapelOfDissonanceAArcherHall"
+        ]
+    },
+    {
+        "name": "ChapelOfDissonanceAArcherHall",
+        "access_rules": [
+            "@ChapelOfDissonanceASnakingSteps",
+            "@ChapelOfDissonanceAWalkwayPassage"
+        ]
+    },
+    {
+        "name": "ChapelOfDissonanceAWalkwayPassage",
+        "access_rules": [
+            "@ChapelOfDissonanceAArcherHall",
+            "@ChapelOfDissonanceAMainBuilding"
+        ]
+    },
+    {
+        "name": "ChapelOfDissonanceAMainBuilding",
+        "access_rules": [
+            "@ChapelOfDissonanceAWalkwayPassage",
+            "@CastleTopFloorAFinalApproach,bracelet_mk,crush_stone"
+        ]
+    }
+]

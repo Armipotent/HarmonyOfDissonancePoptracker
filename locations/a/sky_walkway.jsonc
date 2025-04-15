@@ -1,0 +1,305 @@
+[
+	{
+		"name": "Sky Walkway A",
+		"children": [
+			{
+				"name": "Maxim's Memento",
+				"access_rules": [
+					"@SkyWalkwayAMaximMemento"
+				],
+				"sections": [
+					{
+						"name": "MK Bracelet",
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "Castle A",
+						"x": 692,
+						"y": 232
+					},
+					{
+						"map": "Sky Walkway A",
+						"x": 12,
+						"y": 72
+					}
+				]
+			},
+			{
+				"name": "Under Construction Chamber - Upper",
+				"access_rules": [
+					"@SkyWalkwayAConstructionChamber,$fly"
+				],
+				"sections": [
+					{
+						"name": "Anti-venom",
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "Castle A",
+						"x": 772,
+						"y": 232
+					},
+					{
+						"map": "Sky Walkway A",
+						"x": 92,
+						"y": 72
+					}
+				]
+			},
+			{
+				"name": "Under Construction Chamber - Middle",
+				"access_rules": [
+					"@SkyWalkwayAConstructionChamber"
+				],
+				"sections": [
+					{
+						"name": "High Potion",
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "Castle A",
+						"x": 792,
+						"y": 252
+					},
+					{
+						"map": "Sky Walkway A",
+						"x": 112,
+						"y": 92
+					}
+				]
+			},
+			{
+				"name": "Under Construction Chamber - Lower",
+				"access_rules": [
+					"@SkyWalkwayAConstructionChamber"
+				],
+				"sections": [
+					{
+						"name": "Life Max Up",
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "Castle A",
+						"x": 772,
+						"y": 272
+					},
+					{
+						"map": "Sky Walkway A",
+						"x": 92,
+						"y": 112
+					}
+				]
+			},
+			{
+				"name": "Above Devil Right Tower",
+				"access_rules": [
+					"@SkyWalkwayAAboveDevil,$jump"
+				],
+				"sections": [
+					{
+						"name": "Silver Trinket",
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "Castle A",
+						"x": 892,
+						"y": 172
+					},
+					{
+						"map": "Sky Walkway A",
+						"x": 212,
+						"y": 12
+					}
+				]
+			},
+			{
+				"name": "Above Devil Left Tower",
+				"access_rules": [
+					"@SkyWalkwayAAboveDevil,$jump"
+				],
+				"sections": [
+					{
+						"name": "Gold Trinket",
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "Castle A",
+						"x": 872,
+						"y": 172
+					},
+					{
+						"map": "Sky Walkway A",
+						"x": 192,
+						"y": 12
+					}
+				]
+			},
+			{
+				"name": "Above Devil White Dragon",
+				"access_rules": [
+					"@SkyWalkwayAAboveDevil"
+				],
+				"sections": [
+					{
+						"name": "Elixir",
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "Castle A",
+						"x": 892,
+						"y": 212
+					},
+					{
+						"map": "Sky Walkway A",
+						"x": 212,
+						"y": 52
+					}
+				]
+			},
+			{
+				"name": "After Devil",
+				"access_rules": [
+					"@SkyWalkwayAToClockTower,$jump"
+				],
+				"sections": [
+					{
+						"name": "Night Goggles",
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "Castle A",
+						"x": 932,
+						"y": 232
+					},
+					{
+						"map": "Sky Walkway A",
+						"x": 252,
+						"y": 72
+					}
+				]
+			},
+			{
+				"name": "Save Room Wall Hot Spring",
+				"access_rules": [
+					"@SkyWalkwayASaveRoomHotSpring"
+				],
+				"sections": [
+					{
+						"name": "Left (Medicine Jar)",
+						"item_count": 1
+					},
+					{
+						"name": "Right (Medicine Jar)",
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "Castle A",
+						"x": 912,
+						"y": 252
+					},
+					{
+						"map": "Sky Walkway A",
+						"x": 232,
+						"y": 92
+					}
+				]
+			},
+			{
+				"name": "Upper Dark Hallway",
+				"access_rules": [
+					"@SkyWalkwayAUpperDarkHallway"
+				],
+				"sections": [
+					{
+						"name": "Face-guard",
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "Castle A",
+						"x": 812,
+						"y": 292
+					},
+					{
+						"map": "Sky Walkway A",
+						"x": 132,
+						"y": 132
+					}
+				]
+			},
+			{
+				"name": "Lower Dark Hallway - Left Crawlspace",
+				"access_rules": [
+					"@SkyWalkwayALowerDarkHallway"
+				],
+				"sections": [
+					{
+						"name": "Chaos Ring",
+						"item_count": 1,
+						"access_rules": [
+							"lizard_tail"
+						]
+					}
+				],
+				"map_locations": [
+					{
+						"map": "Castle A",
+						"x": 832,
+						"y": 312
+					},
+					{
+						"map": "Sky Walkway A",
+						"x": 152,
+						"y": 152
+					}
+				]
+			},
+			{
+				"name": "Lower Dark Hallway - Right Crawlspace",
+				"access_rules": [
+					"@SkyWalkwayALowerDarkHallway"
+				],
+				"sections": [
+					{
+						"name": "Hint Card 2",
+						"item_count": 1,
+						"access_rules": [
+							"lizard_tail"
+						]
+					}
+				],
+				"map_locations": [
+					{
+						"map": "Castle A",
+						"x": 892,
+						"y": 312
+					},
+					{
+						"map": "Sky Walkway A",
+						"x": 212,
+						"y": 152
+					}
+				]
+			}
+		]
+	}
+]

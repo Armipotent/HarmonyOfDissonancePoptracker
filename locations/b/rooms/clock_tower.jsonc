@@ -1,0 +1,206 @@
+[
+    {
+        "name": "ClockTowerBWestEntranceShaft",
+        "access_rules": [
+            "@SkyWalkwayBToClockTower",
+            "@ClockTowerBSkeletonFatailityAttic",
+            "@ClockTowerBAbovePeepingBig",
+            "@ClockTowerBWestOfPeepingBig",
+            "@ClockTowerBPerilousPendulumPassage"
+        ]
+    },
+    {
+        "name": "ClockTowerBSkeletonFatailityAttic",
+        "access_rules": [
+            "@ClockTowerBWestEntranceShaft"
+        ]
+    },
+    {
+        "name": "ClockTowerBAbovePeepingBig",
+        "access_rules": [
+            "@ClockTowerBWestEntranceShaft",
+            "@ClockTowerBWreckedAttic"
+        ]
+    },
+    {
+        "name": "ClockTowerBWreckedAttic",
+        "access_rules": [
+            "@ClockTowerBAbovePeepingBig"
+        ]
+    },
+    {
+        "name": "ClockTowerBWestOfPeepingBig",
+        "access_rules": [
+            "@ClockTowerBWestEntranceShaft",
+            "@ClockTowerBAbovePeepingBig",
+            "@ClockTowerBPeepingBig"
+        ]
+    },
+    {
+        "name": "ClockTowerBPeepingBig",
+        "access_rules": [
+            "@ClockTowerBWestOfPeepingBig,[$medium_boss_check]",
+            "@ClockTowerBStairwellToPeepingBig,[$medium_boss_check]"
+        ]
+    },
+    {
+        "name": "ClockTowerBStairwellToPeepingBig",
+        "access_rules": [
+            "@ClockTowerBPeepingBig",
+            "@ClockTowerBSkeletonBlazeHall",
+            "@ClockTowerBBeforePeepingBigSave",
+            "@ClockTowerBEastShaft"
+        ]
+    },
+    {
+        "name": "ClockTowerBSkeletonBlazeHall",
+        "access_rules": [
+            "@ClockTowerBStairwellToPeepingBig",
+            "@ClockTowerBToWarp"
+        ]
+    },
+    {
+        "name": "ClockTowerBToWarp",
+        "access_rules": [
+            "@ClockTowerBSkeletonBlazeHall",
+            "@ClockTowerBArmoredAmbush",
+            "@ClockTowerBWarp"
+        ]
+    },
+    {
+        "name": "ClockTowerBArmoredAmbush",
+        "access_rules": [
+            "@ClockTowerBToWarp"
+        ]
+    },
+    {
+        "name": "ClockTowerBWarp",
+        "access_rules": [
+            "@ClockTowerBToWarp",
+            "@ClockTowerAWarp,bracelet_jb"
+        ]
+    },
+    {
+        "name": "ClockTowerBBeforePeepingBigSave",
+        "access_rules": [
+            "@ClockTowerBStairwellToPeepingBig"
+        ]
+    },
+    {
+        "name": "ClockTowerBEastShaft",
+        "access_rules": [
+            "@ClockTowerBStairwellToPeepingBig",
+            "@ClockTowerBGearJammedAccess",
+            "@ClockTowerBGuardKick"
+        ]
+    },
+    {
+        "name": "ClockTowerBGearJammedAccess",
+        "access_rules": [
+            "@ClockTowerBEastShaft",
+            "@ClockTowerBGearJammed,$jump"
+        ]
+    },
+    {
+        "name": "ClockTowerBGearJammed",
+        "access_rules": [
+            "@ClockTowerBGearJammedAccess,$jump"
+        ]
+    },
+    {
+        "name": "ClockTowerBGuardKick",
+        "access_rules": [
+            "@ClockTowerBEastShaft",
+            "@ClockTowerBGuardKickEnd,clock_b_guard"
+        ]
+    },
+    {
+        "name": "ClockTowerBGuardKickEnd",
+        "access_rules": [
+            "@ClockTowerBGuardKick,clock_b_guard",
+            "@ClockTowerBToSteelBallRun"
+        ]
+    },
+    {
+        "name": "ClockTowerBToSteelBallRun",
+        "access_rules": [
+            "@ClockTowerBGuardKickEnd",
+            "@ClockTowerBShop",
+            "@ClockTowerBSteelBallRun",
+            "@ClockTowerBSteelBallRunSave"
+        ]
+    },
+    {
+        "name": "ClockTowerBShop",
+        "access_rules": [
+            "@ClockTowerBToSteelBallRun"
+        ]
+    },
+    {
+        "name": "ClockTowerBSteelBallRun",
+        "access_rules": [
+            "@ClockTowerBToSteelBallRun",
+            "@ClockTowerBSteelBallRunSideChamber,lizard_tail"
+        ]	
+    },
+    {
+        "name": "ClockTowerBSteelBallRunSideChamber",
+        "access_rules": [
+            "@ClockTowerBSteelBallRun,lizard_tail"
+        ]
+    },
+    {
+        "name": "ClockTowerBSteelBallRunSave",
+        "access_rules": [
+            "@ClockTowerBToSteelBallRun"
+        ]
+    },
+    {
+        "name": "ClockTowerBPerilousPendulumPassage",
+        "access_rules": [
+            "@ClockTowerBWestEntranceShaft",
+            "@ClockTowerBSlabRoomEast"
+        ]
+    },
+    {
+        "name": "ClockTowerBSlabRoomEast",
+        "access_rules": [
+            "@ClockTowerBPerilousPendulumPassage",
+            "@ClockTowerBSlabRoomWest,clock_a_slab"
+        ]
+    },
+    {
+        "name": "ClockTowerBSlabRoomWest",
+        "access_rules": [
+            "@ClockTowerBSlabRoomEast,clock_a_slab",
+            "@ClockTowerBBackdoorEntrance"
+        ]
+    },
+    {
+        "name": "ClockTowerBBackdoorEntrance",
+        "access_rules": [
+            "@ClockTowerBSlabRoomWest",
+            "@AqueductOfDragonsBBehindGhostOfGiantMerman",
+            "@ClockTowerBNearLowerCrankshaft"
+        ]
+    },
+    {
+        "name": "ClockTowerBNearLowerCrankshaft",
+        "access_rules": [
+            "@ClockTowerBBackdoorEntrance",
+            "@ClockTowerBNearLowerCrankshaftAttic"
+        ]
+    },
+    {
+        "name": "ClockTowerBNearLowerCrankshaftAttic",
+        "access_rules": [
+            "@ClockTowerBNearLowerCrankshaft,$jump"
+        ]
+    },
+    {
+        "name": "ClockTowerBUpperCrankshaft",
+        "access_rules": [
+            "@ClockTowerBPerilousPendulumPassage"
+        ]
+    }
+]

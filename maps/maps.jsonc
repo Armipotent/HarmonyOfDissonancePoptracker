@@ -1,0 +1,170 @@
+[
+    {
+        "name": "Castle A",
+        "location_size": 10,
+        "location_border_thickness": 1,
+        "img": "images/maps/a/full.png"
+    },
+    {
+        "name": "Entrance A",
+        "location_size": 10,
+        "location_border_thickness": 1,
+        "img": "images/maps/a/entrance.png"
+    },
+    {
+        "name": "Marble Corridor A",
+        "location_size": 10,
+        "location_border_thickness": 1,
+        "img": "images/maps/a/marble_corridor.png"
+    },
+    {
+        "name": "The Wailing Way A",
+        "location_size": 10,
+        "location_border_thickness": 1,
+        "img": "images/maps/a/the_wailing_way.png"
+    },
+    {
+        "name": "Shrine of the Apostates A",
+        "location_size": 10,
+        "location_border_thickness": 1,
+        "img": "images/maps/a/shrine_of_the_apostates.png"
+    },
+    {
+        "name": "Room of Illusion A",
+        "location_size": 10,
+        "location_border_thickness": 1,
+        "img": "images/maps/a/room_of_illusion.png"
+    },
+    {
+        "name": "Castle Treasury A",
+        "location_size": 10,
+        "location_border_thickness": 1,
+        "img": "images/maps/a/castle_treasury.png"
+    },
+    {
+        "name": "Skeleton Cave A",
+        "location_size": 10,
+        "location_border_thickness": 1,
+        "img": "images/maps/a/skeleton_cave.png"
+    },
+    {
+        "name": "Luminous Cavern A",
+        "location_size": 10,
+        "location_border_thickness": 1,
+        "img": "images/maps/a/luminous_cavern.png"
+    },
+    {
+        "name": "Sky Walkway A",
+        "location_size": 10,
+        "location_border_thickness": 1,
+        "img": "images/maps/a/sky_walkway.png"
+    },
+    {
+        "name": "Chapel of Dissonance A",
+        "location_size": 10,
+        "location_border_thickness": 1,
+        "img": "images/maps/a/chapel_of_dissonance.png"
+    },
+    {
+        "name": "Castle Top Floor A",
+        "location_size": 10,
+        "location_border_thickness": 1,
+        "img": "images/maps/a/castle_top_floor.png"
+    },
+    {
+        "name": "Clock Tower A",
+        "location_size": 10,
+        "location_border_thickness": 1,
+        "img": "images/maps/a/clock_tower.png"
+    },
+    {
+        "name": "Aqueduct of Dragons A",
+        "location_size": 10,
+        "location_border_thickness": 1,
+        "img": "images/maps/a/aqueduct_of_dragons.png"
+    },
+    {
+        "name": "Castle B",
+        "location_size": 10,
+        "location_border_thickness": 1,
+        "img": "images/maps/b/full.png"
+    },
+    {
+        "name": "Entrance B",
+        "location_size": 10,
+        "location_border_thickness": 1,
+        "img": "images/maps/b/entrance.png"
+    },
+    {
+        "name": "Marble Corridor B",
+        "location_size": 10,
+        "location_border_thickness": 1,
+        "img": "images/maps/b/marble_corridor.png"
+    },
+    {
+        "name": "The Wailing Way B",
+        "location_size": 10,
+        "location_border_thickness": 1,
+        "img": "images/maps/b/the_wailing_way.png"
+    },
+    {
+        "name": "Shrine of the Apostates B",
+        "location_size": 10,
+        "location_border_thickness": 1,
+        "img": "images/maps/b/shrine_of_the_apostates.png"
+    },
+    {
+        "name": "Room of Illusion B",
+        "location_size": 10,
+        "location_border_thickness": 1,
+        "img": "images/maps/b/room_of_illusion.png"
+    },
+    {
+        "name": "Castle Treasury B",
+        "location_size": 10,
+        "location_border_thickness": 1,
+        "img": "images/maps/b/castle_treasury.png"
+    },
+    {
+        "name": "Skeleton Cave B",
+        "location_size": 10,
+        "location_border_thickness": 1,
+        "img": "images/maps/b/skeleton_cave.png"
+    },
+    {
+        "name": "Luminous Cavern B",
+        "location_size": 10,
+        "location_border_thickness": 1,
+        "img": "images/maps/b/luminous_cavern.png"
+    },
+    {
+        "name": "Sky Walkway B",
+        "location_size": 10,
+        "location_border_thickness": 1,
+        "img": "images/maps/b/sky_walkway.png"
+    },
+    {
+        "name": "Chapel of Dissonance B",
+        "location_size": 10,
+        "location_border_thickness": 1,
+        "img": "images/maps/b/chapel_of_dissonance.png"
+    },
+    {
+        "name": "Castle Top Floor B",
+        "location_size": 10,
+        "location_border_thickness": 1,
+        "img": "images/maps/b/castle_top_floor.png"
+    },
+    {
+        "name": "Clock Tower B",
+        "location_size": 10,
+        "location_border_thickness": 1,
+        "img": "images/maps/b/clock_tower.png"
+    },
+    {
+        "name": "Aqueduct of Dragons B",
+        "location_size": 10,
+        "location_border_thickness": 1,
+        "img": "images/maps/b/aqueduct_of_dragons.png"
+    }
+]

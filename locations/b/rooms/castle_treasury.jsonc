@@ -1,0 +1,182 @@
+[
+    {
+        "name": "CastleTreasuryBEntrance",
+        "access_rules": [
+            "@TheWailingWayBLoneLizard,key_skull",
+            "@CastleTopFloorBElevatorRoomStairs",
+            "@CastleTreasuryBEntranceToCenter"
+        ]
+    },
+    {
+        "name": "CastleTreasuryBEntranceToCenter",
+        "access_rules": [
+            "@CastleTreasuryBEntrance",
+            "@CastleTreasuryBCenter,$vlad",
+            "@CastleTreasuryBCentralSave",
+            "@CastleTreasuryBUnguardedStairs"
+        ]
+    },
+    {
+        "name": "CastleTreasuryBCentralSave",
+        "access_rules": [
+            "@CastleTreasuryBEntranceToCenter"
+        ]
+    },
+    {
+        "name": "CastleTreasuryBCenter",
+        "access_rules": [
+            "@CastleTreasuryBEntranceToCenter,$vlad"
+        ]
+    },
+    {
+        "name": "CastleTreasuryBUnguardedStairs",
+        "access_rules": [
+            "@CastleTreasuryBEntranceToCenter",
+            "@CastleTreasuryBElevatorStairs,$jump"
+        ]
+    },
+    {
+        "name": "CastleTreasuryBElevatorStairs",
+        "access_rules": [
+            "@CastleTreasuryBUnguardedStairs,[]",
+            "@CastleTreasuryBUnguardedStairs,$jump",
+            "@CastleTreasuryBSunnyElevatorWarpRoom,key_lure",
+            "@CastleTreasuryBMinesToCenter"
+        ]
+    },
+    {
+        "name": "CastleTreasuryBSunnyElevatorWarpRoom",
+        "access_rules": [
+            "@CastleTreasuryBElevatorStairs,key_lure",
+            "@CastleTreasuryAMoonlitElevatorWarpRoom,bracelet_jb"
+        ]
+    },
+    {
+        "name": "CastleTreasuryBMinesToCenter",
+        "access_rules": [
+            "@CastleTreasuryBElevatorStairs",
+            "@CastleTreasuryBRoseQuartzMineLowerTunnel",
+            "@CastleTreasuryBMinesToEverywhereElse"
+        ]
+    },
+    {
+        "name": "CastleTreasuryBMinesToEverywhereElse",
+        "access_rules": [
+            "@CastleTreasuryBMinesToCenter",
+            "@CastleTreasuryBJusteRoom",
+            "@CastleTreasuryBSkeletonEntrance",
+            "@LuminousCavernBToTreasury"
+        ]
+    },
+    {
+        "name": "CastleTreasuryBJusteRoom",
+        "access_rules": [
+            "@CastleTreasuryBMinesToEverywhereElse"
+        ]
+    },
+    {
+        "name": "CastleTreasuryBSkeletonEntrance",
+        "access_rules": [
+            "@CastleTreasuryBMinesToEverywhereElse",
+            "@SkeletonCaveBStairsToTreasury"
+        ]
+    },
+    {
+        "name": "CastleTreasuryBRoseQuartzMineLowerTunnel",
+        "access_rules": [
+            "@CastleTreasuryBMinesToEverywhereElse",
+            "@CastleTreasuryBRoseQuartzMineUpperTunnel"
+        ]
+    },
+    {
+        "name": "CastleTreasuryBRoseQuartzMineUpperTunnel",
+        "access_rules": [
+            "@CastleTreasuryBRoseQuartzMineLowerTunnel",
+            "@CastleTreasuryBRoseQuartzMineTopChamber",
+            "@CastleTreasuryBMerchantHideout",
+            "@CastleTreasuryBPortalStaircase"
+        ]
+    },
+    {
+        "name": "CastleTreasuryBRoseQuartzMineTopChamber",
+        "access_rules": [
+            "@CastleTreasuryBRoseQuartzMineUpperTunnel"
+        ]
+    },
+    {
+        "name": "CastleTreasuryBMerchantHideout",
+        "access_rules": [
+            "@CastleTreasuryBRoseQuartzMineUpperTunnel",
+            "@CastleTreasuryBMerchantRoom"
+        ]
+    },
+    {
+        "name": "CastleTreasuryBMerchantRoom",
+        "access_rules": [
+            "@CastleTreasuryBMerchantHideout"
+        ]
+    },
+    {
+        "name": "CastleTreasuryBPortalStaircase",
+        "access_rules": [
+            "@CastleTreasuryBRoseQuartzMineUpperTunnel",
+            "@CastleTreasuryBConnectingPortal",
+            "@CastleTreasuryBWestVolcanicHallUpper"
+        ]
+    },
+    {
+        "name": "CastleTreasuryBConnectingPortal",
+        "access_rules": [
+            "@RoomOfIllusionAConnectingPortal",
+            "@CastleTreasuryBPortalStaircase"
+        ]
+    },
+    {
+        "name": "CastleTreasuryBWestVolcanicHallUpper",
+        "access_rules": [
+            "@CastleTreasuryBPortalStaircase",
+            "@CastleTreasuryBWestVolcanicHallLower",
+            "@CastleTreasuryBWestVolcanoShelter"
+        ]
+    },
+    {
+        "name": "CastleTreasuryBWestVolcanicHallLower",
+        "access_rules": [
+            "@CastleTreasuryBWestVolcanicHallUpper",
+            "@CastleTreasuryBWestVolcanicWarpRoom,key_lure"
+        ]
+    },
+    {
+        "name": "CastleTreasuryBWestVolcanicWarpRoom",
+        "access_rules": [
+            "@CastleTreasuryBWestVolcanicHallLower,key_lure"
+        ]
+    },
+    {
+        "name": "CastleTreasuryBWestVolcanoShelter",
+        "access_rules": [
+            "@CastleTreasuryBWestVolcanicHallUpper",
+            "@CastleTreasuryBWestVolcanicSaveHall"
+        ]
+    },
+    {
+        "name": "CastleTreasuryBWestVolcanicSaveHall",
+        "access_rules": [
+            "@CastleTreasuryBWestVolcanoShelter",
+            "@CastleTreasuryBWestVolcanicSaveRoom",
+            "@CastleTreasuryBWestVolcanicSaveRoomDeadEnd"
+        ]
+    },
+    {
+        "name": "CastleTreasuryBWestVolcanicSaveRoom",
+        "access_rules": [
+            "@CastleTreasuryBWestVolcanicSaveHall"
+        ]
+    },
+    {
+        "name": "CastleTreasuryBWestVolcanicSaveRoomDeadEnd",
+        "access_rules": [
+            "@CastleTreasuryBWestVolcanicSaveHall"
+        ]
+    }
+]

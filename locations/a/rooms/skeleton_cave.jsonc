@@ -1,0 +1,143 @@
+[
+    {
+        "name": "SkeletonCaveAStairsToTreasury",
+        "access_rules": [
+            "@CastleTreasuryASkeletonEntrance",
+            "@SkeletonCaveAMedusasRemainsChamber"
+        ]
+    },
+    {
+        "name": "SkeletonCaveAMedusasRemainsChamber",
+        "access_rules": [
+            "@SkeletonCaveAStairsToTreasury",
+            "@SkeletonCaveAFarRightPushCrateChallenge",
+            "@SkeletonCaveALowerSpiderDen"
+        ]
+    },
+    {
+        "name": "SkeletonCaveALowerSpiderDen",
+        "access_rules": [
+            "@SkeletonCaveAMedusasRemainsChamber",
+            "@SkeletonCaveAMonumentToTheEvilGod"
+        ]
+    },
+    {
+        "name": "SkeletonCaveAMonumentToTheEvilGod",
+        "access_rules": [
+            "@SkeletonCaveALowerSpiderDen"
+        ]
+    },
+    {
+        "name": "SkeletonCaveAFarRightPushCrateChallenge",
+        "access_rules": [
+            "@SkeletonCaveAMedusasRemainsChamber",
+            "@SkeletonCaveAOutsideSkeletonTestingChamber,$jump"
+        ]
+    },
+    {
+        "name": "SkeletonCaveAOutsideSkeletonTestingChamber",
+        "access_rules": [
+            "@SkeletonCaveAFarRightPushCrateChallenge,[]", // can *technically* get there but you'll softlock if you aren't careful
+            "@SkeletonCaveAFarRightPushCrateChallenge,$jump",
+            "@SkeletonCaveATestingChamber"
+        ]
+    },
+    {
+        "name": "SkeletonCaveATestingChamber",
+        "access_rules": [
+            "@SkeletonCaveAOutsideSkeletonTestingChamber",
+            "@SkeletonCaveABloodSkeletonRoom"
+        ]
+    },
+    {
+        "name": "SkeletonCaveABloodSkeletonRoom",
+        "access_rules": [
+            "@SkeletonCaveATestingChamber",
+            "@SkeletonCaveASaveRoom"
+        ]
+    },
+    {
+        "name": "SkeletonCaveASaveRoom",
+        "access_rules": [
+            "@SkeletonCaveABloodSkeletonRoom",
+            "@SkeletonCaveASecretAtticAboveSaveRoom",
+            "@SkeletonCaveABeforeLegion"
+        ]
+    },
+    {
+        "name": "SkeletonCaveASecretAtticAboveSaveRoom",
+        "access_rules": [
+            "@SkeletonCaveASaveRoom,$fly"
+        ]
+    },
+    {
+        "name": "SkeletonCaveABeforeLegion",
+        "access_rules": [
+            "@SkeletonCaveASaveRoom",
+            "@SkeletonCaveAMuseumOfMimicsLeft",
+            "@SkeletonCaveALegionHall"
+        ]
+    },
+    {
+        "name": "SkeletonCaveALegionHall",
+        "access_rules": [
+            "@SkeletonCaveABeforeLegion",
+            "@SkeletonCaveABehindLegion"
+        ]
+    },
+    {
+        "name": "SkeletonCaveABehindLegion",
+        "access_rules": [
+            "@SkeletonCaveALegionHall"
+        ]
+    },
+    {
+        "name": "SkeletonCaveAMuseumOfMimicsLeft",
+        "access_rules": [
+            "@SkeletonCaveABeforeLegion",
+            "@SkeletonCaveAMuseumOfMimicsMiddle",
+            "@SkeletonCaveAToCrateChamber"
+        ]
+    },
+    {
+        "name": "SkeletonCaveAMuseumOfMimicsMiddle",
+        "access_rules": [
+            "@SkeletonCaveAMuseumOfMimicsLeft",
+            "@SkeletonCaveAMuseumOfMimicsRight"
+        ]
+    },
+    {
+        "name": "SkeletonCaveAMuseumOfMimicsRight",
+        "access_rules": [
+            "@SkeletonCaveAMuseumOfMimicsMiddle",
+            "@SkeletonCaveAMuseumOfMimicsAboveEndRoom"
+        ]
+    },
+    {
+        "name": "SkeletonCaveAMuseumOfMimicsAboveEndRoom",
+        "access_rules": [
+            "@SkeletonCaveAMuseumOfMimicsRight",
+            "@SkeletonCaveAMuseumOfMimicsEndRoom"
+        ]
+    },
+    {
+        "name": "SkeletonCaveAMuseumOfMimicsEndRoom",
+        "access_rules": [
+            "@SkeletonCaveAMuseumOfMimicsAboveEndRoom"
+        ]
+    },
+    {
+        "name": "SkeletonCaveAToCrateChamber",
+        "access_rules": [
+            "@SkeletonCaveAMuseumOfMimicsLeft",
+            "@SkeletonCaveACrateBalancingActChamber"
+        ]
+    },
+    {
+        "name": "SkeletonCaveACrateBalancingActChamber",
+        "access_rules": [
+            "@SkeletonCaveAToCrateChamber",
+            "@EntranceASubterraneanShaftBottom"
+        ]
+    }
+]

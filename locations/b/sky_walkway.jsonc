@@ -1,0 +1,276 @@
+[
+	{
+		"name": "Sky Walkway B",
+		"children": [
+			{
+				"name": "Before Shadow",
+				"access_rules": [
+					"{@SkyWalkwayBBreakableRoom}",
+					"@SkyWalkwayBBreakableRoom,walkway_b_breakable"
+				],
+				"sections": [
+					{
+						"name": "Life Max Up",
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "Castle B",
+						"x": 732,
+						"y": 232
+					},
+					{
+						"map": "Sky Walkway B",
+						"x": 52,
+						"y": 72
+					}
+				]
+			},
+			{
+				"name": "Over Construction Chamber - Middle",
+				"access_rules": [
+					"@SkyWalkwayBConstructionChamber"
+				],
+				"sections": [
+					{
+						"name": "Blizzard Robe",
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "Castle B",
+						"x": 792,
+						"y": 252
+					},
+					{
+						"map": "Sky Walkway B",
+						"x": 112,
+						"y": 92
+					}
+				]
+			},
+			{
+				"name": "Over Construction Chamber - Bottom-Left",
+				"access_rules": [
+					"@SkyWalkwayBConstructionChamber"
+				],
+				"sections": [
+					{
+						"name": "Old Radio",
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "Castle B",
+						"x": 772,
+						"y": 272
+					},
+					{
+						"map": "Sky Walkway B",
+						"x": 92,
+						"y": 112
+					}
+				]
+			},
+			{
+				"name": "Over Construction Chamber - Bottom-Right",
+				"access_rules": [
+					"@SkyWalkwayBConstructionChamber"
+				],
+				"sections": [
+					{
+						"name": "Rocking Chair",
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "Castle B",
+						"x": 792,
+						"y": 272
+					},
+					{
+						"map": "Sky Walkway B",
+						"x": 112,
+						"y": 112
+					}
+				]
+			},
+			{
+				"name": "Above Legion (Saint) Left Tower",
+				"access_rules": [
+					"@SkyWalkwayBAboveLegionSaint,$jump"
+				],
+				"sections": [
+					{
+						"name": "Heart Max Up",
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "Castle B",
+						"x": 872,
+						"y": 172
+					},
+					{
+						"map": "Sky Walkway B",
+						"x": 192,
+						"y": 12
+					}
+				]
+			},
+			{
+				"name": "Above Legion (Saint) Right Tower",
+				"access_rules": [
+					"@SkyWalkwayBAboveLegionSaint,$jump"
+				],
+				"sections": [
+					{
+						"name": "King-Size Bed",
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "Castle B",
+						"x": 892,
+						"y": 172
+					},
+					{
+						"map": "Sky Walkway B",
+						"x": 212,
+						"y": 12
+					}
+				]
+			},
+			{
+				"name": "Before Legion (Saint)",
+				"access_rules": [
+					"@SkyWalkwayBBeforeLegionSaint"
+				],
+				"sections": [
+					{
+						"name": "Mana Prism",
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "Castle B",
+						"x": 932,
+						"y": 232
+					},
+					{
+						"map": "Sky Walkway B",
+						"x": 252,
+						"y": 72
+					}
+				]
+			},
+			{
+				"name": "Save Room Wall Dried Spring",
+				"access_rules": [
+					"@SkyWalkwayBSaveRoomDriedSpring"
+				],
+				"sections": [
+					{
+						"name": "Heart of Vlad",
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "Castle B",
+						"x": 912,
+						"y": 252
+					},
+					{
+						"map": "Sky Walkway B",
+						"x": 232,
+						"y": 92
+					}
+				]
+			},
+			{
+				"name": "Hall Of Mirrors Entrance",
+				"access_rules": [
+					"@SkyWalkwayBHallOfMirrorsEntrance"
+				],
+				"sections": [
+					{
+						"name": "Turkey",
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "Castle B",
+						"x": 812,
+						"y": 272
+					},
+					{
+						"map": "Sky Walkway B",
+						"x": 132,
+						"y": 112
+					}
+				]
+			},
+			{
+				"name": "Museum Of Murder",
+				"access_rules": [
+					"@SkyWalkwayBMuseumOfMurder"
+				],
+				"sections": [
+					{
+						"name": "Heart Max Up",
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "Castle B",
+						"x": 692,
+						"y": 252
+					},
+					{
+						"map": "Sky Walkway B",
+						"x": 12,
+						"y": 92
+					}
+				]
+			},
+			{
+				"name": "Before Shadow Wall",
+				"access_rules": [
+					"@SkyWalkwayBBreakableRoom"
+				],
+				"sections": [
+					{
+						"name": "Broken",
+						"hosted_item": "walkway_b_breakable",
+						"access_rules": [
+							"{}",
+							"crush_stone"
+						]
+					}
+				],
+				"map_locations": [
+					{
+						"map": "Castle B",
+						"x": 752,
+						"y": 232
+					},
+					{
+						"map": "Sky Walkway B",
+						"x": 72,
+						"y": 72
+					}
+				]
+			}
+		]
+	}
+]

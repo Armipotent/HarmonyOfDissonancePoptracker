@@ -1,0 +1,22 @@
+{
+    //sets the layout for the broadcast view
+    "tracker_broadcast": {
+        "type": "array",
+        "orientation": "vertical",
+        "margin": "0,0",
+        "content": [
+            {
+                "type": "layout",
+                "key": "vertical_shared_item_grid"
+            },
+            {
+                "type": "layout",
+                "key": "vertical_relic_grid"
+            },
+            {
+                "type": "layout",
+                "key": "vertical_collectibles_grid"
+            }
+        ]
+    }
+}

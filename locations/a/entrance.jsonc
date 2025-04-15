@@ -1,0 +1,295 @@
+[
+    {
+        "name": "Entrance A",
+        "children": [
+            {
+                "name": "Gatehouse Tower Top",
+                "access_rules": [
+                    "@EntranceAGatehouseTower,$griffin_crush"
+                ],
+                "sections": [
+                    {
+                        "name": "Big Mana Prism",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Castle A",
+                        "x": 72,
+                        "y": 312
+                    },
+                    {
+                        "map": "Entrance A",
+                        "x": 72,
+                        "y": 92
+                    }
+                ]
+            },
+            {
+                "name": "Gatehouse Tower Break Room",
+                "access_rules": [
+                    "@EntranceAGatehouseTowerBreakRoom"
+                ],
+                "sections": [
+                    {
+                        "name": "Magic Armor",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Castle A",
+                        "x": 92,
+                        "y": 312
+                    },
+                    {
+                        "map": "Entrance A",
+                        "x": 92,
+                        "y": 92
+                    }
+                ]
+            },
+            {
+                "name": "Sea Chicken Chamber Upper",
+                "access_rules": [
+                    "@EntranceASeaChickenChamber"
+                ],
+                "sections": [
+                    {
+                        "name": "Potion",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Castle A",
+                        "x": 152,
+                        "y": 291
+                    },
+                    {
+                        "map": "Entrance A",
+                        "x": 152,
+                        "y": 71
+                    }
+                ]
+            },
+            {
+                "name": "Sea Chicken Chamber Lower",
+                "access_rules": [
+                    "@EntranceASeaChickenChamber"
+                ],
+                "sections": [
+                    {
+                        "name": "Potion",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Castle A",
+                        "x": 132,
+                        "y": 331
+                    },
+                    {
+                        "map": "Entrance A",
+                        "x": 132,
+                        "y": 111
+                    }
+                ]
+            },
+            {
+                "name": "Upper Guard Hall",
+                "access_rules": [
+                    "@EntranceAUpperGuardHall"
+                ],
+                "sections": [
+                    {
+                        "name": "Heart Max Up",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Castle A",
+                        "x": 152,
+                        "y": 232
+                    },
+                    {
+                        "map": "Entrance A",
+                        "x": 152,
+                        "y": 12
+                    }
+                ]
+            },
+            {
+                "name": "Warp Winery",
+                "access_rules": [
+                    "@EntranceAWarpWinery"
+                ],
+                "sections": [
+                    {
+                        "name": "Platinum Whip",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Castle A",
+                        "x": 72,
+                        "y": 252
+                    },
+                    {
+                        "map": "Entrance A",
+                        "x": 72,
+                        "y": 32
+                    }
+                ]
+            },
+            {
+                "name": "Hangman's Hall",
+                "access_rules": [
+                    "@EntranceAHangmansHall"
+                ],
+                "sections": [
+                    {
+                        "name": "Leather Boots",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Castle A",
+                        "x": 192,
+                        "y": 352
+                    },
+                    {
+                        "map": "Entrance A",
+                        "x": 192,
+                        "y": 132
+                    }
+                ]
+            },
+            {
+                "name": "Hangman's Balcony",
+                "access_rules": [
+                    "@EntranceAHangmansBalcony"
+                ],
+                "sections": [
+                    {
+                        "name": "Soul Orb",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Castle A",
+                        "x": 232,
+                        "y": 352
+                    },
+                    {
+                        "map": "Entrance A",
+                        "x": 232,
+                        "y": 132
+                    }
+                ]
+            },
+            {
+                "name": "Subterranean Shaft Top",
+                "access_rules": [
+                    "@EntranceASubterraneanShaftTop"
+                ],
+                "sections": [
+                    {
+                        "name": "Life Max Up",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Castle A",
+                        "x": 232,
+                        "y": 392
+                    },
+                    {
+                        "map": "Entrance A",
+                        "x": 232,
+                        "y": 172
+                    }
+                ]
+            },
+            {
+                "name": "Subterranean Warp Room",
+                "access_rules": [
+                    "@EntranceASubterraneanWarpRoom"
+                ],
+                "sections": [
+                    {
+                        "name": "Hint Card 3",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Castle A",
+                        "x": 212,
+                        "y": 432
+                    },
+                    {
+                        "map": "Entrance A",
+                        "x": 212,
+                        "y": 212
+                    }
+                ]
+            },
+            {
+                "name": "Upper Floor Warp Room",
+                "access_rules": [
+                    "@EntranceAUpperFloorWarpRoom"
+                ],
+                "sections": [
+                    {
+                        "name": "Hint Card 3",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Castle A",
+                        "x": 72,
+                        "y": 232
+                    },
+                    {
+                        "map": "Entrance A",
+                        "x": 72,
+                        "y": 12
+                    }
+                ]
+            },
+            {
+                "name": "Triple Skull Table",
+                "access_rules": [
+                    "@EntranceABatsHall"
+                ],
+                "sections": [
+                    {
+                        "name": "Leather Armor",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Castle A",
+                        "x": 172,
+                        "y": 352
+                    },
+                    {
+                        "map": "Entrance A",
+                        "x": 172,
+                        "y": 132
+                    }
+                ]
+            }
+        ]
+    }
+]

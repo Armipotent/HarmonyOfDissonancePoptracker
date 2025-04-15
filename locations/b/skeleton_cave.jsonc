@@ -1,0 +1,252 @@
+[
+    {
+        "name": "Skeleton Cave B",
+        "children": [
+            {
+                "name": "Giant Ghost's Remains Chamber - Lower",
+                "access_rules": [
+                    "@SkeletonCaveBGiantGhostsRemainsChamber"
+                ],
+                "sections": [
+                    {
+                        "name": "Potion",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Castle B",
+                        "x": 532,
+                        "y": 592
+                    },
+                    {
+                        "map": "Skeleton Cave B",
+                        "x": 332,
+                        "y": 92
+                    }
+                ]
+			},
+            {
+                "name": "Giant Ghost's Remains Chamber - Upper",
+                "access_rules": [
+                    "@SkeletonCaveBGiantGhostsRemainsChamber"
+                ],
+                "sections": [
+                    {
+                        "name": "Ankle Guards",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Castle B",
+                        "x": 552,
+                        "y": 572
+                    },
+                    {
+                        "map": "Skeleton Cave B",
+                        "x": 352,
+                        "y": 72
+                    }
+                ]
+			},
+            {
+                "name": "Monument To Carmilla",
+                "access_rules": [
+                    "@SkeletonCaveBMonumentToCarmilla,{}",
+                    "@SkeletonCaveBMonumentToCarmilla,$jump"
+                ],
+                "sections": [
+                    {
+                        "name": "Heart Max Up",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Castle B",
+                        "x": 592,
+                        "y": 572
+                    },
+                    {
+                        "map": "Skeleton Cave B",
+                        "x": 392,
+                        "y": 72
+                    }
+                ]
+            },
+            {
+                "name": "Lower Spider Den Wall",
+                "access_rules": [
+                    "@SkeletonCaveBLowerSpiderDen,skeleton_a_breakable"
+                ],
+                "sections": [
+                    {
+                        "name": "Bullet Tip",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Castle B",
+                        "x": 452,
+                        "y": 612
+                    },
+                    {
+                        "map": "Skeleton Cave B",
+                        "x": 252,
+                        "y": 112
+                    }
+                ]
+            },
+            {
+                "name": "Rolling Skull Chamber",
+                "access_rules": [
+                    "@SkeletonCaveBRollingSkullChamber"
+                ],
+                "sections": [
+                    {
+                        "name": "Side Table",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Castle B",
+                        "x": 492,
+                        "y": 572
+                    },
+                    {
+                        "map": "Skeleton Cave B",
+                        "x": 292,
+                        "y": 72
+                    }
+                ]
+            },
+            {
+                "name": "Crocomire Graveyard",
+                "access_rules": [
+                    "@SkeletonCaveBCrocomireGraveyard"
+                ],
+                "sections": [
+                    {
+                        "name": "Stuffed Stag",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Castle B",
+                        "x": 472,
+                        "y": 572
+                    },
+                    {
+                        "map": "Skeleton Cave B",
+                        "x": 272,
+                        "y": 72
+                    }
+                ]
+            },
+            {
+                "name": "Behind Skull Knight",
+                "access_rules": [
+                    "@SkeletonCaveBBehindSkullKnight"
+                ],
+                "sections": [
+                    {
+                        "name": "Sylph's Feather",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Castle B",
+                        "x": 212,
+                        "y": 572
+                    },
+                    {
+                        "map": "Skeleton Cave B",
+                        "x": 12,
+                        "y": 72
+                    }
+                ]
+            },
+            {
+                "name": "Museum Of Skulls",
+                "access_rules": [
+                    "@SkeletonCaveBMuseumOfSkullsEndRoom"
+                ],
+                "sections": [
+                    {
+                        "name": "Life Max Up",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Castle B",
+                        "x": 372,
+                        "y": 552
+                    },
+                    {
+                        "map": "Skeleton Cave B",
+                        "x": 172,
+                        "y": 52
+                    }
+                ]
+            },
+            {
+                "name": "Secret Attic Above Save Room",
+                "access_rules": [
+                    "@SkeletonCaveBSecretAtticAboveSaveRoom"
+                ],
+                "sections": [
+                    {
+                        "name": "Left (Summoning Tome)",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Right (Wizard's Urn)",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Castle B",
+                        "x": 312,
+                        "y": 552
+                    },
+                    {
+                        "map": "Skeleton Cave B",
+                        "x": 112,
+                        "y": 52
+                    }
+                ]
+            },
+            {
+                "name": "Castle Entrance Ascent Point",
+                "access_rules": [
+                    "@SkeletonCaveBCastleEntranceAscentPoint"
+                ],
+                "sections": [
+                    {
+                        "name": "Leather Cap",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Castle B",
+                        "x": 232,
+                        "y": 532
+                    },
+                    {
+                        "map": "Skeleton Cave B",
+                        "x": 32,
+                        "y": 32
+                    }
+                ]
+            }
+		]
+	}
+]

@@ -1,0 +1,55 @@
+[
+    {
+        "name": "Room Of Illusion B",
+        "children": [
+            {
+                "name": "Battlegrounds Of Many Victories",
+                "access_rules": [
+                    "@RoomOfIllusionBBattlegroundsOfManyVictories"
+                ],
+                "sections": [
+                    {
+                        "name": "Silk Curtain",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Castle B",
+                        "x": 212,
+                        "y": 292
+                    },
+                    {
+                        "map": "Room of Illusion B",
+                        "x": 32,
+                        "y": 12
+                    }
+                ]
+            },
+            {
+                "name": "Spriggan Into Action",
+                "access_rules": [
+                    "@RoomOfIllusionBSprigganIntoAction"
+                ],
+                "sections": [
+                    {
+                        "name": "Heart Max Up",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Castle B",
+                        "x": 192,
+                        "y": 312
+                    },
+                    {
+                        "map": "Room of Illusion B",
+                        "x": 12,
+                        "y": 32
+                    }
+                ]
+            }
+        ]
+    }
+]

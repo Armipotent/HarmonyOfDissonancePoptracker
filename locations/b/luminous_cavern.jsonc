@@ -1,0 +1,323 @@
+[
+    {
+        "name": "Luminous Cavern B",
+        "children": [
+            {
+                "name": "Near Aqueduct Exit",
+                "access_rules": [
+                    "@LuminousCavernBNearAqueductExit"
+                ],
+                "sections": [
+                    {
+                        "name": "Turquoise",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Castle B",
+                        "x": 772,
+                        "y": 452
+                    },
+                    {
+                        "map": "Luminous Cavern B",
+                        "x": 152,
+                        "y": 12
+                    }
+                ]
+            },
+            {
+                "name": "Outside Indestructible Wall Warp - Left",
+                "access_rules": [
+                    "@LuminousCavernBOutsideWarp"
+                ],
+                "sections": [
+                    {
+                        "name": "Mana Prism",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Castle B",
+                        "x": 892,
+                        "y": 452
+                    },
+                    {
+                        "map": "Luminous Cavern B",
+                        "x": 272,
+                        "y": 12
+                    }
+                ]
+            },
+            {
+                "name": "Outside Indestructible Wall Warp - Right",
+                "access_rules": [
+                    "@LuminousCavernBOutsideWarp"
+                ],
+                "sections": [
+                    {
+                        "name": "Sage Statue",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Castle B",
+                        "x": 912,
+                        "y": 452
+                    },
+                    {
+                        "map": "Luminous Cavern B",
+                        "x": 292,
+                        "y": 12
+                    }
+                ]
+            },
+            {
+                "name": "Execution Elevator Shaft - Upper",
+                "access_rules": [
+                    "@LuminousCavernBExecutionElevatorShaft,$fly"
+                ],
+                "sections": [
+                    {
+                        "name": "Walk Armor",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Castle B",
+                        "x": 992,
+                        "y": 472
+                    },
+                    {
+                        "map": "Luminous Cavern B",
+                        "x": 372,
+                        "y": 32
+                    }
+                ]
+            },
+            {
+                "name": "Execution Elevator Shaft - Lower",
+                "access_rules": [
+                    "@LuminousCavernBExecutionElevatorShaft,$fly"
+                ],
+                "sections": [
+                    {
+                        "name": "Elixir",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Castle B",
+                        "x": 992,
+                        "y": 492
+                    },
+                    {
+                        "map": "Luminous Cavern B",
+                        "x": 372,
+                        "y": 52
+                    }
+                ]
+            },
+            {
+                "name": "Execution Elevator Slimy Storage",
+                "access_rules": [
+                    "@LuminousCavernBExecutionElevatorSlimyStorage"
+                ],
+                "sections": [
+                    {
+                        "name": "Left (Yellow Stone)",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Right (Strange Mirror)",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Castle B",
+                        "x": 932,
+                        "y": 452
+                    },
+                    {
+                        "map": "Luminous Cavern B",
+                        "x": 312,
+                        "y": 12
+                    }
+                ]
+            },
+            {
+                "name": "Path To Push Crates",
+                "access_rules": [
+                    "@LuminousCavernBPathToPushCrate"
+                ],
+                "sections": [
+                    {
+                        "name": "Silver Dishes",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Castle B",
+                        "x": 812,
+                        "y": 532
+                    },
+                    {
+                        "map": "Luminous Cavern B",
+                        "x": 192,
+                        "y": 92
+                    }
+                ]
+            },
+            {
+                "name": "Push Crate Puzzle Reward",
+                "access_rules": [
+                    "@LuminousCavernBBehindPushCrate"
+                ],
+                "sections": [
+                    {
+                        "name": "Life Max Up",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Castle B",
+                        "x": 812,
+                        "y": 572
+                    },
+                    {
+                        "map": "Luminous Cavern B",
+                        "x": 192,
+                        "y": 132
+                    }
+                ]
+            },
+            {
+                "name": "Path to Sky Portal Upper Cavern",
+                "access_rules": [
+                    "@LuminousCavernBPathToSkyPortalUpperCavern"
+                ],
+                "sections": [
+                    {
+                        "name": "Heart Max Up",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Castle B",
+                        "x": 792,
+                        "y": 532
+                    },
+                    {
+                        "map": "Luminous Cavern B",
+                        "x": 172,
+                        "y": 112
+                    }
+                ]
+            },
+            {
+                "name": "Path to Sky Portal Lower Cavern",
+                "access_rules": [
+                    "@LuminousCavernBPathToSkyPortalLowerCavern"
+                ],
+                "sections": [
+                    {
+                        "name": "High Potion",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Castle B",
+                        "x": 712,
+                        "y": 572
+                    },
+                    {
+                        "map": "Luminous Cavern B",
+                        "x": 92,
+                        "y": 132
+                    }
+                ]
+            },
+            {
+                "name": "Dead End Chamber Above Golem - Left",
+                "access_rules": [
+                    "@LuminousCavernBDeadEndAboveGolem"
+                ],
+                "sections": [
+                    {
+                        "name": "Potion",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Castle B",
+                        "x": 932,
+                        "y": 492
+                    },
+                    {
+                        "map": "Luminous Cavern B",
+                        "x": 312,
+                        "y": 52
+                    }
+                ]
+            },
+            {
+                "name": "Dead End Chamber Above Golem - Right",
+                "access_rules": [
+                    "@LuminousCavernBDeadEndAboveGolem"
+                ],
+                "sections": [
+                    {
+                        "name": "Uncurse Potion",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Castle B",
+                        "x": 972,
+                        "y": 492
+                    },
+                    {
+                        "map": "Luminous Cavern B",
+                        "x": 352,
+                        "y": 52
+                    }
+                ]
+            },
+            {
+                "name": "Push Crate Puzzle",
+                "access_rules": [
+                    "@LuminousCavernBPushCrate"
+                ],
+                "sections": [
+                    {
+                        "name": "Completed",
+                        "hosted_item": "luminous_b_slab"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Castle B",
+                        "x": 832,
+                        "y": 572
+                    },
+                    {
+                        "map": "Luminous Cavern B",
+                        "x": 212,
+                        "y": 132
+                    }
+                ]
+            },
+        ]
+    }
+]

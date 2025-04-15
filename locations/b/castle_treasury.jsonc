@@ -1,0 +1,251 @@
+[
+    {
+        "name": "Castle Treasury B",
+        "children": [
+            {
+                "name": "West Volcano Shelter - Left",
+                "access_rules": [
+                    "@CastleTreasuryBWestVolcanoShelter"
+                ],
+                "sections": [
+                    {
+                        "name": "Wristband",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Castle B",
+                        "x": 292,
+                        "y": 432
+                    },
+                    {
+                        "map": "Castle Treasury B",
+                        "x": 12,
+                        "y": 132
+                    }
+                ]
+            },
+            {
+                "name": "West Volcano Shelter - Right",
+                "access_rules": [
+                    "@CastleTreasuryBWestVolcanoShelter"
+                ],
+                "sections": [
+                    {
+                        "name": "Uncurse Potion",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Castle B",
+                        "x": 312,
+                        "y": 432
+                    },
+                    {
+                        "map": "Castle Treasury B",
+                        "x": 32,
+                        "y": 132
+                    }
+                ]
+            },
+            {
+                "name": "West Volcanic Save Room",
+                "access_rules": [
+                    "@CastleTreasuryBWestVolcanicSaveRoomDeadEnd"
+                ],
+                "sections": [
+                    {
+                        "name": "Heart Max Up",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Castle B",
+                        "x": 292,
+                        "y": 472
+                    },
+                    {
+                        "map": "Castle Treasury B",
+                        "x": 12,
+                        "y": 172
+                    }
+                ]
+            },
+            {
+                "name": "West Volcanic Lure Hall",
+                "access_rules": [
+                    "@CastleTreasuryBWestVolcanicHallLower"
+                ],
+                "sections": [
+                    {
+                        "name": "Life Max Up",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Castle B",
+                        "x": 352,
+                        "y": 452
+                    },
+                    {
+                        "map": "Castle Treasury B",
+                        "x": 72,
+                        "y": 152
+                    }
+                ]
+            },
+            {
+                "name": "Portal Staircase Bottom",
+                "access_rules": [
+                    "@CastleTreasuryBPortalStaircase"
+                ],
+                "sections": [
+                    {
+                        "name": "Potion",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Castle B",
+                        "x": 412,
+                        "y": 472
+                    },
+                    {
+                        "map": "Castle Treasury B",
+                        "x": 132,
+                        "y": 172
+                    }
+                ]
+            },
+            {
+                "name": "Rose Quartz Mine Lower Tunnel",
+                "access_rules": [
+                    "@CastleTreasuryBRoseQuartzMineLowerTunnel"
+                ],
+                "sections": [
+                    {
+                        "name": "Chair",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Castle B",
+                        "x": 472,
+                        "y": 452
+                    },
+                    {
+                        "map": "Castle Treasury B",
+                        "x": 192,
+                        "y": 152
+                    }
+                ]
+            },
+            {
+                "name": "Rose Quartz Mine Top Chamber",
+                "access_rules": [
+                    "@CastleTreasuryBRoseQuartzMineTopChamber"
+                ],
+                "sections": [
+                    {
+                        "name": "Cloth Tunic",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Castle B",
+                        "x": 532,
+                        "y": 392
+                    },
+                    {
+                        "map": "Castle Treasury B",
+                        "x": 252,
+                        "y": 92
+                    }
+                ]
+            },
+            {
+                "name": "Above Elevator Unguarded Stairs - Left",
+                "access_rules": [
+                    "@CastleTreasuryBUnguardedStairs"
+                ],
+                "sections": [
+                    {
+                        "name": "Padded Armor",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Castle B",
+                        "x": 672,
+                        "y": 312
+                    },
+                    {
+                        "map": "Castle Treasury B",
+                        "x": 392,
+                        "y": 12
+                    }
+                ]
+            },
+            {
+                "name": "Above Elevator Unguarded Stairs - Right",
+                "access_rules": [
+                    "@CastleTreasuryBUnguardedStairs"
+                ],
+                "sections": [
+                    {
+                        "name": "Heart Max Up",
+                        "item_count": 1,
+                        "access_rules": [
+                            "{}",
+                            "$jump"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Castle B",
+                        "x": 692,
+                        "y": 312
+                    },
+                    {
+                        "map": "Castle Treasury B",
+                        "x": 412,
+                        "y": 12
+                    }
+                ]
+            },
+            {
+                "name": "Sunny Elevator Warp Room",
+                "access_rules": [
+                    "@CastleTreasuryBSunnyElevatorWarpRoom"
+                ],
+                "sections": [
+                    {
+                        "name": "Sun Armor",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Castle B",
+                        "x": 652,
+                        "y": 352
+                    },
+                    {
+                        "map": "Castle Treasury B",
+                        "x": 372,
+                        "y": 52
+                    }
+                ]
+            }
+        ]
+    }
+]

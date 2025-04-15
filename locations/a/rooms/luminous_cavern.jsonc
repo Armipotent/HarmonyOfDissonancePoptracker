@@ -1,0 +1,185 @@
+[
+    {
+        "name": "LuminousCavernAToTreasury",
+        "access_rules": [
+            "@CastleTreasuryAMinesToEverywhereElse",
+            "@LuminousCavernADevilsSCurve"
+        ]
+    },
+    {
+        "name": "LuminousCavernADevilsSCurve",
+        "access_rules": [
+            "@LuminousCavernAToTreasury",
+            "@LuminousCavernAPlantsHall"
+        ]
+    },
+    {
+        "name": "LuminousCavernAPlantsHall",
+        "access_rules": [
+            "@LuminousCavernADevilsSCurve",
+            "@LuminousCavernANearAqueductExit",
+            "@LuminousCavernACentralSave",
+            "@LuminousCavernAToFloodedHall"
+        ]
+    },
+    {
+        "name": "LuminousCavernANearAqueductExit",
+        "access_rules": [
+            "@LuminousCavernAPlantsHall",
+            "@LuminousCavernAAqueductExit,$fly"
+        ]
+    },
+    {
+        "name": "LuminousCavernAAqueductExit",
+        "access_rules": [
+            "@LuminousCavernANearAqueductExit,$fly",
+            "@AqueductOfDragonsACrushableEntrance,$fly,crush_stone"
+        ]
+    },
+    {
+        "name": "LuminousCavernACentralSave",
+        "access_rules": [
+            "@LuminousCavernAPlantsHall",
+            "@LuminousCavernAOutsideWarp"
+        ]
+    },
+    {
+        "name": "LuminousCavernAOutsideWarp",
+        "access_rules": [
+            "@LuminousCavernACentralSave",
+            "@LuminousCavernAWarp,luminous_a_breakable",
+            "@LuminousCavernADeadEndAboveTalos",
+            "@LuminousCavernABeforeTalos"
+        ]
+    },
+    {
+        "name": "LuminousCavernADeadEndAboveTalos",
+        "access_rules": [
+            "@LuminousCavernAOutsideWarp"
+        ]
+    },
+    {
+        "name": "LuminousCavernAWarp",
+        "access_rules": [
+            "@LuminousCavernAOutsideWarp,luminous_a_breakable",
+            "@LuminousCavernBWarp,jb_bracelet"
+        ]
+    },
+    {
+        "name": "LuminousCavernABeforeTalos",
+        "access_rules": [
+            "@LuminousCavernAOutsideWarp",
+            "@LuminousCavernATalosArena",
+            "@LuminousCavernAPathToFloodgate"
+        ]
+    },
+    {
+        "name": "LuminousCavernATalosArena",
+        "access_rules": [
+            "@LuminousCavernABeforeTalos,[$hard_boss_check]",
+            "@LuminousCavernAShaftAfterTalos,[$hard_boss_check]"
+        ]
+    },
+    {
+        "name": "LuminousCavernAShaftAfterTalos",
+        "access_rules": [
+            "@LuminousCavernATalosArena",
+            "@LuminousCavernAHammerHammerHall"
+        ]
+    },
+    {
+        "name": "LuminousCavernAHammerHammerHall",
+        "access_rules": [
+            "@LuminousCavernAShaftAfterTalos",
+            "@LuminousCavernABehindHammerHammer"
+        ]
+    },
+    {
+        "name": "LuminousCavernABehindHammerHammer",
+        "access_rules": [
+            "@LuminousCavernAHammerHammerHall"
+        ]
+    },
+    {
+        "name": "LuminousCavernAPathToFloodgate",
+        "access_rules": [
+            "@LuminousCavernABeforeTalos",
+            "@LuminousCavernAStairsToFloodgate"
+        ]
+    },
+    {
+        "name": "LuminousCavernAStairsToFloodgate",
+        "access_rules": [
+            "@LuminousCavernAPathToFloodgate",
+            "@LuminousCavernAFloodgateShopConnection"
+        ]
+    },
+    {
+        "name": "LuminousCavernAFloodgateShopConnection",
+        "access_rules": [
+            "@LuminousCavernAStairsToFloodgate",
+            "@LuminousCavernAFloodgate",
+            "@LuminousCavernAShop"
+        ]
+    },
+    {
+        "name": "LuminousCavernAFloodgate",
+        "access_rules": [
+            "@LuminousCavernAFloodgateShopConnection,luminous_b_slab"
+        ]
+    },
+    {
+        "name": "LuminousCavernAShop",
+        "access_rules": [
+            "@LuminousCavernAFloodgateShopConnection"
+        ]
+    },
+    {
+        "name": "LuminousCavernAToFloodedHall",
+        "access_rules": [
+            "@LuminousCavernAPlantsHall",
+            "@LuminousCavernADeathsFloodedUpperCavern"
+        ]
+    },
+    {
+        "name": "LuminousCavernADeathsFloodedUpperCavern",
+        "access_rules": [
+            "@LuminousCavernAToFloodedHall,luminous_a_floodgate",
+            "@LuminousCavernADeathsFloodedLowerCavern"
+        ]
+    },
+    {
+        "name": "LuminousCavernADeathsFloodedLowerCavern",
+        "access_rules": [
+            "@LuminousCavernADeathsFloodedUpperCavern",
+            "@LuminousCavernAHallBeneathDeath"
+        ]
+    },
+    {
+        "name": "LuminousCavernAHallBeneathDeath",
+        "access_rules": [
+            "@LuminousCavernADeathsFloodedLowerCavern",
+            "@LuminousCavernAAscentToDeath"
+        ]
+    },
+    {
+        "name": "LuminousCavernAAscentToDeath",
+        "access_rules": [
+            "@LuminousCavernAHallBeneathDeath",
+            "@LuminousCavernADeathHall"
+        ]
+    },
+    {
+        "name": "LuminousCavernADeathHall",
+        "access_rules": [
+            "@LuminousCavernAAscentToDeath",
+            "@LuminousCavernABehindDeath"
+        ]
+    },
+    {
+        "name": "LuminousCavernABehindDeath",
+        "access_rules": [
+            "@LuminousCavernADeathHall"
+        ]
+    }
+]

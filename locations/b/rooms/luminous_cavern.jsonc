@@ -1,0 +1,186 @@
+[
+    {
+        "name": "LuminousCavernBToTreasury",
+        "access_rules": [
+            "@CastleTreasuryBMinesToEverywhereElse",
+            "@LuminousCavernBDevilsSCurve"
+        ]
+    },
+    {
+        "name": "LuminousCavernBDevilsSCurve",
+        "access_rules": [
+            "@LuminousCavernBToTreasury",
+            "@LuminousCavernBPlantsHall"
+        ]
+    },
+    {
+        "name": "LuminousCavernBPlantsHall",
+        "access_rules": [
+            "@LuminousCavernBDevilsSCurve",
+            "@LuminousCavernBNearAqueductExit",
+            "@LuminousCavernBCentralSave",
+            "@LuminousCavernBToSkyPortal"
+        ]
+    },
+    {
+        "name": "LuminousCavernBNearAqueductExit",
+        "access_rules": [
+            "@LuminousCavernBPlantsHall",
+            "@LuminousCavernBAqueductExit,$fly"
+        ]
+    },
+    {
+        "name": "LuminousCavernBAqueductExit",
+        "access_rules": [
+            "@LuminousCavernBNearAqueductExit,$fly",
+            "@AqueductOfDragonsBCrushableEntrance,$fly"
+        ]
+    },
+    {
+        "name": "LuminousCavernBCentralSave",
+        "access_rules": [
+            "@LuminousCavernBPlantsHall",
+            "@LuminousCavernBOutsideWarp"
+        ]
+    },
+    {
+        "name": "LuminousCavernBOutsideWarp",
+        "access_rules": [
+            "@LuminousCavernBCentralSave",
+            "@LuminousCavernBWarp,luminous_a_breakable",
+            "@LuminousCavernBDeadEndAboveGolem",
+            "@LuminousCavernBBeforeGolem"
+        ]
+    },
+    {
+        "name": "LuminousCavernBDeadEndAboveGolem",
+        "access_rules": [
+            "@LuminousCavernBOutsideWarp"
+        ]
+    },
+    {
+        "name": "LuminousCavernBWarp",
+        "access_rules": [
+            "@LuminousCavernBOutsideWarp,luminous_a_breakable",
+            "@LuminousCavernAWarp,jb_bracelet"
+        ]
+    },
+    {
+        "name": "LuminousCavernBBeforeGolem",
+        "access_rules": [
+            "@LuminousCavernBOutsideWarp",
+            "@LuminousCavernBGolemHall",
+            "@LuminousCavernBPathToPushCrate"
+        ]
+    },
+    {
+        "name": "LuminousCavernBGolemHall",
+        "access_rules": [
+            "@LuminousCavernBBeforeGolem",
+            "@LuminousCavernBExecutionElevatorShaft"
+        ]
+    },
+    {
+        "name": "LuminousCavernBExecutionElevatorShaft",
+        "access_rules": [
+            "@LuminousCavernBGolemHall",
+            "@LuminousCavernBExecutionElevatorSlimyHall"
+        ]
+    },
+    {
+        "name": "LuminousCavernBExecutionElevatorSlimyHall",
+        "access_rules": [
+            "@LuminousCavernBExecutionElevatorShaft",
+            "@LuminousCavernBExecutionElevatorSlimyStorage"
+        ]
+    },
+    {
+        "name": "LuminousCavernBExecutionElevatorSlimyStorage",
+        "access_rules": [
+            "@LuminousCavernBExecutionElevatorSlimyHall"
+        ]
+    },
+    {
+        "name": "LuminousCavernBPathToPushCrate",
+        "access_rules": [
+            "@LuminousCavernBBeforeGolem",
+            "@LuminousCavernBStairsToPushCrate"
+        ]
+    },
+    {
+        "name": "LuminousCavernBStairsToPushCrate",
+        "access_rules": [
+            "@LuminousCavernBPathToPushCrate",
+            "@LuminousCavernBPushCrate"
+        ]
+    },
+    {
+        "name": "LuminousCavernBPushCrate",
+        "access_rules": [
+            "@LuminousCavernBStairsToPushCrate",
+            "@LuminousCavernBBehindPushCrate,luminous_b_slab",
+            "@LuminousCavernBShop"
+        ]
+    },
+    {
+        "name": "LuminousCavernBBehindPushCrate",
+        "access_rules": [
+            "@LuminousCavernBPushCrate,luminous_b_slab"
+        ]
+    },
+    {
+        "name": "LuminousCavernBShop",
+        "access_rules": [
+            "@LuminousCavernBPushCrate"
+        ]
+    },
+    {
+        "name": "LuminousCavernBToSkyPortal",
+        "access_rules": [
+            "@LuminousCavernBPlantsHall",
+            "@LuminousCavernBPathToSkyPortalUpperCavern"
+        ]
+    },
+    {
+        "name": "LuminousCavernBPathToSkyPortalUpperCavern",
+        "access_rules": [
+            "@LuminousCavernBToSkyPortal",
+            "@LuminousCavernBPathToSkyPortalLowerCavern"
+        ]
+    },
+    {
+        "name": "LuminousCavernBPathToSkyPortalLowerCavern",
+        "access_rules": [
+            "@LuminousCavernBPathToSkyPortalUpperCavern",
+            "@LuminousCavernBHallBeneathPortal"
+        ]
+    },
+    {
+        "name": "LuminousCavernBHallBeneathPortal",
+        "access_rules": [
+            "@LuminousCavernBPathToSkyPortalLowerCavern",
+            "@LuminousCavernBAscentToPortal"
+        ]
+    },
+    {
+        "name": "LuminousCavernBAscentToPortal",
+        "access_rules": [
+            "@LuminousCavernBHallBeneathPortal",
+            "@LuminousCavernBPortalHall"
+        ]
+    },
+    {
+        "name": "LuminousCavernBPortalHall",
+        "access_rules": [
+            "@LuminousCavernBAscentToPortal,$jump",
+            "@LuminousCavernBConnectingPortal"
+        ]
+    },
+    {
+        "name": "LuminousCavernBConnectingPortal",
+        "access_rules": [
+            "@LuminousCavernBPortalHall",
+            "@SkyWalkwayAConnectingPortal"
+        ]
+    }
+]

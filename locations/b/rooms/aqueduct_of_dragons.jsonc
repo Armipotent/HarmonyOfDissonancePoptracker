@@ -1,0 +1,87 @@
+[
+    {
+        "name": "AqueductOfDragonsBNorthwestEntrance",
+        "access_rules": [
+            "@SkyWalkwayBLowerMirrorHallway",
+            "@AqueductOfDragonsBCandlePillarHall"
+        ]
+    },
+    {
+        "name": "AqueductOfDragonsBCandlePillarHall",
+        "access_rules": [
+            "@AqueductOfDragonsBNorthwestEntrance",
+            "@AqueductOfDragonsBWestZombieZone"
+        ]
+    },
+    {
+        "name": "AqueductOfDragonsBWestZombieZone",
+        "access_rules": [
+            "@AqueductOfDragonsBCandlePillarHall",
+            "@AqueductOfDragonsBBeforeGhostOfGiantMerman",
+            "@AqueductOfDragonsBEastZombieZone",
+            "@AqueductOfDragonsBDryPipe"
+        ]
+    },
+    {
+        "name": "AqueductOfDragonsBBeforeGhostOfGiantMerman",
+        "access_rules": [
+            "@AqueductOfDragonsBWestZombieZone",
+            "@AqueductOfDragonsBGhostOfGiantMerman"
+        ]
+    },
+    {
+        "name": "AqueductOfDragonsBGhostOfGiantMerman",
+        "access_rules": [
+            "@AqueductOfDragonsBBeforeGhostOfGiantMerman",
+            "@AqueductOfDragonsBBehindGhostOfGiantMerman"
+        ]
+    },
+    {
+        "name": "AqueductOfDragonsBBehindGhostOfGiantMerman",
+        "access_rules": [
+            "@AqueductOfDragonsBGhostOfGiantMerman",
+            "@ClockTowerBBackdoorEntrance"
+        ]
+    },
+    {
+        "name": "AqueductOfDragonsBEastZombieZone",
+        "access_rules": [
+            "@AqueductOfDragonsBWestZombieZone"
+        ]
+    },
+    {
+        "name": "AqueductOfDragonsBDryPipe",
+        "access_rules": [
+            "@AqueductOfDragonsBWestZombieZone",
+            "@AqueductOfDragonsBDryPipeShaft"
+        ]
+    },
+    {
+        "name": "AqueductOfDragonsBDryPipeShaft",
+        "access_rules": [
+            "@AqueductOfDragonsBDryPipe",
+            "@AqueductOfDragonsBIllusoryWallRoom"
+        ]
+    },
+    {
+        "name": "AqueductOfDragonsBIllusoryWallRoom",
+        "access_rules": [
+            "@AqueductOfDragonsBDryPipeShaft",
+            "@AqueductOfDragonsBAfterCrush"
+        ]
+    },
+    {
+        "name": "AqueductOfDragonsBAfterCrush",
+        "access_rules": [
+            "@AqueductOfDragonsBIllusoryWallRoom",
+            "@AqueductOfDragonsBCrushableEntrance,crush_stone"
+        ]
+    },
+    {
+        "name": "AqueductOfDragonsBCrushableEntrance",
+        "access_rules": [
+            "@AqueductOfDragonsBAfterCrush,crush_stone",
+            "@LuminousCavernBAqueductExit,$fly"
+        ]
+    }
+]

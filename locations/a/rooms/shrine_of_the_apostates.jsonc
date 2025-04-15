@@ -1,0 +1,86 @@
+[
+    {
+        "name": "ShrineOfTheApostatesAWailingExit",
+        "access_rules": [
+            "@TheWailingWayAShrineExit",
+            "@ShrineOfTheApostatesALizardLandUpper"
+        ]
+    },
+    {
+        "name": "ShrineOfTheApostatesALizardLandUpper",
+        "access_rules": [
+            "@ShrineOfTheApostatesAWailingExit",
+            "@ShrineOfTheApostatesALizardLandLower"
+        ]
+    },
+    {
+        "name": "ShrineOfTheApostatesALizardLandLower",
+        "access_rules": [
+            "@ShrineOfTheApostatesALizardLandUpper",
+            "@ShrineOfTheApostatesALizardLandStorerooms",
+            "@ShrineOfTheApostatesABonePillarStaircase"
+        ]
+    },
+    {
+        "name": "ShrineOfTheApostatesALizardLandStorerooms",
+        "access_rules": [
+            "@ShrineOfTheApostatesALizardLandLower",
+            "@ShrineOfTheApostatesADeadVictoryHall"
+        ]
+    },
+    {
+        "name": "ShrineOfTheApostatesADeadVictoryHall",
+        "access_rules": [
+            "@ShrineOfTheApostatesALizardLandStorerooms",
+            "@ShrineOfTheApostatesADeadVictoryCasket"
+        ]
+    },
+    {
+        "name": "ShrineOfTheApostatesADeadVictoryCasket",
+        "access_rules": [
+            "@ShrineOfTheApostatesADeadVictoryHall"
+        ]
+    },
+    {
+        "name": "ShrineOfTheApostatesABonePillarStaircase",
+        "access_rules": [
+            "@ShrineOfTheApostatesALizardLandLower",
+            "@ShrineOfTheApostatesAWhiteDragonHall"
+        ]
+    },
+    {
+        "name": "ShrineOfTheApostatesAWhiteDragonHall",
+        "access_rules": [
+            "@ShrineOfTheApostatesABonePillarStaircase",
+            "@ShrineOfTheApostatesABeforeLivingArmor"
+        ]
+    },
+    {
+        "name": "ShrineOfTheApostatesABeforeLivingArmor",
+        "access_rules": [
+            "@ShrineOfTheApostatesAWhiteDragonHall",
+            "@ShrineOfTheApostatesALivingArmorHall",
+            "@ShrineOfTheApostatesASaveRoom"
+        ]
+    },
+    {
+        "name": "ShrineOfTheApostatesASaveRoom",
+        "access_rules": [
+            "@ShrineOfTheApostatesABeforeLivingArmor"
+        ]
+    },
+    {
+        "name": "ShrineOfTheApostatesALivingArmorHall",
+        "access_rules": [
+            "@ShrineOfTheApostatesABeforeLivingArmor",
+            "@ShrineOfTheApostatesABehindLivingArmor"
+        ]
+    },
+    {
+        "name": "ShrineOfTheApostatesABehindLivingArmor",
+        "access_rules": [
+            "@ShrineOfTheApostatesALivingArmorHall",
+            "@EntranceAToShrine"//,shrine_a_slab"
+        ]
+    }
+]

@@ -1,0 +1,328 @@
+[
+    {
+        "name": "Clock Tower B",
+        "children": [
+            {
+                "name": "Skeleton Fatality Attic",
+                "access_rules": [
+                    "@ClockTowerBSkeletonFatailityAttic"
+                ],
+                "sections": [
+                    {
+                        "name": "Kaiser Knuckles",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Castle B",
+                        "x": 972,
+                        "y": 192
+                    },
+                    {
+                        "map": "Clock Tower B",
+                        "x": 32,
+                        "y": 52
+                    }
+                ]
+            },
+            {
+                "name": "Wrecked Attic",
+                "access_rules": [
+                    "@ClockTowerBWreckedAttic"
+                ],
+                "sections": [
+                    {
+                        "name": "Wind Cloak",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Castle B",
+                        "x": 992,
+                        "y": 212
+                    },
+                    {
+                        "map": "Clock Tower B",
+                        "x": 52,
+                        "y": 72
+                    }
+                ]
+            },
+            {
+                "name": "Above Peeping Big",
+                "access_rules": [
+                    "@ClockTowerBAbovePeepingBig"
+                ],
+                "sections": [
+                    {
+                        "name": "Elixir",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Castle B",
+                        "x": 1052,
+                        "y": 232
+                    },
+                    {
+                        "map": "Clock Tower B",
+                        "x": 112,
+                        "y": 92
+                    }
+                ]
+            },
+            {
+                "name": "Behind Peeping Big",
+                "access_rules": [
+                    "@ClockTowerBAbovePeepingBig"
+                ],
+                "sections": [
+                    {
+                        "name": "Life Max Up",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Castle B",
+                        "x": 1012,
+                        "y": 252
+                    },
+                    {
+                        "map": "Clock Tower B",
+                        "x": 72,
+                        "y": 112
+                    }
+                ]
+            },
+            {
+                "name": "Near Lower Crankshaft",
+                "access_rules": [
+                    "@ClockTowerBNearLowerCrankshaftAttic"
+                ],
+                "sections": [
+                    {
+                        "name": "Medicine Jar",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Castle B",
+                        "x": 952,
+                        "y": 312
+                    },
+                    {
+                        "map": "Clock Tower B",
+                        "x": 12,
+                        "y": 172
+                    }
+                ]
+            },
+            {
+                "name": "Upper Crankshaft Crawlspace",
+                "access_rules": [
+                    "{@ClockTowerBUpperCrankshaft}",
+                    "@ClockTowerBUpperCrankshaft,lizard_tail,clock_b_crankshaft"
+                ],
+                "sections": [
+                    {
+                        "name": "Crushing Stone",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Castle B",
+                        "x": 972,
+                        "y": 292
+                    },
+                    {
+                        "map": "Clock Tower B",
+                        "x": 32,
+                        "y": 152
+                    }
+                ]
+            },
+            {
+                "name": "Peeping Lookout",
+                "access_rules": [
+                    "@ClockTowerBStairwellToPeepingBig"
+                ],
+                "sections": [
+                    {
+                        "name": "Tall Clock",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Castle B",
+                        "x": 1072,
+                        "y": 192
+                    },
+                    {
+                        "map": "Clock Tower B",
+                        "x": 132,
+                        "y": 52
+                    }
+                ]
+            },
+            {
+                "name": "Gear-Jammed Dragon Shelter",
+                "access_rules": [
+                    "@ClockTowerBGearJammed"
+                ],
+                "sections": [
+                    {
+                        "name": "Heart Max Up",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Castle B",
+                        "x": 1172,
+                        "y": 232
+                    },
+                    {
+                        "map": "Clock Tower B",
+                        "x": 232,
+                        "y": 92
+                    }
+                ]
+            },
+            {
+                "name": "Armored Ambush Room",
+                "access_rules": [
+                    "@ClockTowerBArmoredAmbush"
+                ],
+                "sections": [
+                    {
+                        "name": "Life Max Up",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Castle B",
+                        "x": 1092,
+                        "y": 172
+                    },
+                    {
+                        "map": "Clock Tower B",
+                        "x": 152,
+                        "y": 32
+                    }
+                ]
+            },
+            {
+                "name": "Steel Ball Run End",
+                "access_rules": [
+                    "@ClockTowerBToSteelBallRun,$jump,lizard_tail"
+                ],
+                "sections": [
+                    {
+                        "name": "Top (Heart Choker)",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Bottom (Healing Mail)",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Castle B",
+                        "x": 1172,
+                        "y": 412
+                    },
+                    {
+                        "map": "Clock Tower B",
+                        "x": 232,
+                        "y": 272
+                    }
+                ]
+            },
+            {
+                "name": "Steel Ball Run Side Chamber",
+                "access_rules": [
+                    "@ClockTowerBSteelBallRunSideChamber"
+                ],
+                "sections": [
+                    {
+                        "name": "Left (Raccoon Figure)",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Right (Lucky Ring)",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Castle B",
+                        "x": 1032,
+                        "y": 472
+                    },
+                    {
+                        "map": "Clock Tower B",
+                        "x": 92,
+                        "y": 332
+                    }
+                ]
+            },
+            {
+                "name": "Crankshaft",
+                "access_rules": [
+                    "@ClockTowerBNearLowerCrankshaftAttic"
+                ],
+                "sections": [
+                    {
+                        "name": "Lowered",
+                        "hosted_item": "clock_b_crankshaft"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Castle B",
+                        "x": 972,
+                        "y": 312
+                    },
+                    {
+                        "map": "Clock Tower B",
+                        "x": 32,
+                        "y": 172
+                    }
+                ]
+            },
+            {
+                "name": "Bronze Guardian",
+                "access_rules": [
+                    "@ClockTowerBGuardKick"
+                ],
+                "sections": [
+                    {
+                        "name": "Kicked",
+                        "hosted_item": "clock_b_guard"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Castle B",
+                        "x": 1112,
+                        "y": 272
+                    },
+                    {
+                        "map": "Clock Tower B",
+                        "x": 172,
+                        "y": 132
+                    }
+                ]
+            }
+        ]
+    }
+]

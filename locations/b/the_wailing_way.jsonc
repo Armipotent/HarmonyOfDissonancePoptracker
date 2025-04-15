@@ -1,0 +1,154 @@
+[
+    {
+        "name": "The Wailing Way B",
+        "children": [
+            {
+                "name": "Deserted Cemetary Pedestal",
+                "access_rules": [
+                    "@TheWailingWayBDesertedCemetary"
+                ],
+                "sections": [
+                    {
+                        "name": "Life Max Up",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Castle B",
+                        "x": 512,
+                        "y": 292
+                    },
+                    {
+                        "map": "The Wailing Way B",
+                        "x": 172,
+                        "y": 32
+                    }
+                ]
+            },
+            {
+                "name": "Deserted Cemetary Top Alcove",
+                "access_rules": [
+                    "{@TheWailingWayBDesertedCemetary}",
+                    "@TheWailingWayBDesertedCemetary,$jump"
+                ],
+                "sections": [
+                    {
+                        "name": "Anti-venom",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Castle B",
+                        "x": 532,
+                        "y": 292
+                    },
+                    {
+                        "map": "The Wailing Way B",
+                        "x": 192,
+                        "y": 32
+                    }
+                ]
+            },
+            {
+                "name": "Silent Stairs Top Balcony",
+                "access_rules": [
+                    "@TheWailingWayBSilentStairs"
+                ],
+                "sections": [
+                    {
+                        "name": "Candleholder",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Castle B",
+                        "x": 392,
+                        "y": 292
+                    },
+                    {
+                        "map": "The Wailing Way B",
+                        "x": 52,
+                        "y": 32
+                    }
+                ]
+            },
+            {
+                "name": "Contorted Pants Room - Top-Left",
+                "access_rules": [
+                    "{@TheWailingWayBContortedPantsRoom}",
+                    "@TheWailingWayBContortedPantsRoom,$jump"
+                ],
+                "sections": [
+                    {
+                        "name": "Crush Boots",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Castle B",
+                        "x": 352,
+                        "y": 292
+                    },
+                    {
+                        "map": "The Wailing Way B",
+                        "x": 12,
+                        "y": 32
+                    }
+                ]
+            },
+            {
+                "name": "Contorted Pants Room - Top-Right",
+                "access_rules": [
+                    "{@TheWailingWayBContortedPantsRoom}",
+                    "@TheWailingWayBContortedPantsRoom,$jump"
+                ],
+                "sections": [
+                    {
+                        "name": "Smiling Statue",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Castle B",
+                        "x": 372,
+                        "y": 292
+                    },
+                    {
+                        "map": "The Wailing Way B",
+                        "x": 32,
+                        "y": 32
+                    }
+                ]
+            },
+            {
+                "name": "Contorted Pants Room - Bottom-Right",
+                "access_rules": [
+                    "@TheWailingWayBContortedPantsRoom,$jump"
+                ],
+                "sections": [
+                    {
+                        "name": "Potion",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Castle B",
+                        "x": 372,
+                        "y": 312
+                    },
+                    {
+                        "map": "The Wailing Way B",
+                        "x": 32,
+                        "y": 52
+                    }
+                ]
+            }
+        ]
+    }
+]

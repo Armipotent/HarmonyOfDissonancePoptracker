@@ -1,0 +1,55 @@
+[
+	{
+		"name": "Connecting Portals",
+		"children": [
+            {
+                "name": "Room A And Treasury B",
+                "access_rules": [
+                    "@RoomOfIllusionAConnectingPortal"
+                ],
+                "sections": [
+                    {
+                        "name": "Lucky Charm",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Castle A",
+                        "x": 192,
+                        "y": 312
+                    },
+                    {
+                        "map": "Room of Illusion A",
+                        "x": 12,
+                        "y": 32
+                    }
+                ]
+            },
+            {
+                "name": "Luminous B and Walkway A",
+                "access_rules": [
+                    "@LuminousCavernBConnectingPortal"
+                ],
+                "sections": [
+                    {
+                        "name": "Steel Glove",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Castle B",
+                        "x": 732,
+                        "y": 552
+                    },
+                    {
+                        "map": "Luminous Cavern B",
+                        "x": 112,
+                        "y": 112
+                    }
+                ]
+            }
+		]
+	}
+]

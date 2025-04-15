@@ -1,0 +1,358 @@
+{
+    "shared_item_grid": {
+        "type": "array",
+        "orientation": "vertical",
+        "margin": "0,0",
+        "content": [
+            {
+                "type": "array",
+                "orientation": "horizontal",
+                "margin": "5,0",
+                "content": [
+                    {
+                        "type": "itemgrid",
+                        "item_margin": "5, 0",
+                        "h_alignment": "left",
+                        "rows": [
+                            [
+                                "lizard_tail",
+                                "sylph_feather",
+                                "griffin_wing",
+                                "float_boots",
+                                "inf_boots"
+                            ],
+                            [
+                                "key_lure",
+                                "key_floodgate",
+                                "key_skull",
+                                "crush_stone",
+                                "crush_boots"
+                            ],
+                            [
+                                "book_fire",
+                                "book_ice",
+                                "book_bolt",
+                                "book_wind",
+                                "book_summoning"
+                            ],
+                            [
+                                "soul_orb",
+                                "fairy_journal",
+                                "monster_tome",
+                                "night_goggles"
+                            ]
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "relic_grid": {
+        "type": "array",
+        "orientation": "vertical",
+        "margin": "0,0",
+        "content": [
+            {
+                "type": "array",
+                "orientation": "horizontal",
+                "margin": "5,0",
+                "content": [
+                    {
+                        "type": "itemgrid",
+                        "item_margin": "5, 0",
+                        "h_alignment": "left",
+                        "rows": [
+                            [
+                                "vlad_eye",
+                                "vlad_heart",
+                                "vlad_rib"
+                            ],
+                            [
+                                "vlad_nail",
+                                "vlad_fang",
+                                "vlad_ring"
+                            ],
+                            [
+                                "bracelet_jb",
+                                "bracelet_mk"
+                            ]
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "collectibles_grid": {
+        "type": "array",
+        "orientation": "vertical",
+        "margin": "0,0",
+        "content": [
+            {
+                "type": "array",
+                "orientation": "horizontal",
+                "margin": "5,0",
+                "content": [
+                    {
+                        "type": "itemgrid",
+                        "item_margin": "5, 0",
+                        "h_alignment": "left",
+                        "rows": [
+                            [
+                                "collect_chandelier",
+                                "collect_tallclock",
+                                "collect_bookshelf",
+                                "collect_oldradio",
+                                "collect_silverdishes",
+                                "collect_antiquetable",
+                                "collect_chair",
+                                "collect_rockingchair"
+                            ],
+                            [
+                                "collect_silkcurtain",
+                                "collect_ancienturn",
+                                "collect_wizardurn",
+                                "collect_prettyvase",
+                                "collect_sidetable",
+                                "collect_teacup",
+                                "collect_teapot",
+                                "collect_wineglass"
+                            ],
+                            [
+                                "collect_herostatue",
+                                "collect_smilingstatue",
+                                "collect_sagestatue",
+                                "collect_raccoonfigure",
+                                "collect_luckycat",
+                                "collect_phonograph",
+                                "collect_stuffedstag",
+                                "collect_candleholder"
+                            ],
+                            [
+                                "collect_candlestick",
+                                "collect_silvertrinket",
+                                "collect_goldtrinket",
+                                "collect_strangemirror",
+                                "collect_castledrawing",
+                                "collect_kingsizebed",
+                                "collect_closet"
+                            ]
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "switches_breaks": {
+        "type": "array",
+        "orientation": "vertical",
+        "margin": "0,0",
+        "content": [
+            {
+                "type": "itemgrid",
+                "item_margin": "5, 0",
+                "item_size": "72,72",
+                "h_alignment": "left",
+                "rows": [
+                    [
+                        "luminous_b_slab",
+                        "clock_a_slab",
+                        "clock_b_guard",
+                        "luminous_a_breakable",
+                        "clock_b_crankshaft"
+                    ],
+                    [
+                        "top_a_slab",
+                        "luminous_a_floodgate",
+                        "walkway_b_breakable",
+                        "top_a_hand"
+                    ]
+                ]
+            }
+        ]
+    },
+    "vertical_shared_item_grid": {
+        "type": "array",
+        "orientation": "horizontal",
+        "margin": "0,0",
+        "content": [
+            {
+                "type": "array",
+                "orientation": "vertical",
+                "margin": "0,5",
+                "content": [
+                    {
+                        "type": "itemgrid",
+                        "item_margin": "5, 0",
+                        "h_alignment": "left",
+                        "rows": [
+                            [
+                                "lizard_tail",
+                                "sylph_feather",
+                                "griffin_wing",
+                                "float_boots",
+                                "inf_boots"
+                            ],
+                            [
+                                "key_lure",
+                                "key_floodgate",
+                                "key_skull",
+                                "crush_stone",
+                                "crush_boots"
+                            ],
+                            [
+                                "book_fire",
+                                "book_ice",
+                                "book_bolt",
+                                "book_wind",
+                                "book_summoning"
+                            ],
+                            [
+                                "soul_orb",
+                                "fairy_journal",
+                                "monster_tome",
+                                "night_goggles"
+                            ]
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "vertical_relic_grid": {
+        "type": "array",
+        "orientation": "horizontal",
+        "margin": "0,0",
+        "content": [
+            {
+                "type": "array",
+                "orientation": "vertical",
+                "margin": "0,5",
+                "content": [
+                    {
+                        "type": "itemgrid",
+                        "item_margin": "5, 0",
+                        "h_alignment": "left",
+                        "rows": [
+                            [
+                                "vlad_eye",
+                                "vlad_heart",
+                                "vlad_rib"
+                            ],
+                            [
+                                "vlad_nail",
+                                "vlad_fang",
+                                "vlad_ring"
+                            ],
+                            [
+                                "bracelet_jb",
+                                "bracelet_mk"
+                            ]
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "vertical_collectibles_grid": {
+        "type": "array",
+        "orientation": "horizontal",
+        "margin": "0,0",
+        "content": [
+            {
+                "type": "array",
+                "orientation": "vertical",
+                "margin": "0,5",
+                "content": [
+                    {
+                        "type": "itemgrid",
+                        "item_margin": "5, 0",
+                        "h_alignment": "left",
+                        "rows": [
+                            [
+                                "collect_chandelier",
+                                "collect_tallclock",
+                                "collect_bookshelf",
+                                "collect_oldradio"
+                            ],
+                            [
+                                "collect_silverdishes",
+                                "collect_antiquetable",
+                                "collect_chair",
+                                "collect_rockingchair"
+                            ],
+                            [
+                                "collect_silkcurtain",
+                                "collect_ancienturn",
+                                "collect_wizardurn",
+                                "collect_prettyvase"
+                            ],
+                            [
+                                "collect_sidetable",
+                                "collect_teacup",
+                                "collect_teapot",
+                                "collect_wineglass"
+                            ],
+                            [
+                                "collect_herostatue",
+                                "collect_smilingstatue",
+                                "collect_sagestatue",
+                                "collect_raccoonfigure"
+                            ],
+                            [
+                                "collect_luckycat",
+                                "collect_phonograph",
+                                "collect_stuffedstag",
+                                "collect_candleholder"
+                            ],
+                            [
+                                "collect_candlestick",
+                                "collect_silvertrinket",
+                                "collect_goldtrinket",
+                                "collect_strangemirror"
+                            ],
+                            [
+                                "collect_castledrawing",
+                                "collect_kingsizebed",
+                                "collect_closet"
+                            ]
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "vertical_switches_breaks": {
+        "type": "array",
+        "orientation": "vertical",
+        "margin": "0,0",
+        "content": [
+            {
+                "type": "itemgrid",
+                "item_margin": "5, 0",
+                "item_size": "72,72",
+                "h_alignment": "left",
+                "rows": [
+                    [
+                        "luminous_b_slab",
+                        "clock_a_slab"
+                    ],
+                    [
+                        "clock_b_guard",
+                        "luminous_a_breakable"
+                    ],
+                    [
+                        "top_a_slab",
+                        "luminous_a_floodgate"
+                    ],
+                    [
+                        "walkway_b_breakable",
+                        "top_a_hand"
+                    ],
+                    [
+                        "clock_b_crankshaft"
+                    ]
+                ]
+            }
+        ]
+    }
+}

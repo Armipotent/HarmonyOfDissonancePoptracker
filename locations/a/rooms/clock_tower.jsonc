@@ -1,0 +1,206 @@
+[
+    {
+        "name": "ClockTowerAWestEntranceShaft",
+        "access_rules": [
+            "@SkyWalkwayAToClockTower",
+            "@ClockTowerAMedusaHomeAttic",
+            "@ClockTowerAAboveGrandfatherRuler",
+            "@ClockTowerAWestOfGrandfatherRuler",
+            "@ClockTowerAPendulumParkour"
+        ]
+    },
+    {
+        "name": "ClockTowerAMedusaHomeAttic",
+        "access_rules": [
+            "@ClockTowerAWestEntranceShaft"
+        ]
+    },
+    {
+        "name": "ClockTowerAAboveGrandfatherRuler",
+        "access_rules": [
+            "@ClockTowerAWestEntranceShaft",
+            "@ClockTowerAAtticEngineRoom"
+        ]
+    },
+    {
+        "name": "ClockTowerAAtticEngineRoom",
+        "access_rules": [
+            "@ClockTowerAAboveGrandfatherRuler"
+        ]
+    },
+    {
+        "name": "ClockTowerAWestOfGrandfatherRuler",
+        "access_rules": [
+            "@ClockTowerAWestEntranceShaft",
+            "@ClockTowerAAboveGrandfatherRuler",
+            "@ClockTowerAGrandfatherRuler"
+        ]
+    },
+    {
+        "name": "ClockTowerAGrandfatherRuler",
+        "access_rules": [
+            "@ClockTowerAWestOfGrandfatherRuler",
+            "@ClockTowerASlimerStairwell"
+        ]
+    },
+    {
+        "name": "ClockTowerASlimerStairwell",
+        "access_rules": [
+            "@ClockTowerAGrandfatherRuler",
+            "@ClockTowerASlimeLaboratory",
+            "@ClockTowerABelowLabSave",
+            "@ClockTowerAEastShaft"
+        ]
+    },
+    {
+        "name": "ClockTowerASlimeLaboratory",
+        "access_rules": [
+            "@ClockTowerASlimerStairwell,[$medium_boss_check]",
+            "@ClockTowerAToWarp,[$medium_boss_check]"
+        ]
+    },
+    {
+        "name": "ClockTowerAToWarp",
+        "access_rules": [
+            "@ClockTowerASlimeLaboratory",
+            "@ClockTowerAAboveMaxSlimer",
+            "@ClockTowerAWarp"
+        ]
+    },
+    {
+        "name": "ClockTowerAAboveMaxSlimer",
+        "access_rules": [
+            "@ClockTowerAToWarp"
+        ]
+    },
+    {
+        "name": "ClockTowerAWarp",
+        "access_rules": [
+            "@ClockTowerAToWarp",
+            "@ClockTowerBWarp,bracelet_jb"
+        ]
+    },
+    {
+        "name": "ClockTowerABelowLabSave",
+        "access_rules": [
+            "@ClockTowerASlimerStairwell"
+        ]
+    },
+    {
+        "name": "ClockTowerAEastShaft",
+        "access_rules": [
+            "@ClockTowerASlimerStairwell",
+            "@ClockTowerAGuardianGrinderAccess",
+            "@ClockTowerAGuardKick"
+        ]
+    },
+    {
+        "name": "ClockTowerAGuardianGrinderAccess",
+        "access_rules": [
+            "@ClockTowerAEastShaft",
+            "@ClockTowerAGuardianGrinder,$jump"
+        ]
+    },
+    {
+        "name": "ClockTowerAGuardianGrinder",
+        "access_rules": [
+            "@ClockTowerAGuardianGrinderAccess,$jump"
+        ]
+    },
+    {
+        "name": "ClockTowerAGuardKick",
+        "access_rules": [
+            "@ClockTowerAEastShaft",
+            "@ClockTowerAGuardKickEnd,clock_b_guard"
+        ]
+    },
+    {
+        "name": "ClockTowerAGuardKickEnd",
+        "access_rules": [
+            "@ClockTowerAGuardKick,clock_b_guard",
+            "@ClockTowerAToPinball"
+        ]
+    },
+    {
+        "name": "ClockTowerAToPinball",
+        "access_rules": [
+            "@ClockTowerAGuardKickEnd",
+            "@ClockTowerAShop",
+            "@ClockTowerAPinball",
+            "@ClockTowerAPinballSave"
+        ]
+    },
+    {
+        "name": "ClockTowerAShop",
+        "access_rules": [
+            "@ClockTowerAToPinball"
+        ]
+    },
+    {
+        "name": "ClockTowerAPinball",
+        "access_rules": [
+            "@ClockTowerAToPinball",
+            "@ClockTowerAPinballCrawlspace,lizard_tail"
+        ]	
+    },
+    {
+        "name": "ClockTowerAPinballCrawlspace",
+        "access_rules": [
+            "@ClockTowerAPinball,lizard_tail"
+        ]
+    },
+    {
+        "name": "ClockTowerAPinballSave",
+        "access_rules": [
+            "@ClockTowerAToPinball"
+        ]
+    },
+    {
+        "name": "ClockTowerAPendulumParkour",
+        "access_rules": [
+            "@ClockTowerAWestEntranceShaft",
+            "@ClockTowerASlabRoomEast"
+        ]
+    },
+    {
+        "name": "ClockTowerASlabRoomEast",
+        "access_rules": [
+            "@ClockTowerAPendulumParkour",
+            "@ClockTowerASlabRoomWest,clock_a_slab"
+        ]
+    },
+    {
+        "name": "ClockTowerASlabRoomWest",
+        "access_rules": [
+            "@ClockTowerASlabRoomEast,clock_a_slab",
+            "@ClockTowerABackdoorEntrance"
+        ]
+    },
+    {
+        "name": "ClockTowerABackdoorEntrance",
+        "access_rules": [
+            "@ClockTowerASlabRoomWest",
+            "@AqueductOfDragonsABehindGiantMerman",
+            "@ClockTowerASkullPaintingRoom"
+        ]
+    },
+    {
+        "name": "ClockTowerASkullPaintingRoom",
+        "access_rules": [
+            "@ClockTowerABackdoorEntrance",
+            "@ClockTowerASkullPaintingRoomAttic"
+        ]
+    },
+    {
+        "name": "ClockTowerASkullPaintingRoomAttic",
+        "access_rules": [
+            "@ClockTowerASkullPaintingRoom,$jump"
+        ]
+    },
+    {
+        "name": "ClockTowerAFleapit",
+        "access_rules": [
+            "@ClockTowerAPendulumParkour"
+        ]
+    }
+]

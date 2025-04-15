@@ -1,0 +1,80 @@
+[
+    {
+        "name": "Room Of Illusion A",
+        "children": [
+            {
+                "name": "Lava Flow Chamber",
+                "access_rules": [
+                    "@RoomOfIllusionALavaFlowChamber"
+                ],
+                "sections": [
+                    {
+                        "name": "Fancy Bandana",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Castle A",
+                        "x": 292,
+                        "y": 312
+                    },
+                    {
+                        "map": "Room of Illusion A",
+                        "x": 112,
+                        "y": 32
+                    }
+                ]
+            },
+            {
+                "name": "Lizard-man Turf",
+                "access_rules": [
+                    "@RoomOfIllusionALizardManTurf"
+                ],
+                "sections": [
+                    {
+                        "name": "Life Max Up",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Castle A",
+                        "x": 212,
+                        "y": 292
+                    },
+                    {
+                        "map": "Room of Illusion A",
+                        "x": 32,
+                        "y": 12
+                    }
+                ]
+            },
+            {
+                "name": "Crawlspace To The Other World",
+                "access_rules": [
+                    "{@RoomOfIllusionAAcidTripRoom}",
+                    "@RoomOfIllusionACrawlspaceToTheOtherWorld"
+                ],
+                "sections": [
+                    {
+                        "name": "Heart Max Up",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Castle A",
+                        "x": 212,
+                        "y": 312
+                    },
+                    {
+                        "map": "Room of Illusion A",
+                        "x": 32,
+                        "y": 32
+                    }
+                ]
+            }
+		]
+	}
+]

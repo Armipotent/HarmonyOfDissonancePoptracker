@@ -1,0 +1,81 @@
+[
+    {
+        "name": "Require Bad Ending",
+        "type": "toggle",
+        "img": "images/items/badend.png",
+        "codes": "bad_ending_setting"
+    },
+    {
+        "name": "Bad Ending",
+        "type": "toggle",
+        "img": "images/items/badend.png",
+        "codes": "bad_ending"
+    },
+    {
+        "name": "Require Worst Ending",
+        "type": "toggle",
+        "img": "images/items/worstend.png",
+        "codes": "worst_ending_setting"
+    },
+    {
+        "name": "Worst Ending",
+        "type": "toggle",
+        "img": "images/items/worstend.png",
+        "codes": "worst_ending"
+    },
+    {
+        "name": "Require Best Ending",
+        "type": "toggle",
+        "img": "images/items/bestend.png",
+        "codes": "best_ending_setting"
+    },
+    {
+        "name": "Best Ending",
+        "type": "toggle",
+        "img": "images/items/bestend.png",
+        "codes": "best_ending"
+    },
+    {
+        "name": "Furniture Required",
+        "type": "consumable",
+        "img": "images/items/furniture.png",
+        "max_quantity": 31,
+        "increment": 1,
+        "decrement": 1,
+        "initial_quantity": 0,
+        "overlay_background": "#000000",
+        "overlay_font_size": 8,
+        "codes": "furniture_setting"
+    },
+    {
+        "name": "Best Retail Worker",
+        "type": "toggle",
+        "img": "images/items/furnitureend.png",
+        "codes": "furinture_ending"
+    },
+    {
+        "name": "Spellbound Boss Logic",
+        "type": "progressive",
+        "loop": true,
+        "allow_disabled": false,
+        "initial_stage_idx": 0,
+        "stages": [
+            {
+                "img": "images/items/spellbound_none.png",
+                "codes": "spellbound_none",
+                "inherit_codes": false
+            },
+            {
+                "img": "images/items/spellbound_easy.png",
+                "codes": "spellbound_easy",
+                "inherit_codes": false
+            },
+            {
+                "img": "images/items/spellbound_normal.png",
+                "codes": "spellbound_normal",
+                "inherit_codes": false
+            }
+        ],
+        "codes": "spellbound"
+    }
+]

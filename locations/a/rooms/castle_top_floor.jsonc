@@ -1,0 +1,122 @@
+[
+    {
+        "name": "CastleTopFloorAFinalApproach",
+        "access_rules": [
+            "@ChapelOfDissonanceAMainBuilding,bracelet_mk,crush_stone",
+            "@CastleTopFloorAWarpRoom",
+            "@CastleTopFloorAHandyStatueAtticStairs"
+        ]
+    },
+    {
+        "name": "CastleTopFloorAHandyStatueAtticStairs",
+        "access_rules": [
+            "@CastleTopFloorAFinalApproach,$griffin_crush",
+            "@CastleTopFloorAHandyStatueAttic,$griffin_crush"
+        ]
+    },
+    {
+        "name": "CastleTopFloorAHandyStatueAttic",
+        "access_rules": [
+            "@CastleTopFloorAHandyStatueAtticStairs,$griffin_crush"
+        ]
+    },
+    {
+        "name": "CastleTopFloorAWarpRoom",
+        "access_rules": [
+            "@CastleTopFloorAFinalApproach",
+            "@CastleTopFloorBWarpRoom,bracelet_jb",
+            "@CastleTopFloorAPazuzuThrone"
+        ]
+    },
+    {
+        "name": "CastleTopFloorAPazuzuThrone",
+        "access_rules": [
+            "@CastleTopFloorAWarpRoom,[$hard_boss_check]",
+            "@CastleTopFloorALydieBalcony,[$hard_boss_check]"
+        ]
+    },
+    {
+        "name": "CastleTopFloorALydieBalcony",
+        "access_rules": [
+            "@CastleTopFloorAPazuzuThrone",
+            "@CastleTopFloorALydieBalconyTowerTop"
+        ]
+    },
+    {
+        "name": "CastleTopFloorALydieBalconyTowerTop",
+        "access_rules": [
+            "@CastleTopFloorALydieBalcony",
+            "@CastleTopFloorALydieBalconyTowerBottom,top_a_slab"
+        ]
+    },
+    {
+        "name": "CastleTopFloorALydieBalconyTowerBottom",
+        "access_rules": [
+            "@CastleTopFloorALydieBalconyTowerTop,top_a_slab",
+            "@CastleTopFloorAKeepSaveRoom"
+        ]
+    },
+    {
+        "name": "CastleTopFloorAKeepSaveRoom",
+        "access_rules": [
+            "@CastleTopFloorALydieBalconyTowerBottom",
+            "@CastleTopFloorABelowPazuzuHall"
+        ]
+    },
+    {
+        "name": "CastleTopFloorABelowPazuzuHall",
+        "access_rules": [
+            "@CastleTopFloorAKeepSaveRoom",
+            "@CastleTopFloorAStairsToShop"
+        ]
+    },
+    {
+        "name": "CastleTopFloorAStairsToShop",
+        "access_rules": [
+            "@CastleTopFloorABelowPazuzuHall",
+            "@CastleTopFloorAShop",
+            "@CastleTopFloorAAboveMinotaurCorridor"
+        ]
+    },
+    {
+        "name": "CastleTopFloorAShop",
+        "access_rules": [
+            "@CastleTopFloorAStairsToShop"
+        ]
+    },
+    {
+        "name": "CastleTopFloorAAboveMinotaurCorridor",
+        "access_rules": [
+            "@CastleTopFloorAStairsToShop",
+            "@CastleTopFloorAElevatorRoomStairs"
+        ]
+    },
+    {
+        "name": "CastleTopFloorAElevatorRoomStairs",
+        "access_rules": [
+            "@CastleTopFloorAAboveMinotaurCorridor",
+            "@CastleTreasuryAEntrance,$jump",
+            "@CastleTopFloorACorridorGriffinPassage"
+        ]
+    },
+    {
+        "name": "CastleTopFloorAMinotaurArena",
+        "access_rules": [
+            "@CastleTopFloorAElevatorRoomStairs",
+            "@CastleTopFloorABehindMinotaur"
+        ]
+    },
+    {
+        "name": "CastleTopFloorABehindMinotaur",
+        "access_rules": [
+            "@CastleTopFloorAMinotaurArena"
+        ]
+    },
+    {
+        "name": "CastleTopFloorACorridorGriffinPassage",
+        "access_rules": [
+            "@CastleTopFloorAElevatorRoomStairs,$fly",
+            "@MarbleCorridorAHopeOfVictoryHall,key_skull"
+        ]
+    }
+]

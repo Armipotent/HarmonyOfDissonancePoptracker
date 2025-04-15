@@ -1,0 +1,108 @@
+[
+    {
+        "name": "SkyWalkwayBMuseumOfMurderEndRoom",
+        "access_rules": [
+            "@SkyWalkwayBMuseumOfMurder"
+        ]
+    },
+    {
+        "name": "SkyWalkwayBMuseumOfMurder",
+        "access_rules": [
+            "@SkyWalkwayBMuseumOfMurderEndRoom",
+            "@SkyWalkwayBConstructionChamber"
+        ]
+    },
+    {
+        "name": "SkyWalkwayBConstructionChamber",
+        "access_rules": [
+            "@SkyWalkwayBMuseumOfMurder",
+            "@SkyWalkwayBBreakableRoom",
+            "@SkyWalkwayBBeforeLegionSaint"
+        ]
+    },
+    {
+        "name": "SkyWalkwayBBreakableRoom",
+        "access_rules": [
+            "@SkyWalkwayBConstructionChamber",
+            "@SkyWalkwayBMaximMemento,walkway_b_breakable"
+        ]
+    },
+    {
+        "name": "SkyWalkwayBMaximMemento",
+        "access_rules": [
+            "@SkyWalkwayBBreakableRoom,walkway_b_breakable"
+        ]
+    },
+    {
+        "name": "SkyWalkwayBBeforeLegionSaint",
+        "access_rules": [
+            "@SkyWalkwayBConstructionChamber",
+            "@SkyWalkwayBToChapelOfDissonance",
+            "@SkyWalkwayBAboveLegionSaint",
+            "@SkyWalkwayBLegionSaintChamber",
+            "@SkyWalkwayBSaveRoom",
+            "@SkyWalkwayBHallOfMirrorsEntrance"
+        ]
+    },
+    {
+        "name": "SkyWalkwayBToChapelOfDissonance",
+        "access_rules": [
+            "@SkyWalkwayBBeforeLegionSaint",
+            "@ChapelOfDissonanceBToSkyWalkway"
+        ]
+    },
+    {
+        "name": "SkyWalkwayBAboveLegionSaint",
+        "access_rules": [
+            "@SkyWalkwayBBeforeLegionSaint"
+        ]
+    },
+    {
+        "name": "SkyWalkwayBLegionSaintChamber",
+        "access_rules": [
+            "@SkyWalkwayBBeforeLegionSaint,[$hard_boss_check]",
+            "@SkyWalkwayBToClockTower,[$hard_boss_check]"
+        ]
+    },
+    {
+        "name": "SkyWalkwayBToClockTower",
+        "access_rules": [
+            "@SkyWalkwayBLegionSaintChamber",
+            "@ClockTowerBWestEntranceShaft"
+        ]
+    },
+    {
+        "name": "SkyWalkwayBSaveRoom",
+        "access_rules": [
+            "@SkyWalkwayBBeforeLegionSaint",
+            "@SkyWalkwayBSaveRoomDriedSpring"
+        ]
+    },
+    {
+        "name": "SkyWalkwayBSaveRoomDriedSpring",
+        "access_rules": [
+            "@SkyWalkwayBSaveRoom,crush_stone"
+        ]
+    },
+    {
+        "name": "SkyWalkwayBHallOfMirrorsEntrance",
+        "access_rules": [
+            "@SkyWalkwayBBeforeLegionSaint",
+            "@SkyWalkwayBUpperMirrorHallway"
+        ]
+    },
+    {
+        "name": "SkyWalkwayBUpperMirrorHallway",
+        "access_rules": [
+            "@SkyWalkwayBHallOfMirrorsEntrance",
+            "@SkyWalkwayBLowerMirrorHallway"
+        ]
+    },
+    {
+        "name": "SkyWalkwayBLowerMirrorHallway",
+        "access_rules": [
+            "@SkyWalkwayBUpperMirrorHallway",
+            "@AqueductOfDragonsBNorthwestEntrance"
+        ]
+    }
+]

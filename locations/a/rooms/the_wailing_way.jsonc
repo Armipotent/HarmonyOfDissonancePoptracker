@@ -1,0 +1,52 @@
+[
+    {
+        "name": "TheWailingWayAMarbleCorridorExit",
+        "access_rules": [
+            "@MarbleCorridorAWailingExit",
+            "@TheWailingWayAGryffinCrossroads"
+        ]
+    },
+    {
+        "name": "TheWailingWayAGryffinCrossroads",
+        "access_rules": [
+            "@TheWailingWayAMarbleCorridorExit",
+            "@TheWailingWayAWestOfCrossroads",
+            "@TheWailingWayAGhostlyGraveyard",
+            "@TheWailingWayAShrineExit"
+        ]
+    },
+    {
+        "name": "TheWailingWayAWestOfCrossroads",
+        "access_rules": [
+            "@TheWailingWayAGryffinCrossroads",
+            "@TheWailingWayAUBendyPassages"
+        ]
+    },
+    {
+        "name": "TheWailingWayAUBendyPassages",
+        "access_rules": [
+            "@TheWailingWayAWestOfCrossroads"
+        ]
+    },
+    {
+        "name": "TheWailingWayAGhostlyGraveyard",
+        "access_rules": [
+            "@TheWailingWayAGryffinCrossroads",
+            "@TheWailingWayALoneLizard"
+        ]
+    },
+    {
+        "name": "TheWailingWayALoneLizard",
+        "access_rules": [
+            "@TheWailingWayAGhostlyGraveyard",
+            "@CastleTreasuryAEntrance,key_skull"
+        ]
+    },
+    {
+        "name": "TheWailingWayAShrineExit",
+        "access_rules": [
+            "@TheWailingWayAGryffinCrossroads",
+            "@ShrineOfTheApostatesAWailingExit"
+        ]
+    }
+]

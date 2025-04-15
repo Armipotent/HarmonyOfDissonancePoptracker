@@ -1,0 +1,227 @@
+[
+    {
+        "name": "The Wailing Way A",
+        "children": [
+            {
+                "name": "Ghostly Graveyard Left Ground Tomb",
+                "access_rules": [
+                    "@TheWailingWayAGhostlyGraveyard"
+                ],
+                "sections": [
+                    {
+                        "name": "Silk Cloak",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Castle A",
+                        "x": 512,
+                        "y": 312
+                    },
+                    {
+                        "map": "The Wailing Way A",
+                        "x": 172,
+                        "y": 52
+                    }
+                ]
+            },
+            {
+                "name": "Ghostly Graveyard Ghostly Graveyard Pedestal",
+                "access_rules": [
+                    "@TheWailingWayAGhostlyGraveyard"
+                ],
+                "sections": [
+                    {
+                        "name": "Monster Tome",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Castle A",
+                        "x": 512,
+                        "y": 292
+                    },
+                    {
+                        "map": "The Wailing Way A",
+                        "x": 172,
+                        "y": 32
+                    }
+                ]
+            },
+            {
+                "name": "Ghostly Graveyard Ghostly Ceiling Tomb",
+                "access_rules": [
+					"{@TheWailingWayAGhostlyGraveyard}",
+                    "@TheWailingWayAGhostlyGraveyard,$jump"
+                ],
+                "sections": [
+                    {
+                        "name": "Life Max Up",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Castle A",
+                        "x": 532,
+                        "y": 292
+                    },
+                    {
+                        "map": "The Wailing Way A",
+                        "x": 192,
+                        "y": 32
+                    }
+                ]
+            },
+            {
+                "name": "Ghostly Graveyard Right Ground Tomb",
+                "access_rules": [
+                    "@TheWailingWayAGhostlyGraveyard"
+                ],
+                "sections": [
+                    {
+                        "name": "Drumstick",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Castle A",
+                        "x": 532,
+                        "y": 312
+                    },
+                    {
+                        "map": "The Wailing Way A",
+                        "x": 192,
+                        "y": 52
+                    }
+                ]
+            },
+            {
+                "name": "Gryffin Crossroads Ceiling Tomb",
+                "access_rules": [
+                    "@TheWailingWayAGryffinCrossroads"
+                ],
+                "sections": [
+                    {
+                        "name": "Mana Prism",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Castle A",
+                        "x": 432,
+                        "y": 292
+                    },
+                    {
+                        "map": "The Wailing Way A",
+                        "x": 92,
+                        "y": 32
+                    }
+                ]
+            },
+            {
+                "name": "West Of Crossroads Ceiling Tomb",
+                "access_rules": [
+                    "@TheWailingWayAWestOfCrossroads"
+                ],
+                "sections": [
+                    {
+                        "name": "Potion",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Castle A",
+                        "x": 412,
+                        "y": 292
+                    },
+                    {
+                        "map": "The Wailing Way A",
+                        "x": 72,
+                        "y": 32
+                    }
+                ]
+            },
+            {
+                "name": "U-Bendy Passages - Left",
+                "access_rules": [
+					"{@TheWailingWayAUBendyPassages}",
+                    "@TheWailingWayAUBendyPassages,$jump"
+                ],
+                "sections": [
+                    {
+                        "name": "Logoth's Ring",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Castle A",
+                        "x": 352,
+                        "y": 292
+                    },
+                    {
+                        "map": "The Wailing Way A",
+                        "x": 12,
+                        "y": 32
+                    }
+                ]
+            },
+            {
+                "name": "U-Bendy Passages - Right",
+                "access_rules": [
+					"{@TheWailingWayAUBendyPassages}",
+                    "@TheWailingWayAUBendyPassages,$jump"
+                ],
+                "sections": [
+                    {
+                        "name": "Fancy Clothes",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Castle A",
+                        "x": 372,
+                        "y": 292
+                    },
+                    {
+                        "map": "The Wailing Way A",
+                        "x": 32,
+                        "y": 32
+                    }
+                ]
+            },
+            {
+                "name": "Lone Lizard Skull Door",
+                "access_rules": [
+                    "@TheWailingWayALoneLizard",
+                    "@CastleTreasuryAEntrance,key_skull"
+                ],
+                "sections": [
+                    {
+                        "name": "Heart Max Up",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Castle A",
+                        "x": 572,
+                        "y": 312
+                    },
+                    {
+                        "map": "The Wailing Way A",
+                        "x": 232,
+                        "y": 52
+                    }
+                ]
+            }
+		]
+	}
+]

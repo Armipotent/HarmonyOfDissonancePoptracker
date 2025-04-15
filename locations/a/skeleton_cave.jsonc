@@ -1,0 +1,252 @@
+[
+    {
+        "name": "Skeleton Cave A",
+        "children": [
+            {
+                "name": "Medusa's Remains Chamber - Left",
+                "access_rules": [
+                    "@SkeletonCaveAMedusasRemainsChamber"
+                ],
+                "sections": [
+                    {
+                        "name": "Lightning Robes",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Castle A",
+                        "x": 532,
+                        "y": 592
+                    },
+                    {
+                        "map": "Skeleton Cave A",
+                        "x": 332,
+                        "y": 92
+                    }
+                ]
+			},
+            {
+                "name": "Medusa's Remains Chamber - Right",
+                "access_rules": [
+                    "@SkeletonCaveAMedusasRemainsChamber"
+                ],
+                "sections": [
+                    {
+                        "name": "Phonograph",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Castle A",
+                        "x": 552,
+                        "y": 572
+                    },
+                    {
+                        "map": "Skeleton Cave A",
+                        "x": 352,
+                        "y": 72
+                    }
+                ]
+			},
+            {
+                "name": "Monument To The Evil God",
+                "access_rules": [
+                    "{@SkeletonCaveAMonumentToTheEvilGod}",
+                    "@SkeletonCaveAMonumentToTheEvilGod,$jump"
+                ],
+                "sections": [
+                    {
+                        "name": "Bookshelf",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Castle A",
+                        "x": 592,
+                        "y": 572
+                    },
+                    {
+                        "map": "Skeleton Cave A",
+                        "x": 392,
+                        "y": 72
+                    }
+                ]
+            },
+            {
+                "name": "Far-Right Push Crate Challenge",
+                "access_rules": [
+                    "@SkeletonCaveAFarRightPushCrateChallenge"
+                ],
+                "sections": [
+                    {
+                        "name": "Heart Max Up",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Castle A",
+                        "x": 492,
+                        "y": 572
+                    },
+                    {
+                        "map": "Skeleton Cave A",
+                        "x": 292,
+                        "y": 72
+                    }
+                ]
+            },
+            {
+                "name": "Outside Skeleton Testing Chamber",
+                "access_rules": [
+                    "@SkeletonCaveAOutsideSkeletonTestingChamber"
+                ],
+                "sections": [
+                    {
+                        "name": "Life Max Up",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Castle A",
+                        "x": 472,
+                        "y": 572
+                    },
+                    {
+                        "map": "Skeleton Cave A",
+                        "x": 272,
+                        "y": 72
+                    }
+                ]
+            },
+            {
+                "name": "Behind Legion (Corpse)",
+                "access_rules": [
+                    "@SkeletonCaveABehindLegion"
+                ],
+                "sections": [
+                    {
+                        "name": "Cipher's Charm",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Castle A",
+                        "x": 212,
+                        "y": 572
+                    },
+                    {
+                        "map": "Skeleton Cave A",
+                        "x": 12,
+                        "y": 72
+                    }
+                ]
+            },
+            {
+                "name": "Museum Of Mimics End Room",
+                "access_rules": [
+                    "@SkeletonCaveAMuseumOfMimicsEndRoom"
+                ],
+                "sections": [
+                    {
+                        "name": "Rare Ring",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Castle A",
+                        "x": 372,
+                        "y": 552
+                    },
+                    {
+                        "map": "Skeleton Cave A",
+                        "x": 172,
+                        "y": 52
+                    }
+                ]
+            },
+            {
+                "name": "Secret Attic Above Save Room",
+                "access_rules": [
+                    "@SkeletonCaveASecretAtticAboveSaveRoom"
+                ],
+                "sections": [
+                    {
+                        "name": "Left (Big Mana Prism)",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Right (Life Max Up)",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Castle A",
+                        "x": 312,
+                        "y": 552
+                    },
+                    {
+                        "map": "Skeleton Cave A",
+                        "x": 112,
+                        "y": 52
+                    }
+                ]
+            },
+            {
+                "name": "Crate Balancing Act Chamber",
+                "access_rules": [
+                    "@SkeletonCaveACrateBalancingActChamber"
+                ],
+                "sections": [
+                    {
+                        "name": "Floodgate Key",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Castle A",
+                        "x": 212,
+                        "y": 532
+                    },
+                    {
+                        "map": "Skeleton Cave A",
+                        "x": 12,
+                        "y": 32
+                    }
+                ]
+            },
+            {
+                "name": "Museum Of Mimics Above End Room",
+                "access_rules": [
+                    "@SkeletonCaveAMuseumOfMimicsAboveEndRoom"
+                ],
+                "sections": [
+                    {
+                        "name": "Hint Card 5",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Castle A",
+                        "x": 372,
+                        "y": 532
+                    },
+                    {
+                        "map": "Skeleton Cave A",
+                        "x": 172,
+                        "y": 32
+                    }
+                ]
+            }
+		]
+	}
+]

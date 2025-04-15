@@ -1,0 +1,181 @@
+[
+    {
+        "name": "Shrine of the Apostates A",
+        "children": [
+            {
+                "name": "Lizard Land Storerooms - Left",
+                "access_rules": [
+                    "@ShrineOfTheApostatesALizardLandStorerooms"
+                ],
+                "sections": [
+                    {
+                        "name": "Drumstick",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Castle A",
+                        "x": 512,
+                        "y": 352
+                    },
+                    {
+                        "map": "Shrine of the Apostates A",
+                        "x": 232,
+                        "y": 32
+                    }
+                ]
+            },
+            {
+                "name": "Lizard Land Storerooms - Right",
+                "access_rules": [
+                    "@ShrineOfTheApostatesALizardLandStorerooms"
+                ],
+                "sections": [
+                    {
+                        "name": "Opal",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Castle A",
+                        "x": 552,
+                        "y": 352
+                    },
+                    {
+                        "map": "Shrine of the Apostates A",
+                        "x": 272,
+                        "y": 32
+                    }
+                ]
+            },
+            {
+                "name": "Dead Victory Casket",
+                "access_rules": [
+                    "@ShrineOfTheApostatesADeadVictoryCasket"
+                ],
+                "sections": [
+                    {
+                        "name": "Energy Circle",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Castle A",
+                        "x": 572,
+                        "y": 352
+                    },
+                    {
+                        "map": "Shrine of the Apostates A",
+                        "x": 292,
+                        "y": 32
+                    }
+                ]
+            },
+            {
+                "name": "Wailing Exit",
+                "access_rules": [
+                    "@ShrineOfTheApostatesAWailingExit"
+                ],
+                "sections": [
+                    {
+                        "name": "Potion",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Castle A",
+                        "x": 512,
+                        "y": 332
+                    },
+                    {
+                        "map": "Shrine of the Apostates A",
+                        "x": 232,
+                        "y": 12
+                    }
+                ]
+            },
+            {
+                "name": "White Dragon's Treasure",
+                "access_rules": [
+                    "@ShrineOfTheApostatesAWhiteDragonHall"
+                ],
+                "sections": [
+                    {
+                        "name": "Life Max Up",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Castle A",
+                        "x": 312,
+                        "y": 352
+                    },
+                    {
+                        "map": "Shrine of the Apostates A",
+                        "x": 32,
+                        "y": 32
+                    }
+                ]
+            },
+            {
+                "name": "Behind Living Armor",
+                "access_rules": [
+                    "@ShrineOfTheApostatesABehindLivingArmor"
+                ],
+                "sections": [
+                    {
+                        "name": "Lizard Tail",
+                        "item_count": 1
+                    }/*,
+                    {
+                        "name": "Slab Activated",
+                        "hosted_item": "shrine_a_slab"
+                    }
+                    */
+                ],
+                "map_locations": [
+                    {
+                        "map": "Castle A",
+                        "x": 292,
+                        "y": 372
+                    },
+                    {
+                        "map": "Shrine of the Apostates A",
+                        "x": 12,
+                        "y": 52
+                    }
+                ]
+            },
+            {
+                "name": "Lower Lizard Crawlspace",
+                "access_rules": [
+                    "{@ShrineOfTheApostatesALizardLandLower}",
+                    "@ShrineOfTheApostatesALizardLandLower,lizard_tail"
+                ],
+                "sections": [
+                    {
+                        "name": "Life Max Up",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Castle A",
+                        "x": 552,
+                        "y": 372
+                    },
+                    {
+                        "map": "Shrine of the Apostates A",
+                        "x": 272,
+                        "y": 52
+                    }
+                ]
+            }
+		]
+	}
+]

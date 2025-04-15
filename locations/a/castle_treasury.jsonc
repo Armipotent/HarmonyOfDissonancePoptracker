@@ -1,0 +1,307 @@
+[
+    {
+        "name": "Castle Treasury A",
+        "children": [
+            {
+                "name": "West Spectral Hangout",
+                "access_rules": [
+                    "@CastleTreasuryAWestSpectralHangout"
+                ],
+                "sections": [
+                    {
+                        "name": "Left (Teacup)",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Right (Teapot)",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Castle A",
+                        "x": 292,
+                        "y": 432
+                    },
+                    {
+                        "map": "Castle Treasury A",
+                        "x": 12,
+                        "y": 132
+                    }
+                ]
+            },
+            {
+                "name": "West Chapel Save Room Dead End",
+                "access_rules": [
+                    "@CastleTreasuryAWestChapelSaveRoomDeadEnd"
+                ],
+                "sections": [
+                    {
+                        "name": "Life Max Up",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Castle A",
+                        "x": 292,
+                        "y": 472
+                    },
+                    {
+                        "map": "Castle Treasury A",
+                        "x": 12,
+                        "y": 172
+                    }
+                ]
+            },
+            {
+                "name": "West Chapel Warp Room",
+                "access_rules": [
+                    "@CastleTreasuryAWestChapelWarpRoom"
+                ],
+                "sections": [
+                    {
+                        "name": "Hint Card 3",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Castle A",
+                        "x": 332,
+                        "y": 452
+                    },
+                    {
+                        "map": "Castle Treasury A",
+                        "x": 52,
+                        "y": 152
+                    }
+                ]
+            },
+            {
+                "name": "Hall Of The Ruler",
+                "access_rules": [
+                    "@CastleTreasuryAHallOfTheRuler"
+                ],
+                "sections": [
+                    {
+                        "name": "Greed Amulet",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Castle A",
+                        "x": 352,
+                        "y": 472
+                    },
+                    {
+                        "map": "Castle Treasury A",
+                        "x": 72,
+                        "y": 172
+                    }
+                ]
+            },
+            {
+                "name": "Stairs Of The Ruler",
+                "access_rules": [
+                    "@CastleTreasuryAStairsOfTheRuler"
+                ],
+                "sections": [
+                    {
+                        "name": "Potion",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Castle A",
+                        "x": 412,
+                        "y": 472
+                    },
+                    {
+                        "map": "Castle Treasury A",
+                        "x": 132,
+                        "y": 172
+                    }
+                ]
+            },
+            {
+                "name": "Prase Quartz Mine Upper Tunnel",
+                "access_rules": [
+                    "@CastleTreasuryAPraseQuartzMineUpperTunnel"
+                ],
+                "sections": [
+                    {
+                        "name": "Closet",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Castle A",
+                        "x": 552,
+                        "y": 432
+                    },
+                    {
+                        "map": "Castle Treasury A",
+                        "x": 272,
+                        "y": 132
+                    }
+                ]
+            },
+            {
+                "name": "Merchant's Open Hideout",
+                "access_rules": [
+                    "@CastleTreasuryAMerchantHideout"
+                ],
+                "sections": [
+                    {
+                        "name": "Plate Mail",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Castle A",
+                        "x": 452,
+                        "y": 452
+                    },
+                    {
+                        "map": "Castle Treasury A",
+                        "x": 172,
+                        "y": 152
+                    }
+                ]
+            },
+            {
+                "name": "Prase Quartz Mine Lower Tunnel",
+                "access_rules": [
+                    "@CastleTreasuryAPraseQuartzMineLowerTunnel"
+                ],
+                "sections": [
+                    {
+                        "name": "Heart Max Up",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Castle A",
+                        "x": 472,
+                        "y": 452
+                    },
+                    {
+                        "map": "Castle Treasury A",
+                        "x": 192,
+                        "y": 152
+                    }
+                ]
+            },
+            {
+                "name": "Prase Quartz Mine Top Chamber",
+                "access_rules": [
+                    "@CastleTreasuryAPraseQuartzMineTopChamber"
+                ],
+                "sections": [
+                    {
+                        "name": "Heaven's Ring",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Castle A",
+                        "x": 532,
+                        "y": 392
+                    },
+                    {
+                        "map": "Castle Treasury A",
+                        "x": 252,
+                        "y": 92
+                    }
+                ]
+            },
+            {
+                "name": "Above Elevator Guarded Stairs",
+                "access_rules": [
+                    "@CastleTreasuryAGuardedStairs"
+                ],
+                "sections": [
+                    {
+                        "name": "Holy Ring",
+                        "item_count": 1,
+                        "access_rules": [
+                            "{}",
+                            "$jump"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Castle A",
+                        "x": 692,
+                        "y": 312
+                    },
+                    {
+                        "map": "Castle Treasury A",
+                        "x": 412,
+                        "y": 12
+                    }
+                ]
+            },
+            {
+                "name": "Entrance To Center",
+                "access_rules": [
+                    "@CastleTreasuryAEntranceToCenter"
+                ],
+                "sections": [
+                    {
+                        "name": "Chandelier",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Castle A",
+                        "x": 612,
+                        "y": 332
+                    },
+                    {
+                        "map": "Castle Treasury A",
+                        "x": 332,
+                        "y": 32
+                    }
+                ]
+            },
+            {
+                "name": "Moonlit Elevator Warp Room",
+                "access_rules": [
+                    "@CastleTreasuryAMoonlitElevatorWarpRoom"
+                ],
+                "sections": [
+                    {
+                        "name": "Right (Platinum Shoes)",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Left (Moon Armor)",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Castle A",
+                        "x": 652,
+                        "y": 352
+                    },
+                    {
+                        "map": "Castle Treasury A",
+                        "x": 372,
+                        "y": 52
+                    }
+                ]
+            }
+        ]
+    }
+]

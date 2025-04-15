@@ -1,0 +1,127 @@
+[
+    {
+        "name": "Shrine of the Apostates B",
+        "children": [
+            {
+                "name": "Bouncing Bone Zone Above Coffin",
+                "access_rules": [
+                    "@ShrineOfTheApostatesBBouncingBoneZone"
+                ],
+                "sections": [
+                    {
+                        "name": "Turkey",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Castle B",
+                        "x": 572,
+                        "y": 332
+                    },
+                    {
+                        "map": "Shrine of the Apostates B",
+                        "x": 292,
+                        "y": 12
+                    }
+                ]
+            },
+            {
+                "name": "Bouncing Bone Zone Coffin",
+                "access_rules": [
+                    "@ShrineOfTheApostatesBBouncingBoneZoneCoffin"
+                ],
+                "sections": [
+                    {
+                        "name": "Heart Max Up",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Castle B",
+                        "x": 572,
+                        "y": 352
+                    },
+                    {
+                        "map": "Shrine of the Apostates B",
+                        "x": 292,
+                        "y": 32
+                    }
+                ]
+            },
+            {
+                "name": "Simon Says Square",
+                "access_rules": [
+                    "@ShrineOfTheApostatesBSimonSaysSquare"
+                ],
+                "sections": [
+                    {
+                        "name": "Drumstick",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Castle B",
+                        "x": 412,
+                        "y": 372
+                    },
+                    {
+                        "map": "Shrine of the Apostates B",
+                        "x": 132,
+                        "y": 52
+                    }
+                ]
+            },
+            {
+                "name": "Left Owl House",
+                "access_rules": [
+                    "@ShrineOfTheApostatesBLeftOwlHouse"
+                ],
+                "sections": [
+                    {
+                        "name": "Elixir",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Castle B",
+                        "x": 312,
+                        "y": 352
+                    },
+                    {
+                        "map": "Shrine of the Apostates B",
+                        "x": 32,
+                        "y": 32
+                    }
+                ]
+            },
+            {
+                "name": "Before Cyclops",
+                "access_rules": [
+                    "@ShrineOfTheApostatesBBeforeCyclops"
+                ],
+                "sections": [
+                    {
+                        "name": "Heart Max Up",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Castle B",
+                        "x": 292,
+                        "y": 372
+                    },
+                    {
+                        "map": "Shrine of the Apostates B",
+                        "x": 12,
+                        "y": 52
+                    }
+                ]
+            }
+        ]
+    }
+]

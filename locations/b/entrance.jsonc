@@ -1,0 +1,183 @@
+[
+    {
+        "name": "Entrance B",
+        "children": [
+            {
+                "name": "Start Of The Other's Adventure",
+                "access_rules": [
+                    "@OutsideCastleB"
+                ],
+                "sections": [
+                    {
+                        "name": "War Fatigues",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Castle B",
+                        "x": 12,
+                        "y": 372
+                    },
+                    {
+                        "map": "Entrance B",
+                        "x": 12,
+                        "y": 152
+                    }
+                ]
+            },
+            {
+                "name": "Observation Tower Top",
+                "access_rules": [
+                    "@EntranceBObservationTower"
+                ],
+                "sections": [
+                    {
+                        "name": "Ancient Urn",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Big Mana Prism",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Castle B",
+                        "x": 72,
+                        "y": 312
+                    },
+                    {
+                        "map": "Entrance B",
+                        "x": 72,
+                        "y": 92
+                    }
+                ]
+            },
+            {
+                "name": "Observation Tower Atlas Chamber",
+                "access_rules": [
+                    "@EntranceBObservationTowerAtlasChamber"
+                ],
+                "sections": [
+                    {
+                        "name": "Rib of Vlad",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Castle B",
+                        "x": 92,
+                        "y": 312
+                    },
+                    {
+                        "map": "Entrance B",
+                        "x": 92,
+                        "y": 92
+                    }
+                ]
+            },
+            {
+                "name": "Warped Wine Cellar",
+                "access_rules": [
+                    "@EntranceBWarpedWineCellar"
+                ],
+                "sections": [
+                    {
+                        "name": "Lure Key",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Castle B",
+                        "x": 72,
+                        "y": 252
+                    },
+                    {
+                        "map": "Entrance B",
+                        "x": 72,
+                        "y": 32
+                    }
+                ]
+            },
+            {
+                "name": "Double Hangman's Patio",
+                "access_rules": [
+                    "@EntranceBDoubleHangmanPatio"
+                ],
+                "sections": [
+                    {
+                        "name": "Heart Max Up",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Castle B",
+                        "x": 232,
+                        "y": 352
+                    },
+                    {
+                        "map": "Entrance B",
+                        "x": 232,
+                        "y": 132
+                    }
+                ]
+            },
+            {
+                "name": "Secret Skeletal Passage Middle",
+                "access_rules": [
+                    "@EntranceBSecretSkeletalPassageBottom"
+                ],
+                "sections": [
+                    {
+                        "name": "Top (Pretty Vase)",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Bottom (High Potion)",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Castle B",
+                        "x": 232,
+                        "y": 452
+                    },
+                    {
+                        "map": "Entrance B",
+                        "x": 232,
+                        "y": 232
+                    }
+                ]
+            },
+            {
+                "name": "Secret Skeletal Passage Lower",
+                "access_rules": [
+                    "@EntranceBSecretSkeletalPassageBottom"
+                ],
+                "sections": [
+                    {
+                        "name": "Big Mana Prism",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Castle B",
+                        "x": 232,
+                        "y": 492
+                    },
+                    {
+                        "map": "Entrance B",
+                        "x": 232,
+                        "y": 272
+                    }
+                ]
+            }
+        ]
+    }
+]

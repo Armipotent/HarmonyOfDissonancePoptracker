@@ -1,0 +1,111 @@
+[
+    {
+        "name": "SkyWalkwayAConnectingPortal",
+        "access_rules": [
+            "@LuminousCavernBConnectingPortal",
+            "@SkyWalkwayAPortalHall"
+        ]
+    },
+    {
+        "name": "SkyWalkwayAPortalHall",
+        "access_rules": [
+            "@SkyWalkwayAConnectingPortal",
+            "@SkyWalkwayAConstructionChamber"
+        ]
+    },
+    {
+        "name": "SkyWalkwayAConstructionChamber",
+        "access_rules": [
+            "@SkyWalkwayAPortalHall,$jump",
+            "@SkyWalkwayABreakableRoom",
+            "@SkyWalkwayABeforeDevil"
+        ]
+    },
+    {
+        "name": "SkyWalkwayABreakableRoom",
+        "access_rules": [
+            "@SkyWalkwayAConstructionChamber",
+            "@SkyWalkwayAMaximMemento,walkway_b_breakable"
+        ]
+    },
+    {
+        "name": "SkyWalkwayAMaximMemento",
+        "access_rules": [
+            "@SkyWalkwayABreakableRoom,walkway_b_breakable"
+        ]
+    },
+    {
+        "name": "SkyWalkwayABeforeDevil",
+        "access_rules": [
+            "@SkyWalkwayAConstructionChamber",
+            "@SkyWalkwayAToChapelOfDissonance",
+            "@SkyWalkwayAAboveDevil",
+            "@SkyWalkwayADevilChamber",
+            "@SkyWalkwayASaveRoom",
+            "@SkyWalkwayAFountainHall"
+        ]
+    },
+    {
+        "name": "SkyWalkwayAToChapelOfDissonance",
+        "access_rules": [
+            "@SkyWalkwayABeforeDevil",
+            "@ChapelOfDissonanceAToSkyWalkway"
+        ]
+    },
+    {
+        "name": "SkyWalkwayAAboveDevil",
+        "access_rules": [
+            "@SkyWalkwayABeforeDevil"
+        ]
+    },
+    {
+        "name": "SkyWalkwayADevilChamber",
+        "access_rules": [
+            "@SkyWalkwayABeforeDevil,[$medium_boss_check]",
+            "@SkyWalkwayAToClockTower,$jump,[$medium_boss_check]"
+        ]
+    },
+    {
+        "name": "SkyWalkwayAToClockTower",
+        "access_rules": [
+            "@SkyWalkwayADevilChamber",
+            "@ClockTowerAWestEntranceShaft"
+        ]
+    },
+    {
+        "name": "SkyWalkwayASaveRoom",
+        "access_rules": [
+            "@SkyWalkwayABeforeDevil",
+            "@SkyWalkwayASaveRoomHotSpring"
+        ]
+    },
+    {
+        "name": "SkyWalkwayASaveRoomHotSpring",
+        "access_rules": [
+            "@SkyWalkwayASaveRoom,crush_stone"
+        ]
+    },
+    {
+        "name": "SkyWalkwayAFountainHall",
+        "access_rules": [
+            "@SkyWalkwayABeforeDevil",
+            "@SkyWalkwayAUpperDarkHallway"
+        ]
+    },
+    {
+        "name": "SkyWalkwayAUpperDarkHallway",
+        "access_rules": [
+            "@SkyWalkwayAFountainHall,[]",
+            "@SkyWalkwayAFountainHall,night_goggles",
+            "@SkyWalkwayALowerDarkHallway"
+        ]
+    },
+    {
+        "name": "SkyWalkwayALowerDarkHallway",
+        "access_rules": [
+            "@SkyWalkwayAUpperDarkHallway",
+            "@AqueductOfDragonsANorthwestEntrance,[]",
+            "@AqueductOfDragonsANorthwestEntrance,night_goggles"
+        ]
+    }
+]

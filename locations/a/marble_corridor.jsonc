@@ -1,0 +1,316 @@
+[
+    {
+        "name": "Marble Corridor A",
+        "children": [
+            {
+                "name": "Push Crate Storage",
+                "access_rules": [
+                    "@MarbleCorridorAPushCrateStorage"
+                ],
+                "sections": [
+                    {
+                        "name": "Left (Heart Max Up)",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Right (Ice Book)",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Castle A",
+                        "x": 192,
+                        "y": 212
+                    },
+                    {
+                        "map": "Marble Corridor A",
+                        "x": 12,
+                        "y": 12
+                    }
+                ]
+            },
+            {
+                "name": "West Common Room",
+                "access_rules": [
+                    "@MarbleCorridorAWestCommonRoom"
+                ],
+                "sections": [
+                    {
+                        "name": "Castle Map 1",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Castle A",
+                        "x": 272,
+                        "y": 252
+                    },
+                    {
+                        "map": "Marble Corridor A",
+                        "x": 92,
+                        "y": 52
+                    }
+                ]
+            },
+            {
+                "name": "Above Giant Bat Hall",
+                "access_rules": [
+                    "@MarbleCorridorAWestCommonRoom"
+                ],
+                "sections": [
+                    {
+                        "name": "Leather Glove",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Castle A",
+                        "x": 412,
+                        "y": 232
+                    },
+                    {
+                        "map": "Marble Corridor A",
+                        "x": 232,
+                        "y": 32
+                    }
+                ]
+            },
+            {
+                "name": "Save Slide Storage",
+                "access_rules": [
+					"@MarbleCorridorASaveSlideStorage"
+                ],
+                "sections": [
+                    {
+                        "name": "Left (Fire Book)",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Right (Summer Clothes)",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Castle A",
+                        "x": 392,
+                        "y": 212
+                    },
+                    {
+                        "map": "Marble Corridor A",
+                        "x": 212,
+                        "y": 12
+                    }
+                ]
+            },
+            {
+                "name": "East Common Room",
+                "access_rules": [
+					"@MarbleCorridorAEastCommonRoom"
+                ],
+                "sections": [
+                    {
+                        "name": "Red Stone",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Castle A",
+                        "x": 452,
+                        "y": 232
+                    },
+                    {
+                        "map": "Marble Corridor A",
+                        "x": 272,
+                        "y": 32
+                    }
+                ]
+            },
+            {
+                "name": "Grand Staircase Window Ledge",
+                "access_rules": [
+					"@MarbleCorridorAGrandStaircase"
+                ],
+                "sections": [
+                    {
+                        "name": "Anti-venom",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Castle A",
+                        "x": 492,
+                        "y": 232
+                    },
+                    {
+                        "map": "Marble Corridor A",
+                        "x": 312,
+                        "y": 32
+                    }
+                ]
+            },
+            {
+                "name": "Grand Staircase Above Window Ledge",
+                "access_rules": [
+                    "{@MarbleCorridorAGrandStaircase}",
+                    "@MarbleCorridorAGrandStaircase,$jump"
+                ],
+                "sections": [
+                    {
+                        "name": "Heart Max Up",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Castle A",
+                        "x": 492,
+                        "y": 212
+                    },
+                    {
+                        "map": "Marble Corridor A",
+                        "x": 312,
+                        "y": 12
+                    }
+                ]
+            },
+            {
+                "name": "Grand Staircase Bottom Bunker",
+                "access_rules": [
+                    "@MarbleCorridorAGrandStaircase"
+                ],
+                "sections": [
+                    {
+                        "name": "Left (Potion)",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Right (Anti-venom)",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Castle A",
+                        "x": 532,
+                        "y": 252
+                    },
+                    {
+                        "map": "Marble Corridor A",
+                        "x": 352,
+                        "y": 52
+                    }
+                ]
+            },
+            {
+                "name": "Grand Staircase Top Storage",
+                "access_rules": [
+                    "@MarbleCorridorAGrandStaircase"
+                ],
+                "sections": [
+                    {
+                        "name": "Upper (Vlad's Ring)",
+                        "item_count": 1,
+						"access_rules": [
+                            "{}",
+							"$jump"
+						]
+                    },
+                    {
+                        "name": "Lower (Heart Max Up)",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Castle A",
+                        "x": 532,
+                        "y": 212
+                    },
+                    {
+                        "map": "Marble Corridor A",
+                        "x": 352,
+                        "y": 12
+                    }
+                ]
+            },
+            {
+                "name": "Hope of Victory Hall",
+                "access_rules": [
+                    "@MarbleCorridorAHopeOfVictoryHall"
+                ],
+                "sections": [
+                    {
+                        "name": "Life Max Up",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Castle A",
+                        "x": 592,
+                        "y": 232
+                    },
+                    {
+                        "map": "Marble Corridor A",
+                        "x": 412,
+                        "y": 32
+                    }
+                ]
+            },
+            {
+                "name": "Wailing Exit",
+                "access_rules": [
+                    "@MarbleCorridorAWailingExit"
+                ],
+                "sections": [
+                    {
+                        "name": "Fairy Journal",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Castle A",
+                        "x": 452,
+                        "y": 272
+                    },
+                    {
+                        "map": "Marble Corridor A",
+                        "x": 272,
+                        "y": 72
+                    }
+                ]
+            },
+            {
+                "name": "Descent of Illusion",
+                "access_rules": [
+                    "@MarbleCorridorADescentOfIllusion"
+                ],
+                "sections": [
+                    {
+                        "name": "Potion",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Castle A",
+                        "x": 272,
+                        "y": 292
+                    },
+                    {
+                        "map": "Marble Corridor A",
+                        "x": 92,
+                        "y": 92
+                    }
+                ]
+            }
+		]
+	}
+]

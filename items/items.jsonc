@@ -1,0 +1,406 @@
+[
+    //more info: https://github.com/black-sliver/PopTracker/blob/master/doc/PACKS.md#items
+    /*
+    {
+        "name": "Toggle",
+        "type": "toggle",
+        "img": "images/items/toggle.png",
+        "codes": "toggle"
+    },
+    {
+        "name": "Progressive",
+        "type": "progressive",
+        "allow_disabled": true,
+        "initial_stage_idx": 0,
+        "stages": [
+            {
+                "img": "images/items/progressive.png",
+                "codes": "progressive",
+                "inherit_codes": false
+            },
+            {
+                "img": "images/items/progressive_2.png",
+                "codes": "progressive_2",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
+        "name": "Consumable",
+        "type": "consumable",
+        "img": "images/items/consumable.png",
+        "max_quantity": 8,
+        "increment": 1,
+        "decrement": 1,
+        "initial_quantity": 1,
+        "overlay_background": "#000000",
+        "overlay_font_size": 8,
+        "codes": "consumable"
+    },
+    {
+        "name": "Progressive Toggle",
+        "type": "progressive_toggle",
+        "initial_stage_idx": 0,
+        "stages": [
+        {
+            "img": "images/items/progressive.png",
+            "codes": "progressive_toggle",
+            "inherit_codes": false
+        },
+        {
+            "img": "images/items/progressive_2.png",
+            "codes": "progressive_toggle_2",
+            "inherit_codes": false
+        }
+        ]
+    },
+    */
+    {
+        "name": "Lizard Tail",
+        "type": "toggle",
+        "img": "images/items/lizard_tail.png",
+        "codes": "lizard_tail"
+    },
+    {
+        "name": "Sylph Feather",
+        "type": "toggle",
+        "img": "images/items/sylph_feather.png",
+        "codes": "sylph_feather"
+    },
+    {
+        "name": "Griffin Wing",
+        "type": "toggle",
+        "img": "images/items/griffin_wing.png",
+        "codes": "griffin_wing"
+    },
+    {
+        "name": "Crushing Stone",
+        "type": "toggle",
+        "img": "images/items/crush_stone.png",
+        "codes": "crush_stone"
+    },
+    {
+        "name": "Crush Boots",
+        "type": "toggle",
+        "img": "images/items/crush_boots.png",
+        "codes": "crush_boots"
+    },
+    {
+        "name": "Night Goggles",
+        "type": "toggle",
+        "img": "images/items/night_goggles.png",
+        "codes": "night_goggles"
+    },
+    {
+        "name": "Floating Boots",
+        "type": "toggle",
+        "img": "images/items/float_boots.png",
+        "codes": "float_boots"
+    },
+    {
+        "name": "Infinite Boots",
+        "type": "toggle",
+        "img": "images/items/inf_boots.png",
+        "codes": "inf_boots"
+    },
+    {
+        "name": "Eye of Vlad",
+        "type": "toggle",
+        "img": "images/items/vlad_eye.png",
+        "codes": "vlad_eye"
+    },
+    {
+        "name": "Heart of Vlad",
+        "type": "toggle",
+        "img": "images/items/vlad_heart.png",
+        "codes": "vlad_heart"
+    },
+    {
+        "name": "Rib of Vlad",
+        "type": "toggle",
+        "img": "images/items/vlad_rib.png",
+        "codes": "vlad_rib"
+    },
+    {
+        "name": "Nail of Vlad",
+        "type": "toggle",
+        "img": "images/items/vlad_nail.png",
+        "codes": "vlad_nail"
+    },
+    {
+        "name": "Fang of Vlad",
+        "type": "toggle",
+        "img": "images/items/vlad_fang.png",
+        "codes": "vlad_fang"
+    },
+    {
+        "name": "Vlad's Ring",
+        "type": "toggle",
+        "img": "images/items/vlad_ring.png",
+        "codes": "vlad_ring"
+    },
+    {
+        "name": "Lure Key",
+        "type": "toggle",
+        "img": "images/items/key_lure.png",
+        "codes": "key_lure"
+    },
+    {
+        "name": "Floodgate Key",
+        "type": "toggle",
+        "img": "images/items/key_floodgate.png",
+        "codes": "key_floodgate"
+    },
+    {
+        "name": "Skull Key",
+        "type": "toggle",
+        "img": "images/items/key_skull.png",
+        "codes": "key_skull"
+    },
+    {
+        "name": "JB's Bracelet",
+        "type": "toggle",
+        "img": "images/items/bracelet_jb.png",
+        "codes": "bracelet_jb"
+    },
+    {
+        "name": "MK's Bracelet",
+        "type": "toggle",
+        "img": "images/items/bracelet_mk.png",
+        "codes": "bracelet_mk"
+    },
+    {
+        "name": "Soul Orb",
+        "type": "toggle",
+        "img": "images/items/soul_orb.png",
+        "codes": "soul_orb"
+    },
+    {
+        "name": "Fairy Journal",
+        "type": "toggle",
+        "img": "images/items/fairy_journal.png",
+        "codes": "fairy_journal"
+    },
+    {
+        "name": "Monster Tome",
+        "type": "toggle",
+        "img": "images/items/monster_tome.png",
+        "codes": "monster_tome"
+    },
+    {
+        "name": "Fire Book",
+        "type": "toggle",
+        "img": "images/items/book_fire.png",
+        "codes": "book_fire"
+    },
+    {
+        "name": "Ice Book",
+        "type": "toggle",
+        "img": "images/items/book_ice.png",
+        "codes": "book_ice"
+    },
+    {
+        "name": "Bolt Book",
+        "type": "toggle",
+        "img": "images/items/book_bolt.png",
+        "codes": "book_bolt"
+    },
+    {
+        "name": "Wind Book",
+        "type": "toggle",
+        "img": "images/items/book_wind.png",
+        "codes": "book_wind"
+    },
+    {
+        "name": "Summoning Tome",
+        "type": "toggle",
+        "img": "images/items/book_summoning.png",
+        "codes": "book_summoning"
+    },
+    {
+        "name": "Chandelier",
+        "type": "toggle",
+        "img": "images/items/collect_chandelier.png",
+        "codes": "collect_chandelier"
+    },
+    {
+        "name": "Tall Clock",
+        "type": "toggle",
+        "img": "images/items/collect_tallclock.png",
+        "codes": "collect_tallclock"
+    },
+    {
+        "name": "Bookshelf",
+        "type": "toggle",
+        "img": "images/items/collect_bookshelf.png",
+        "codes": "collect_bookshelf"
+    },
+    {
+        "name": "Old Radio",
+        "type": "toggle",
+        "img": "images/items/collect_oldradio.png",
+        "codes": "collect_oldradio"
+    },
+    {
+        "name": "Silver Dishes",
+        "type": "toggle",
+        "img": "images/items/collect_silverdishes.png",
+        "codes": "collect_silverdishes"
+    },
+    {
+        "name": "Antique Table",
+        "type": "toggle",
+        "img": "images/items/collect_antiquetable.png",
+        "codes": "collect_antiquetable"
+    },
+    {
+        "name": "Chair",
+        "type": "toggle",
+        "img": "images/items/collect_chair.png",
+        "codes": "collect_chair"
+    },
+    {
+        "name": "Rocking Chair",
+        "type": "toggle",
+        "img": "images/items/collect_rockingchair.png",
+        "codes": "collect_rockingchair"
+    },
+    {
+        "name": "Silk Curtain",
+        "type": "toggle",
+        "img": "images/items/collect_silkcurtain.png",
+        "codes": "collect_silkcurtain"
+    },
+    {
+        "name": "Ancient Urn",
+        "type": "toggle",
+        "img": "images/items/collect_ancienturn.png",
+        "codes": "collect_ancienturn"
+    },
+    {
+        "name": "Wizard Urn",
+        "type": "toggle",
+        "img": "images/items/collect_wizardurn.png",
+        "codes": "collect_wizardurn"
+    },
+    {
+        "name": "Pretty Vase",
+        "type": "toggle",
+        "img": "images/items/collect_prettyvase.png",
+        "codes": "collect_prettyvase"
+    },
+    {
+        "name": "Side Table",
+        "type": "toggle",
+        "img": "images/items/collect_sidetable.png",
+        "codes": "collect_sidetable"
+    },
+    {
+        "name": "Teacup",
+        "type": "toggle",
+        "img": "images/items/collect_teacup.png",
+        "codes": "collect_teacup"
+    },
+    {
+        "name": "Teapot",
+        "type": "toggle",
+        "img": "images/items/collect_teapot.png",
+        "codes": "collect_teapot"
+    },
+    {
+        "name": "Wine Glass",
+        "type": "toggle",
+        "img": "images/items/collect_wineglass.png",
+        "codes": "collect_wineglass"
+    },
+    {
+        "name": "Hero Statue",
+        "type": "toggle",
+        "img": "images/items/collect_herostatue.png",
+        "codes": "collect_herostatue"
+    },
+    {
+        "name": "Smiling Statue",
+        "type": "toggle",
+        "img": "images/items/collect_smilingstatue.png",
+        "codes": "collect_smilingstatue"
+    },
+    {
+        "name": "Sage Statue",
+        "type": "toggle",
+        "img": "images/items/collect_sagestatue.png",
+        "codes": "collect_sagestatue"
+    },
+    {
+        "name": "Raccoon Figure",
+        "type": "toggle",
+        "img": "images/items/collect_raccoonfigure.png",
+        "codes": "collect_raccoonfigure"
+    },
+    {
+        "name": "Lucky Cat",
+        "type": "toggle",
+        "img": "images/items/collect_luckycat.png",
+        "codes": "collect_luckycat"
+    },
+    {
+        "name": "Phonograph",
+        "type": "toggle",
+        "img": "images/items/collect_phonograph.png",
+        "codes": "collect_phonograph"
+    },
+    {
+        "name": "Stuffed Stag",
+        "type": "toggle",
+        "img": "images/items/collect_stuffedstag.png",
+        "codes": "collect_stuffedstag"
+    },
+    {
+        "name": "Candleholder",
+        "type": "toggle",
+        "img": "images/items/collect_candleholder.png",
+        "codes": "collect_candleholder"
+    },
+    {
+        "name": "Candlestick",
+        "type": "toggle",
+        "img": "images/items/collect_candlestick.png",
+        "codes": "collect_candlestick"
+    },
+    {
+        "name": "Silver Trinket",
+        "type": "toggle",
+        "img": "images/items/collect_silvertrinket.png",
+        "codes": "collect_silvertrinket"
+    },
+    {
+        "name": "Gold Trinket",
+        "type": "toggle",
+        "img": "images/items/collect_goldtrinket.png",
+        "codes": "collect_goldtrinket"
+    },
+    {
+        "name": "Strange Mirror",
+        "type": "toggle",
+        "img": "images/items/collect_strangemirror.png",
+        "codes": "collect_strangemirror"
+    },
+    {
+        "name": "Castle Drawing",
+        "type": "toggle",
+        "img": "images/items/collect_castledrawing.png",
+        "codes": "collect_castledrawing"
+    },
+    {
+        "name": "King-Size Bed",
+        "type": "toggle",
+        "img": "images/items/collect_kingsizebed.png",
+        "codes": "collect_kingsizebed"
+    },
+    {
+        "name": "Closet",
+        "type": "toggle",
+        "img": "images/items/collect_closet.png",
+        "codes": "collect_closet"
+    }
+]

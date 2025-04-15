@@ -1,0 +1,155 @@
+[
+    {
+        "name": "Chapel of Dissonance A",
+        "children": [
+            {
+                "name": "Main Building Highest Tower - Left",
+                "access_rules": [
+                    "@ChapelOfDissonanceAMainBuilding,{}",
+                    "@ChapelOfDissonanceAMainBuilding,$jump"
+                ],
+                "sections": [
+                    {
+                        "name": "Life Max Up",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Castle A",
+                        "x": 672,
+                        "y": 52
+                    },
+                    {
+                        "map": "Chapel of Dissonance A",
+                        "x": 12,
+                        "y": 12
+                    }
+                ]
+            },
+            {
+                "name": "Main Building Highest Tower - Right",
+                "access_rules": [
+                    "@ChapelOfDissonanceAMainBuilding,{}",
+                    "@ChapelOfDissonanceAMainBuilding,$jump"
+                ],
+                "sections": [
+                    {
+                        "name": "Potion",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Castle A",
+                        "x": 692,
+                        "y": 52
+                    },
+                    {
+                        "map": "Chapel of Dissonance A",
+                        "x": 32,
+                        "y": 12
+                    }
+                ]
+            },
+            {
+                "name": "Main Building Central Stairs Ledge",
+                "access_rules": [
+                    "@ChapelOfDissonanceAMainBuilding"
+                ],
+                "sections": [
+                    {
+                        "name": "Emerald Cloak",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Castle A",
+                        "x": 692,
+                        "y": 92
+                    },
+                    {
+                        "map": "Chapel of Dissonance A",
+                        "x": 32,
+                        "y": 52
+                    }
+                ]
+            },
+            {
+                "name": "Main Building Middle Tower",
+                "access_rules": [
+                    "@ChapelOfDissonanceAMainBuilding,{}",
+                    "@ChapelOfDissonanceAMainBuilding,$fly"
+                ],
+                "sections": [
+                    {
+                        "name": "Eye of Vlad",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Castle A",
+                        "x": 712,
+                        "y": 72
+                    },
+                    {
+                        "map": "Chapel of Dissonance A",
+                        "x": 52,
+                        "y": 32
+                    }
+                ]
+            },
+            {
+                "name": "Main Building Lowest Tower",
+                "access_rules": [
+                    "@ChapelOfDissonanceAMainBuilding,{}",
+                    "@ChapelOfDissonanceAMainBuilding,$jump"
+                ],
+                "sections": [
+                    {
+                        "name": "Heart Max Up",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Castle A",
+                        "x": 732,
+                        "y": 92
+                    },
+                    {
+                        "map": "Chapel of Dissonance A",
+                        "x": 72,
+                        "y": 52
+                    }
+                ]
+            },
+            {
+                "name": "Walkway Passage",
+                "access_rules": [
+                    "@ChapelOfDissonanceAWalkwayPassage"
+                ],
+                "sections": [
+                    {
+                        "name": "Anti-venom",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Castle A",
+                        "x": 772,
+                        "y": 132
+                    },
+                    {
+                        "map": "Chapel of Dissonance A",
+                        "x": 92,
+                        "y": 92
+                    }
+                ]
+            }
+        ]
+    }
+]

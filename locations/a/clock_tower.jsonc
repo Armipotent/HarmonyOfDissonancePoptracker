@@ -1,0 +1,319 @@
+[
+    {
+        "name": "Clock Tower A",
+        "children": [
+            {
+                "name": "West Entrance Shaft Bottom",
+                "access_rules": [
+                    "@ClockTowerAWestEntranceShaft"
+                ],
+                "sections": [
+                    {
+                        "name": "Bagonette",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Castle A",
+                        "x": 952,
+                        "y": 292
+                    },
+                    {
+                        "map": "Clock Tower A",
+                        "x": 12,
+                        "y": 152
+                    }
+                ]
+            },
+            {
+                "name": "Medusa's Home Attic",
+                "access_rules": [
+                    "@ClockTowerAMedusaHomeAttic"
+                ],
+                "sections": [
+                    {
+                        "name": "Hint Card 4",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Castle A",
+                        "x": 972,
+                        "y": 192
+                    },
+                    {
+                        "map": "Clock Tower A",
+                        "x": 32,
+                        "y": 52
+                    }
+                ]
+            },
+            {
+                "name": "Attic Engine Room",
+                "access_rules": [
+                    "@ClockTowerAAtticEngineRoom"
+                ],
+                "sections": [
+                    {
+                        "name": "Life Max Up",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Castle A",
+                        "x": 992,
+                        "y": 212
+                    },
+                    {
+                        "map": "Clock Tower A",
+                        "x": 52,
+                        "y": 72
+                    }
+                ]
+            },
+            {
+                "name": "Above Grandfather Ruler",
+                "access_rules": [
+                    "@ClockTowerAAboveGrandfatherRuler"
+                ],
+                "sections": [
+                    {
+                        "name": "Scale Armor",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Castle A",
+                        "x": 1052,
+                        "y": 232
+                    },
+                    {
+                        "map": "Clock Tower A",
+                        "x": 112,
+                        "y": 92
+                    }
+                ]
+            },
+            {
+                "name": "Skull Painting Room Attic",
+                "access_rules": [
+                    "@ClockTowerASkullPaintingRoomAttic"
+                ],
+                "sections": [
+                    {
+                        "name": "Heart Max Up",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Castle A",
+                        "x": 972,
+                        "y": 312
+                    },
+                    {
+                        "map": "Clock Tower A",
+                        "x": 32,
+                        "y": 172
+                    }
+                ]
+            },
+            {
+                "name": "Flea Man Fleapit",
+                "access_rules": [
+                    "@ClockTowerAFleapit"
+                ],
+                "sections": [
+                    {
+                        "name": "Castle Map 3",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Castle A",
+                        "x": 972,
+                        "y": 292
+                    },
+                    {
+                        "map": "Clock Tower A",
+                        "x": 32,
+                        "y": 152
+                    }
+                ]
+            },
+            {
+                "name": "Bottom East Shaft White Dragon",
+                "access_rules": [
+                    "@ClockTowerAEastShaft"
+                ],
+                "sections": [
+                    {
+                        "name": "Antique Table",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Castle A",
+                        "x": 1092,
+                        "y": 292
+                    },
+                    {
+                        "map": "Clock Tower A",
+                        "x": 152,
+                        "y": 152
+                    }
+                ]
+            },
+            {
+                "name": "Guardian Grinder",
+                "access_rules": [
+                    "@ClockTowerAGuardianGrinder"
+                ],
+                "sections": [
+                    {
+                        "name": "Far-Left (Guardian Glove)",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Mid-Left (Guardian Boots)",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Mid-Right (Guardian Helm)",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Far-Right (Guardian Armor)",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Castle A",
+                        "x": 1172,
+                        "y": 232
+                    },
+                    {
+                        "map": "Clock Tower A",
+                        "x": 232,
+                        "y": 92
+                    }
+                ]
+            },
+            {
+                "name": "Max Slimer's Feathery Friends",
+                "access_rules": [
+                    "@ClockTowerAAboveMaxSlimer"
+                ],
+                "sections": [
+                    {
+                        "name": "Green Stone",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Castle A",
+                        "x": 1092,
+                        "y": 172
+                    },
+                    {
+                        "map": "Clock Tower A",
+                        "x": 152,
+                        "y": 32
+                    }
+                ]
+            },
+            {
+                "name": "Pinball Zone End",
+                "access_rules": [
+                    "@ClockTowerAPinball,$kind_jump,lizard_tail"
+                ],
+                "sections": [
+                    {
+                        "name": "Bottom-Left (Lucky Cat)",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Top (Bolt Book)",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Middle (Life Max Up)",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Bottom Right (Heart Max Up)",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Castle A",
+                        "x": 1172,
+                        "y": 412
+                    },
+                    {
+                        "map": "Clock Tower A",
+                        "x": 232,
+                        "y": 272
+                    }
+                ]
+            },
+            {
+                "name": "Pinball Zone Illusory Crawlspace",
+                "access_rules": [
+                    "@ClockTowerAPinballCrawlspace"
+                ],
+                "sections": [
+                    {
+                        "name": "Fang of Vlad",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Castle A",
+                        "x": 1032,
+                        "y": 472
+                    },
+                    {
+                        "map": "Clock Tower A",
+                        "x": 92,
+                        "y": 332
+                    }
+                ]
+            },
+            {
+                "name": "Slab Room",
+                "access_rules": [
+                    "@ClockTowerASlabRoomWest"
+                ],
+                "sections": [
+                    {
+                        "name": "Slab Activated",
+                        "hosted_item": "clock_a_slab"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Castle A",
+                        "x": 992,
+                        "y": 292
+                    },
+                    {
+                        "map": "Clock Tower A",
+                        "x": 52,
+                        "y": 152
+                    }
+                ]
+            }
+        ]
+    }
+]

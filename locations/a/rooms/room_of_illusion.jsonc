@@ -1,0 +1,36 @@
+[
+    {
+        "name": "RoomOfIllusionALizardManTurf",
+        "access_rules": [
+            "@MarbleCorridorADescentOfIllusion"
+        ]
+    },
+    {
+        "name": "RoomOfIllusionALavaFlowChamber",
+        "access_rules": [
+            "@MarbleCorridorADescentOfIllusion",
+            "@RoomOfIllusionAAcidTripRoom"
+        ]
+    },
+    {
+        "name": "RoomOfIllusionAAcidTripRoom",
+        "access_rules": [
+            "@RoomOfIllusionALavaFlowChamber",
+            "@RoomOfIllusionACrawlspaceToTheOtherWorld,lizard_tail"
+        ]
+    },
+    {
+        "name": "RoomOfIllusionACrawlspaceToTheOtherWorld",
+        "access_rules": [
+            "@RoomOfIllusionAAcidTripRoom,lizard_tail",
+            "@RoomOfIllusionAConnectingPortal"
+        ]
+    },
+    {
+        "name": "RoomOfIllusionAConnectingPortal",
+        "access_rules": [
+            "@RoomOfIllusionACrawlspaceToTheOtherWorld",
+            "@CastleTreasuryBConnectingPortal"
+        ]
+    }
+]

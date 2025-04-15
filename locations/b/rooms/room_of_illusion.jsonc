@@ -1,0 +1,28 @@
+[
+    {
+        "name": "RoomOfIllusionBBattlegroundsOfManyVictories",
+        "access_rules": [
+            "@MarbleCorridorBDescentOfIllusion"
+        ]
+    },
+    {
+        "name": "RoomOfIllusionBLavaFlowChamber",
+        "access_rules": [
+            "@MarbleCorridorBDescentOfIllusion",
+            "@RoomOfIllusionBUnderside"
+        ]
+    },
+    {
+        "name": "RoomOfIllusionBUnderside",
+        "access_rules": [
+            "@RoomOfIllusionBLavaFlowChamber",
+            "@RoomOfIllusionBSprigganIntoAction"
+        ]
+    },
+    {
+        "name": "RoomOfIllusionBSprigganIntoAction",
+        "access_rules": [
+            "@RoomOfIllusionBUnderside"
+        ]
+    }
+]

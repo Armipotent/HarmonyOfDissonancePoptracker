@@ -1,0 +1,127 @@
+[
+    {
+        "name": "Aqueduct of Dragons B",
+        "children": [
+            {
+                "name": "Luminous Cavern Shortcut",
+                "access_rules": [
+                    "@AqueductOfDragonsBCrushableEntrance"
+                ],
+                "sections": [
+                    {
+                        "name": "Earth Ring",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Castle B",
+                        "x": 812,
+                        "y": 472
+                    },
+                    {
+                        "map": "Aqueduct of Dragons B",
+                        "x": 72,
+                        "y": 172
+                    }
+                ]
+            },
+            {
+                "name": "Goddess's Illusory Wall",
+                "access_rules": [
+                    "@AqueductOfDragonsBIllusoryWallRoom,$jump"
+                ],
+                "sections": [
+                    {
+                        "name": "Life Max Up",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Castle B",
+                        "x": 752,
+                        "y": 432
+                    },
+                    {
+                        "map": "Aqueduct of Dragons B",
+                        "x": 12,
+                        "y": 132
+                    }
+                ]
+            },
+            {
+                "name": "Dry Pipe Shaft",
+                "access_rules": [
+                    "@AqueductOfDragonsBDryPipeShaft"
+                ],
+                "sections": [
+                    {
+                        "name": "Uncurse Potion",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Castle B",
+                        "x": 832,
+                        "y": 392
+                    },
+                    {
+                        "map": "Aqueduct of Dragons B",
+                        "x": 92,
+                        "y": 92
+                    }
+                ]
+            },
+            {
+                "name": "West Zombie Zone",
+                "access_rules": [
+                    "@AqueductOfDragonsBWestZombieZone"
+                ],
+                "sections": [
+                    {
+                        "name": "Elixir",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Castle B",
+                        "x": 792,
+                        "y": 372
+                    },
+                    {
+                        "map": "Aqueduct of Dragons B",
+                        "x": 52,
+                        "y": 72
+                    }
+                ]
+            },
+            {
+                "name": "East Zombie Zone",
+                "access_rules": [
+                    "@AqueductOfDragonsBEastZombieZone"
+                ],
+                "sections": [
+                    {
+                        "name": "Life Max Up",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Castle B",
+                        "x": 992,
+                        "y": 372
+                    },
+                    {
+                        "map": "Aqueduct of Dragons B",
+                        "x": 252,
+                        "y": 72
+                    }
+                ]
+            }
+        ]
+    }
+]

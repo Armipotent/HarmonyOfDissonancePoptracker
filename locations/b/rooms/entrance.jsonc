@@ -1,0 +1,143 @@
+[
+    {
+        "name": "OutsideCastleB",
+        "access_rules": [
+            "@EntranceBObservationTower,$griffin_crush",
+            "@EntranceBBreakableRoom"
+        ]
+    },
+    {
+        "name": "EntranceBObservationTower",
+        "access_rules": [
+            "@OutsideCastleB,$griffin_crush",
+            "@EntranceBObservationTowerAtlasChamber"
+        ]
+    },
+    {
+        "name": "EntranceBObservationTowerAtlasChamber",
+        "access_rules": [
+            "@EntranceBObservationTower"
+        ]
+    },
+    {
+        "name": "EntranceBBreakableRoom",
+        "access_rules": [
+            "@OutsideCastleB",
+            "@EntranceBBatsHall",
+            "@EntranceBToShrine"
+        ]
+    },
+    {
+        "name": "EntranceBToShrine",
+        "access_rules": [
+            "@EntranceBBreakableRoom",
+            "@EntranceBDoubleHangmanHall",
+            "@EntranceBSecretSkeletalPassageTop",
+            "@ShrineOfTheApostatesBBeforeCyclops"
+        ]
+    },
+    {
+        "name": "EntranceBDoubleHangmanHall",
+        "access_rules": [
+            "@EntranceBToShrine",
+            "@EntranceBDoubleHangmanPatio"
+        ]
+    },
+    {
+        "name": "EntranceBDoubleHangmanPatio",
+        "access_rules": [
+            "@EntranceBDoubleHangmanHall"
+        ]
+    },
+    {
+        "name": "EntranceBBatsHall",
+        "access_rules": [
+            "@EntranceBBreakableRoom",
+            "@EntranceBSeaChickenChamber"
+        ]
+    },
+    {
+        "name": "EntranceBSeaChickenChamber",
+        "access_rules": [
+            "@EntranceBBatsHall",
+            "@EntranceBLowerGuardHall"
+        ]
+    },
+    {
+        "name": "EntranceBLowerGuardHall",
+        "access_rules": [
+            "@EntranceBSeaChickenChamber",
+            "@EntranceBUpperGuardHall",
+            "@EntranceBSaveRoom",
+            "@MarbleCorridorBToEntrance"
+        ]
+    },
+    {
+        "name": "EntranceBSaveRoom",
+        "access_rules": [
+            "@EntranceBLowerGuardHall"
+        ]
+    },
+    {
+        "name": "EntranceBUpperGuardHall",
+        "access_rules": [
+            "@EntranceBToUpperWarpRoom"
+        ]
+    },
+    {
+        "name": "EntranceBToUpperWarpRoom",
+        "access_rules": [
+            "@EntranceBUpperGuardHall",
+            "@EntranceBUpperFloorWarpRoom",
+            "@EntranceBWarpedWineCellar"
+        ]
+    },
+    {
+        "name": "EntranceBUpperFloorWarpRoom",
+        "access_rules": [
+            "@EntranceBToUpperWarpRoom,$fly",
+            "@EntranceAUpperFloorWarpRoom,bracelet_jb"
+        ]
+    },
+    {
+        "name": "EntranceBWarpedWineCellar",
+        "access_rules": [
+            "@EntranceBToUpperWarpRoom,$fly"
+        ]
+    },
+    {
+        "name": "EntranceBSecretSkeletalPassageTop",
+        "access_rules": [
+            "@EntranceBToShrine",
+            "@EntranceBSecretSkeletalPassageBottom,crush_stone,$fly"
+        ]
+    },
+    {
+        "name": "EntranceBSecretSkeletalPassageBottom",
+        "access_rules": [
+            "@EntranceBSecretSkeletalPassageTop,crush_stone,$fly",
+            "@EntranceBSecretSkeletalPassageWarpRoom",
+            "@EntranceBSecretSkeletalPassageSave",
+            "@EntranceBSecretSkeletalPassageShop",
+            "@SkeletonCaveBCastleEntranceAscentPoint,crush_stone,$jump"
+        ]
+    },
+    {
+        "name": "EntranceBSecretSkeletalPassageWarpRoom",
+        "access_rules": [
+            "@EntranceBSecretSkeletalPassageBottom,key_lure"
+        ]
+    },
+    {
+        "name": "EntranceBSecretSkeletalPassageSave",
+        "access_rules": [
+            "@EntranceBSecretSkeletalPassageBottom"
+        ]
+    },
+    {
+        "name": "EntranceBSecretSkeletalPassageShop",
+        "access_rules": [
+            "@EntranceBSecretSkeletalPassageBottom"
+        ]
+    }
+]

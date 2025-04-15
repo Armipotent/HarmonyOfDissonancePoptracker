@@ -1,0 +1,131 @@
+[
+    {
+        "name": "Marble Corridor B",
+        "children": [
+            {
+                "name": "Lizard Family Reunion",
+                "access_rules": [
+                    "@MarbleCorridorBPushCrateStorage"
+                ],
+                "sections": [
+                    {
+                        "name": "Life Max Up",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Castle B",
+                        "x": 192,
+                        "y": 212
+                    },
+                    {
+                        "map": "Marble Corridor B",
+                        "x": 12,
+                        "y": 12
+                    }
+                ]
+            },
+            {
+                "name": "Save Secret Crawlspace",
+                "access_rules": [
+                    "@MarbleCorridorBSaveSecretCrawlspace"
+                ],
+                "sections": [
+                    {
+                        "name": "Twilight Cloak",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Castle B",
+                        "x": 392,
+                        "y": 212
+                    },
+                    {
+                        "map": "Marble Corridor B",
+                        "x": 212,
+                        "y": 12
+                    }
+                ]
+            },
+            {
+                "name": "East Uncommon Room",
+                "access_rules": [
+                    "@MarbleCorridorBEastCommonRoom"
+                ],
+                "sections": [
+                    {
+                        "name": "High Potion",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Castle B",
+                        "x": 452,
+                        "y": 232
+                    },
+                    {
+                        "map": "Marble Corridor B",
+                        "x": 272,
+                        "y": 32
+                    }
+                ]
+            },
+            {
+                "name": "Flea Man Armory",
+                "access_rules": [
+                    "@MarbleCorridorBGrandStaircase"
+                ],
+                "sections": [
+                    {
+                        "name": "Viking Helmet",
+                        "item_count": 1,
+                        "access_rules": [
+                            "{}",
+                            "$fly"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Castle B",
+                        "x": 532,
+                        "y": 212
+                    },
+                    {
+                        "map": "Marble Corridor B",
+                        "x": 352,
+                        "y": 12
+                    }
+                ]
+            },
+            {
+                "name": "0 Hope of Victory Hall",
+                "access_rules": [
+                    "@MarbleCorridorBNoHopeOfVictoryHall"
+                ],
+                "sections": [
+                    {
+                        "name": "Heart Max Up",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Castle B",
+                        "x": 592,
+                        "y": 232
+                    },
+                    {
+                        "map": "Marble Corridor B",
+                        "x": 412,
+                        "y": 32
+                    }
+                ]
+            }
+        ]
+    }
+]

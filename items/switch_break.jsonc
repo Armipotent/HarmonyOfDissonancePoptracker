@@ -1,0 +1,62 @@
+[
+    {
+        "name": "Shrine Of The Apostates A Switch",
+        "type": "toggle",
+        "img": "images/items/shrine_a_slab.png",
+        "codes": "shrine_a_slab"
+    },
+    {
+        "name": "Luminous Cavern B Switch",
+        "type": "toggle",
+        "img": "images/items/luminous_b_slab.png",
+        "codes": "luminous_b_slab"
+    },
+    {
+        "name": "Luminous Cavern A Breakable",
+        "type": "toggle",
+        "img": "images/items/luminous_a_breakable.png",
+        "codes": "luminous_a_breakable"
+    },
+    {
+        "name": "Luminous Cavern A Floodgate Key Insertion",
+        "type": "toggle",
+        "img": "images/items/luminous_a_floodgate.png",
+        "codes": "luminous_a_floodgate"
+    },
+    {
+        "name": "Sky Walkway B Breakable",
+        "type": "toggle",
+        "img": "images/items/walkway_b_breakable.png",
+        "codes": "walkway_b_breakable"
+    },
+    {
+        "name": "Clock Tower A Switch",
+        "type": "toggle",
+        "img": "images/items/clock_a_slab.png",
+        "codes": "clock_a_slab"
+    },
+    {
+        "name": "Clock Tower B Bronze Guard",
+        "type": "toggle",
+        "img": "images/items/clock_b_guard.png",
+        "codes": "clock_b_guard"
+    },
+    {
+        "name": "Clock Tower B Crankshaft",
+        "type": "toggle",
+        "img": "images/items/clock_b_crankshaft.png",
+        "codes": "clock_b_crankshaft"
+    },
+    {
+        "name": "Castle Top Floor A Handy Statue",
+        "type": "toggle",
+        "img": "images/items/top_a_hand.png",
+        "codes": "top_a_hand"
+    },
+    {
+        "name": "Castle Top Floor A Switch",
+        "type": "toggle",
+        "img": "images/items/top_a_slab.png",
+        "codes": "top_a_slab"
+    }
+]

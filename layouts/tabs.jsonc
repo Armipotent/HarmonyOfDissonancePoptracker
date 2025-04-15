@@ -1,0 +1,596 @@
+{
+    "tabbed_maps_horizontal": {
+        "type": "tabbed",
+        "tabs": [
+            {
+                "title": "Full View",
+                "content": {
+                    "type": "map",
+                    "maps": [
+                        "Castle A",
+                        "Castle B"
+                    ]
+                }
+            },
+            {
+                "title": "Castle A",
+                "content": {
+                    "type": "tabbed",
+                    "tabs": [
+                        {
+                            "title": "Full View",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "Castle A"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "Entrance",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "Entrance A"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "Marble Corridor",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "Marble Corridor A"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "The Wailing Way",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "The Wailing Way A"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "Shrine of the Apostates",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "Shrine of the Apostates A"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "Room of Illusion",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "Room of Illusion A"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "Castle Treasury",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "Castle Treasury A"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "Skeleton Cave",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "Skeleton Cave A"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "Luminous Cavern",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "Luminous Cavern A"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "Sky Walkway",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "Sky Walkway A"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "Chapel of Dissonance",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "Chapel of Dissonance A"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "Clock Tower",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "Clock Tower A"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "Aqueduct of Dragons",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "Aqueduct of Dragons A"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "Castle Top Floor",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "Castle Top Floor A"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "title": "Castle B",
+                "content": {
+                    "type": "tabbed",
+                    "tabs": [
+                        {
+                            "title": "Full View",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "Castle B"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "Entrance",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "Entrance B"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "Marble Corridor",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "Marble Corridor B"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "The Wailing Way",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "The Wailing Way B"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "Shrine of the Apostates",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "Shrine of the Apostates B"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "Room of Illusion",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "Room of Illusion B"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "Castle Treasury",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "Castle Treasury B"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "Skeleton Cave",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "Skeleton Cave B"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "Luminous Cavern",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "Luminous Cavern B"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "Sky Walkway",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "Sky Walkway B"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "Chapel of Dissonance",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "Chapel of Dissonance B"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "Clock Tower",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "Clock Tower B"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "Aqueduct of Dragons",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "Aqueduct of Dragons B"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "Castle Top Floor",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "Castle Top Floor B"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    "tabbed_maps_vertical": {
+        "type": "tabbed",
+        "tabs": [
+            {
+                "title": "Full View",
+                "content": {
+                    "type": "array",
+                    "content": [
+                        {
+                            "type": "map",
+                            "maps": [
+                                "Castle A"
+                            ]
+                        },
+                        {
+                            "type": "map",
+                            "maps": [
+                                "Castle B"
+                            ]
+                        }
+                    ]
+                }
+            },
+            {
+                "title": "Castle A",
+                "content": {
+                    "type": "tabbed",
+                    "tabs": [
+                        {
+                            "title": "Full View",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "Castle A"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "Entrance",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "Entrance A"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "Marble Corridor",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "Marble Corridor A"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "The Wailing Way",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "The Wailing Way A"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "Shrine of the Apostates",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "Shrine of the Apostates A"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "Room of Illusion",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "Room of Illusion A"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "Castle Treasury",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "Castle Treasury A"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "Skeleton Cave",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "Skeleton Cave A"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "Luminous Cavern",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "Luminous Cavern A"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "Sky Walkway",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "Sky Walkway A"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "Chapel of Dissonance",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "Chapel of Dissonance A"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "Castle Top Floor",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "Castle Top Floor A"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "Clock Tower",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "Clock Tower A"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "Aqueduct of Dragons",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "Aqueduct of Dragons A"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "Castle Top Floor",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "Castle Top Floor A"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "title": "Castle B",
+                "content": {
+                    "type": "tabbed",
+                    "tabs": [
+                        {
+                            "title": "Full View",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "Castle B"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "Entrance",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "Entrance B"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "Marble Corridor",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "Marble Corridor B"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "The Wailing Way",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "The Wailing Way B"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "Shrine of the Apostates",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "Shrine of the Apostates B"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "Room of Illusion",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "Room of Illusion B"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "Castle Treasury",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "Castle Treasury B"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "Skeleton Cave",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "Skeleton Cave B"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "Luminous Cavern",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "Luminous Cavern B"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "Sky Walkway",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "Sky Walkway B"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "Chapel of Dissonance",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "Chapel of Dissonance B"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "Castle Top Floor",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "Castle Top Floor B"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "Clock Tower",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "Clock Tower B"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "Aqueduct of Dragons",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "Aqueduct of Dragons B"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "Castle Top Floor",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "Castle Top Floor B"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            }
+        ]
+    }
+}

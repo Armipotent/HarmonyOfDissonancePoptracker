@@ -1,0 +1,52 @@
+[
+    {
+        "name": "TheWailingWayBMarbleCorridorExit",
+        "access_rules": [
+            "@MarbleCorridorBWailingExit",
+            "@TheWailingWayBGryffinCrossroads"
+        ]
+    },
+    {
+        "name": "TheWailingWayBGryffinCrossroads",
+        "access_rules": [
+            "@TheWailingWayBMarbleCorridorExit",
+            "@TheWailingWayBSilentStairs",
+            "@TheWailingWayBDesertedCemetary",
+            "@TheWailingWayBShrineExit"
+        ]
+    },
+    {
+        "name": "TheWailingWayBSilentStairs",
+        "access_rules": [
+            "@TheWailingWayBGryffinCrossroads",
+            "@TheWailingWayBContortedPantsRoom"
+        ]
+    },
+    {
+        "name": "TheWailingWayBContortedPantsRoom", // HUH????
+        "access_rules": [
+            "@TheWailingWayBSilentStairs"
+        ]
+    },
+    {
+        "name": "TheWailingWayBDesertedCemetary",
+        "access_rules": [
+            "@TheWailingWayBGryffinCrossroads",
+            "@TheWailingWayBLoneLizard"
+        ]
+    },
+    {
+        "name": "TheWailingWayBLoneLizard",
+        "access_rules": [
+            "@TheWailingWayBDesertedCemetary",
+            //"@CastleTreasuryBEntrance,key_skull"
+        ]
+    },
+    {
+        "name": "TheWailingWayBShrineExit",
+        "access_rules": [
+            "@TheWailingWayBGryffinCrossroads",
+            //"@ShrineOfTheApostatesBWailingExit"
+        ]
+    }
+]

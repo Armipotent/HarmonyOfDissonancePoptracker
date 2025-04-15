@@ -1,0 +1,145 @@
+[
+    {
+        "name": "OutsideCastleA",
+        "access_rules": [
+            "",
+            "@EntranceAGatehouseTower",
+            "@EntranceABreakableRoom"
+        ]
+    },
+    {
+        "name": "EntranceAGatehouseTower",
+        "access_rules": [
+            "@OutsideCastleA",
+            "@EntranceAGatehouseTowerBreakRoom"
+        ]
+    },
+    {
+        "name": "EntranceAGatehouseTowerBreakRoom",
+        "access_rules": [
+            "@EntranceAGatehouseTower,$griffin_crush"
+        ]
+    },
+    {
+        "name": "EntranceABreakableRoom",
+        "access_rules": [
+            "@OutsideCastleA",
+            "@EntranceABatsHall",
+            "@EntranceAToShrine"
+        ]
+    },
+    {
+        "name": "EntranceAToShrine",
+        "access_rules": [
+            "@EntranceABreakableRoom",
+            "@EntranceAHangmansHall",
+            "@EntranceASubterraneanShaftTop",
+            "@ShrineOfTheApostatesABehindLivingArmor"//,shrine_a_slab"
+        ]
+    },
+    {
+        "name": "EntranceAHangmansHall",
+        "access_rules": [
+            "@EntranceAToShrine",
+            "@EntranceAHangmansBalcony"
+        ]
+    },
+    {
+        "name": "EntranceAHangmansBalcony",
+        "access_rules": [
+            "@EntranceAHangmansHall"
+        ]
+    },
+    {
+        "name": "EntranceABatsHall",
+        "access_rules": [
+            "@EntranceABreakableRoom",
+            "@EntranceASeaChickenChamber"
+        ]
+    },
+    {
+        "name": "EntranceASeaChickenChamber",
+        "access_rules": [
+            "@EntranceABatsHall",
+            "@EntranceALowerGuardHall"
+        ]
+    },
+    {
+        "name": "EntranceALowerGuardHall",
+        "access_rules": [
+            "@EntranceASeaChickenChamber",
+            "@EntranceAUpperGuardHall",
+            "@EntranceASaveRoom",
+            "@MarbleCorridorAToEntrance"
+        ]
+    },
+    {
+        "name": "EntranceASaveRoom",
+        "access_rules": [
+            "@EntranceALowerGuardHall"
+        ]
+    },
+    {
+        "name": "EntranceAUpperGuardHall",
+        "access_rules": [
+            "@EntranceALowerGuardHall",
+            "@EntranceAToUpperWarpRoom"
+        ]
+    },
+    {
+        "name": "EntranceAToUpperWarpRoom",
+        "access_rules": [
+            "@EntranceAUpperGuardHall",
+            "@EntranceAUpperFloorWarpRoom",
+            "@EntranceAWarpWinery"
+        ]
+    },
+    {
+        "name": "EntranceAUpperFloorWarpRoom",
+        "access_rules": [
+            "@EntranceAToUpperWarpRoom,$fly",
+            "@EntranceBUpperFloorWarpRoom,bracelet_jb"
+        ]
+    },
+    {
+        "name": "EntranceAWarpWinery",
+        "access_rules": [
+            "@EntranceAToUpperWarpRoom,$fly"
+        ]
+    },
+    {
+        "name": "EntranceASubterraneanShaftTop",
+        "access_rules": [
+            "@EntranceAToShrine",
+            "@EntranceASubterraneanShaftBottom,crush_stone,$fly"
+        ]
+    },
+    {
+        "name": "EntranceASubterraneanShaftBottom",
+        "access_rules": [
+            "@EntranceASubterraneanShaftTop,crush_stone,$fly",
+            "@EntranceASubterraneanWarpRoom",
+            "@EntranceASubterraneanSave",
+            "@EntranceASubterraneanShop",
+            "@SkeletonCaveACrateBalancingActChamber,crush_stone,$jump"
+        ]
+    },
+    {
+        "name": "EntranceASubterraneanWarpRoom",
+        "access_rules": [
+            "@EntranceASubterraneanShaftBottom,key_lure"
+        ]
+    },
+    {
+        "name": "EntranceASubterraneanSave",
+        "access_rules": [
+            "@EntranceASubterraneanShaftBottom"
+        ]
+    },
+    {
+        "name": "EntranceASubterraneanShop",
+        "access_rules": [
+            "@EntranceASubterraneanShaftBottom"
+        ]
+    }
+]

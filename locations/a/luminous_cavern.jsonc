@@ -1,0 +1,334 @@
+[
+    {
+        "name": "Luminous Cavern A",
+        "children": [
+            {
+                "name": "Near Aqueduct Exit",
+                "access_rules": [
+                    "@LuminousCavernANearAqueductExit"
+                ],
+                "sections": [
+                    {
+                        "name": "Drumstick",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Castle A",
+                        "x": 772,
+                        "y": 452
+                    },
+                    {
+                        "map": "Luminous Cavern A",
+                        "x": 152,
+                        "y": 12
+                    }
+                ]
+            },
+            {
+                "name": "Outside Destructible Wall Warp - Left",
+                "access_rules": [
+                    "@LuminousCavernAOutsideWarp"
+                ],
+                "sections": [
+                    {
+                        "name": "Heart Max Up",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Wall Broken",
+                        "hosted_item": "luminous_a_breakable",
+                        "access_rules": [
+                            "crush_stone"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Castle A",
+                        "x": 892,
+                        "y": 452
+                    },
+                    {
+                        "map": "Luminous Cavern A",
+                        "x": 272,
+                        "y": 12
+                    }
+                ]
+            },
+            {
+                "name": "Outside Destructible Wall Warp - Right",
+                "access_rules": [
+                    "@LuminousCavernAOutsideWarp"
+                ],
+                "sections": [
+                    {
+                        "name": "Full Helmet",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Castle A",
+                        "x": 912,
+                        "y": 452
+                    },
+                    {
+                        "map": "Luminous Cavern A",
+                        "x": 292,
+                        "y": 12
+                    }
+                ]
+            },
+            {
+                "name": "Beneath Hammer-Hammer's Home Shaft",
+                "access_rules": [
+                    "@LuminousCavernAShaftAfterTalos,$fly"
+                ],
+                "sections": [
+                    {
+                        "name": "Heart Max Up",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Castle A",
+                        "x": 992,
+                        "y": 472
+                    },
+                    {
+                        "map": "Luminous Cavern A",
+                        "x": 372,
+                        "y": 32
+                    }
+                ]
+            },
+            {
+                "name": "Behind Talos",
+                "access_rules": [
+                    "@LuminousCavernAShaftAfterTalos"
+                ],
+                "sections": [
+                    {
+                        "name": "Left (Life Max Up)",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Right (Heart Max Up)",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Castle A",
+                        "x": 992,
+                        "y": 512
+                    },
+                    {
+                        "map": "Luminous Cavern A",
+                        "x": 372,
+                        "y": 72
+                    }
+                ]
+            },
+            {
+                "name": "Hammer-Hammer's Home",
+                "access_rules": [
+                    "@LuminousCavernABehindHammerHammer"
+                ],
+                "sections": [
+                    {
+                        "name": "Skull Key",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Castle A",
+                        "x": 932,
+                        "y": 452
+                    },
+                    {
+                        "map": "Luminous Cavern A",
+                        "x": 312,
+                        "y": 12
+                    }
+                ]
+            },
+            {
+                "name": "Destructible Wall Warp Room",
+                "access_rules": [
+                    "@LuminousCavernAWarp"
+                ],
+                "sections": [
+                    {
+                        "name": "Platinum Crown",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Castle A",
+                        "x": 872,
+                        "y": 452
+                    },
+                    {
+                        "map": "Luminous Cavern A",
+                        "x": 252,
+                        "y": 12
+                    }
+                ]
+            },
+            {
+                "name": "Path To Floodgate",
+                "access_rules": [
+                    "@LuminousCavernAPathToFloodgate"
+                ],
+                "sections": [
+                    {
+                        "name": "Hint Card 1",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Castle A",
+                        "x": 812,
+                        "y": 532
+                    },
+                    {
+                        "map": "Luminous Cavern A",
+                        "x": 192,
+                        "y": 92
+                    }
+                ]
+            },
+            {
+                "name": "Death's Flooded Upper Cavern",
+                "access_rules": [
+                    "@LuminousCavernADeathsFloodedUpperCavern"
+                ],
+                "sections": [
+                    {
+                        "name": "Arm Plates",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Castle A",
+                        "x": 792,
+                        "y": 532
+                    },
+                    {
+                        "map": "Luminous Cavern A",
+                        "x": 172,
+                        "y": 112
+                    }
+                ]
+            },
+            {
+                "name": "Death's Flooded Lower Cavern",
+                "access_rules": [
+                    "@LuminousCavernADeathsFloodedLowerCavern"
+                ],
+                "sections": [
+                    {
+                        "name": "Leggings",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Castle A",
+                        "x": 712,
+                        "y": 572
+                    },
+                    {
+                        "map": "Luminous Cavern A",
+                        "x": 92,
+                        "y": 132
+                    }
+                ]
+            },
+            {
+                "name": "Dead End Chamber Above Talos",
+                "access_rules": [
+                    "@LuminousCavernADeadEndAboveTalos"
+                ],
+                "sections": [
+                    {
+                        "name": "Medicine Jar",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Castle A",
+                        "x": 932,
+                        "y": 492
+                    },
+                    {
+                        "map": "Luminous Cavern A",
+                        "x": 312,
+                        "y": 52
+                    }
+                ]
+            },
+            {
+                "name": "Behind Death",
+                "access_rules": [
+                    "@LuminousCavernABehindDeath"
+                ],
+                "sections": [
+                    {
+                        "name": "Griffin's Wing",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Castle A",
+                        "x": 732,
+                        "y": 552
+                    },
+                    {
+                        "map": "Luminous Cavern A",
+                        "x": 112,
+                        "y": 112
+                    }
+                ]
+            },
+            {
+                "name": "Floodgate",
+                "access_rules": [
+                    "@LuminousCavernAFloodgate"
+                ],
+                "sections": [
+                    {
+                        "name": "Key Inserted",
+                        "hosted_item": "luminous_a_floodgate",
+                        "access_rules": [
+                            "{}",
+                            "key_floodgate"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Castle A",
+                        "x": 812,
+                        "y": 572
+                    },
+                    {
+                        "map": "Luminous Cavern A",
+                        "x": 192,
+                        "y": 132
+                    }
+                ]
+            }
+        ]
+    }
+]

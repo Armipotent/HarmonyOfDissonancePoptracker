@@ -1,0 +1,126 @@
+[
+    {
+        "name": "MarbleCorridorAToEntrance",
+        "access_rules": [
+            "@EntranceALowerGuardHall",
+            "@MarbleCorridorADeathRoom"
+        ]
+    },
+    {
+        "name": "MarbleCorridorADeathRoom",
+        "access_rules": [
+            "@MarbleCorridorAToEntrance",
+            "@MarbleCorridorAWestCommonRoom"
+        ]
+    },
+    {
+        "name": "MarbleCorridorAWestCommonRoom",
+        "access_rules": [
+            "@MarbleCorridorADeathRoom",
+            "@MarbleCorridorADescentOfIllusion",
+            "@MarbleCorridorAPushCrateRoom",
+            "@MarbleCorridorAWindingStairs"
+        ]
+    },
+    {
+        "name": "MarbleCorridorADescentOfIllusion",
+        "access_rules": [
+            "@MarbleCorridorAWestCommonRoom",
+            "@RoomOfIllusionALizardManTurf",
+            "@RoomOfIllusionALavaFlowChamber"
+        ]
+    },
+    {
+        "name": "MarbleCorridorAPushCrateRoom",
+        "access_rules": [
+            "@MarbleCorridorAWestCommonRoom",
+            "@MarbleCorridorAPushCrateStorage"
+        ]
+    },
+    {
+        "name": "MarbleCorridorAPushCrateStorage",
+        "access_rules": [
+            "@MarbleCorridorAPushCrateRoom"
+        ]
+    },
+    {
+        "name": "MarbleCorridorAWindingStairs",
+        "access_rules": [
+            "@MarbleCorridorAWestCommonRoom",
+            "@MarbleCorridorABatHall"
+        ]
+    },
+    {
+        "name": "MarbleCorridorABatHall",
+        "access_rules": [
+            "@MarbleCorridorAWindingStairs",
+            "@MarbleCorridorAGiantBat",
+            "@MarbleCorridorACandleHall"
+        ]
+    },
+    {
+        "name": "MarbleCorridorACandleHall",
+        "access_rules": [
+            "@MarbleCorridorABatHall",
+            "@MarbleCorridorAEastCommonRoom",
+            "@MarbleCorridorASaveRoom",
+            "@MarbleCorridorASaveSlideHall"
+        ]
+    },
+    {
+        "name": "MarbleCorridorASaveRoom",
+        "access_rules": [
+            "@MarbleCorridorACandleHall"
+        ]
+    },
+    {
+        "name": "MarbleCorridorASaveSlideHall",
+        "access_rules": [
+            "@MarbleCorridorACandleHall",
+            "@MarbleCorridorASaveSlideStorage,lizard_tail"
+        ]
+    },
+    {
+        "name": "MarbleCorridorASaveSlideStorage",
+        "access_rules": [
+            "@MarbleCorridorASaveSlideHall,lizard_tail"
+        ]
+    },
+    {
+        "name": "MarbleCorridorAGiantBat",
+        "access_rules": [
+            "@MarbleCorridorABatHall",
+            "@MarbleCorridorAGiantBat"
+        ]
+    },
+    {
+        "name": "MarbleCorridorAEastCommonRoom",
+        "access_rules": [
+            "@MarbleCorridorAGiantBat",
+            "@MarbleCorridorACandleHall",
+            "@MarbleCorridorAGrandStaircase",
+            "@MarbleCorridorAWailingExit"
+        ]
+    },
+    {
+        "name": "MarbleCorridorAGrandStaircase",
+        "access_rules": [
+            "@MarbleCorridorAEastCommonRoom",
+            "@MarbleCorridorAHopeOfVictoryHall"
+        ]
+    },
+    {
+        "name": "MarbleCorridorAHopeOfVictoryHall",
+        "access_rules": [
+            "@MarbleCorridorAGrandStaircase",
+            "@CastleTopFloorACorridorGriffinPassage,key_skull"
+        ]
+    },
+    {
+        "name": "MarbleCorridorAWailingExit",
+        "access_rules": [
+            "@MarbleCorridorAEastCommonRoom",
+            "@TheWailingWayAMarbleCorridorExit"
+        ]
+    }
+]

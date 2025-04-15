@@ -1,0 +1,86 @@
+[
+    {
+        "name": "ShrineOfTheApostatesBWailingExit",
+        "access_rules": [
+            "@TheWailingWayBShrineExit",
+            "@ShrineOfTheApostatesBBoneRoomsUpper"
+        ]
+    },
+    {
+        "name": "ShrineOfTheApostatesBBoneRoomsUpper",
+        "access_rules": [
+            "@ShrineOfTheApostatesBWailingExit",
+            "@ShrineOfTheApostatesBBoneRoomsLower"
+        ]
+    },
+    {
+        "name": "ShrineOfTheApostatesBBoneRoomsLower",
+        "access_rules": [
+            "@ShrineOfTheApostatesBBoneRoomsUpper",
+            "@ShrineOfTheApostatesBBoneyStorerooms",
+            "@ShrineOfTheApostatesBSimonSaysSquare"
+        ]
+    },
+    {
+        "name": "ShrineOfTheApostatesBBoneyStorerooms",
+        "access_rules": [
+            "@ShrineOfTheApostatesBBoneRoomsLower",
+            "@ShrineOfTheApostatesBBouncingBoneZone"
+        ]
+    },
+    {
+        "name": "ShrineOfTheApostatesBBouncingBoneZone",
+        "access_rules": [
+            "@ShrineOfTheApostatesBBoneyStorerooms",
+            "@ShrineOfTheApostatesBBouncingBoneZoneCoffin"
+        ]
+    },
+    {
+        "name": "ShrineOfTheApostatesBBouncingBoneZoneCoffin",
+        "access_rules": [
+            "@ShrineOfTheApostatesBBouncingBoneZone"
+        ]
+    },
+    {
+        "name": "ShrineOfTheApostatesBSimonSaysSquare",
+        "access_rules": [
+            "@ShrineOfTheApostatesBBoneRoomsLower",
+            "@ShrineOfTheApostatesBLeftOwlHouse"
+        ]
+    },
+    {
+        "name": "ShrineOfTheApostatesBLeftOwlHouse",
+        "access_rules": [
+            "@ShrineOfTheApostatesBSimonSaysSquare",
+            "@ShrineOfTheApostatesBCyclopsSaveHall"
+        ]
+    },
+    {
+        "name": "ShrineOfTheApostatesBCyclopsSaveHall",
+        "access_rules": [
+            "@ShrineOfTheApostatesBLeftOwlHouse",
+            "@ShrineOfTheApostatesBCyclopsArena",
+            "@ShrineOfTheApostatesBSaveRoom"
+        ]
+    },
+    {
+        "name": "ShrineOfTheApostatesBSaveRoom",
+        "access_rules": [
+            "@ShrineOfTheApostatesBCyclopsSaveHall"
+        ]
+    },
+    {
+        "name": "ShrineOfTheApostatesBCyclopsArena",
+        "access_rules": [
+            "@ShrineOfTheApostatesBCyclopsSaveHall,[$hard_boss_check]",
+            "@ShrineOfTheApostatesBBeforeCyclops,[$hard_boss_check]"
+        ]
+    },
+    {
+        "name": "ShrineOfTheApostatesBBeforeCyclops",
+        "access_rules": [
+            "@ShrineOfTheApostatesBCyclopsArena",
+            "@EntranceBToShrine"
+        ]
+    }
+]

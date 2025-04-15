@@ -1,0 +1,37 @@
+[
+    {
+        "name": "ChapelOfDissonanceBToSkyWalkway",
+        "access_rules": [
+            "@SkyWalkwayBToChapelOfDissonance",
+            "@ChapelOfDissonanceBCorridorsOfFrighteningLightning"
+        ]
+    },
+    {
+        "name": "ChapelOfDissonanceBCorridorsOfFrighteningLightning",
+        "access_rules": [
+            "@ChapelOfDissonanceBToSkyWalkway",
+            "@ChapelOfDissonanceBArcherHall"
+        ]
+    },
+    {
+        "name": "ChapelOfDissonanceBArcherHall",
+        "access_rules": [
+            "@ChapelOfDissonanceBCorridorsOfFrighteningLightning",
+            "@ChapelOfDissonanceBWalkwayPassage"
+        ]
+    },
+    {
+        "name": "ChapelOfDissonanceBWalkwayPassage",
+        "access_rules": [
+            "@ChapelOfDissonanceBArcherHall",
+            "@ChapelOfDissonanceBMainConstruct"
+        ]
+    },
+    {
+        "name": "ChapelOfDissonanceBMainConstruct",
+        "access_rules": [
+            "@ChapelOfDissonanceBWalkwayPassage",
+            "@CastleTopFloorBFinalApproach,crush_stone"
+        ]
+    }
+]

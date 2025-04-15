@@ -1,0 +1,80 @@
+[
+    {
+        "name": "AqueductOfDragonsANorthwestEntrance",
+        "access_rules": [
+            "@SkyWalkwayALowerDarkHallway",
+            "@AqueductOfDragonsACandlePillarHall"
+        ]
+    },
+    {
+        "name": "AqueductOfDragonsACandlePillarHall",
+        "access_rules": [
+            "@AqueductOfDragonsANorthwestEntrance",
+            "@AqueductOfDragonsAMaraudingMermenTerritory"
+        ]
+    },
+    {
+        "name": "AqueductOfDragonsAMaraudingMermenTerritory",
+        "access_rules": [
+            "@AqueductOfDragonsACandlePillarHall",
+            "@AqueductOfDragonsABeforeGiantMerman",
+            "@AqueductOfDragonsAGuillotineCorridor",
+            "@AqueductOfDragonsASlimyPipe"
+        ]
+    },
+    {
+        "name": "AqueductOfDragonsABeforeGiantMerman",
+        "access_rules": [
+            "@AqueductOfDragonsAMaraudingMermenTerritory",
+            "@AqueductOfDragonsAGiantMermanArena"
+        ]
+    },
+    {
+        "name": "AqueductOfDragonsAGiantMermanArena",
+        "access_rules": [
+            "@AqueductOfDragonsABeforeGiantMerman,[$medium_boss_check]",
+            "@AqueductOfDragonsABehindGiantMerman,[$medium_boss_check]"
+        ]
+    },
+    {
+        "name": "AqueductOfDragonsABehindGiantMerman",
+        "access_rules": [
+            "@AqueductOfDragonsAGiantMermanArena",
+            "@ClockTowerABackdoorEntrance"
+        ]
+    },
+    {
+        "name": "AqueductOfDragonsAGuillotineCorridor",
+        "access_rules": [
+            "@AqueductOfDragonsAMaraudingMermenTerritory"
+        ]
+    },
+    {
+        "name": "AqueductOfDragonsASlimyPipe",
+        "access_rules": [
+            "@AqueductOfDragonsAMaraudingMermenTerritory",
+            "@AqueductOfDragonsASlimyPipeShaft"
+        ]
+    },
+    {
+        "name": "AqueductOfDragonsASlimyPipeShaft",
+        "access_rules": [
+            "@AqueductOfDragonsASlimyPipe",
+            "@AqueductOfDragonsAIllusoryWallRoom"
+        ]
+    },
+    {
+        "name": "AqueductOfDragonsAIllusoryWallRoom",
+        "access_rules": [
+            "@AqueductOfDragonsASlimyPipeShaft",
+            "@AqueductOfDragonsACrushableEntrance"
+        ]
+    },
+    {
+        "name": "AqueductOfDragonsACrushableEntrance",
+        "access_rules": [
+            "@AqueductOfDragonsAIllusoryWallRoom",
+            "@LuminousCavernAAqueductExit,$fly,crush_stone"
+        ]
+    }
+]
