@@ -86,11 +86,11 @@ function apply_slot_data(slot_data)
 	Tracker:FindObjectForCode("best_ending_setting").Active = slot_data["best_ending_required"]
 	Tracker:FindObjectForCode("furniture_setting").AcquiredCount = slot_data["furniture_amount_required"]
 	-- print(dump_table(slot_data,10))
-	if slot_data["spellbound_boss_logic"] == 1 then
-		Tracker:FindObjectForCode("spellbound").CurrentStage = 1
-	elseif slot_data["spellbound_boss_logic"] == 2 then
-		Tracker:FindObjectForCode("spellbound").CurrentStage = 2
-	end
+	-- if slot_data["spellbound_boss_logic"] == 1 then
+	-- 	Tracker:FindObjectForCode("spellbound").CurrentStage = 1
+	-- elseif slot_data["spellbound_boss_logic"] == 2 then
+	-- 	Tracker:FindObjectForCode("spellbound").CurrentStage = 2
+	-- end
 end
 
 -- called right after an AP slot is connected
