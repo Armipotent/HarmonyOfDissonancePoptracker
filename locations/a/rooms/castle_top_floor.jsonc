@@ -96,7 +96,7 @@
         "access_rules": [
             "@CastleTopFloorAAboveMinotaurCorridor",
             "@CastleTreasuryAEntrance,$jump",
-            "@CastleTopFloorACorridorGriffinPassage"
+            "@CastleTopFloorACorridorGriffinPassage,$fly"
         ]
     },
     {
