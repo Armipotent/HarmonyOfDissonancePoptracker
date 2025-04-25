@@ -48,7 +48,7 @@
                                 },
                                 {
                                     "type": "group",
-                                    "header": "Switches & Breakables",
+                                    "header": "Map Events",
                                     "dock": "top",
                                     "content": {
                                         "type": "layout",
@@ -120,7 +120,7 @@
                         },
                         {
                             "type": "group",
-                            "header": "Switches & Breakables",
+                            "header": "Map Events",
                             "dock": "left",
                             "margin": "0,0,3,0",
                             "content": {

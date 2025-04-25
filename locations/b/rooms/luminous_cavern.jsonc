@@ -2,7 +2,8 @@
     {
         "name": "LuminousCavernBToTreasury",
         "access_rules": [
-            "@CastleTreasuryBMinesToEverywhereElse",
+            "@CastleTreasuryBMinesToEverywhereElse,er_disabled",
+            "er_enabled,luminous_cavern_b_west_door",
             "@LuminousCavernBDevilsSCurve"
         ]
     },
@@ -33,7 +34,8 @@
         "name": "LuminousCavernBAqueductExit",
         "access_rules": [
             "@LuminousCavernBNearAqueductExit,$fly",
-            "@AqueductOfDragonsBCrushableEntrance,$fly"
+            "@AqueductOfDragonsBCrushableEntrance,$fly,er_disabled",
+            "er_enabled,luminous_cavern_b_north_door,$fly"
         ]
     },
     {

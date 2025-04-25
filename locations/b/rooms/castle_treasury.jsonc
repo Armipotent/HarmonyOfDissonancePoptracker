@@ -2,9 +2,11 @@
     {
         "name": "CastleTreasuryBEntrance",
         "access_rules": [
-            "@TheWailingWayBLoneLizard,key_skull",
-            "@CastleTopFloorBElevatorRoomStairs",
-            "@CastleTreasuryBEntranceToCenter"
+            "@TheWailingWayBLoneLizard,key_skull,er_disabled",
+            "er_enabled,castle_treasury_b_top_ceiling_transition",
+            "@CastleTopFloorBElevatorRoomStairs,er_disabled",
+            "er_enabled,castle_treasury_b_top_skull_door",
+            "@CastleTreasuryBEntranceToCenter,$jump"
         ]
     },
     {
@@ -38,8 +40,7 @@
     {
         "name": "CastleTreasuryBElevatorStairs",
         "access_rules": [
-            "@CastleTreasuryBUnguardedStairs,[]",
-            "@CastleTreasuryBUnguardedStairs,$jump",
+            "@CastleTreasuryBUnguardedStairs",
             "@CastleTreasuryBSunnyElevatorWarpRoom,key_lure",
             "@CastleTreasuryBMinesToCenter"
         ]
@@ -65,7 +66,8 @@
             "@CastleTreasuryBMinesToCenter",
             "@CastleTreasuryBJusteRoom",
             "@CastleTreasuryBSkeletonEntrance",
-            "@LuminousCavernBToTreasury"
+            "@LuminousCavernBToTreasury,er_disabled",
+            "er_enabled,castle_treasury_b_southeast_door"
         ]
     },
     {
@@ -78,7 +80,8 @@
         "name": "CastleTreasuryBSkeletonEntrance",
         "access_rules": [
             "@CastleTreasuryBMinesToEverywhereElse",
-            "@SkeletonCaveBStairsToTreasury"
+            "@SkeletonCaveBStairsToTreasury,er_disabled",
+            "er_enabled,castle_treasury_b_southwest_door"
         ]
     },
     {

@@ -3,7 +3,8 @@
         "name": "TheWailingWayBMarbleCorridorExit",
         "access_rules": [
             "@MarbleCorridorBWailingExit",
-            "@TheWailingWayBGryffinCrossroads"
+            "@TheWailingWayBGryffinCrossroads,er_disabled",
+            "er_enabled,the_wailing_way_b_north_door"
         ]
     },
     {
@@ -39,14 +40,16 @@
         "name": "TheWailingWayBLoneLizard",
         "access_rules": [
             "@TheWailingWayBDesertedCemetary",
-            //"@CastleTreasuryBEntrance,key_skull"
+            "@CastleTreasuryBEntrance,key_skull,er_disabled",
+            "er_enabled,the_wailing_way_b_east_skull_door"
         ]
     },
     {
         "name": "TheWailingWayBShrineExit",
         "access_rules": [
             "@TheWailingWayBGryffinCrossroads",
-            //"@ShrineOfTheApostatesBWailingExit"
+            "@ShrineOfTheApostatesBWailingExit,er_disabled",
+            "er_enabled,the_wailing_way_b_south_door"
         ]
     }
 ]

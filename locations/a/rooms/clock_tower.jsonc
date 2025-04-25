@@ -2,7 +2,8 @@
     {
         "name": "ClockTowerAWestEntranceShaft",
         "access_rules": [
-            "@SkyWalkwayAToClockTower",
+            "@SkyWalkwayAToClockTower,er_disabled",
+            "er_enabled,clock_tower_a_west_door",
             "@ClockTowerAMedusaHomeAttic",
             "@ClockTowerAAboveGrandfatherRuler",
             "@ClockTowerAWestOfGrandfatherRuler",
@@ -180,7 +181,8 @@
         "name": "ClockTowerABackdoorEntrance",
         "access_rules": [
             "@ClockTowerASlabRoomWest",
-            "@AqueductOfDragonsABehindGiantMerman",
+            "@AqueductOfDragonsABehindGiantMerman,er_disabled",
+            "er_enabled,clock_tower_a_southwest_door",
             "@ClockTowerASkullPaintingRoom"
         ]
     },

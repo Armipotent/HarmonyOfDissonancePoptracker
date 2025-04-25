@@ -21,8 +21,8 @@
                     },
                     {
                         "map": "Shrine of the Apostates A",
-                        "x": 232,
-                        "y": 32
+                        "x": 252,
+                        "y": 52
                     }
                 ]
             },
@@ -45,8 +45,8 @@
                     },
                     {
                         "map": "Shrine of the Apostates A",
-                        "x": 272,
-                        "y": 32
+                        "x": 292,
+                        "y": 52
                     }
                 ]
             },
@@ -69,8 +69,8 @@
                     },
                     {
                         "map": "Shrine of the Apostates A",
-                        "x": 292,
-                        "y": 32
+                        "x": 312,
+                        "y": 52
                     }
                 ]
             },
@@ -93,8 +93,8 @@
                     },
                     {
                         "map": "Shrine of the Apostates A",
-                        "x": 232,
-                        "y": 12
+                        "x": 252,
+                        "y": 32
                     }
                 ]
             },
@@ -117,8 +117,8 @@
                     },
                     {
                         "map": "Shrine of the Apostates A",
-                        "x": 32,
-                        "y": 32
+                        "x": 52,
+                        "y": 52
                     }
                 ]
             },
@@ -146,8 +146,8 @@
                     },
                     {
                         "map": "Shrine of the Apostates A",
-                        "x": 12,
-                        "y": 52
+                        "x": 32,
+                        "y": 72
                     }
                 ]
             },
@@ -171,8 +171,8 @@
                     },
                     {
                         "map": "Shrine of the Apostates A",
-                        "x": 272,
-                        "y": 52
+                        "x": 292,
+                        "y": 72
                     }
                 ]
             }

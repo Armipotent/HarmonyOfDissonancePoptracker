@@ -2,7 +2,8 @@
     {
         "name": "SkeletonCaveAStairsToTreasury",
         "access_rules": [
-            "@CastleTreasuryASkeletonEntrance",
+            "@CastleTreasuryASkeletonEntrance,er_disabled",
+            "er_enabled,skeleton_cave_a_east_door",
             "@SkeletonCaveAMedusasRemainsChamber"
         ]
     },
@@ -30,15 +31,14 @@
     {
         "name": "SkeletonCaveAFarRightPushCrateChallenge",
         "access_rules": [
-            "@SkeletonCaveAMedusasRemainsChamber",
+            "@SkeletonCaveAMedusasRemainsChamber,$jump",
             "@SkeletonCaveAOutsideSkeletonTestingChamber,$jump"
         ]
     },
     {
         "name": "SkeletonCaveAOutsideSkeletonTestingChamber",
         "access_rules": [
-            "@SkeletonCaveAFarRightPushCrateChallenge,[]", // can *technically* get there but you'll softlock if you aren't careful
-            "@SkeletonCaveAFarRightPushCrateChallenge,$jump",
+            "@SkeletonCaveAFarRightPushCrateChallenge",
             "@SkeletonCaveATestingChamber"
         ]
     },
@@ -137,7 +137,8 @@
         "name": "SkeletonCaveACrateBalancingActChamber",
         "access_rules": [
             "@SkeletonCaveAToCrateChamber",
-            "@EntranceASubterraneanShaftBottom"
+            "@EntranceASubterraneanShaftBottom,er_disabled",
+            "er_enabled,skeleton_cave_a_west_ceiling_transition"
         ]
     }
 ]

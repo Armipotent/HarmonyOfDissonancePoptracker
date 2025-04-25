@@ -54,5 +54,10 @@ Tracker:AddLocations("locations/b/aqueduct_of_dragons.jsonc")
 Tracker:AddLocations("locations/b/clock_tower.jsonc")
 Tracker:AddLocations("locations/b/castle_top_floor.jsonc")
 
+Tracker:AddLocations("locations/bosses.jsonc")
 Tracker:AddLocations("locations/connecting_portal.jsonc")
 Tracker:AddLocations("locations/endings.jsonc")
+
+-- Doors
+Tracker:AddLocations("locations/a/area_connection.jsonc")
+Tracker:AddLocations("locations/b/area_connection.jsonc")

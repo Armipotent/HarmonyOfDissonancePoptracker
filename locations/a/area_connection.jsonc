@@ -1,0 +1,1348 @@
+[
+    {
+        "name": "Area Connections A",
+        "visibility_rules": [
+            "er_enabled"
+        ],
+        "access_rules": [
+            "er_enabled"
+        ],
+        "children": [
+            // Single Entrances, in order of rough vanilla progression
+            {
+                "name": "Entrance A North Entrance",
+                "sections": [
+                    {
+                        "name": "Entrance A Top Door",
+                        "hosted_item": "entrance_a_top_door",
+                        "access_rules": [
+                            "[]",
+                            "@EntranceALowerGuardHall"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Entrance A",
+                        "shape": "diamond",
+                        "size": 16,
+                        "x": 202,
+                        "y": 52
+                    }
+                ]
+            },
+            {
+                "name": "Entrance A East Entrance",
+                "sections": [
+                    {
+                        "name": "Entrance A Bottom Door",
+                        "hosted_item": "entrance_a_bottom_door",
+                        "access_rules": [
+                            "[]",
+                            "@EntranceAToShrine"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Entrance A",
+                        "shape": "diamond",
+                        "size": 16,
+                        "x": 302,
+                        "y": 172
+                    }
+                ]
+            },
+            {
+                "name": "Entrance A South Entrance",
+                "sections": [
+                    {
+                        "name": "Entrance A South Floor Transition",
+                        "hosted_item": "entrance_a_bottom_floor",
+                        "access_rules": [
+                            "[]",
+                            "@EntranceASubterraneanShaftBottom"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Entrance A",
+                        "shape": "diamond",
+                        "size": 16,
+                        "x": 252,
+                        "y": 322
+                    }
+                ]
+            },
+            {
+                "name": "Marble Corridor A West Entrance",
+                "sections": [
+                    {
+                        "name": "Marble Corridor A West Door",
+                        "hosted_item": "marble_corridor_a_west_door",
+                        "access_rules": [
+                            "[]",
+                            "@MarbleCorridorAToEntrance"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Marble Corridor A",
+                        "shape": "diamond",
+                        "size": 16,
+                        "x": 22,
+                        "y": 72
+                    }
+                ]
+            },
+            {
+                "name": "Marble Corridor A Illusory Hall Left",
+                "sections": [
+                    {
+                        "name": "Marble Corridor A Illusory Left Entrance",
+                        "hosted_item": "marble_corridor_a_illusory_left_entrance",
+                        "access_rules": [
+                            "[]",
+                            "@MarbleCorridorADescentOfIllusion"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Marble Corridor A",
+                        "shape": "diamond",
+                        "size": 16,
+                        "x": 102,
+                        "y": 112
+                    }
+                ]
+            },
+            {
+                "name": "Marble Corridor A Illusory Hall Right",
+                "sections": [
+                    {
+                        "name": "Marble Corridor A Illusory Right Entrance",
+                        "hosted_item": "marble_corridor_a_illusory_right_entrance",
+                        "access_rules": [
+                            "[]",
+                            "@MarbleCorridorADescentOfIllusion"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Marble Corridor A",
+                        "shape": "diamond",
+                        "size": 16,
+                        "x": 122,
+                        "y": 112
+                    }
+                ]
+            },
+            {
+                "name": "Marble Corridor A East Entrance",
+                "sections": [
+                    {
+                        "name": "Marble Corridor A East Skull Door",
+                        "hosted_item": "marble_corridor_a_east_skull_door",
+                        "access_rules": [
+                            "[]",
+                            "@MarbleCorridorAHopeOfVictoryHall,key_skull"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Marble Corridor A",
+                        "shape": "diamond",
+                        "size": 16,
+                        "x": 442,
+                        "y": 52
+                    }
+                ]
+            },
+            {
+                "name": "Marble Corridor A Southeast Entrance",
+                "sections": [
+                    {
+                        "name": "Marble Corridor A Southeast Door",
+                        "hosted_item": "marble_corridor_a_southeast_door",
+                        "access_rules": [
+                            "[]",
+                            "@MarbleCorridorAWailingExit"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Marble Corridor A",
+                        "shape": "diamond",
+                        "size": 16,
+                        "x": 302,
+                        "y": 92
+                    }
+                ]
+            },
+            {
+                "name": "The Wailing Way A North Entrance",
+                "sections": [
+                    {
+                        "name": "The Wailing Way A North Door",
+                        "hosted_item": "the_wailing_way_a_north_door",
+                        "access_rules": [
+                            "[]",
+                            "@TheWailingWayAMarbleCorridorExit"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "The Wailing Way A",
+                        "shape": "diamond",
+                        "size": 16,
+                        "x": 142,
+                        "y": 32
+                    }
+                ]
+            },
+            {
+                "name": "The Wailing Way A East Entrance",
+                "sections": [
+                    {
+                        "name": "The Wailing Way A East Skull Door",
+                        "hosted_item": "the_wailing_way_a_east_skull_door",
+                        "access_rules": [
+                            "[]",
+                            "@TheWailingWayALoneLizard,key_skull"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "The Wailing Way A",
+                        "shape": "diamond",
+                        "size": 16,
+                        "x": 262,
+                        "y": 72
+                    }
+                ]
+            },
+            {
+                "name": "The Wailing Way A South Entrance",
+                "sections": [
+                    {
+                        "name": "The Wailing Way A South Door",
+                        "hosted_item": "the_wailing_way_a_south_door",
+                        "access_rules": [
+                            "[]",
+                            "@TheWailingWayAShrineExit"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "The Wailing Way A",
+                        "shape": "diamond",
+                        "size": 16,
+                        "x": 162,
+                        "y": 92
+                    }
+                ]
+            },
+            {
+                "name": "Shrine of the Apostates A North Entrance",
+                "sections": [
+                    {
+                        "name": "Shrine of the Apostates A North Door",
+                        "hosted_item": "shrine_of_the_apostates_a_north_door",
+                        "access_rules": [
+                            "[]",
+                            "@ShrineOfTheApostatesAWailingExit"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Shrine of the Apostates A",
+                        "shape": "diamond",
+                        "size": 16,
+                        "x": 222,
+                        "y": 32
+                    }
+                ]
+            },
+            {
+                "name": "Shrine of the Apostates A West Entrance",
+                "sections": [
+                    {
+                        "name": "Shrine of the Apostates A West Door",
+                        "hosted_item": "shrine_of_the_apostates_a_west_door",
+                        "access_rules": [
+                            "[]",
+                            "@ShrineOfTheApostatesABehindLivingArmor"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Shrine of the Apostates A",
+                        "shape": "diamond",
+                        "size": 16,
+                        "x": 22,
+                        "y": 72
+                    }
+                ]
+            },
+            {
+                "name": "Room of Illusion A West Entrance",
+                "sections": [
+                    {
+                        "name": "Room of Illusion A Lizard Entrance",
+                        "hosted_item": "room_of_illusion_a_lizard_entrance",
+                        "access_rules": [
+                            "[]",
+                            "@RoomOfIllusionALizardManTurf"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Room of Illusion A",
+                        "shape": "diamond",
+                        "size": 16,
+                        "x": 102,
+                        "y": 32
+                    }
+                ]
+            },
+            {
+                "name": "Room of Illusion A East Entrance",
+                "sections": [
+                    {
+                        "name": "Room of Illusion A Lava Flow Entrance",
+                        "hosted_item": "room_of_illusion_a_lava_flow_entrance",
+                        "access_rules": [
+                            "[]",
+                            "@RoomOfIllusionALavaFlowChamber"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Room of Illusion A",
+                        "shape": "diamond",
+                        "size": 16,
+                        "x": 122,
+                        "y": 32
+                    }
+                ]
+            },
+            {
+                "name": "Castle Treasury A North Ceiling",
+                "sections": [
+                    {
+                        "name": "Castle Treasury A Top Ceiling Transition",
+                        "hosted_item": "castle_treasury_a_top_ceiling_transition",
+                        "access_rules": [
+                            "[]",
+                            "@CastleTreasuryAEntrance"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Castle Treasury A",
+                        "shape": "diamond",
+                        "size": 16,
+                        "x": 372,
+                        "y": 22
+                    }
+                ]
+            },
+            {
+                "name": "Castle Treasury A North Door",
+                "sections": [
+                    {
+                        "name": "Castle Treasury A Top Skull Door",
+                        "hosted_item": "castle_treasury_a_top_skull_door",
+                        "access_rules": [
+                            "[]",
+                            "@CastleTreasuryAEntrance,key_skull"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Castle Treasury A",
+                        "shape": "diamond",
+                        "size": 16,
+                        "x": 322,
+                        "y": 32
+                    }
+                ]
+            },
+            {
+                "name": "Castle Treasury A Southwest Door",
+                "sections": [
+                    {
+                        "name": "Castle Treasury A Southwest Door",
+                        "hosted_item": "castle_treasury_a_southwest_door",
+                        "access_rules": [
+                            "[]",
+                            "@CastleTreasuryASkeletonEntrance"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Castle Treasury A",
+                        "shape": "diamond",
+                        "size": 16,
+                        "x": 282,
+                        "y": 232
+                    }
+                ]
+            },
+            {
+                "name": "Castle Treasury A Southeast Door",
+                "sections": [
+                    {
+                        "name": "Castle Treasury A Southeast Door",
+                        "hosted_item": "castle_treasury_a_southeast_door",
+                        "access_rules": [
+                            "[]",
+                            "@CastleTreasuryAMinesToEverywhereElse"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Castle Treasury A",
+                        "shape": "diamond",
+                        "size": 16,
+                        "x": 362,
+                        "y": 232
+                    }
+                ]
+            },
+            {
+                "name": "Skeleton Cave A East Door",
+                "sections": [
+                    {
+                        "name": "Skeleton Cave A East Door",
+                        "hosted_item": "skeleton_cave_a_east_door",
+                        "access_rules": [
+                            "[]",
+                            "@SkeletonCaveAStairsToTreasury"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Skeleton Cave A",
+                        "shape": "diamond",
+                        "size": 16,
+                        "x": 362,
+                        "y": 32
+                    }
+                ]
+            },
+            {
+                "name": "Skeleton Cave A West Ceiling Transition",
+                "sections": [
+                    {
+                        "name": "Skeleton Cave A West Ceiling Transition",
+                        "hosted_item": "skeleton_cave_a_west_ceiling_transition",
+                        "access_rules": [
+                            "[]",
+                            "@SkeletonCaveACrateBalancingActChamber"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Skeleton Cave A",
+                        "shape": "diamond",
+                        "size": 16,
+                        "x": 52,
+                        "y": 42
+                    }
+                ]
+            },
+            {
+                "name": "Luminous Cavern A West Entrance",
+                "sections": [
+                    {
+                        "name": "Luminous Cavern A West Door",
+                        "hosted_item": "luminous_cavern_a_west_door",
+                        "access_rules": [
+                            "[]",
+                            "@LuminousCavernAToTreasury"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Luminous Cavern A",
+                        "shape": "diamond",
+                        "size": 16,
+                        "x": 22,
+                        "y": 92
+                    }
+                ]
+            },
+            {
+                "name": "Luminous Cavern A North Entrance",
+                "sections": [
+                    {
+                        "name": "Luminous Cavern A North Door",
+                        "hosted_item": "luminous_cavern_a_north_door",
+                        "access_rules": [
+                            "[]",
+                            "@LuminousCavernAAqueductExit"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Luminous Cavern A",
+                        "shape": "diamond",
+                        "size": 16,
+                        "x": 202,
+                        "y": 52
+                    }
+                ]
+            },
+            {
+                "name": "Sky Walkway A North Entrance",
+                "sections": [
+                    {
+                        "name": "Sky Walkway A North Door",
+                        "hosted_item": "sky_walkway_a_north_door",
+                        "access_rules": [
+                            "[]",
+                            "@SkyWalkwayAToChapelOfDissonance"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Sky Walkway A",
+                        "shape": "diamond",
+                        "size": 16,
+                        "x": 142,
+                        "y": 72
+                    }
+                ]
+            },
+            {
+                "name": "Sky Walkway A East Entrance",
+                "sections": [
+                    {
+                        "name": "Sky Walkway A East Door",
+                        "hosted_item": "sky_walkway_a_east_door",
+                        "access_rules": [
+                            "[]",
+                            "@SkyWalkwayAToClockTower"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Sky Walkway A",
+                        "shape": "diamond",
+                        "size": 16,
+                        "x": 282,
+                        "y": 112
+                    }
+                ]
+            },
+            {
+                "name": "Sky Walkway A South Entrance",
+                "sections": [
+                    {
+                        "name": "Sky Walkway A South Door",
+                        "hosted_item": "sky_walkway_a_south_door",
+                        "access_rules": [
+                            "[]",
+                            "@SkyWalkwayALowerDarkHallway"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Sky Walkway A",
+                        "shape": "diamond",
+                        "size": 16,
+                        "x": 142,
+                        "y": 172
+                    }
+                ]
+            },
+            {
+                "name": "Chapel of Dissonance A South Entrance",
+                "sections": [
+                    {
+                        "name": "Chapel of Dissonance A South Door",
+                        "hosted_item": "chapel_of_dissonance_a_south_door",
+                        "access_rules": [
+                            "[]",
+                            "@ChapelOfDissonanceAToSkyWalkway"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Chapel of Dissonance A",
+                        "shape": "diamond",
+                        "size": 16,
+                        "x": 162,
+                        "y": 192
+                    }
+                ]
+            },
+            {
+                "name": "Chapel of Dissonance A North Entrance",
+                "sections": [
+                    {
+                        "name": "Chapel of Dissonance A North Door",
+                        "hosted_item": "chapel_of_dissonance_a_north_ceremonial_door",
+                        "access_rules": [
+                            "[]",
+                            "@ChapelOfDissonanceAMainBuilding,bracelet_mk"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Chapel of Dissonance A",
+                        "shape": "diamond",
+                        "size": 16,
+                        "x": 22,
+                        "y": 52
+                    }
+                ]
+            },
+            {
+                "name": "Clock Tower A West Entrance",
+                "sections": [
+                    {
+                        "name": "Clock Tower A West Door",
+                        "hosted_item": "clock_tower_a_west_door",
+                        "access_rules": [
+                            "[]",
+                            "@ClockTowerAWestEntranceShaft"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Clock Tower A",
+                        "shape": "diamond",
+                        "size": 16,
+                        "x": 22,
+                        "y": 132
+                    }
+                ]
+            },
+            {
+                "name": "Clock Tower A Southwest Entrance",
+                "sections": [
+                    {
+                        "name": "Clock Tower A Southwest Door",
+                        "hosted_item": "clock_tower_a_southwest_door",
+                        "access_rules": [
+                            "[]",
+                            "@ClockTowerABackdoorEntrance"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Clock Tower A",
+                        "shape": "diamond",
+                        "size": 16,
+                        "x": 62,
+                        "y": 232
+                    }
+                ]
+            },
+            {
+                "name": "Aqueduct of Dragons A Northwest Entrance",
+                "sections": [
+                    {
+                        "name": "Aqueduct of Dragons A Northwest Door",
+                        "hosted_item": "aqueduct_of_dragons_a_northwest_door",
+                        "access_rules": [
+                            "[]",
+                            "@AqueductOfDragonsANorthwestEntrance"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Aqueduct of Dragons A",
+                        "shape": "diamond",
+                        "size": 16,
+                        "x": 82,
+                        "y": 32
+                    }
+                ]
+            },
+            {
+                "name": "Aqueduct of Dragons A East Entrance",
+                "sections": [
+                    {
+                        "name": "Aqueduct of Dragons A East Door",
+                        "hosted_item": "aqueduct_of_dragons_a_east_door",
+                        "access_rules": [
+                            "[]",
+                            "@AqueductOfDragonsABehindGiantMerman"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Aqueduct of Dragons A",
+                        "shape": "diamond",
+                        "size": 16,
+                        "x": 262,
+                        "y": 72
+                    }
+                ]
+            },
+            {
+                "name": "Aqueduct of Dragons A Southwest Entrance",
+                "sections": [
+                    {
+                        "name": "Aqueduct of Dragons A Southwest Door",
+                        "hosted_item": "aqueduct_of_dragons_a_southwest_door",
+                        "access_rules": [
+                            "[]",
+                            "@AqueductOfDragonsACrushableEntrance"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Aqueduct of Dragons A",
+                        "shape": "diamond",
+                        "size": 16,
+                        "x": 82,
+                        "y": 192
+                    }
+                ]
+            },
+            {
+                "name": "Castle Top Floor A West Entrance",
+                "sections": [
+                    {
+                        "name": "Castle Top Floor A West Skull Door",
+                        "hosted_item": "castle_top_floor_a_west_skull_door",
+                        "access_rules": [
+                            "[]",
+                            "@CastleTopFloorACorridorGriffinPassage,key_skull"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Castle Top Floor A",
+                        "shape": "diamond",
+                        "size": 16,
+                        "x": 102,
+                        "y": 252
+                    }
+                ]
+            },
+            {
+                "name": "Castle Top Floor A South Entrance",
+                "sections": [
+                    {
+                        "name": "Castle Top Floor A South Floor Transition",
+                        "hosted_item": "castle_top_floor_a_south_floor_transition",
+                        "access_rules": [
+                            "[]",
+                            "@CastleTopFloorAElevatorRoomStairs"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Castle Top Floor A",
+                        "shape": "diamond",
+                        "size": 16,
+                        "x": 132,
+                        "y": 322
+                    }
+                ]
+            },
+            {
+                "name": "Castle Top Floor A East Entrance",
+                "sections": [
+                    {
+                        "name": "Castle Top Floor A East Ceremonial Door",
+                        "hosted_item": "castle_top_floor_a_east_ceremonial_door",
+                        "access_rules": [
+                            "[]",
+                            "@CastleTopFloorAFinalApproach,bracelet_mk,crush_stone"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Castle Top Floor A",
+                        "shape": "diamond",
+                        "size": 16,
+                        "x": 162,
+                        "y": 92
+                    }
+                ]
+            },
+            
+            // Bundles, in order of X position
+            {
+                "name": "Entrance A Top and Marble Corridor A West",
+                "sections": [
+                    {
+                        "name": "Entrance A Top Door",
+                        "hosted_item": "entrance_a_top_door",
+                        "access_rules": [
+                            "[]",
+                            "@EntranceALowerGuardHall"
+                        ]
+                    },
+                    {
+                        "name": "Marble Corridor A",
+                        "hosted_item": "marble_corridor_a_west_door",
+                        "access_rules": [
+                            "[]",
+                            "@MarbleCorridorAToEntrance"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Castle A",
+                        "shape": "diamond",
+                        "size": 16,
+                        "x": 182,
+                        "y": 252
+                    }
+                ]
+            },
+            {
+                "name": "Entrance A South and Skeleton Cave A West",
+                "sections": [
+                    {
+                        "name": "Entrance A South Floor Transition",
+                        "hosted_item": "entrance_a_bottom_floor",
+                        "access_rules": [
+                            "[]",
+                            "@EntranceASubterraneanShaftBottom"
+                        ]
+                    },
+                    {
+                        "name": "Skeleton Cave A West Ceiling Transition",
+                        "hosted_item": "skeleton_cave_a_west_ceiling_transition",
+                        "access_rules": [
+                            "[]",
+                            "@SkeletonCaveACrateBalancingActChamber"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Castle A",
+                        "shape": "diamond",
+                        "size": 16,
+                        "x": 232,
+                        "y": 522
+                    }
+                ]
+            },
+            {
+                "name": "Entrance A Middle and Shrine of the Apostates A West",
+                "sections": [
+                    {
+                        "name": "Entrance A Top Door",
+                        "hosted_item": "entrance_a_bottom_door",
+                        "access_rules": [
+                            "[]",
+                            "@EntranceAToShrine"
+                        ]
+                    },
+                    {
+                        "name": "Shrine of the Apostates A West Door",
+                        "hosted_item": "shrine_of_the_apostates_a_west_door",
+                        "access_rules": [
+                            "[]",
+                            "@ShrineOfTheApostatesABehindLivingArmor"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Castle A",
+                        "shape": "diamond",
+                        "size": 16,
+                        "x": 282,
+                        "y": 372
+                    }
+                ]
+            },
+            {
+                "name": "Room of Illusion A Lizard and Marble Corridor A Illusory Hall",
+                "sections": [
+                    {
+                        "name": "Room of Illusion A Lizard Entrance",
+                        "hosted_item": "room_of_illusion_a_lizard_entrance",
+                        "access_rules": [
+                            "[]",
+                            "@RoomOfIllusionALizardManTurf"
+                        ]
+                    },
+                    {
+                        "name": "Marble Corridor A Illusory Left Entrance",
+                        "hosted_item": "marble_corridor_a_illusory_left_entrance",
+                        "access_rules": [
+                            "[]",
+                            "@MarbleCorridorADescentOfIllusion"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Castle A",
+                        "shape": "diamond",
+                        "size": 16,
+                        "x": 262,
+                        "y": 292
+                    }
+                ]
+            },
+            {
+                "name": "Marble Corridor A Illusory Hall and Room of Illusion A Lava Flow",
+                "sections": [
+                    {
+                        "name": "Marble Corridor A Illusory Right Entrance",
+                        "hosted_item": "marble_corridor_a_illusory_right_entrance",
+                        "access_rules": [
+                            "[]",
+                            "@MarbleCorridorADescentOfIllusion"
+                        ]
+                    },
+                    {
+                        "name": "Room of Illusion A Lava Flow Entrance",
+                        "hosted_item": "room_of_illusion_a_lava_flow_entrance",
+                        "access_rules": [
+                            "[]",
+                            "@RoomOfIllusionALavaFlowChamber"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Castle A",
+                        "shape": "diamond",
+                        "size": 16,
+                        "x": 282,
+                        "y": 292
+                    }
+                ]
+            },
+            {
+                "name": "Marble Corridor A Southeast and The Wailing Way A North",
+                "sections": [
+                    {
+                        "name": "Marble Corridor A Southeast Door",
+                        "hosted_item": "marble_corridor_a_southeast_door",
+                        "access_rules": [
+                            "[]",
+                            "@MarbleCorridorAWailingExit"
+                        ]
+                    },
+                    {
+                        "name": "The Wailing Way A North Door",
+                        "hosted_item": "the_wailing_way_a_north_door",
+                        "access_rules": [
+                            "[]",
+                            "@TheWailingWayAMarbleCorridorExit"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Castle A",
+                        "shape": "diamond",
+                        "size": 16,
+                        "x": 462,
+                        "y": 272
+                    }
+                ]
+            },
+            {
+                "name": "The Wailing Way A South and Shrine of the Apostates A North",
+                "sections": [
+                    {
+                        "name": "The Wailing Way A South Door",
+                        "hosted_item": "the_wailing_way_a_south_door",
+                        "access_rules": [
+                            "[]",
+                            "@TheWailingWayAShrineExit"
+                        ]
+                    },
+                    {
+                        "name": "Shrine of the Apostates A North Door",
+                        "hosted_item": "shrine_of_the_apostates_a_north_door",
+                        "access_rules": [
+                            "[]",
+                            "@ShrineOfTheApostatesAWailingExit"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Castle A",
+                        "shape": "diamond",
+                        "size": 16,
+                        "x": 482,
+                        "y": 332
+                    }
+                ]
+            },
+            {
+                "name": "Skeleton Cave A East and Castle Treasury A Southeast",
+                "sections": [
+                    {
+                        "name": "Skeleton Cave A East Door",
+                        "hosted_item": "skeleton_cave_a_east_door",
+                        "access_rules": [
+                            "[]",
+                            "@SkeletonCaveAStairsToTreasury"
+                        ]
+                    },
+                    {
+                        "name": "Castle Treasury A Southeast Door",
+                        "hosted_item": "castle_treasury_a_southeast_door",
+                        "access_rules": [
+                            "[]",
+                            "@CastleTreasuryAMinesToEverywhereElse"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Castle A",
+                        "shape": "diamond",
+                        "size": 16,
+                        "x": 542,
+                        "y": 512
+                    }
+                ]
+            },
+            {
+                "name": "The Wailing Way A East and Castle Treasury A Northwest",
+                "sections": [
+                    {
+                        "name": "The Wailing Way A East Skull Door",
+                        "hosted_item": "the_wailing_way_a_east_skull_door",
+                        "access_rules": [
+                            "[]",
+                            "@TheWailingWayALoneLizard,key_skull"
+                        ]
+                    },
+                    {
+                        "name": "Castle Treasury A Top Skull Door",
+                        "hosted_item": "castle_treasury_a_top_skull_door",
+                        "access_rules": [
+                            "[]",
+                            "@CastleTreasuryAEntrance,key_skull"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Castle A",
+                        "shape": "diamond",
+                        "size": 16,
+                        "x": 582,
+                        "y": 312
+                    }
+                ]
+            },
+            {
+                "name": "Marble Corridor A East and Castle Top Floor A Middle",
+                "sections": [
+                    {
+                        "name": "Marble Corridor A East Skull Door",
+                        "hosted_item": "marble_corridor_a_east_skull_door",
+                        "access_rules": [
+                            "[]",
+                            "@MarbleCorridorAHopeOfVictoryHall,key_skull"
+                        ]
+                    },
+                    {
+                        "name": "Castle Top Floor A West Skull Door",
+                        "hosted_item": "castle_top_floor_a_west_skull_door",
+                        "access_rules": [
+                            "[]",
+                            "@CastleTopFloorACorridorGriffinPassage,key_skull"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Castle A",
+                        "shape": "diamond",
+                        "size": 16,
+                        "x": 602,
+                        "y": 232
+                    }
+                ]
+            },
+            {
+                "name": "Castle Treasury A Southeast And Luminous Cavern A",
+                "sections": [
+                    {
+                        "name": "Castle Treasury A Southeast Door",
+                        "hosted_item": "castle_treasury_a_southeast_door",
+                        "access_rules": [
+                            "[]",
+                            "@CastleTreasuryAMinesToEverywhereElse"
+                        ]
+                    },
+                    {
+                        "name": "Luminous Cavern A West Door",
+                        "hosted_item": "luminous_cavern_a_west_door",
+                        "access_rules": [
+                            "[]",
+                            "@LuminousCavernAToTreasury"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Castle A",
+                        "shape": "diamond",
+                        "size": 16,
+                        "x": 622,
+                        "y": 512
+                    }
+                ]
+            },
+            {
+                "name": "Castle Top Floor A South and Castle Treasury A North",
+                "sections": [
+                    {
+                        "name": "Castle Top Floor A South Floor Transition",
+                        "hosted_item": "castle_top_floor_a_south_floor_transition",
+                        "access_rules": [
+                            "[]",
+                            "@CastleTopFloorAElevatorRoomStairs"
+                        ]
+                    },
+                    {
+                        "name": "Castle Treasury A Top Ceiling Transition",
+                        "hosted_item": "castle_treasury_a_top_ceiling_transition",
+                        "access_rules": [
+                            "[]",
+                            "@CastleTreasuryAEntrance"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Castle A",
+                        "shape": "diamond",
+                        "size": 16,
+                        "x": 632,
+                        "y": 302
+                    }
+                ]
+            },
+            {
+                "name": "Castle Top Floor A East and Chapel of Dissonance A North",
+                "sections": [
+                    {
+                        "name": "Castle Top Floor A East Ceremonial Door",
+                        "hosted_item": "castle_top_floor_a_east_ceremonial_door",
+                        "access_rules": [
+                            "[]",
+                            "@CastleTopFloorAFinalApproach,bracelet_mk,crush_stone"
+                        ]
+                    },
+                    {
+                        "name": "Chapel of Dissonance A North Door",
+                        "hosted_item": "chapel_of_dissonance_a_north_ceremonial_door",
+                        "access_rules": [
+                            "[]",
+                            "@ChapelOfDissonanceAMainBuilding,bracelet_mk"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Castle A",
+                        "shape": "diamond",
+                        "size": 16,
+                        "x": 662,
+                        "y": 72
+                    }
+                ]
+            },
+            {
+                "name": "Chapel of Dissonance A South and Sky Walkway A North",
+                "sections": [
+                    {
+                        "name": "Chapel of Dissonance A South Door",
+                        "hosted_item": "chapel_of_dissonance_a_south_door",
+                        "access_rules": [
+                            "[]",
+                            "@ChapelOfDissonanceAToSkyWalkway"
+                        ]
+                    },
+                    {
+                        "name": "Sky Walkway A North Door",
+                        "hosted_item": "sky_walkway_a_north_door",
+                        "access_rules": [
+                            "[]",
+                            "@SkyWalkwayAToChapelOfDissonance"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Castle A",
+                        "shape": "diamond",
+                        "size": 16,
+                        "x": 802,
+                        "y": 212
+                    }
+                ]
+            },
+            {
+                "name": "Aqueduct of Dragons A Northwest and Sky Walkway A South",
+                "sections": [
+                    {
+                        "name": "Aqueduct of Dragons A Northwest Door",
+                        "hosted_item": "aqueduct_of_dragons_a_northwest_door",
+                        "access_rules": [
+                            "[]",
+                            "@AqueductOfDragonsANorthwestEntrance"
+                        ]
+                    },
+                    {
+                        "name": "Sky Walkway A South Door",
+                        "hosted_item": "sky_walkway_a_south_door",
+                        "access_rules": [
+                            "[]",
+                            "@SkyWalkwayALowerDarkHallway"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Castle A",
+                        "shape": "diamond",
+                        "size": 16,
+                        "x": 802,
+                        "y": 312
+                    }
+                ]
+            },
+            {
+                "name": "Luminous Cavern A North and Aqueduct of Dragons A Southwest",
+                "sections": [
+                    {
+                        "name": "Luminous Cavern A North Door",
+                        "hosted_item": "luminous_cavern_a_north_door",
+                        "access_rules": [
+                            "[]",
+                            "@LuminousCavernAAqueductExit"
+                        ]
+                    },
+                    {
+                        "name": "Aqueduct of Dragons A Southwest Door",
+                        "hosted_item": "aqueduct_of_dragons_a_southwest_door",
+                        "access_rules": [
+                            "[]",
+                            "@AqueductOfDragonsACrushableEntrance"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Castle A",
+                        "shape": "diamond",
+                        "size": 16,
+                        "x": 802,
+                        "y": 472
+                    }
+                ]
+            },
+            {
+                "name": "Sky Walkway A East and Clock Tower A West",
+                "sections": [
+                    {
+                        "name": "Sky Walkway A East Door",
+                        "hosted_item": "sky_walkway_a_east_door",
+                        "access_rules": [
+                            "[]",
+                            "@SkyWalkwayAToClockTower"
+                        ]
+                    },
+                    {
+                        "name": "Clock Tower A West Door",
+                        "hosted_item": "clock_tower_a_west_door",
+                        "access_rules": [
+                            "[]",
+                            "@ClockTowerAWestEntranceShaft"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Castle A",
+                        "shape": "diamond",
+                        "size": 16,
+                        "x": 942,
+                        "y": 252
+                    }
+                ]
+            },
+            {
+                "name": "Aqueduct of Dragons A East and Clock Tower A Southwest",
+                "sections": [
+                    {
+                        "name": "Aqueduct of Dragons A East Door",
+                        "hosted_item": "aqueduct_of_dragons_a_east_door",
+                        "access_rules": [
+                            "[]",
+                            "@AqueductOfDragonsABehindGiantMerman"
+                        ]
+                    },
+                    {
+                        "name": "Clock Tower A Southwest Door",
+                        "hosted_item": "clock_tower_a_southwest_door",
+                        "access_rules": [
+                            "[]",
+                            "@ClockTowerABackdoorEntrance"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Castle A",
+                        "shape": "diamond",
+                        "size": 16,
+                        "x": 982,
+                        "y": 352
+                    }
+                ]
+            }
+        ]
+    }
+]

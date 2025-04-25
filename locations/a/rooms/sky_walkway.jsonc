@@ -49,7 +49,8 @@
         "name": "SkyWalkwayAToChapelOfDissonance",
         "access_rules": [
             "@SkyWalkwayABeforeDevil",
-            "@ChapelOfDissonanceAToSkyWalkway"
+            "@ChapelOfDissonanceAToSkyWalkway,er_disabled",
+            "er_enabled,sky_walkway_a_north_door"
         ]
     },
     {
@@ -69,7 +70,8 @@
         "name": "SkyWalkwayAToClockTower",
         "access_rules": [
             "@SkyWalkwayADevilChamber",
-            "@ClockTowerAWestEntranceShaft"
+            "@ClockTowerAWestEntranceShaft,er_disabled",
+            "er_enabled,sky_walkway_a_east_door"
         ]
     },
     {
@@ -104,8 +106,9 @@
         "name": "SkyWalkwayALowerDarkHallway",
         "access_rules": [
             "@SkyWalkwayAUpperDarkHallway",
-            "@AqueductOfDragonsANorthwestEntrance,[]",
-            "@AqueductOfDragonsANorthwestEntrance,night_goggles"
+            "@AqueductOfDragonsANorthwestEntrance,[],er_disabled",
+            "@AqueductOfDragonsANorthwestEntrance,night_goggles,er_disabled",
+            "er_enabled,sky_walkway_a_south_door,[night_goggles]"
         ]
     }
 ]

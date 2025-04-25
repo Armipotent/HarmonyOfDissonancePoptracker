@@ -2,7 +2,8 @@
     {
         "name": "ClockTowerBWestEntranceShaft",
         "access_rules": [
-            "@SkyWalkwayBToClockTower",
+            "@SkyWalkwayBToClockTower,er_disabled",
+            "er_enabled,clock_tower_b_west_door",
             "@ClockTowerBSkeletonFatailityAttic",
             "@ClockTowerBAbovePeepingBig",
             "@ClockTowerBWestOfPeepingBig",
@@ -180,7 +181,8 @@
         "name": "ClockTowerBBackdoorEntrance",
         "access_rules": [
             "@ClockTowerBSlabRoomWest",
-            "@AqueductOfDragonsBBehindGhostOfGiantMerman",
+            "@AqueductOfDragonsBBehindGhostOfGiantMerman,er_disabled",
+            "er_enabled,clock_tower_b_southwest_door",
             "@ClockTowerBNearLowerCrankshaft"
         ]
     },

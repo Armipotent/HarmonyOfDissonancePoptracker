@@ -51,14 +51,14 @@
         "name": "Best Retail Worker",
         "type": "toggle",
         "img": "images/items/furnitureend.png",
-        "codes": "furinture_ending"
+        "codes": "furniture_ending"
     },
     {
         "name": "Spellbound Boss Logic",
         "type": "progressive",
         "loop": true,
         "allow_disabled": false,
-        "initial_stage_idx": 0,
+        "initial_stage_idx": 2,
         "stages": [
             {
                 "img": "images/items/spellbound_none.png",
@@ -77,5 +77,30 @@
             }
         ],
         "codes": "spellbound"
+    },
+    {
+        "name": "Entrance Randomization",
+        "type": "progressive",
+        "loop": true,
+        "allow_disabled": false,
+        "initial_stage_idx": 0,
+        "stages": [
+            {
+                "img": "images/items/er_disabled.png",
+                "codes": "er_disabled",
+                "inherit_codes": false
+            },
+            {
+                "img": "images/items/er_enabled.png",
+                "codes": "er_enabled",
+                "inherit_codes": false
+            }// ,
+            // {
+            //     "img": "images/items/er_auto.png",
+            //     "codes": "er_auto",
+            //     "inherit_codes": false
+            // }
+        ],
+        "codes": "entrance_rando"
     }
 ]

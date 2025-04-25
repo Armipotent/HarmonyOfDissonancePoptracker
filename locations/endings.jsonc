@@ -1,22 +1,20 @@
 [
     {
-        "name": "Ending",
+        "name": "Ending B",
         "access_rules": [
             "@CastleTreasuryBCenter"
         ],
         "sections": [
             {
                 "name": "Worst [Goal Requirement]",
-                "item_count": 1,
-                "chest_opened_img": "images/items/goal.png",
+                "hosted_item": "worst_ending",
                 "visibility_rules": [
                     "worst_ending_setting"
                 ]
             },
             {
                 "name": "Best [Goal Requirement]",
-                "item_count": 1,
-                "chest_opened_img": "images/items/goal.png",
+                "hosted_item": "best_ending",
                 "access_rules": [
                     "bracelet_jb,bracelet_mk"
                 ],
@@ -35,19 +33,23 @@
                 "map": "Castle Treasury B",
                 "x": 332,
                 "y": 112
+            },
+            {
+                "map": "End Screen",
+                "x": 132,
+                "y": 92
             }
         ]
     },
     {
-        "name": "Ending",
+        "name": "Ending A",
         "access_rules": [
             "@CastleTreasuryACenter"
         ],
         "sections": [
             {
                 "name": "Bad [Goal Requirement]",
-                "item_count": 1,
-                "chest_opened_img": "images/items/goal.png",
+                "hosted_item": "bad_ending",
                 "visibility_rules": [
                     "bad_ending_setting"
                 ]
@@ -61,8 +63,13 @@
             },
             {
                 "map": "Castle Treasury A",
-                "x": 332,
-                "y": 112
+                "x": 352,
+                "y": 132
+            },
+            {
+                "map": "End Screen",
+                "x": 52,
+                "y": 92
             }
         ]
     },
@@ -75,9 +82,35 @@
         "sections": [
             {
                 "name": "Placed All Furniture [Goal Requirement]",
-                "item_count": 1,
-                "chest_opened_img": "images/items/goal.png",
+                "hosted_item": "furniture_ending",
                 "access_rules": [
+                    "{}",
+                    "$furniture_total_is_good"
+                ],
+                "visibility_rules": [
+                    "furniture_setting"
+                ]
+            }
+        ],
+        "map_locations": [
+            {
+                "map": "End Screen",
+                "x": 202,
+                "y": 92
+            }
+        ]
+    },
+    {
+        "name": "Juste Room A",
+        "access_rules": [
+            "@CastleTreasuryAJusteRoom"
+        ],
+        "sections": [
+            {
+                "name": "Placed All Furniture [Goal Requirement]",
+                "hosted_item": "furniture_ending",
+                "access_rules": [
+                    "{}",
                     "$furniture_total_is_good"
                 ],
                 "visibility_rules": [
@@ -93,9 +126,30 @@
             },
             {
                 "map": "Castle Treasury A",
-                "x": 302,
-                "y": 232
-            },
+                "x": 322,
+                "y": 252
+            }
+        ]
+    },
+    {
+        "name": "Juste Room B",
+        "access_rules": [
+            "@CastleTreasuryBJusteRoom"
+        ],
+        "sections": [
+            {
+                "name": "Placed All Furniture [Goal Requirement]",
+                "hosted_item": "furniture_ending",
+                "access_rules": [
+                    "{}",
+                    "$furniture_total_is_good"
+                ],
+                "visibility_rules": [
+                    "furniture_setting"
+                ]
+            }
+        ],
+        "map_locations": [
             {
                 "map": "Castle B",
                 "x": 582,

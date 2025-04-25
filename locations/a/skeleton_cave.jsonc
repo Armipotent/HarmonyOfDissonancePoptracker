@@ -21,8 +21,8 @@
                     },
                     {
                         "map": "Skeleton Cave A",
-                        "x": 332,
-                        "y": 92
+                        "x": 352,
+                        "y": 112
                     }
                 ]
 			},
@@ -45,8 +45,8 @@
                     },
                     {
                         "map": "Skeleton Cave A",
-                        "x": 352,
-                        "y": 72
+                        "x": 372,
+                        "y": 92
                     }
                 ]
 			},
@@ -70,8 +70,8 @@
                     },
                     {
                         "map": "Skeleton Cave A",
-                        "x": 392,
-                        "y": 72
+                        "x": 412,
+                        "y": 92
                     }
                 ]
             },
@@ -94,8 +94,8 @@
                     },
                     {
                         "map": "Skeleton Cave A",
-                        "x": 292,
-                        "y": 72
+                        "x": 312,
+                        "y": 92
                     }
                 ]
             },
@@ -118,8 +118,8 @@
                     },
                     {
                         "map": "Skeleton Cave A",
-                        "x": 272,
-                        "y": 72
+                        "x": 292,
+                        "y": 92
                     }
                 ]
             },
@@ -142,8 +142,8 @@
                     },
                     {
                         "map": "Skeleton Cave A",
-                        "x": 12,
-                        "y": 72
+                        "x": 32,
+                        "y": 92
                     }
                 ]
             },
@@ -166,8 +166,8 @@
                     },
                     {
                         "map": "Skeleton Cave A",
-                        "x": 172,
-                        "y": 52
+                        "x": 192,
+                        "y": 72
                     }
                 ]
             },
@@ -194,8 +194,8 @@
                     },
                     {
                         "map": "Skeleton Cave A",
-                        "x": 112,
-                        "y": 52
+                        "x": 132,
+                        "y": 72
                     }
                 ]
             },
@@ -218,8 +218,8 @@
                     },
                     {
                         "map": "Skeleton Cave A",
-                        "x": 12,
-                        "y": 32
+                        "x": 32,
+                        "y": 52
                     }
                 ]
             },
@@ -242,8 +242,32 @@
                     },
                     {
                         "map": "Skeleton Cave A",
-                        "x": 172,
-                        "y": 32
+                        "x": 192,
+                        "y": 52
+                    }
+                ]
+            },
+            {
+                "name": "Lower Spider Den Wall",
+                "access_rules": [
+                    "@SkeletonCaveALowerSpiderDen"
+                ],
+                "sections": [
+                    {
+                        "name": "Wall Broken",
+                        "hosted_item": "skeleton_a_breakable"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Castle A",
+                        "x": 472,
+                        "y": 612
+                    },
+                    {
+                        "map": "Skeleton Cave A",
+                        "x": 292,
+                        "y": 132
                     }
                 ]
             }

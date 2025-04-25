@@ -21,8 +21,8 @@
                     },
                     {
                         "map": "Shrine of the Apostates B",
-                        "x": 292,
-                        "y": 12
+                        "x": 312,
+                        "y": 32
                     }
                 ]
             },
@@ -45,8 +45,8 @@
                     },
                     {
                         "map": "Shrine of the Apostates B",
-                        "x": 292,
-                        "y": 32
+                        "x": 312,
+                        "y": 52
                     }
                 ]
             },
@@ -69,8 +69,8 @@
                     },
                     {
                         "map": "Shrine of the Apostates B",
-                        "x": 132,
-                        "y": 52
+                        "x": 152,
+                        "y": 72
                     }
                 ]
             },
@@ -93,8 +93,8 @@
                     },
                     {
                         "map": "Shrine of the Apostates B",
-                        "x": 32,
-                        "y": 32
+                        "x": 52,
+                        "y": 52
                     }
                 ]
             },
@@ -117,8 +117,8 @@
                     },
                     {
                         "map": "Shrine of the Apostates B",
-                        "x": 12,
-                        "y": 52
+                        "x": 32,
+                        "y": 72
                     }
                 ]
             }

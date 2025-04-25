@@ -2,7 +2,8 @@
     {
         "name": "AqueductOfDragonsBNorthwestEntrance",
         "access_rules": [
-            "@SkyWalkwayBLowerMirrorHallway",
+            "@SkyWalkwayBLowerMirrorHallway,er_disabled",
+            "er_enabled,aqueduct_of_dragons_b_northwest_door",
             "@AqueductOfDragonsBCandlePillarHall"
         ]
     },
@@ -81,7 +82,8 @@
         "name": "AqueductOfDragonsBCrushableEntrance",
         "access_rules": [
             "@AqueductOfDragonsBAfterCrush,crush_stone",
-            "@LuminousCavernBAqueductExit,$fly"
+            "@LuminousCavernBAqueductExit,$fly,er_disabled",
+            "er_enabled,aqueduct_of_dragons_b_southwest_door"
         ]
     }
 ]

@@ -2,7 +2,8 @@
     {
         "name": "LuminousCavernAToTreasury",
         "access_rules": [
-            "@CastleTreasuryAMinesToEverywhereElse",
+            "@CastleTreasuryAMinesToEverywhereElse,er_disabled",
+            "er_enabled,luminous_cavern_a_west_door",
             "@LuminousCavernADevilsSCurve"
         ]
     },
@@ -33,7 +34,8 @@
         "name": "LuminousCavernAAqueductExit",
         "access_rules": [
             "@LuminousCavernANearAqueductExit,$fly",
-            "@AqueductOfDragonsACrushableEntrance,$fly,crush_stone"
+            "@AqueductOfDragonsACrushableEntrance,$fly,crush_stone,er_disabled",
+            "er_enabled,luminous_cavern_a_north_door,$fly"
         ]
     },
     {
@@ -90,7 +92,7 @@
     {
         "name": "LuminousCavernAHammerHammerHall",
         "access_rules": [
-            "@LuminousCavernAShaftAfterTalos",
+            "@LuminousCavernAShaftAfterTalos,$fly",
             "@LuminousCavernABehindHammerHammer"
         ]
     },

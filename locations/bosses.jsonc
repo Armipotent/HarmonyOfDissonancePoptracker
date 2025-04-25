@@ -1,0 +1,30 @@
+[
+	{
+		"name": "Bosses",
+		"children": [
+            {
+                "name": "Giant Bat",
+                "access_rules": [
+                    "@MarbleCorridorAGiantBat"
+                ],
+                "sections": [
+                    {
+                        "hosted_item": "corridor_a_bat"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Castle A",
+                        "x": 402,
+                        "y": 252
+                    },
+                    {
+                        "map": "Marble Corridor A",
+                        "x": 242,
+                        "y": 72
+                    }
+                ]
+            }
+		]
+	}
+]

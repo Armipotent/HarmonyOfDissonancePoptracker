@@ -2,7 +2,8 @@
     {
         "name": "SkeletonCaveBStairsToTreasury",
         "access_rules": [
-            "@CastleTreasuryBSkeletonEntrance",
+            "@CastleTreasuryBSkeletonEntrance,er_disabled",
+            "er_enabled,skeleton_cave_b_east_door",
             "@SkeletonCaveBGiantGhostsRemainsChamber"
         ]
     },
@@ -134,7 +135,8 @@
         "name": "SkeletonCaveBCastleEntranceAscentPoint",
         "access_rules": [
             "@SkeletonCaveBToEntranceAscent",
-            "@EntranceBSecretSkeletalPassageBottom"
+            "@EntranceBSecretSkeletalPassageBottom,er_disabled",
+            "er_enabled,skeleton_cave_b_west_ceiling_transition"
         ]
     }
 ]

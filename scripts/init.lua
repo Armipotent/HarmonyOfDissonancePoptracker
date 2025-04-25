@@ -24,6 +24,8 @@ Tracker:AddItems("items/items.jsonc")
 Tracker:AddItems("items/switch_break.jsonc")
 
 if not IS_ITEMS_ONLY then -- <--- use variant info to optimize loading
+    -- Doors
+    Tracker:AddItems("items/doors.jsonc")
     -- Maps
     Tracker:AddMaps("maps/maps.jsonc")
     -- Locations

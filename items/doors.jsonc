@@ -1,0 +1,434 @@
+[
+    {
+        "name": "Entrance A Top Door",
+        "type": "toggle",
+        "img": "images/items/door.png",
+        "codes": "entrance_a_top_door"
+    },
+    {
+        "name": "Entrance A Bottom Door",
+        "type": "toggle",
+        "img": "images/items/door.png",
+        "codes": "entrance_a_bottom_door"
+    },
+    {
+        "name": "Entrance A South Floor Transition",
+        "type": "toggle",
+        "img": "images/items/door.png",
+        "codes": "entrance_a_bottom_floor"
+    },
+    {
+        "name": "Marble Corridor A West Door",
+        "type": "toggle",
+        "img": "images/items/door.png",
+        "codes": "marble_corridor_a_west_door"
+    },
+    {
+        "name": "Marble Corridor A Illusory Left Entrance",
+        "type": "toggle",
+        "img": "images/items/door.png",
+        "codes": "marble_corridor_a_illusory_left_entrance"
+    },
+    {
+        "name": "Marble Corridor A Illusory Right Entrance",
+        "type": "toggle",
+        "img": "images/items/door.png",
+        "codes": "marble_corridor_a_illusory_right_entrance"
+    },
+    {
+        "name": "Marble Corridor A East Skull Door",
+        "type": "toggle",
+        "img": "images/items/skull_door.png",
+        "codes": "marble_corridor_a_east_skull_door"
+    },
+    {
+        "name": "Marble Corridor A Southeast Door",
+        "type": "toggle",
+        "img": "images/items/door.png",
+        "codes": "marble_corridor_a_southeast_door"
+    },
+    {
+        "name": "The Wailing Way A North Door",
+        "type": "toggle",
+        "img": "images/items/door.png",
+        "codes": "the_wailing_way_a_north_door"
+    },
+    {
+        "name": "The Wailing Way A East Skull Door",
+        "type": "toggle",
+        "img": "images/items/skull_door.png",
+        "codes": "the_wailing_way_a_east_skull_door"
+    },
+    {
+        "name": "The Wailing Way A South Door",
+        "type": "toggle",
+        "img": "images/items/door.png",
+        "codes": "the_wailing_way_a_south_door"
+    },
+    {
+        "name": "Shrine of the Apostates A North Door",
+        "type": "toggle",
+        "img": "images/items/door.png",
+        "codes": "shrine_of_the_apostates_a_north_door"
+    },
+    {
+        "name": "Shrine of the Apostates A West Door",
+        "type": "toggle",
+        "img": "images/items/door.png",
+        "codes": "shrine_of_the_apostates_a_west_door"
+    },
+    {
+        "name": "Room of Illusion A Lizard Entrance",
+        "type": "toggle",
+        "img": "images/items/door.png",
+        "codes": "room_of_illusion_a_lizard_entrance"
+    },
+    {
+        "name": "Room of Illusion A Lava Flow Entrance",
+        "type": "toggle",
+        "img": "images/items/door.png",
+        "codes": "room_of_illusion_a_lava_flow_entrance"
+    },
+    {
+        "name": "Castle Treasury A Top Ceiling Transition",
+        "type": "toggle",
+        "img": "images/items/door.png",
+        "codes": "castle_treasury_a_top_ceiling_transition"
+    },
+    {
+        "name": "Castle Treasury A Top Skull Door",
+        "type": "toggle",
+        "img": "images/items/skull_door.png",
+        "codes": "castle_treasury_a_top_skull_door"
+    },
+    {
+        "name": "Castle Treasury A Southwest Door",
+        "type": "toggle",
+        "img": "images/items/door.png",
+        "codes": "castle_treasury_a_southwest_door"
+    },
+    {
+        "name": "Castle Treasury A Southeast Door",
+        "type": "toggle",
+        "img": "images/items/door.png",
+        "codes": "castle_treasury_a_southeast_door"
+    },
+    {
+        "name": "Skeleton Cave A East Door",
+        "type": "toggle",
+        "img": "images/items/door.png",
+        "codes": "skeleton_cave_a_east_door"
+    },
+    {
+        "name": "Skeleton Cave A West Ceiling Transition",
+        "type": "toggle",
+        "img": "images/items/door.png",
+        "codes": "skeleton_cave_a_west_ceiling_transition"
+    },
+    {
+        "name": "Luminous Cavern A West Door",
+        "type": "toggle",
+        "img": "images/items/door.png",
+        "codes": "luminous_cavern_a_west_door"
+    },
+    {
+        "name": "Luminous Cavern A North Door",
+        "type": "toggle",
+        "img": "images/items/door.png",
+        "codes": "luminous_cavern_a_north_door"
+    },
+    {
+        "name": "Sky Walkway A North Door",
+        "type": "toggle",
+        "img": "images/items/door.png",
+        "codes": "sky_walkway_a_north_door"
+    },
+    {
+        "name": "Sky Walkway A East Door",
+        "type": "toggle",
+        "img": "images/items/door.png",
+        "codes": "sky_walkway_a_east_door"
+    },
+    {
+        "name": "Sky Walkway A South Door",
+        "type": "toggle",
+        "img": "images/items/door.png",
+        "codes": "sky_walkway_a_south_door"
+    },
+    {
+        "name": "Chapel of Dissonance A South Door",
+        "type": "toggle",
+        "img": "images/items/door.png",
+        "codes": "chapel_of_dissonance_a_south_door"
+    },
+    {
+        "name": "Chapel of Dissonance A North Ceremonial Door",
+        "type": "toggle",
+        "img": "images/items/ceremonial_door.png",
+        "codes": "chapel_of_dissonance_a_north_ceremonial_door"
+    },
+    {
+        "name": "Clock Tower A West Door",
+        "type": "toggle",
+        "img": "images/items/door.png",
+        "codes": "clock_tower_a_west_door"
+    },
+    {
+        "name": "Clock Tower A Southwest Door",
+        "type": "toggle",
+        "img": "images/items/door.png",
+        "codes": "clock_tower_a_southwest_door"
+    },
+    {
+        "name": "Aqueduct of Dragons A Northwest Door",
+        "type": "toggle",
+        "img": "images/items/door.png",
+        "codes": "aqueduct_of_dragons_a_northwest_door"
+    },
+    {
+        "name": "Aqueduct of Dragons A East Door",
+        "type": "toggle",
+        "img": "images/items/door.png",
+        "codes": "aqueduct_of_dragons_a_east_door"
+    },
+    {
+        "name": "Aqueduct of Dragons A Southwest Door",
+        "type": "toggle",
+        "img": "images/items/door.png",
+        "codes": "aqueduct_of_dragons_a_southwest_door"
+    },
+    {
+        "name": "Castle Top Floor A East Ceremonial Door",
+        "type": "toggle",
+        "img": "images/items/ceremonial_door.png",
+        "codes": "castle_top_floor_a_east_ceremonial_door"
+    },
+    {
+        "name": "Castle Top Floor A West Skull Door",
+        "type": "toggle",
+        "img": "images/items/skull_door.png",
+        "codes": "castle_top_floor_a_west_skull_door"
+    },
+    {
+        "name": "Castle Top Floor A South Floor Transition",
+        "type": "toggle",
+        "img": "images/items/door.png",
+        "codes": "castle_top_floor_a_south_floor_transition"
+    },
+    {
+        "name": "Entrance B Top Door",
+        "type": "toggle",
+        "img": "images/items/door.png",
+        "codes": "entrance_b_top_door"
+    },
+    {
+        "name": "Entrance B Bottom Door",
+        "type": "toggle",
+        "img": "images/items/door.png",
+        "codes": "entrance_b_bottom_door"
+    },
+    {
+        "name": "Entrance B South Floor Transition",
+        "type": "toggle",
+        "img": "images/items/door.png",
+        "codes": "entrance_b_bottom_floor"
+    },
+    {
+        "name": "Marble Corridor B West Door",
+        "type": "toggle",
+        "img": "images/items/door.png",
+        "codes": "marble_corridor_b_west_door"
+    },
+    {
+        "name": "Marble Corridor B Illusory Left Entrance",
+        "type": "toggle",
+        "img": "images/items/door.png",
+        "codes": "marble_corridor_b_illusory_left_entrance"
+    },
+    {
+        "name": "Marble Corridor B Illusory Right Entrance",
+        "type": "toggle",
+        "img": "images/items/door.png",
+        "codes": "marble_corridor_b_illusory_right_entrance"
+    },
+    {
+        "name": "Marble Corridor B East Skull Door",
+        "type": "toggle",
+        "img": "images/items/skull_door.png",
+        "codes": "marble_corridor_b_east_skull_door"
+    },
+    {
+        "name": "Marble Corridor B Southeast Door",
+        "type": "toggle",
+        "img": "images/items/door.png",
+        "codes": "marble_corridor_b_southeast_door"
+    },
+    {
+        "name": "The Wailing Way B North Door",
+        "type": "toggle",
+        "img": "images/items/door.png",
+        "codes": "the_wailing_way_b_north_door"
+    },
+    {
+        "name": "The Wailing Way B East Skull Door",
+        "type": "toggle",
+        "img": "images/items/skull_door.png",
+        "codes": "the_wailing_way_b_east_skull_door"
+    },
+    {
+        "name": "The Wailing Way B South Door",
+        "type": "toggle",
+        "img": "images/items/door.png",
+        "codes": "the_wailing_way_b_south_door"
+    },
+    {
+        "name": "Shrine of the Apostates B North Door",
+        "type": "toggle",
+        "img": "images/items/door.png",
+        "codes": "shrine_of_the_apostates_b_north_door"
+    },
+    {
+        "name": "Shrine of the Apostates B West Door",
+        "type": "toggle",
+        "img": "images/items/door.png",
+        "codes": "shrine_of_the_apostates_b_west_door"
+    },
+    {
+        "name": "Room of Illusion B Battleground Entrance",
+        "type": "toggle",
+        "img": "images/items/door.png",
+        "codes": "room_of_illusion_b_lizard_entrance"
+    },
+    {
+        "name": "Room of Illusion B Lava Flow Entrance",
+        "type": "toggle",
+        "img": "images/items/door.png",
+        "codes": "room_of_illusion_b_lava_flow_entrance"
+    },
+    {
+        "name": "Castle Treasury B Top Ceiling Transition",
+        "type": "toggle",
+        "img": "images/items/door.png",
+        "codes": "castle_treasury_b_top_ceiling_transition"
+    },
+    {
+        "name": "Castle Treasury B Top Skull Door",
+        "type": "toggle",
+        "img": "images/items/skull_door.png",
+        "codes": "castle_treasury_b_top_skull_door"
+    },
+    {
+        "name": "Castle Treasury B Southwest Door",
+        "type": "toggle",
+        "img": "images/items/door.png",
+        "codes": "castle_treasury_b_southwest_door"
+    },
+    {
+        "name": "Castle Treasury B Southeast Door",
+        "type": "toggle",
+        "img": "images/items/door.png",
+        "codes": "castle_treasury_b_southeast_door"
+    },
+    {
+        "name": "Skeleton Cave B East Door",
+        "type": "toggle",
+        "img": "images/items/door.png",
+        "codes": "skeleton_cave_b_east_door"
+    },
+    {
+        "name": "Skeleton Cave B West Ceiling Transition",
+        "type": "toggle",
+        "img": "images/items/door.png",
+        "codes": "skeleton_cave_b_west_ceiling_transition"
+    },
+    {
+        "name": "Luminous Cavern B West Door",
+        "type": "toggle",
+        "img": "images/items/door.png",
+        "codes": "luminous_cavern_b_west_door"
+    },
+    {
+        "name": "Luminous Cavern B North Door",
+        "type": "toggle",
+        "img": "images/items/door.png",
+        "codes": "luminous_cavern_b_north_door"
+    },
+    {
+        "name": "Sky Walkway B North Door",
+        "type": "toggle",
+        "img": "images/items/door.png",
+        "codes": "sky_walkway_b_north_door"
+    },
+    {
+        "name": "Sky Walkway B East Door",
+        "type": "toggle",
+        "img": "images/items/door.png",
+        "codes": "sky_walkway_b_east_door"
+    },
+    {
+        "name": "Sky Walkway B South Door",
+        "type": "toggle",
+        "img": "images/items/door.png",
+        "codes": "sky_walkway_b_south_door"
+    },
+    {
+        "name": "Chapel of Dissonance B South Door",
+        "type": "toggle",
+        "img": "images/items/door.png",
+        "codes": "chapel_of_dissonance_b_south_door"
+    },
+    {
+        "name": "Chapel of Dissonance B North Ceremonial Door",
+        "type": "toggle",
+        "img": "images/items/ceremonial_door.png",
+        "codes": "chapel_of_dissonance_b_north_ceremonial_door"
+    },
+    {
+        "name": "Clock Tower B West Door",
+        "type": "toggle",
+        "img": "images/items/door.png",
+        "codes": "clock_tower_b_west_door"
+    },
+    {
+        "name": "Clock Tower B Southwest Door",
+        "type": "toggle",
+        "img": "images/items/door.png",
+        "codes": "clock_tower_b_southwest_door"
+    },
+    {
+        "name": "Aqueduct of Dragons B Northwest Door",
+        "type": "toggle",
+        "img": "images/items/door.png",
+        "codes": "aqueduct_of_dragons_b_northwest_door"
+    },
+    {
+        "name": "Aqueduct of Dragons B East Door",
+        "type": "toggle",
+        "img": "images/items/door.png",
+        "codes": "aqueduct_of_dragons_b_east_door"
+    },
+    {
+        "name": "Aqueduct of Dragons B Southwest Door",
+        "type": "toggle",
+        "img": "images/items/door.png",
+        "codes": "aqueduct_of_dragons_b_southwest_door"
+    },
+    {
+        "name": "Castle Top Floor B East Ceremonial Door",
+        "type": "toggle",
+        "img": "images/items/ceremonial_door.png",
+        "codes": "castle_top_floor_b_east_ceremonial_door"
+    },
+    {
+        "name": "Castle Top Floor B West Skull Door",
+        "type": "toggle",
+        "img": "images/items/skull_door.png",
+        "codes": "castle_top_floor_b_west_skull_door"
+    },
+    {
+        "name": "Castle Top Floor B South Floor Transition",
+        "type": "toggle",
+        "img": "images/items/door.png",
+        "codes": "castle_top_floor_b_south_floor_transition"
+    }
+]

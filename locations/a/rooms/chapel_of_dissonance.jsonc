@@ -2,7 +2,8 @@
     {
         "name": "ChapelOfDissonanceAToSkyWalkway",
         "access_rules": [
-            "@SkyWalkwayAToChapelOfDissonance",
+            "@SkyWalkwayAToChapelOfDissonance,er_disabled",
+            "er_enabled,chapel_of_dissonance_a_south_door",
             "@ChapelOfDissonanceASnakingSteps"
         ]
     },
@@ -31,7 +32,8 @@
         "name": "ChapelOfDissonanceAMainBuilding",
         "access_rules": [
             "@ChapelOfDissonanceAWalkwayPassage",
-            "@CastleTopFloorAFinalApproach,bracelet_mk,crush_stone"
+            "@CastleTopFloorAFinalApproach,bracelet_mk,crush_stone,er_disabled",
+            "er_enabled,chapel_of_dissonance_a_north_ceremonial_door"
         ]
     }
 ]

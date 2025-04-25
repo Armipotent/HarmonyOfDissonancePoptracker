@@ -2,7 +2,8 @@
     {
         "name": "MarbleCorridorBToEntrance",
         "access_rules": [
-            "@EntranceBLowerGuardHall",
+            "@EntranceBLowerGuardHall,er_disabled",
+            "er_enabled,marble_corridor_b_west_door",
             "@MarbleCorridorBDeathRoom"
         ]
     },
@@ -26,8 +27,10 @@
         "name": "MarbleCorridorBDescentOfIllusion",
         "access_rules": [
             "@MarbleCorridorBWestCommonRoom",
-            "@RoomOfIllusionBBattlegroundsOfManyVictories",
-            "@RoomOfIllusionBLavaFlowChamber"
+            "@RoomOfIllusionBBattlegroundsOfManyVictories,er_disabled",
+            "er_enabled,marble_corridor_b_illusory_left_entrance",
+            "@RoomOfIllusionBLavaFlowChamber,er_disabled",
+            "er_enabled,marble_corridor_b_illusory_right_entrance"
         ]
     },
     {
@@ -113,14 +116,16 @@
         "name": "MarbleCorridorBNoHopeOfVictoryHall",
         "access_rules": [
             "@MarbleCorridorBGrandStaircase",
-            "@CastleTopFloorBCorridorGriffinPassage,key_skull"
+            "@CastleTopFloorBCorridorGriffinPassage,key_skull,er_disabled",
+            "er_enabled,marble_corridor_b_east_skull_door"
         ]
     },
     {
         "name": "MarbleCorridorBWailingExit",
         "access_rules": [
             "@MarbleCorridorBEastCommonRoom",
-            "@TheWailingWayBMarbleCorridorExit"
+            "@TheWailingWayBMarbleCorridorExit,er_disabled",
+            "er_enabled,marble_corridor_b_southeast_door"
         ]
     }
 ]

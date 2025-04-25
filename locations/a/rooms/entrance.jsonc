@@ -2,9 +2,8 @@
     {
         "name": "OutsideCastleA",
         "access_rules": [
-            "",
             "@EntranceAGatehouseTower",
-            "@EntranceABreakableRoom"
+            "@EntranceABreakableRoom,corridor_a_bat"
         ]
     },
     {
@@ -23,6 +22,7 @@
     {
         "name": "EntranceABreakableRoom",
         "access_rules": [
+            "",
             "@OutsideCastleA",
             "@EntranceABatsHall",
             "@EntranceAToShrine"
@@ -34,7 +34,8 @@
             "@EntranceABreakableRoom",
             "@EntranceAHangmansHall",
             "@EntranceASubterraneanShaftTop",
-            "@ShrineOfTheApostatesABehindLivingArmor"//,shrine_a_slab"
+            "@ShrineOfTheApostatesABehindLivingArmor,er_disabled",//,shrine_a_slab"
+            "er_enabled,entrance_a_bottom_door"
         ]
     },
     {
@@ -70,7 +71,8 @@
             "@EntranceASeaChickenChamber",
             "@EntranceAUpperGuardHall",
             "@EntranceASaveRoom",
-            "@MarbleCorridorAToEntrance"
+            "@MarbleCorridorAToEntrance,er_disabled",
+            "er_enabled,entrance_a_top_door"
         ]
     },
     {
@@ -121,7 +123,8 @@
             "@EntranceASubterraneanWarpRoom",
             "@EntranceASubterraneanSave",
             "@EntranceASubterraneanShop",
-            "@SkeletonCaveACrateBalancingActChamber,crush_stone,$jump"
+            "@SkeletonCaveACrateBalancingActChamber,crush_stone,$jump,er_disabled",
+            "er_enabled,entrance_a_bottom_floor,crush_stone"
         ]
     },
     {

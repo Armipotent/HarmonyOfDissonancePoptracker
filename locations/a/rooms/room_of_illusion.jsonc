@@ -2,13 +2,15 @@
     {
         "name": "RoomOfIllusionALizardManTurf",
         "access_rules": [
-            "@MarbleCorridorADescentOfIllusion"
+            "@MarbleCorridorADescentOfIllusion,er_disabled",
+            "er_enabled,room_of_illusion_a_lizard_entrance"
         ]
     },
     {
         "name": "RoomOfIllusionALavaFlowChamber",
         "access_rules": [
-            "@MarbleCorridorADescentOfIllusion",
+            "@MarbleCorridorADescentOfIllusion,er_disabled",
+            "er_enabled,room_of_illusion_a_lava_flow_entrance",
             "@RoomOfIllusionAAcidTripRoom"
         ]
     },

@@ -2,7 +2,8 @@
     {
         "name": "TheWailingWayAMarbleCorridorExit",
         "access_rules": [
-            "@MarbleCorridorAWailingExit",
+            "@MarbleCorridorAWailingExit,er_disabled",
+            "er_enabled,the_wailing_way_a_north_door",
             "@TheWailingWayAGryffinCrossroads"
         ]
     },
@@ -39,14 +40,16 @@
         "name": "TheWailingWayALoneLizard",
         "access_rules": [
             "@TheWailingWayAGhostlyGraveyard",
-            "@CastleTreasuryAEntrance,key_skull"
+            "@CastleTreasuryAEntrance,key_skull,er_disabled",
+            "er_enabled,the_wailing_way_a_east_skull_door"
         ]
     },
     {
         "name": "TheWailingWayAShrineExit",
         "access_rules": [
             "@TheWailingWayAGryffinCrossroads",
-            "@ShrineOfTheApostatesAWailingExit"
+            "@ShrineOfTheApostatesAWailingExit,er_disabled",
+            "er_enabled,the_wailing_way_a_south_door"
         ]
     }
 ]

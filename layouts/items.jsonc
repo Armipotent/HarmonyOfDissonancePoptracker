@@ -64,11 +64,13 @@
                         "rows": [
                             [
                                 "vlad_eye",
-                                "vlad_heart",
-                                "vlad_rib"
+                                "vlad_heart"
                             ],
                             [
-                                "vlad_nail",
+                                "vlad_rib",
+                                "vlad_nail"
+                            ],
+                            [
                                 "vlad_fang",
                                 "vlad_ring"
                             ],
@@ -158,13 +160,15 @@
                         "clock_a_slab",
                         "clock_b_guard",
                         "luminous_a_breakable",
-                        "clock_b_crankshaft"
+                        "clock_b_crankshaft",
+                        "corridor_a_bat"
                     ],
                     [
                         "top_a_slab",
                         "luminous_a_floodgate",
                         "walkway_b_breakable",
-                        "top_a_hand"
+                        "top_a_hand",
+                        "skeleton_a_breakable"
                     ]
                 ]
             }
@@ -349,7 +353,11 @@
                         "top_a_hand"
                     ],
                     [
-                        "clock_b_crankshaft"
+                        "clock_b_crankshaft",
+                        "skeleton_a_breakable"
+                    ],
+                    [
+                        "corridor_a_bat"
                     ]
                 ]
             }

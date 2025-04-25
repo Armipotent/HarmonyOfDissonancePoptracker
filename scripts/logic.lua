@@ -5,9 +5,14 @@ function has(item)
 	return Tracker:ProviderCountForCode(item) >= 1
 end
 
+-- player can has infinite jumps?
+function fly_but_jumpy()
+    return has("sylph_feather") and has("inf_boots")
+end
+
 -- player can has flight?
 function fly()
-    return has("griffin_wing") or has("inf_boots") or has("float_boots")
+    return has("griffin_wing") or fly_but_jumpy() or has("float_boots")
 end
 
 -- player can has jump?
@@ -17,7 +22,7 @@ end
 
 -- exists because Clock Tower A: Pinball Zone sucks with just Griffin's Wing
 function kind_jump()
-    return has("sylph_feather") or has("inf_boots") or has("float_boots")
+    return has("sylph_feather")
 end
 
 -- shorthand for breakable ceilings

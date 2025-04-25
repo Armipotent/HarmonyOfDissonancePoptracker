@@ -2,13 +2,15 @@
     {
         "name": "RoomOfIllusionBBattlegroundsOfManyVictories",
         "access_rules": [
-            "@MarbleCorridorBDescentOfIllusion"
+            "@MarbleCorridorBDescentOfIllusion,er_disabled",
+            "er_enabled,room_of_illusion_b_lizard_entrance"
         ]
     },
     {
         "name": "RoomOfIllusionBLavaFlowChamber",
         "access_rules": [
-            "@MarbleCorridorBDescentOfIllusion",
+            "@MarbleCorridorBDescentOfIllusion,er_disabled",
+            "er_enabled,room_of_illusion_b_lava_flow_entrance",
             "@RoomOfIllusionBUnderside"
         ]
     },

@@ -1,0 +1,1348 @@
+[
+    {
+        "name": "Area Connections B",
+        "visibility_rules": [
+            "er_enabled"
+        ],
+        "access_rules": [
+            "er_enabled"
+        ],
+        "children": [
+            // Single Entrances, in order of rough vanilla progression
+            {
+                "name": "Entrance B North Entrance",
+                "sections": [
+                    {
+                        "name": "Entrance B Top Door",
+                        "hosted_item": "entrance_b_top_door",
+                        "access_rules": [
+                            "[]",
+                            "@EntranceBLowerGuardHall"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Entrance B",
+                        "shape": "diamond",
+                        "size": 16,
+                        "x": 202,
+                        "y": 52
+                    }
+                ]
+            },
+            {
+                "name": "Entrance B East Entrance",
+                "sections": [
+                    {
+                        "name": "Entrance B Bottom Door",
+                        "hosted_item": "entrance_b_bottom_door",
+                        "access_rules": [
+                            "[]",
+                            "@EntranceBToShrine"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Entrance B",
+                        "shape": "diamond",
+                        "size": 16,
+                        "x": 302,
+                        "y": 172
+                    }
+                ]
+            },
+            {
+                "name": "Entrance B South Entrance",
+                "sections": [
+                    {
+                        "name": "Entrance B South Floor Transition",
+                        "hosted_item": "entrance_b_bottom_floor",
+                        "access_rules": [
+                            "[]",
+                            "@EntranceBSecretSkeletalPassageBottom"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Entrance B",
+                        "shape": "diamond",
+                        "size": 16,
+                        "x": 252,
+                        "y": 322
+                    }
+                ]
+            },
+            {
+                "name": "Marble Corridor B West Entrance",
+                "sections": [
+                    {
+                        "name": "Marble Corridor B West Door",
+                        "hosted_item": "marble_corridor_b_west_door",
+                        "access_rules": [
+                            "[]",
+                            "@MarbleCorridorBToEntrance"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Marble Corridor B",
+                        "shape": "diamond",
+                        "size": 16,
+                        "x": 22,
+                        "y": 72
+                    }
+                ]
+            },
+            {
+                "name": "Marble Corridor B Illusory Hall Left",
+                "sections": [
+                    {
+                        "name": "Marble Corridor B Illusory Left Entrance",
+                        "hosted_item": "marble_corridor_b_illusory_left_entrance",
+                        "access_rules": [
+                            "[]",
+                            "@MarbleCorridorBDescentOfIllusion"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Marble Corridor B",
+                        "shape": "diamond",
+                        "size": 16,
+                        "x": 102,
+                        "y": 112
+                    }
+                ]
+            },
+            {
+                "name": "Marble Corridor B Illusory Hall Right",
+                "sections": [
+                    {
+                        "name": "Marble Corridor B Illusory Right Entrance",
+                        "hosted_item": "marble_corridor_b_illusory_right_entrance",
+                        "access_rules": [
+                            "[]",
+                            "@MarbleCorridorBDescentOfIllusion"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Marble Corridor B",
+                        "shape": "diamond",
+                        "size": 16,
+                        "x": 122,
+                        "y": 112
+                    }
+                ]
+            },
+            {
+                "name": "Marble Corridor B East Entrance",
+                "sections": [
+                    {
+                        "name": "Marble Corridor B East Skull Door",
+                        "hosted_item": "marble_corridor_b_east_skull_door",
+                        "access_rules": [
+                            "[]",
+                            "@MarbleCorridorBNoHopeOfVictoryHall,key_skull"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Marble Corridor B",
+                        "shape": "diamond",
+                        "size": 16,
+                        "x": 442,
+                        "y": 52
+                    }
+                ]
+            },
+            {
+                "name": "Marble Corridor B Southeast Entrance",
+                "sections": [
+                    {
+                        "name": "Marble Corridor B Southeast Door",
+                        "hosted_item": "marble_corridor_b_southeast_door",
+                        "access_rules": [
+                            "[]",
+                            "@MarbleCorridorBWailingExit"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Marble Corridor B",
+                        "shape": "diamond",
+                        "size": 16,
+                        "x": 302,
+                        "y": 92
+                    }
+                ]
+            },
+            {
+                "name": "The Wailing Way B North Entrance",
+                "sections": [
+                    {
+                        "name": "The Wailing Way B North Door",
+                        "hosted_item": "the_wailing_way_b_north_door",
+                        "access_rules": [
+                            "[]",
+                            "@TheWailingWayBMarbleCorridorExit"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "The Wailing Way B",
+                        "shape": "diamond",
+                        "size": 16,
+                        "x": 142,
+                        "y": 32
+                    }
+                ]
+            },
+            {
+                "name": "The Wailing Way B East Entrance",
+                "sections": [
+                    {
+                        "name": "The Wailing Way B East Skull Door",
+                        "hosted_item": "the_wailing_way_b_east_skull_door",
+                        "access_rules": [
+                            "[]",
+                            "@TheWailingWayBLoneLizard,key_skull"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "The Wailing Way B",
+                        "shape": "diamond",
+                        "size": 16,
+                        "x": 262,
+                        "y": 72
+                    }
+                ]
+            },
+            {
+                "name": "The Wailing Way B South Entrance",
+                "sections": [
+                    {
+                        "name": "The Wailing Way B South Door",
+                        "hosted_item": "the_wailing_way_b_south_door",
+                        "access_rules": [
+                            "[]",
+                            "@TheWailingWayBShrineExit"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "The Wailing Way B",
+                        "shape": "diamond",
+                        "size": 16,
+                        "x": 162,
+                        "y": 92
+                    }
+                ]
+            },
+            {
+                "name": "Shrine of the Apostates B North Entrance",
+                "sections": [
+                    {
+                        "name": "Shrine of the Apostates B North Door",
+                        "hosted_item": "shrine_of_the_apostates_b_north_door",
+                        "access_rules": [
+                            "[]",
+                            "@ShrineOfTheApostatesBWailingExit"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Shrine of the Apostates B",
+                        "shape": "diamond",
+                        "size": 16,
+                        "x": 222,
+                        "y": 32
+                    }
+                ]
+            },
+            {
+                "name": "Shrine of the Apostates B West Entrance",
+                "sections": [
+                    {
+                        "name": "Shrine of the Apostates B West Door",
+                        "hosted_item": "shrine_of_the_apostates_b_west_door",
+                        "access_rules": [
+                            "[]",
+                            "@ShrineOfTheApostatesBBeforeCyclops"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Shrine of the Apostates B",
+                        "shape": "diamond",
+                        "size": 16,
+                        "x": 22,
+                        "y": 72
+                    }
+                ]
+            },
+            {
+                "name": "Room of Illusion B West Entrance",
+                "sections": [
+                    {
+                        "name": "Room of Illusion B Battleground Entrance",
+                        "hosted_item": "room_of_illusion_b_lizard_entrance",
+                        "access_rules": [
+                            "[]",
+                            "@RoomOfIllusionBBattlegroundsOfManyVictories"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Room of Illusion B",
+                        "shape": "diamond",
+                        "size": 16,
+                        "x": 102,
+                        "y": 32
+                    }
+                ]
+            },
+            {
+                "name": "Room of Illusion B East Entrance",
+                "sections": [
+                    {
+                        "name": "Room of Illusion B Lava Flow Entrance",
+                        "hosted_item": "room_of_illusion_b_lava_flow_entrance",
+                        "access_rules": [
+                            "[]",
+                            "@RoomOfIllusionBLavaFlowChamber"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Room of Illusion B",
+                        "shape": "diamond",
+                        "size": 16,
+                        "x": 122,
+                        "y": 32
+                    }
+                ]
+            },
+            {
+                "name": "Castle Treasury B North Ceiling",
+                "sections": [
+                    {
+                        "name": "Castle Treasury B Top Ceiling Transition",
+                        "hosted_item": "castle_treasury_b_top_ceiling_transition",
+                        "access_rules": [
+                            "[]",
+                            "@CastleTreasuryBEntrance"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Castle Treasury B",
+                        "shape": "diamond",
+                        "size": 16,
+                        "x": 372,
+                        "y": 22
+                    }
+                ]
+            },
+            {
+                "name": "Castle Treasury B North Door",
+                "sections": [
+                    {
+                        "name": "Castle Treasury B Top Skull Door",
+                        "hosted_item": "castle_treasury_b_top_skull_door",
+                        "access_rules": [
+                            "[]",
+                            "@CastleTreasuryBEntrance,key_skull"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Castle Treasury B",
+                        "shape": "diamond",
+                        "size": 16,
+                        "x": 322,
+                        "y": 32
+                    }
+                ]
+            },
+            {
+                "name": "Castle Treasury B Southwest Door",
+                "sections": [
+                    {
+                        "name": "Castle Treasury B Southwest Door",
+                        "hosted_item": "castle_treasury_b_southwest_door",
+                        "access_rules": [
+                            "[]",
+                            "@CastleTreasuryBSkeletonEntrance"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Castle Treasury B",
+                        "shape": "diamond",
+                        "size": 16,
+                        "x": 282,
+                        "y": 232
+                    }
+                ]
+            },
+            {
+                "name": "Castle Treasury B Southeast Door",
+                "sections": [
+                    {
+                        "name": "Castle Treasury B Southeast Door",
+                        "hosted_item": "castle_treasury_b_southeast_door",
+                        "access_rules": [
+                            "[]",
+                            "@CastleTreasuryBMinesToEverywhereElse"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Castle Treasury B",
+                        "shape": "diamond",
+                        "size": 16,
+                        "x": 362,
+                        "y": 232
+                    }
+                ]
+            },
+            {
+                "name": "Skeleton Cave B East Door",
+                "sections": [
+                    {
+                        "name": "Skeleton Cave B East Door",
+                        "hosted_item": "skeleton_cave_b_east_door",
+                        "access_rules": [
+                            "[]",
+                            "@SkeletonCaveBStairsToTreasury"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Skeleton Cave B",
+                        "shape": "diamond",
+                        "size": 16,
+                        "x": 362,
+                        "y": 32
+                    }
+                ]
+            },
+            {
+                "name": "Skeleton Cave B West Ceiling Transition",
+                "sections": [
+                    {
+                        "name": "Skeleton Cave B West Ceiling Transition",
+                        "hosted_item": "skeleton_cave_b_west_ceiling_transition",
+                        "access_rules": [
+                            "[]",
+                            "@SkeletonCaveBCastleEntranceAscentPoint"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Skeleton Cave B",
+                        "shape": "diamond",
+                        "size": 16,
+                        "x": 52,
+                        "y": 42
+                    }
+                ]
+            },
+            {
+                "name": "Luminous Cavern B West Entrance",
+                "sections": [
+                    {
+                        "name": "Luminous Cavern B West Door",
+                        "hosted_item": "luminous_cavern_b_west_door",
+                        "access_rules": [
+                            "[]",
+                            "@LuminousCavernBToTreasury"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Luminous Cavern B",
+                        "shape": "diamond",
+                        "size": 16,
+                        "x": 22,
+                        "y": 92
+                    }
+                ]
+            },
+            {
+                "name": "Luminous Cavern B North Entrance",
+                "sections": [
+                    {
+                        "name": "Luminous Cavern B North Door",
+                        "hosted_item": "luminous_cavern_b_north_door",
+                        "access_rules": [
+                            "[]",
+                            "@LuminousCavernBAqueductExit"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Luminous Cavern B",
+                        "shape": "diamond",
+                        "size": 16,
+                        "x": 202,
+                        "y": 52
+                    }
+                ]
+            },
+            {
+                "name": "Sky Walkway B North Entrance",
+                "sections": [
+                    {
+                        "name": "Sky Walkway B North Door",
+                        "hosted_item": "sky_walkway_b_north_door",
+                        "access_rules": [
+                            "[]",
+                            "@SkyWalkwayBToChapelOfDissonance"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Sky Walkway B",
+                        "shape": "diamond",
+                        "size": 16,
+                        "x": 142,
+                        "y": 72
+                    }
+                ]
+            },
+            {
+                "name": "Sky Walkway B East Entrance",
+                "sections": [
+                    {
+                        "name": "Sky Walkway B East Door",
+                        "hosted_item": "sky_walkway_b_east_door",
+                        "access_rules": [
+                            "[]",
+                            "@SkyWalkwayBToClockTower"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Sky Walkway B",
+                        "shape": "diamond",
+                        "size": 16,
+                        "x": 282,
+                        "y": 112
+                    }
+                ]
+            },
+            {
+                "name": "Sky Walkway B South Entrance",
+                "sections": [
+                    {
+                        "name": "Sky Walkway B South Door",
+                        "hosted_item": "sky_walkway_b_south_door",
+                        "access_rules": [
+                            "[]",
+                            "@SkyWalkwayBLowerMirrorHallway"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Sky Walkway B",
+                        "shape": "diamond",
+                        "size": 16,
+                        "x": 142,
+                        "y": 172
+                    }
+                ]
+            },
+            {
+                "name": "Chapel of Dissonance B South Entrance",
+                "sections": [
+                    {
+                        "name": "Chapel of Dissonance B South Door",
+                        "hosted_item": "chapel_of_dissonance_b_south_door",
+                        "access_rules": [
+                            "[]",
+                            "@ChapelOfDissonanceBToSkyWalkway"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Chapel of Dissonance B",
+                        "shape": "diamond",
+                        "size": 16,
+                        "x": 162,
+                        "y": 192
+                    }
+                ]
+            },
+            {
+                "name": "Chapel of Dissonance B North Entrance",
+                "sections": [
+                    {
+                        "name": "Chapel of Dissonance B North Door",
+                        "hosted_item": "chapel_of_dissonance_b_north_ceremonial_door",
+                        "access_rules": [
+                            "[]",
+                            "@ChapelOfDissonanceBMainStructure,bracelet_mk"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Chapel of Dissonance B",
+                        "shape": "diamond",
+                        "size": 16,
+                        "x": 22,
+                        "y": 52
+                    }
+                ]
+            },
+            {
+                "name": "Clock Tower B West Entrance",
+                "sections": [
+                    {
+                        "name": "Clock Tower B West Door",
+                        "hosted_item": "clock_tower_b_west_door",
+                        "access_rules": [
+                            "[]",
+                            "@ClockTowerBWestEntranceShaft"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Clock Tower B",
+                        "shape": "diamond",
+                        "size": 16,
+                        "x": 22,
+                        "y": 132
+                    }
+                ]
+            },
+            {
+                "name": "Clock Tower B Southwest Entrance",
+                "sections": [
+                    {
+                        "name": "Clock Tower B Southwest Door",
+                        "hosted_item": "clock_tower_b_southwest_door",
+                        "access_rules": [
+                            "[]",
+                            "@ClockTowerBBackdoorEntrance"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Clock Tower B",
+                        "shape": "diamond",
+                        "size": 16,
+                        "x": 62,
+                        "y": 232
+                    }
+                ]
+            },
+            {
+                "name": "Aqueduct of Dragons B Northwest Entrance",
+                "sections": [
+                    {
+                        "name": "Aqueduct of Dragons B Northwest Door",
+                        "hosted_item": "aqueduct_of_dragons_b_northwest_door",
+                        "access_rules": [
+                            "[]",
+                            "@AqueductOfDragonsBNorthwestEntrance"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Aqueduct of Dragons B",
+                        "shape": "diamond",
+                        "size": 16,
+                        "x": 82,
+                        "y": 32
+                    }
+                ]
+            },
+            {
+                "name": "Aqueduct of Dragons B East Entrance",
+                "sections": [
+                    {
+                        "name": "Aqueduct of Dragons B East Door",
+                        "hosted_item": "aqueduct_of_dragons_b_east_door",
+                        "access_rules": [
+                            "[]",
+                            "@AqueductOfDragonsBBehindGhostOfGiantMerman"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Aqueduct of Dragons B",
+                        "shape": "diamond",
+                        "size": 16,
+                        "x": 262,
+                        "y": 72
+                    }
+                ]
+            },
+            {
+                "name": "Aqueduct of Dragons B Southwest Entrance",
+                "sections": [
+                    {
+                        "name": "Aqueduct of Dragons B Southwest Door",
+                        "hosted_item": "aqueduct_of_dragons_b_southwest_door",
+                        "access_rules": [
+                            "[]",
+                            "@AqueductOfDragonsBCrushableEntrance"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Aqueduct of Dragons B",
+                        "shape": "diamond",
+                        "size": 16,
+                        "x": 82,
+                        "y": 192
+                    }
+                ]
+            },
+            {
+                "name": "Castle Top Floor B West Entrance",
+                "sections": [
+                    {
+                        "name": "Castle Top Floor B West Skull Door",
+                        "hosted_item": "castle_top_floor_b_west_skull_door",
+                        "access_rules": [
+                            "[]",
+                            "@CastleTopFloorBCorridorGriffinPassage,key_skull"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Castle Top Floor B",
+                        "shape": "diamond",
+                        "size": 16,
+                        "x": 102,
+                        "y": 252
+                    }
+                ]
+            },
+            {
+                "name": "Castle Top Floor B South Entrance",
+                "sections": [
+                    {
+                        "name": "Castle Top Floor B South Floor Transition",
+                        "hosted_item": "castle_top_floor_b_south_floor_transition",
+                        "access_rules": [
+                            "[]",
+                            "@CastleTopFloorBElevatorRoomStairs"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Castle Top Floor B",
+                        "shape": "diamond",
+                        "size": 16,
+                        "x": 132,
+                        "y": 322
+                    }
+                ]
+            },
+            {
+                "name": "Castle Top Floor B East Entrance",
+                "sections": [
+                    {
+                        "name": "Castle Top Floor B East Ceremonial Door",
+                        "hosted_item": "castle_top_floor_b_east_ceremonial_door",
+                        "access_rules": [
+                            "[]",
+                            "@CastleTopFloorBFinalApproach,bracelet_mk,crush_stone"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Castle Top Floor B",
+                        "shape": "diamond",
+                        "size": 16,
+                        "x": 162,
+                        "y": 92
+                    }
+                ]
+            },
+            
+            // Bundles, in order of X position
+            {
+                "name": "Entrance B Top and Marble Corridor B West",
+                "sections": [
+                    {
+                        "name": "Entrance B Top Door",
+                        "hosted_item": "entrance_b_top_door",
+                        "access_rules": [
+                            "[]",
+                            "@EntranceBLowerGuardHall"
+                        ]
+                    },
+                    {
+                        "name": "Marble Corridor B",
+                        "hosted_item": "marble_corridor_b_west_door",
+                        "access_rules": [
+                            "[]",
+                            "@MarbleCorridorBToEntrance"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Castle B",
+                        "shape": "diamond",
+                        "size": 16,
+                        "x": 182,
+                        "y": 252
+                    }
+                ]
+            },
+            {
+                "name": "Entrance B South and Skeleton Cave B West",
+                "sections": [
+                    {
+                        "name": "Entrance B South Floor Transition",
+                        "hosted_item": "entrance_b_bottom_floor",
+                        "access_rules": [
+                            "[]",
+                            "@EntranceBSecretSkeletalPassageBottom"
+                        ]
+                    },
+                    {
+                        "name": "Skeleton Cave B West Ceiling Transition",
+                        "hosted_item": "skeleton_cave_b_west_ceiling_transition",
+                        "access_rules": [
+                            "[]",
+                            "@SkeletonCaveBStairsToTreasury"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Castle B",
+                        "shape": "diamond",
+                        "size": 16,
+                        "x": 232,
+                        "y": 522
+                    }
+                ]
+            },
+            {
+                "name": "Entrance B Middle and Shrine of the Apostates B West",
+                "sections": [
+                    {
+                        "name": "Entrance B Top Door",
+                        "hosted_item": "entrance_b_bottom_door",
+                        "access_rules": [
+                            "[]",
+                            "@EntranceBToShrine"
+                        ]
+                    },
+                    {
+                        "name": "Shrine of the Apostates B West Door",
+                        "hosted_item": "shrine_of_the_apostates_b_west_door",
+                        "access_rules": [
+                            "[]",
+                            "@ShrineOfTheApostatesBBehindLivingArmor"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Castle B",
+                        "shape": "diamond",
+                        "size": 16,
+                        "x": 282,
+                        "y": 372
+                    }
+                ]
+            },
+            {
+                "name": "Room of Illusion B Lizard and Marble Corridor B Illusory Hall",
+                "sections": [
+                    {
+                        "name": "Room of Illusion B Lizard Entrance",
+                        "hosted_item": "room_of_illusion_b_lizard_entrance",
+                        "access_rules": [
+                            "[]",
+                            "@RoomOfIllusionBBattlegroundsOfManyVictories"
+                        ]
+                    },
+                    {
+                        "name": "Marble Corridor B Illusory Left Entrance",
+                        "hosted_item": "marble_corridor_b_illusory_left_entrance",
+                        "access_rules": [
+                            "[]",
+                            "@MarbleCorridorBDescentOfIllusion"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Castle B",
+                        "shape": "diamond",
+                        "size": 16,
+                        "x": 262,
+                        "y": 292
+                    }
+                ]
+            },
+            {
+                "name": "Marble Corridor B Illusory Hall and Room of Illusion B Lava Flow",
+                "sections": [
+                    {
+                        "name": "Marble Corridor B Illusory Right Entrance",
+                        "hosted_item": "marble_corridor_b_illusory_right_entrance",
+                        "access_rules": [
+                            "[]",
+                            "@MarbleCorridorBDescentOfIllusion"
+                        ]
+                    },
+                    {
+                        "name": "Room of Illusion B Lava Flow Entrance",
+                        "hosted_item": "room_of_illusion_b_lava_flow_entrance",
+                        "access_rules": [
+                            "[]",
+                            "@RoomOfIllusionBLavaFlowChamber"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Castle B",
+                        "shape": "diamond",
+                        "size": 16,
+                        "x": 282,
+                        "y": 292
+                    }
+                ]
+            },
+            {
+                "name": "Marble Corridor B Southeast and The Wailing Way B North",
+                "sections": [
+                    {
+                        "name": "Marble Corridor B Southeast Door",
+                        "hosted_item": "marble_corridor_b_southeast_door",
+                        "access_rules": [
+                            "[]",
+                            "@MarbleCorridorBWailingExit"
+                        ]
+                    },
+                    {
+                        "name": "The Wailing Way B North Door",
+                        "hosted_item": "the_wailing_way_b_north_door",
+                        "access_rules": [
+                            "[]",
+                            "@TheWailingWayBMarbleCorridorExit"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Castle B",
+                        "shape": "diamond",
+                        "size": 16,
+                        "x": 462,
+                        "y": 272
+                    }
+                ]
+            },
+            {
+                "name": "The Wailing Way B South and Shrine of the Apostates B North",
+                "sections": [
+                    {
+                        "name": "The Wailing Way B South Door",
+                        "hosted_item": "the_wailing_way_b_south_door",
+                        "access_rules": [
+                            "[]",
+                            "@TheWailingWayBShrineExit"
+                        ]
+                    },
+                    {
+                        "name": "Shrine of the Apostates B North Door",
+                        "hosted_item": "shrine_of_the_apostates_b_north_door",
+                        "access_rules": [
+                            "[]",
+                            "@ShrineOfTheApostatesBWailingExit"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Castle B",
+                        "shape": "diamond",
+                        "size": 16,
+                        "x": 482,
+                        "y": 332
+                    }
+                ]
+            },
+            {
+                "name": "Skeleton Cave B East and Castle Treasury B Southeast",
+                "sections": [
+                    {
+                        "name": "Skeleton Cave B East Door",
+                        "hosted_item": "skeleton_cave_b_east_door",
+                        "access_rules": [
+                            "[]",
+                            "@SkeletonCaveBStairsToTreasury"
+                        ]
+                    },
+                    {
+                        "name": "Castle Treasury B Southeast Door",
+                        "hosted_item": "castle_treasury_b_southeast_door",
+                        "access_rules": [
+                            "[]",
+                            "@CastleTreasuryBMinesToEverywhereElse"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Castle B",
+                        "shape": "diamond",
+                        "size": 16,
+                        "x": 542,
+                        "y": 512
+                    }
+                ]
+            },
+            {
+                "name": "The Wailing Way B East and Castle Treasury B Northwest",
+                "sections": [
+                    {
+                        "name": "The Wailing Way B East Skull Door",
+                        "hosted_item": "the_wailing_way_b_east_skull_door",
+                        "access_rules": [
+                            "[]",
+                            "@TheWailingWayBLoneLizard,key_skull"
+                        ]
+                    },
+                    {
+                        "name": "Castle Treasury B Top Skull Door",
+                        "hosted_item": "castle_treasury_b_top_skull_door",
+                        "access_rules": [
+                            "[]",
+                            "@CastleTreasuryBEntrance,key_skull"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Castle B",
+                        "shape": "diamond",
+                        "size": 16,
+                        "x": 582,
+                        "y": 312
+                    }
+                ]
+            },
+            {
+                "name": "Marble Corridor B East and Castle Top Floor B Middle",
+                "sections": [
+                    {
+                        "name": "Marble Corridor B East Skull Door",
+                        "hosted_item": "marble_corridor_b_east_skull_door",
+                        "access_rules": [
+                            "[]",
+                            "@MarbleCorridorBHopeOfVictoryHall,key_skull"
+                        ]
+                    },
+                    {
+                        "name": "Castle Top Floor B West Skull Door",
+                        "hosted_item": "castle_top_floor_b_west_skull_door",
+                        "access_rules": [
+                            "[]",
+                            "@CastleTopFloorBCorridorGriffinPassage,key_skull"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Castle B",
+                        "shape": "diamond",
+                        "size": 16,
+                        "x": 602,
+                        "y": 232
+                    }
+                ]
+            },
+            {
+                "name": "Castle Treasury B Southeast And Luminous Cavern B",
+                "sections": [
+                    {
+                        "name": "Castle Treasury B Southeast Door",
+                        "hosted_item": "castle_treasury_b_southeast_door",
+                        "access_rules": [
+                            "[]",
+                            "@CastleTreasuryBMinesToEverywhereElse"
+                        ]
+                    },
+                    {
+                        "name": "Luminous Cavern B West Door",
+                        "hosted_item": "luminous_cavern_b_west_door",
+                        "access_rules": [
+                            "[]",
+                            "@LuminousCavernBToTreasury"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Castle B",
+                        "shape": "diamond",
+                        "size": 16,
+                        "x": 622,
+                        "y": 512
+                    }
+                ]
+            },
+            {
+                "name": "Castle Top Floor B South and Castle Treasury B North",
+                "sections": [
+                    {
+                        "name": "Castle Top Floor B South Floor Transition",
+                        "hosted_item": "castle_top_floor_b_south_floor_transition",
+                        "access_rules": [
+                            "[]",
+                            "@CastleTopFloorBElevatorRoomStairs"
+                        ]
+                    },
+                    {
+                        "name": "Castle Treasury B Top Ceiling Transition",
+                        "hosted_item": "castle_treasury_b_top_ceiling_transition",
+                        "access_rules": [
+                            "[]",
+                            "@CastleTreasuryBEntrance"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Castle B",
+                        "shape": "diamond",
+                        "size": 16,
+                        "x": 632,
+                        "y": 302
+                    }
+                ]
+            },
+            {
+                "name": "Castle Top Floor B East and Chapel of Dissonance B North",
+                "sections": [
+                    {
+                        "name": "Castle Top Floor B East Ceremonial Door",
+                        "hosted_item": "castle_top_floor_b_east_ceremonial_door",
+                        "access_rules": [
+                            "[]",
+                            "@CastleTopFloorBFinalApproach,bracelet_mk,crush_stone"
+                        ]
+                    },
+                    {
+                        "name": "Chapel of Dissonance B North Door",
+                        "hosted_item": "chapel_of_dissonance_b_north_ceremonial_door",
+                        "access_rules": [
+                            "[]",
+                            "@ChapelOfDissonanceBMainStructure,bracelet_mk"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Castle B",
+                        "shape": "diamond",
+                        "size": 16,
+                        "x": 662,
+                        "y": 72
+                    }
+                ]
+            },
+            {
+                "name": "Chapel of Dissonance B South and Sky Walkway B North",
+                "sections": [
+                    {
+                        "name": "Chapel of Dissonance B South Door",
+                        "hosted_item": "chapel_of_dissonance_b_south_door",
+                        "access_rules": [
+                            "[]",
+                            "@ChapelOfDissonanceBToSkyWalkway"
+                        ]
+                    },
+                    {
+                        "name": "Sky Walkway B North Door",
+                        "hosted_item": "sky_walkway_b_north_door",
+                        "access_rules": [
+                            "[]",
+                            "@SkyWalkwayBToChapelOfDissonance"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Castle B",
+                        "shape": "diamond",
+                        "size": 16,
+                        "x": 802,
+                        "y": 212
+                    }
+                ]
+            },
+            {
+                "name": "Aqueduct of Dragons B Northwest and Sky Walkway B South",
+                "sections": [
+                    {
+                        "name": "Aqueduct of Dragons B Northwest Door",
+                        "hosted_item": "aqueduct_of_dragons_b_northwest_door",
+                        "access_rules": [
+                            "[]",
+                            "@AqueductOfDragonsBNorthwestEntrance"
+                        ]
+                    },
+                    {
+                        "name": "Sky Walkway B South Door",
+                        "hosted_item": "sky_walkway_b_south_door",
+                        "access_rules": [
+                            "[]",
+                            "@SkyWalkwayBLowerMirrorHallway"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Castle B",
+                        "shape": "diamond",
+                        "size": 16,
+                        "x": 802,
+                        "y": 312
+                    }
+                ]
+            },
+            {
+                "name": "Luminous Cavern B North and Aqueduct of Dragons B Southwest",
+                "sections": [
+                    {
+                        "name": "Luminous Cavern B North Door",
+                        "hosted_item": "luminous_cavern_b_north_door",
+                        "access_rules": [
+                            "[]",
+                            "@LuminousCavernBAqueductExit"
+                        ]
+                    },
+                    {
+                        "name": "Aqueduct of Dragons B Southwest Door",
+                        "hosted_item": "aqueduct_of_dragons_b_southwest_door",
+                        "access_rules": [
+                            "[]",
+                            "@AqueductOfDragonsBCrushableEntrance"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Castle B",
+                        "shape": "diamond",
+                        "size": 16,
+                        "x": 802,
+                        "y": 472
+                    }
+                ]
+            },
+            {
+                "name": "Sky Walkway B East and Clock Tower B West",
+                "sections": [
+                    {
+                        "name": "Sky Walkway B East Door",
+                        "hosted_item": "sky_walkway_b_east_door",
+                        "access_rules": [
+                            "[]",
+                            "@SkyWalkwayBToClockTower"
+                        ]
+                    },
+                    {
+                        "name": "Clock Tower B West Door",
+                        "hosted_item": "clock_tower_b_west_door",
+                        "access_rules": [
+                            "[]",
+                            "@ClockTowerBWestEntranceShaft"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Castle B",
+                        "shape": "diamond",
+                        "size": 16,
+                        "x": 942,
+                        "y": 252
+                    }
+                ]
+            },
+            {
+                "name": "Aqueduct of Dragons B East and Clock Tower B Southwest",
+                "sections": [
+                    {
+                        "name": "Aqueduct of Dragons B East Door",
+                        "hosted_item": "aqueduct_of_dragons_b_east_door",
+                        "access_rules": [
+                            "[]",
+                            "@AqueductOfDragonsBBehindGhostOfGiantMerman"
+                        ]
+                    },
+                    {
+                        "name": "Clock Tower B Southwest Door",
+                        "hosted_item": "clock_tower_b_southwest_door",
+                        "access_rules": [
+                            "[]",
+                            "@ClockTowerBBackdoorEntrance"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Castle B",
+                        "shape": "diamond",
+                        "size": 16,
+                        "x": 982,
+                        "y": 352
+                    }
+                ]
+            }
+        ]
+    }
+]

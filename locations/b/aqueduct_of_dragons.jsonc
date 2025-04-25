@@ -21,8 +21,8 @@
                     },
                     {
                         "map": "Aqueduct of Dragons B",
-                        "x": 72,
-                        "y": 172
+                        "x": 92,
+                        "y": 192
                     }
                 ]
             },
@@ -45,8 +45,8 @@
                     },
                     {
                         "map": "Aqueduct of Dragons B",
-                        "x": 12,
-                        "y": 132
+                        "x": 32,
+                        "y": 152
                     }
                 ]
             },
@@ -69,8 +69,8 @@
                     },
                     {
                         "map": "Aqueduct of Dragons B",
-                        "x": 92,
-                        "y": 92
+                        "x": 112,
+                        "y": 112
                     }
                 ]
             },
@@ -93,8 +93,8 @@
                     },
                     {
                         "map": "Aqueduct of Dragons B",
-                        "x": 52,
-                        "y": 72
+                        "x": 72,
+                        "y": 92
                     }
                 ]
             },
@@ -117,8 +117,8 @@
                     },
                     {
                         "map": "Aqueduct of Dragons B",
-                        "x": 252,
-                        "y": 72
+                        "x": 272,
+                        "y": 92
                     }
                 ]
             }

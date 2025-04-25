@@ -1,5 +1,11 @@
 [
     {
+        "name": "Marble Corridor A Giant Bat",
+        "type": "toggle",
+        "img": "images/items/corridor_a_bat.png",
+        "codes": "corridor_a_bat"
+    },
+    {
         "name": "Shrine Of The Apostates A Switch",
         "type": "toggle",
         "img": "images/items/shrine_a_slab.png",
@@ -22,6 +28,12 @@
         "type": "toggle",
         "img": "images/items/luminous_a_floodgate.png",
         "codes": "luminous_a_floodgate"
+    },
+    {
+        "name": "Skeleton Cave A Breakable",
+        "type": "toggle",
+        "img": "images/items/skeleton_a_breakable.png",
+        "codes": "skeleton_a_breakable"
     },
     {
         "name": "Sky Walkway B Breakable",

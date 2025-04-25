@@ -2,7 +2,8 @@
     {
         "name": "MarbleCorridorAToEntrance",
         "access_rules": [
-            "@EntranceALowerGuardHall",
+            "@EntranceALowerGuardHall,er_disabled",
+            "er_enabled,marble_corridor_a_west_door",
             "@MarbleCorridorADeathRoom"
         ]
     },
@@ -26,8 +27,10 @@
         "name": "MarbleCorridorADescentOfIllusion",
         "access_rules": [
             "@MarbleCorridorAWestCommonRoom",
-            "@RoomOfIllusionALizardManTurf",
-            "@RoomOfIllusionALavaFlowChamber"
+            "@RoomOfIllusionALizardManTurf,er_disabled",
+            "er_enabled,marble_corridor_a_illusory_left_entrance",
+            "@RoomOfIllusionALavaFlowChamber,er_disabled",
+            "er_enabled,marble_corridor_a_illusory_right_entrance"
         ]
     },
     {
@@ -113,14 +116,16 @@
         "name": "MarbleCorridorAHopeOfVictoryHall",
         "access_rules": [
             "@MarbleCorridorAGrandStaircase",
-            "@CastleTopFloorACorridorGriffinPassage,key_skull"
+            "@CastleTopFloorACorridorGriffinPassage,key_skull,er_disabled",
+            "er_enabled,marble_corridor_a_east_skull_door"
         ]
     },
     {
         "name": "MarbleCorridorAWailingExit",
         "access_rules": [
             "@MarbleCorridorAEastCommonRoom",
-            "@TheWailingWayAMarbleCorridorExit"
+            "@TheWailingWayAMarbleCorridorExit,er_disabled",
+            "er_enabled,marble_corridor_a_southeast_door"
         ]
     }
 ]

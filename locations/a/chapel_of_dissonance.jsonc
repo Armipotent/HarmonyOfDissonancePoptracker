@@ -22,8 +22,8 @@
                     },
                     {
                         "map": "Chapel of Dissonance A",
-                        "x": 12,
-                        "y": 12
+                        "x": 32,
+                        "y": 32
                     }
                 ]
             },
@@ -47,8 +47,8 @@
                     },
                     {
                         "map": "Chapel of Dissonance A",
-                        "x": 32,
-                        "y": 12
+                        "x": 52,
+                        "y": 32
                     }
                 ]
             },
@@ -71,8 +71,8 @@
                     },
                     {
                         "map": "Chapel of Dissonance A",
-                        "x": 32,
-                        "y": 52
+                        "x": 52,
+                        "y": 72
                     }
                 ]
             },
@@ -96,8 +96,8 @@
                     },
                     {
                         "map": "Chapel of Dissonance A",
-                        "x": 52,
-                        "y": 32
+                        "x": 72,
+                        "y": 52
                     }
                 ]
             },
@@ -121,8 +121,8 @@
                     },
                     {
                         "map": "Chapel of Dissonance A",
-                        "x": 72,
-                        "y": 52
+                        "x": 92,
+                        "y": 72
                     }
                 ]
             },
@@ -145,8 +145,8 @@
                     },
                     {
                         "map": "Chapel of Dissonance A",
-                        "x": 92,
-                        "y": 92
+                        "x": 132,
+                        "y": 112
                     }
                 ]
             }

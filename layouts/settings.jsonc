@@ -7,14 +7,15 @@
         "background": "#000000",
         "rows": [
             [
-                "spellbound",
-                "bad_ending_setting"
+                "entrance_rando",
+                "spellbound"
             ],
             [
-                "worst_ending_setting",
-                "best_ending_setting"
+                "bad_ending_setting",
+                "worst_ending_setting"
             ],
             [
+                "best_ending_setting",
                 "furniture_setting"
             ]
         ]

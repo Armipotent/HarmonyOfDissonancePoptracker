@@ -2,7 +2,8 @@
     {
         "name": "ShrineOfTheApostatesBWailingExit",
         "access_rules": [
-            "@TheWailingWayBShrineExit",
+            "@TheWailingWayBShrineExit,er_disabled",
+            "er_enabled,shrine_of_the_apostates_b_north_door",
             "@ShrineOfTheApostatesBBoneRoomsUpper"
         ]
     },
@@ -80,7 +81,8 @@
         "name": "ShrineOfTheApostatesBBeforeCyclops",
         "access_rules": [
             "@ShrineOfTheApostatesBCyclopsArena",
-            "@EntranceBToShrine"
+            "@EntranceBToShrine,er_disabled",
+            "er_enabled,shrine_of_the_apostates_b_west_door"
         ]
     }
 ]

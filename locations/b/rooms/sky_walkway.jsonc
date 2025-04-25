@@ -48,7 +48,8 @@
         "name": "SkyWalkwayBToChapelOfDissonance",
         "access_rules": [
             "@SkyWalkwayBBeforeLegionSaint",
-            "@ChapelOfDissonanceBToSkyWalkway"
+            "@ChapelOfDissonanceBToSkyWalkway,er_disabled",
+            "er_enabled,sky_walkway_b_north_door"
         ]
     },
     {
@@ -68,7 +69,8 @@
         "name": "SkyWalkwayBToClockTower",
         "access_rules": [
             "@SkyWalkwayBLegionSaintChamber",
-            "@ClockTowerBWestEntranceShaft"
+            "@ClockTowerBWestEntranceShaft,er_disabled",
+            "er_enabled,sky_walkway_b_east_door"
         ]
     },
     {
@@ -102,7 +104,8 @@
         "name": "SkyWalkwayBLowerMirrorHallway",
         "access_rules": [
             "@SkyWalkwayBUpperMirrorHallway",
-            "@AqueductOfDragonsBNorthwestEntrance"
+            "@AqueductOfDragonsBNorthwestEntrance,er_disabled",
+            "er_enabled,sky_walkway_b_south_door"
         ]
     }
 ]

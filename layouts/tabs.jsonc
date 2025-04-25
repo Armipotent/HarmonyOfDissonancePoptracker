@@ -4,6 +4,7 @@
         "tabs": [
             {
                 "title": "Full View",
+                "icon": "images/items/map.png",
                 "content": {
                     "type": "map",
                     "maps": [
@@ -14,11 +15,13 @@
             },
             {
                 "title": "Castle A",
+                "icon": "images/items/bracelet_mk.png",
                 "content": {
                     "type": "tabbed",
                     "tabs": [
                         {
                             "title": "Full View",
+                            "icon": "images/items/map.png",
                             "content": {
                                 "type": "map",
                                 "maps": [
@@ -28,6 +31,7 @@
                         },
                         {
                             "title": "Entrance",
+                            "icon": "images/items/bracelet_jb.png",
                             "content": {
                                 "type": "map",
                                 "maps": [
@@ -37,6 +41,7 @@
                         },
                         {
                             "title": "Marble Corridor",
+                            "icon": "images/npcs/giant_bat.png",
                             "content": {
                                 "type": "map",
                                 "maps": [
@@ -46,6 +51,7 @@
                         },
                         {
                             "title": "The Wailing Way",
+                            "icon": "images/npcs/large_ghost.png",
                             "content": {
                                 "type": "map",
                                 "maps": [
@@ -55,6 +61,7 @@
                         },
                         {
                             "title": "Shrine of the Apostates",
+                            "icon": "images/npcs/living_armor.png",
                             "content": {
                                 "type": "map",
                                 "maps": [
@@ -64,6 +71,7 @@
                         },
                         {
                             "title": "Room of Illusion",
+                            "icon": "images/npcs/lizard_man.png",
                             "content": {
                                 "type": "map",
                                 "maps": [
@@ -73,6 +81,7 @@
                         },
                         {
                             "title": "Castle Treasury",
+                            "icon": "images/npcs/maxim!.png",
                             "content": {
                                 "type": "map",
                                 "maps": [
@@ -82,6 +91,7 @@
                         },
                         {
                             "title": "Skeleton Cave",
+                            "icon": "images/npcs/legion_corpse.png",
                             "content": {
                                 "type": "map",
                                 "maps": [
@@ -91,6 +101,7 @@
                         },
                         {
                             "title": "Luminous Cavern",
+                            "icon": "images/npcs/talos.png",
                             "content": {
                                 "type": "map",
                                 "maps": [
@@ -100,6 +111,7 @@
                         },
                         {
                             "title": "Sky Walkway",
+                            "icon": "images/npcs/devil.png",
                             "content": {
                                 "type": "map",
                                 "maps": [
@@ -109,6 +121,7 @@
                         },
                         {
                             "title": "Chapel of Dissonance",
+                            "icon": "images/items/chapel_a_window.png",
                             "content": {
                                 "type": "map",
                                 "maps": [
@@ -118,6 +131,7 @@
                         },
                         {
                             "title": "Clock Tower",
+                            "icon": "images/npcs/max_slimer.png",
                             "content": {
                                 "type": "map",
                                 "maps": [
@@ -127,6 +141,7 @@
                         },
                         {
                             "title": "Aqueduct of Dragons",
+                            "icon": "images/npcs/giant_merman.png",
                             "content": {
                                 "type": "map",
                                 "maps": [
@@ -136,6 +151,7 @@
                         },
                         {
                             "title": "Castle Top Floor",
+                            "icon": "images/npcs/pazuzu.png",
                             "content": {
                                 "type": "map",
                                 "maps": [
@@ -148,11 +164,13 @@
             },
             {
                 "title": "Castle B",
+                "icon": "images/items/vlad_eye.png",
                 "content": {
                     "type": "tabbed",
                     "tabs": [
                         {
                             "title": "Full View",
+                            "icon": "images/items/map.png",
                             "content": {
                                 "type": "map",
                                 "maps": [
@@ -162,6 +180,7 @@
                         },
                         {
                             "title": "Entrance",
+                            "icon": "images/npcs/spriggan.png",
                             "content": {
                                 "type": "map",
                                 "maps": [
@@ -171,6 +190,7 @@
                         },
                         {
                             "title": "Marble Corridor",
+                            "icon": "images/npcs/pike_master.png",
                             "content": {
                                 "type": "map",
                                 "maps": [
@@ -180,6 +200,7 @@
                         },
                         {
                             "title": "The Wailing Way",
+                            "icon": "images/npcs/large_ghost.png",
                             "content": {
                                 "type": "map",
                                 "maps": [
@@ -189,6 +210,7 @@
                         },
                         {
                             "title": "Shrine of the Apostates",
+                            "icon": "images/npcs/cyclops.png",
                             "content": {
                                 "type": "map",
                                 "maps": [
@@ -198,6 +220,7 @@
                         },
                         {
                             "title": "Room of Illusion",
+                            "icon": "images/npcs/victory_armor.png",
                             "content": {
                                 "type": "map",
                                 "maps": [
@@ -207,6 +230,7 @@
                         },
                         {
                             "title": "Castle Treasury",
+                            "icon": "images/npcs/dracula_wraith.png",
                             "content": {
                                 "type": "map",
                                 "maps": [
@@ -216,6 +240,7 @@
                         },
                         {
                             "title": "Skeleton Cave",
+                            "icon": "images/npcs/skull_knight.png",
                             "content": {
                                 "type": "map",
                                 "maps": [
@@ -225,6 +250,7 @@
                         },
                         {
                             "title": "Luminous Cavern",
+                            "icon": "images/npcs/golem.png",
                             "content": {
                                 "type": "map",
                                 "maps": [
@@ -234,6 +260,7 @@
                         },
                         {
                             "title": "Sky Walkway",
+                            "icon": "images/npcs/legion_saint.png",
                             "content": {
                                 "type": "map",
                                 "maps": [
@@ -243,6 +270,7 @@
                         },
                         {
                             "title": "Chapel of Dissonance",
+                            "icon": "images/npcs/specter.png",
                             "content": {
                                 "type": "map",
                                 "maps": [
@@ -252,6 +280,7 @@
                         },
                         {
                             "title": "Clock Tower",
+                            "icon": "images/npcs/peeping_big.png",
                             "content": {
                                 "type": "map",
                                 "maps": [
@@ -261,6 +290,7 @@
                         },
                         {
                             "title": "Aqueduct of Dragons",
+                            "icon": "images/npcs/melty_zombie.png",
                             "content": {
                                 "type": "map",
                                 "maps": [
@@ -270,6 +300,7 @@
                         },
                         {
                             "title": "Castle Top Floor",
+                            "icon": "images/npcs/minotaur_lvl_2.png",
                             "content": {
                                 "type": "map",
                                 "maps": [
@@ -277,6 +308,16 @@
                                 ]
                             }
                         }
+                    ]
+                }
+            },
+            {
+                "title": "Endings",
+                "icon": "images/items/collect_wizardurn.png",
+                "content": {
+                    "type": "map",
+                    "maps": [
+                        "End Screen"
                     ]
                 }
             }
@@ -287,6 +328,7 @@
         "tabs": [
             {
                 "title": "Full View",
+                "icon": "images/items/map.png",
                 "content": {
                     "type": "array",
                     "content": [
@@ -307,6 +349,7 @@
             },
             {
                 "title": "Castle A",
+                "icon": "images/items/bracelet_mk.png",
                 "content": {
                     "type": "tabbed",
                     "tabs": [
@@ -450,6 +493,7 @@
             },
             {
                 "title": "Castle B",
+                "icon": "images/items/vlad_eye.png",
                 "content": {
                     "type": "tabbed",
                     "tabs": [
@@ -588,6 +632,16 @@
                                 ]
                             }
                         }
+                    ]
+                }
+            },
+            {
+                "title": "Endings",
+                "icon": "images/items/collect_wizardurn.png",
+                "content": {
+                    "type": "map",
+                    "maps": [
+                        "End Screen"
                     ]
                 }
             }

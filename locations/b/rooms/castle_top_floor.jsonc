@@ -2,7 +2,8 @@
     {
         "name": "CastleTopFloorBFinalApproach",
         "access_rules": [
-            "@ChapelOfDissonanceBMainConstruct,bracelet_mk",
+            "@ChapelOfDissonanceBMainConstruct,bracelet_mk,er_disabled",
+            "er_enabled,castle_top_floor_b_east_ceremonial_door",
             "@CastleTopFloorBWarpRoom",
             "@CastleTopFloorBKaisersAtticStairs"
         ]
@@ -95,7 +96,8 @@
         "name": "CastleTopFloorBElevatorRoomStairs",
         "access_rules": [
             "@CastleTopFloorBAboveMinotaurCorridor",
-            "@CastleTreasuryBEntrance,$jump",
+            "@CastleTreasuryBEntrance,$jump,er_disabled",
+            "er_enabled,castle_top_floor_b_south_floor_transition",
             "@CastleTopFloorBCorridorGriffinPassage"
         ]
     },
@@ -116,7 +118,8 @@
         "name": "CastleTopFloorBCorridorGriffinPassage",
         "access_rules": [
             "@CastleTopFloorBElevatorRoomStairs,$fly",
-            "@MarbleCorridorBNoHopeOfVictoryHall,key_skull"
+            "@MarbleCorridorBNoHopeOfVictoryHall,key_skull,er_disabled",
+            "er_enabled,castle_top_floor_b_west_skull_door"
         ]
     }
 ]

@@ -2,7 +2,8 @@
     {
         "name": "AqueductOfDragonsANorthwestEntrance",
         "access_rules": [
-            "@SkyWalkwayALowerDarkHallway",
+            "@SkyWalkwayALowerDarkHallway,er_disabled",
+            "er_enabled,aqueduct_of_dragons_a_northwest_door",
             "@AqueductOfDragonsACandlePillarHall"
         ]
     },
@@ -40,7 +41,8 @@
         "name": "AqueductOfDragonsABehindGiantMerman",
         "access_rules": [
             "@AqueductOfDragonsAGiantMermanArena",
-            "@ClockTowerABackdoorEntrance"
+            "@ClockTowerABackdoorEntrance,er_disabled",
+            "er_enabled,aqueduct_of_dragons_a_east_door"
         ]
     },
     {
@@ -74,7 +76,8 @@
         "name": "AqueductOfDragonsACrushableEntrance",
         "access_rules": [
             "@AqueductOfDragonsAIllusoryWallRoom",
-            "@LuminousCavernAAqueductExit,$fly,crush_stone"
+            "@LuminousCavernAAqueductExit,$fly,crush_stone,er_disabled",
+            "er_enabled,aqueduct_of_dragons_a_southwest_door,crush_stone"
         ]
     }
 ]

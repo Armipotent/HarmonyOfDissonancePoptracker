@@ -2,7 +2,8 @@
     {
         "name": "ShrineOfTheApostatesAWailingExit",
         "access_rules": [
-            "@TheWailingWayAShrineExit",
+            "@TheWailingWayAShrineExit,er_disabled",
+            "er_enabled,shrine_of_the_apostates_a_north_door",
             "@ShrineOfTheApostatesALizardLandUpper"
         ]
     },
@@ -79,8 +80,10 @@
     {
         "name": "ShrineOfTheApostatesABehindLivingArmor",
         "access_rules": [
-            "@ShrineOfTheApostatesALivingArmorHall",
-            "@EntranceAToShrine"//,shrine_a_slab"
+            "@ShrineOfTheApostatesALivingArmorHall"
+            //"@EntranceAToShrine,er_disabled",
+            //"er_enabled,shrine_of_the_apostates_a_west_door"
+            // Disabled west entrance. It's only openable from the east.
         ]
     }
 ]
