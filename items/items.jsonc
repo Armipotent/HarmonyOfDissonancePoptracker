@@ -102,13 +102,13 @@
         "codes": "key_skull"
     },
     {
-        "name": "JB's Bracelet",
+        "name": "JB Bracelet",
         "type": "toggle",
         "img": "images/items/bracelet_jb.png",
         "codes": "bracelet_jb"
     },
     {
-        "name": "MK's Bracelet",
+        "name": "MK Bracelet",
         "type": "toggle",
         "img": "images/items/bracelet_mk.png",
         "codes": "bracelet_mk"
