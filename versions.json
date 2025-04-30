@@ -3,7 +3,7 @@
 		{
 			"package_version": "1.1.1",
 			"download_url": "https://github.com/Armipotent/HarmonyOfDissonancePoptracker/archive/refs/tags/v1.1.1/HarmonyOfDissonancePoptracker.zip",
-			"sha256": "d2daf49927ae0557c48b386a7b9d083e6ba440f75c0fc7730c249f4591aa10da",
+			"sha256": "ae0c5cb1bac0295ee3c63d628bff3db77c74e17e275f46d497fe6a9297b26e03",
 			"changelog": [
 				"Changed both JB and MK Bracelets' names to match ingame names",
 				"Fixed a small logic issue regarding Marble Corridor B - Contorted Pants Room",
