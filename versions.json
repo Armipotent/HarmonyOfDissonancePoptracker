@@ -1,0 +1,44 @@
+{
+	"versions": [
+		{
+			"package_version": "1.1.1",
+			"download_url": "https://github.com/Armipotent/HarmonyOfDissonancePoptracker/archive/refs/tags/v1.1.1/HarmonyOfDissonancePoptracker.zip",
+			"sha256": "d2daf49927ae0557c48b386a7b9d083e6ba440f75c0fc7730c249f4591aa10da",
+			"changelog": [
+				"Changed both JB and MK Bracelets' names to match ingame names",
+				"Fixed a small logic issue regarding Marble Corridor B - Contorted Pants Room",
+				"Added implementation inspiration in README to Metroid Prime's AP Poptracker",
+				"Added a versions.json for automatic updating of the poptracker pack"
+			]
+		},
+		{
+			"package_version": "1.1.0",
+			"download_url": "https://github.com/Armipotent/HarmonyOfDissonancePoptracker/archive/refs/tags/v1.1.0/HarmonyOfDissonancePoptracker.zip",
+			"sha256": "5559ec446879391395dff82e0eb414587138455ae1f1e03bdd8f29ff68c4d2b3",
+			"changelog": [
+				"Actually bumped version number",
+				"Manual area rando tracking",
+				"Fixed Perilous Pendulum Passage Right's visual location",
+				"Fix Path To Push Crates's visual location",
+				"Fix part of Castle Top Floor A's logic"
+			]
+		},
+		{
+			"package_version": "1.0.1",
+			"download_url": "https://github.com/Armipotent/HarmonyOfDissonancePoptracker/archive/refs/tags/v1.0.1/HarmonyOfDissonancePoptracker.zip",
+			"sha256": "d5ca38f554f3b621fae5b9225f52d25d263bdadd1bdabd0bafc14680dd658830",
+			"changelog": [
+				"Fix AP map tracking",
+				"Renamed Top Floor B - Kaiser's Attic Storage Center - Right (Medicine Jar)"
+			]
+		},
+		{
+			"package_version": "1.0.0",
+			"download_url": "https://github.com/Armipotent/HarmonyOfDissonancePoptracker/archive/refs/tags/v1.0.0/HarmonyOfDissonancePoptracker.zip",
+			"sha256": "5802581cbc04e3b7d5e4821e66b6ea1f0a8173b82ec9673da837ba1047238666",
+			"changelog": [
+				"Initial Release"
+			]
+		}
+	]
+}
