@@ -313,6 +313,30 @@
                         "y": 172
                     }
                 ]
+            },
+            {
+                "name": "Warp Room",
+                "access_rules": [
+                    "@ClockTowerAWarp"
+                ],
+                "sections": [
+                    {
+                        "name": "Death Chat",
+                        "hosted_item": "clock_a_death"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Castle A",
+                        "x": 1112,
+                        "y": 152
+                    },
+                    {
+                        "map": "Clock Tower A",
+                        "x": 192,
+                        "y": 32
+                    }
+                ]
             }
         ]
     }

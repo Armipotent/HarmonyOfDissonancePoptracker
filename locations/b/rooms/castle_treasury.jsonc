@@ -49,7 +49,7 @@
         "name": "CastleTreasuryBSunnyElevatorWarpRoom",
         "access_rules": [
             "@CastleTreasuryBElevatorStairs,key_lure",
-            "@CastleTreasuryAMoonlitElevatorWarpRoom,bracelet_jb"
+            "@CastleTreasuryAMoonlitElevatorWarpRoom,$can_use_warps"
         ]
     },
     {

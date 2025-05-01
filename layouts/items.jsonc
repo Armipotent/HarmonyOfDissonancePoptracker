@@ -168,7 +168,8 @@
                         "luminous_a_floodgate",
                         "walkway_b_breakable",
                         "top_a_hand",
-                        "skeleton_a_breakable"
+                        "skeleton_a_breakable",
+                        "clock_a_death"
                     ]
                 ]
             }
@@ -357,7 +358,8 @@
                         "skeleton_a_breakable"
                     ],
                     [
-                        "corridor_a_bat"
+                        "corridor_a_bat",
+                        "clock_a_death"
                     ]
                 ]
             }

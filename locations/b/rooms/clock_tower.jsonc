@@ -78,7 +78,7 @@
         "name": "ClockTowerBWarp",
         "access_rules": [
             "@ClockTowerBToWarp",
-            "@ClockTowerAWarp,bracelet_jb"
+            "@ClockTowerAWarp,$can_use_warps"
         ]
     },
     {

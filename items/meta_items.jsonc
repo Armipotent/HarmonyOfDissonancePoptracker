@@ -79,6 +79,31 @@
         "codes": "spellbound"
     },
     {
+        "name": "Castle Warp Condition",
+        "type": "progressive",
+        "loop": true,
+        "allow_disabled": false,
+        "initial_stage_idx": 1,
+        "stages": [
+            {
+                "img": "images/items/warp_none.png",
+                "codes": "warp_none",
+                "inherit_codes": false
+            },
+            {
+                "img": "images/items/warp_bracelet.png",
+                "codes": "warp_bracelet",
+                "inherit_codes": false
+            },
+            {
+                "img": "images/items/warp_death.png",
+                "codes": "warp_death",
+                "inherit_codes": false
+            }
+        ],
+        "codes": "warp_condition"
+    },
+    {
         "name": "Entrance Randomization",
         "type": "progressive",
         "loop": true,

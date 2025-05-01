@@ -25,7 +25,7 @@
         "name": "CastleTopFloorAWarpRoom",
         "access_rules": [
             "@CastleTopFloorAFinalApproach",
-            "@CastleTopFloorBWarpRoom,bracelet_jb",
+            "@CastleTopFloorBWarpRoom,$can_use_warps",
             "@CastleTopFloorAPazuzuThrone"
         ]
     },

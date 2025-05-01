@@ -64,7 +64,7 @@
         "name": "LuminousCavernBWarp",
         "access_rules": [
             "@LuminousCavernBOutsideWarp,luminous_a_breakable",
-            "@LuminousCavernAWarp,jb_bracelet"
+            "@LuminousCavernAWarp,$can_use_warps"
         ]
     },
     {

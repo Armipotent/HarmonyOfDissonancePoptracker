@@ -63,6 +63,17 @@ function hard_boss_check()
     end
 end
 
+-- helper function for determining if the player can use warp points
+function can_use_warps()
+    if has("warp_death") then
+        return has("clock_a_death")
+    elseif has("warp_bracelet") then
+        return has("bracelet_jb")
+    else
+        return true
+    end
+end
+
 -- helper function for determining the furniture count
 function furniture_count()
     i = 0

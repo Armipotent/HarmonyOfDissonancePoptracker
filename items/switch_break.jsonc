@@ -48,6 +48,12 @@
         "codes": "clock_a_slab"
     },
     {
+        "name": "Clock Tower A Death Chat",
+        "type": "toggle",
+        "img": "images/items/clock_a_death.png",
+        "codes": "clock_a_death"
+    },
+    {
         "name": "Clock Tower B Bronze Guard",
         "type": "toggle",
         "img": "images/items/clock_b_guard.png",

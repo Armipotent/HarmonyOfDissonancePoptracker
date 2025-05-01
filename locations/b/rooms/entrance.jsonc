@@ -98,7 +98,7 @@
         "name": "EntranceBUpperFloorWarpRoom",
         "access_rules": [
             "@EntranceBToUpperWarpRoom,$fly",
-            "@EntranceAUpperFloorWarpRoom,bracelet_jb"
+            "@EntranceAUpperFloorWarpRoom,$can_use_warps"
         ]
     },
     {
