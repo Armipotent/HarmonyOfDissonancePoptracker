@@ -174,7 +174,7 @@
         "name": "ClockTowerBSlabRoomWest",
         "access_rules": [
             "@ClockTowerBSlabRoomEast,clock_a_slab",
-            "@ClockTowerBBackdoorEntrance"
+            "@ClockTowerBBackdoorEntrance,$jump"
         ]
     },
     {
@@ -189,7 +189,7 @@
     {
         "name": "ClockTowerBNearLowerCrankshaft",
         "access_rules": [
-            "@ClockTowerBBackdoorEntrance",
+            "@ClockTowerBBackdoorEntrance,$jump",
             "@ClockTowerBNearLowerCrankshaftAttic"
         ]
     },

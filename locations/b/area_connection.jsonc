@@ -879,7 +879,7 @@
                         "hosted_item": "shrine_of_the_apostates_b_west_door",
                         "access_rules": [
                             "[]",
-                            "@ShrineOfTheApostatesBBehindLivingArmor"
+                            "@ShrineOfTheApostatesBBeforeCyclops"
                         ]
                     }
                 ],
@@ -1014,7 +1014,7 @@
                 ]
             },
             {
-                "name": "Skeleton Cave B East and Castle Treasury B Southeast",
+                "name": "Skeleton Cave B East and Castle Treasury B Southwest",
                 "sections": [
                     {
                         "name": "Skeleton Cave B East Door",
@@ -1025,11 +1025,11 @@
                         ]
                     },
                     {
-                        "name": "Castle Treasury B Southeast Door",
-                        "hosted_item": "castle_treasury_b_southeast_door",
+                        "name": "Castle Treasury B Southwest Door",
+                        "hosted_item": "castle_treasury_b_southwest_door",
                         "access_rules": [
                             "[]",
-                            "@CastleTreasuryBMinesToEverywhereElse"
+                            "@CastleTreasuryBSkeletonEntrance"
                         ]
                     }
                 ],

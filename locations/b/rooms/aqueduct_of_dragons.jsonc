@@ -41,7 +41,8 @@
         "name": "AqueductOfDragonsBBehindGhostOfGiantMerman",
         "access_rules": [
             "@AqueductOfDragonsBGhostOfGiantMerman",
-            "@ClockTowerBBackdoorEntrance"
+            "@ClockTowerBBackdoorEntrance,er_disabled",
+            "er_enabled,aqueduct_of_dragons_b_east_door"
         ]
     },
     {

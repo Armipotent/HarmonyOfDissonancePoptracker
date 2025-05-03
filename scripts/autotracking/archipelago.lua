@@ -81,16 +81,15 @@ end
 -- apply everything needed from slot_data, called from onClear
 function apply_slot_data(slot_data)
 	-- toggle setting items
+	-- DEBUG:
+	-- print("Slot settings: ")
+	-- print(dump_table(slot_data,10))
 	Tracker:FindObjectForCode("bad_ending_setting").Active = slot_data["medium_ending_required"]
 	Tracker:FindObjectForCode("worst_ending_setting").Active = slot_data["worst_ending_required"]
 	Tracker:FindObjectForCode("best_ending_setting").Active = slot_data["best_ending_required"]
 	Tracker:FindObjectForCode("furniture_setting").AcquiredCount = slot_data["furniture_amount_required"]
-	-- print(dump_table(slot_data,10))
-	-- if slot_data["spellbound_boss_logic"] == 1 then
-	-- 	Tracker:FindObjectForCode("spellbound").CurrentStage = 1
-	-- elseif slot_data["spellbound_boss_logic"] == 2 then
-	-- 	Tracker:FindObjectForCode("spellbound").CurrentStage = 2
-	-- end
+	Tracker:FindObjectForCode("spellbound").CurrentStage = slot_data["spellbound_boss_logic"]
+	Tracker:FindObjectForCode("warp_condition").CurrentStage = slot_data["castle_warp_condition"]
 end
 
 -- called right after an AP slot is connected

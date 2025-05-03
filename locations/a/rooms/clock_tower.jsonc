@@ -174,7 +174,7 @@
         "name": "ClockTowerASlabRoomWest",
         "access_rules": [
             "@ClockTowerASlabRoomEast,clock_a_slab",
-            "@ClockTowerABackdoorEntrance"
+            "@ClockTowerABackdoorEntrance,$jump"
         ]
     },
     {
@@ -189,7 +189,7 @@
     {
         "name": "ClockTowerASkullPaintingRoom",
         "access_rules": [
-            "@ClockTowerABackdoorEntrance",
+            "@ClockTowerABackdoorEntrance,$jump",
             "@ClockTowerASkullPaintingRoomAttic"
         ]
     },

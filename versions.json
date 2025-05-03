@@ -1,6 +1,16 @@
 {
 	"versions": [
 		{
+			"package_version": "1.1.2",
+			"download_url": "https://github.com/Armipotent/HarmonyOfDissonancePoptracker/archive/refs/tags/v1.1.2/HarmonyOfDissonancePoptracker.zip",
+			"sha256": "2a2e028b26ea3a31340b65275b6daab1dc9099afc0a64003996d103550949490",
+			"changelog": [
+				"Added autoconfiguration for spellbound logic and warp conditions",
+				"Fix a logic bug regarding the backdoor entrance to Clock Tower",
+				"Fixed a bug where Aqueduct of Dragons B East didn't consider entrance randomization"
+			]
+		},
+		{
 			"package_version": "1.1.1",
 			"download_url": "https://github.com/Armipotent/HarmonyOfDissonancePoptracker/archive/refs/tags/v1.1.1/HarmonyOfDissonancePoptracker.zip",
 			"sha256": "ae0c5cb1bac0295ee3c63d628bff3db77c74e17e275f46d497fe6a9297b26e03",
