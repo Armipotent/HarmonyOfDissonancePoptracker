@@ -3,7 +3,7 @@
 		{
 			"package_version": "1.1.2",
 			"download_url": "https://github.com/Armipotent/HarmonyOfDissonancePoptracker/archive/refs/tags/v1.1.2/HarmonyOfDissonancePoptracker.zip",
-			"sha256": "2a2e028b26ea3a31340b65275b6daab1dc9099afc0a64003996d103550949490",
+			"sha256": "b682b2a8f8e22734c77e7350e75ba3e8da5e273cfed97007113cdc75d2c61d1f",
 			"changelog": [
 				"Added autoconfiguration for spellbound logic and warp conditions",
 				"Fix a logic bug regarding the backdoor entrance to Clock Tower",
