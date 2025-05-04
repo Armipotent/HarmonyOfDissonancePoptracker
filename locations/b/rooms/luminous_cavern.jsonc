@@ -120,14 +120,14 @@
         "name": "LuminousCavernBPushCrate",
         "access_rules": [
             "@LuminousCavernBStairsToPushCrate",
-            "@LuminousCavernBBehindPushCrate,luminous_b_slab",
+            "@LuminousCavernBBehindPushCrate",
             "@LuminousCavernBShop"
         ]
     },
     {
         "name": "LuminousCavernBBehindPushCrate",
         "access_rules": [
-            "@LuminousCavernBPushCrate,luminous_b_slab"
+            "@LuminousCavernBPushCrate"
         ]
     },
     {

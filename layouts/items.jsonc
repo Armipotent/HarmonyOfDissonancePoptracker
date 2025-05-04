@@ -156,20 +156,19 @@
                 "h_alignment": "left",
                 "rows": [
                     [
-                        "luminous_b_slab",
+                        "corridor_a_bat",
                         "clock_a_slab",
                         "clock_b_guard",
                         "luminous_a_breakable",
                         "clock_b_crankshaft",
-                        "corridor_a_bat"
+                        "clock_a_death"
                     ],
                     [
                         "top_a_slab",
                         "luminous_a_floodgate",
                         "walkway_b_breakable",
                         "top_a_hand",
-                        "skeleton_a_breakable",
-                        "clock_a_death"
+                        "skeleton_a_breakable"
                     ]
                 ]
             }
@@ -338,7 +337,7 @@
                 "h_alignment": "left",
                 "rows": [
                     [
-                        "luminous_b_slab",
+                        "corridor_a_bat",
                         "clock_a_slab"
                     ],
                     [
@@ -358,7 +357,6 @@
                         "skeleton_a_breakable"
                     ],
                     [
-                        "corridor_a_bat",
                         "clock_a_death"
                     ]
                 ]

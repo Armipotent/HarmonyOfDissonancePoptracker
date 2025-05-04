@@ -6,12 +6,19 @@
 -- if you run into issues when touching A LOT of items/locations here, see the comment about Tracker.AllowDeferredLogicUpdate in autotracking.lua
 ScriptHost:LoadScript("scripts/autotracking/item_mapping.lua")
 ScriptHost:LoadScript("scripts/autotracking/location_mapping.lua")
+ScriptHost:LoadScript("scripts/autotracking/event_mapping.lua")
 
 -- Armi's note: THANK YOU POPTRACKER DEVS
 
 CUR_INDEX = -1
 LOCAL_ITEMS = {}
 GLOBAL_ITEMS = {}
+
+-- Event handling code shamelessly stolen from Pokemon Emerald's implementation in AP (go check them out too!)
+PLAYER_ID = -1
+TEAM_NUMBER = 0
+
+EVENT_ID = ""
 
 -- resets an item to its initial state
 function resetItem(item_code, item_type)
@@ -82,20 +89,27 @@ end
 function apply_slot_data(slot_data)
 	-- toggle setting items
 	-- DEBUG:
-	-- print("Slot settings: ")
-	-- print(dump_table(slot_data,10))
+	print("Slot settings: ")
+	print(dump_table(slot_data,10))
 	Tracker:FindObjectForCode("bad_ending_setting").Active = slot_data["medium_ending_required"]
 	Tracker:FindObjectForCode("worst_ending_setting").Active = slot_data["worst_ending_required"]
 	Tracker:FindObjectForCode("best_ending_setting").Active = slot_data["best_ending_required"]
 	Tracker:FindObjectForCode("furniture_setting").AcquiredCount = slot_data["furniture_amount_required"]
 	Tracker:FindObjectForCode("spellbound").CurrentStage = slot_data["spellbound_boss_logic"]
 	Tracker:FindObjectForCode("warp_condition").CurrentStage = slot_data["castle_warp_condition"]
+	if slot_data["area_shuffle"] > 1 then
+		Tracker:FindObjectForCode("entrance_rando").CurrentStage = 1
+	else
+		Tracker:FindObjectForCode("entrance_rando").CurrentStage = 0
+	end
 end
 
 -- called right after an AP slot is connected
 function onClear(slot_data)
 	-- use bulk update to pause logic updates until we are done resetting all items/locations
-	Tracker.BulkUpdate = true	
+	Tracker.BulkUpdate = true
+	PLAYER_NUMBER = Archipelago.PlayerNumber or -1
+	TEAM_NUMBER = Archipelago.TeamNumber or 0
 	if AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
 		print(string.format("called onClear, slot_data:\n%s", dump_table(slot_data)))
 	end
@@ -148,9 +162,11 @@ function onClear(slot_data)
 	apply_slot_data(slot_data)
 	LOCAL_ITEMS = {}
 	GLOBAL_ITEMS = {}
-	-- manually run snes interface functions after onClear in case we need to update them (i.e. because they need slot_data)
-	if PopVersion < "0.20.1" or AutoTracker:GetConnectionState("SNES") == 3 then
-		-- add snes interface functions here
+	if PLAYER_NUMBER > -1 then
+		updateEvents(0, true)
+		EVENT_ID = "castlevania_hodis_events_"..TEAM_NUMBER.."_"..PLAYER_NUMBER
+		Archipelago:SetNotify({EVENT_ID})
+		Archipelago:Get({EVENT_ID})
 	end
 	Tracker.BulkUpdate = false
 end
@@ -266,6 +282,40 @@ function onBounce(json)
 	-- no bouncing implemented, so cant read where the player is D:
 end
 
+
+function onNotify(key, value, old_value)
+  	if value ~= old_value then
+    	if key == EVENT_ID then
+      		updateEvents(value, false)
+		end
+  	end
+end
+
+function onNotifyLaunch(key, value)
+  	if key == EVENT_ID then
+    	updateEvents(value, false)
+  	end
+end
+
+function updateEvents(value, reset)
+	if value ~= nil then
+		if AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
+			print(string.format("updateEvents: Value - %s", value))
+		end
+		for _, event in pairs(EVENT_FLAG_MAPPING) do
+			local bitmask = 2 ^ event.bit
+			if reset or (value & bitmask ~= event.status) then
+				event.status = value & bitmask
+				for _, code in pairs(event.codes) do
+					if code.setting == nil or has(code.setting) then
+						Tracker:FindObjectForCode(code.code).Active = value & bitmask ~= 0
+					end
+				end
+			end
+		end
+	end
+end
+
 -- add AP callbacks
 -- un-/comment as needed
 Archipelago:AddClearHandler("clear handler", onClear)
@@ -275,5 +325,7 @@ end
 if AUTOTRACKER_ENABLE_LOCATION_TRACKING then
 	Archipelago:AddLocationHandler("location handler", onLocation)
 end
+Archipelago:AddSetReplyHandler("notify handler", onNotify)
+Archipelago:AddRetrievedHandler("notify launch handler", onNotifyLaunch)
 -- Archipelago:AddScoutHandler("scout handler", onScout)
 -- Archipelago:AddBouncedHandler("bounce handler", onBounce)
