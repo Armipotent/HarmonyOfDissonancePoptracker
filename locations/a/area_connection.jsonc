@@ -867,7 +867,7 @@
                 "name": "Entrance A Middle and Shrine of the Apostates A West",
                 "sections": [
                     {
-                        "name": "Entrance A Top Door",
+                        "name": "Entrance A Bottom Door",
                         "hosted_item": "entrance_a_bottom_door",
                         "access_rules": [
                             "[]",

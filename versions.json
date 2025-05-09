@@ -1,9 +1,23 @@
 {
 	"versions": [
 		{
+			"package_version": "1.1.4",
+			"download_url": "https://github.com/Armipotent/HarmonyOfDissonancePoptracker/archive/refs/tags/v1.1.4/HarmonyOfDissonancePoptracker.zip",
+			"sha256": "1fd3964a609bcbfe5ac24018eeb92a27001d66a8fa9c6568b19ca0dc543b4fa1",
+			"changelog": [
+				"Fixed Castle Entrance East A/B having an erroneous name on the full view maps",
+				"ACTUALLY fixed a small logic issue regarding Marble Corridor B - Contorted Pants Room",
+				"Fixed a small logic issue regarding double jump and Aqueduct of Dragons Southeast",
+				"Fixed another small logic issue regarding Entrance B and Giant Bat",
+				"Fixed a visual bug where LCA Death's Flooded Cavern Upper was a tile underneath where it should be",
+				"Fixed a visual bug where LCB Path to Sky Portal Upper Cavern was a tile underneath where it should be",
+				"Fixed a visual bug where Juste Room B was in the wrong room"
+			]
+		},
+		{
 			"package_version": "1.1.3",
 			"download_url": "https://github.com/Armipotent/HarmonyOfDissonancePoptracker/archive/refs/tags/v1.1.3/HarmonyOfDissonancePoptracker.zip",
-			"sha256": "0b71a778fd0fa8a51e8aedd6fd605a8e950a098ead1674d7e2857a94ddc7dc11",
+			"sha256": "930b506f516aa54679199dfdd7e7de13aa3cabda4258dad6403e054c0f33ffa0",
 			"changelog": [
 				"Added autoconfiguration for Entrance Randomization",
 				"Removed Luminous Cavern B switch since it doesn't actually affect anything",

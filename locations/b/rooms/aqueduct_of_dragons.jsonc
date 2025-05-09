@@ -83,8 +83,8 @@
         "name": "AqueductOfDragonsBCrushableEntrance",
         "access_rules": [
             "@AqueductOfDragonsBAfterCrush,crush_stone",
-            "@LuminousCavernBAqueductExit,$fly,er_disabled",
-            "er_enabled,aqueduct_of_dragons_b_southwest_door"
+            "@LuminousCavernBAqueductExit,$jump,er_disabled",
+            "er_enabled,aqueduct_of_dragons_b_southwest_door,$jump"
         ]
     }
 ]

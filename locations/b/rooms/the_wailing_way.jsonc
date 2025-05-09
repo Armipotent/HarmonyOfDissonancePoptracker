@@ -26,7 +26,7 @@
     {
         "name": "TheWailingWayBContortedPantsRoom", // HUH????
         "access_rules": [
-            "@TheWailingWayBSilentStairs,$fly"
+            "@TheWailingWayBSilentStairs"
         ]
     },
     {

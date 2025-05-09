@@ -611,7 +611,7 @@
                         "hosted_item": "chapel_of_dissonance_b_north_ceremonial_door",
                         "access_rules": [
                             "[]",
-                            "@ChapelOfDissonanceBMainStructure,bracelet_mk"
+                            "@ChapelOfDissonanceBMainConstruct,bracelet_mk"
                         ]
                     }
                 ],
@@ -867,7 +867,7 @@
                 "name": "Entrance B Middle and Shrine of the Apostates B West",
                 "sections": [
                     {
-                        "name": "Entrance B Top Door",
+                        "name": "Entrance B Bottom Door",
                         "hosted_item": "entrance_b_bottom_door",
                         "access_rules": [
                             "[]",
@@ -1081,7 +1081,7 @@
                         "hosted_item": "marble_corridor_b_east_skull_door",
                         "access_rules": [
                             "[]",
-                            "@MarbleCorridorBHopeOfVictoryHall,key_skull"
+                            "@MarbleCorridorBNoHopeOfVictoryHall,key_skull"
                         ]
                     },
                     {
@@ -1179,7 +1179,7 @@
                         "hosted_item": "chapel_of_dissonance_b_north_ceremonial_door",
                         "access_rules": [
                             "[]",
-                            "@ChapelOfDissonanceBMainStructure,bracelet_mk"
+                            "@ChapelOfDissonanceBMainConstruct,bracelet_mk"
                         ]
                     }
                 ],

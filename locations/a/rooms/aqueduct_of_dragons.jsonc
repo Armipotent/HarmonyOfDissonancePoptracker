@@ -76,8 +76,8 @@
         "name": "AqueductOfDragonsACrushableEntrance",
         "access_rules": [
             "@AqueductOfDragonsAIllusoryWallRoom",
-            "@LuminousCavernAAqueductExit,$fly,crush_stone,er_disabled",
-            "er_enabled,aqueduct_of_dragons_a_southwest_door,crush_stone"
+            "@LuminousCavernAAqueductExit,$jump,crush_stone,er_disabled",
+            "er_enabled,aqueduct_of_dragons_a_southwest_door,$jump,crush_stone"
         ]
     }
 ]

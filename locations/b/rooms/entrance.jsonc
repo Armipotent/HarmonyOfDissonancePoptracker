@@ -3,7 +3,7 @@
         "name": "OutsideCastleB",
         "access_rules": [
             "@EntranceBObservationTower,$griffin_crush",
-            "@EntranceBBreakableRoom"
+            "@EntranceBBreakableRoom,corridor_a_bat"
         ]
     },
     {
