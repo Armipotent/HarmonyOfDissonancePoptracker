@@ -1,0 +1,104 @@
+[
+    {
+        "name": "Marble Corridor A Giant Bat",
+        "type": "toggle",
+        "img": "images/items/corridor_a_bat.png",
+        "codes": "corridor_a_bat"
+    },
+    {
+        "name": "Shrine of the Apostates A Living Armor",
+        "type": "toggle",
+        "img": "images/items/shrine_a_armor.png",
+        "codes": "shrine_a_armor"
+    },
+    {
+        "name": "Luminous Cavern B Golem",
+        "type": "toggle",
+        "img": "images/items/luminous_b_golem.png",
+        "codes": "luminous_b_golem"
+    },
+    {
+        "name": "Skeleton Cave B Skull Knight",
+        "type": "toggle",
+        "img": "images/items/skeleton_b_knight.png",
+        "codes": "skeleton_b_knight"
+    },
+    {
+        "name": "Castle Top Floor B Minotaur",
+        "type": "toggle",
+        "img": "images/items/top_b_minotaur.png",
+        "codes": "top_b_minotaur"
+    },
+    {
+        "name": "Sky Walkway A Devil",
+        "type": "toggle",
+        "img": "images/items/walkway_a_devil.png",
+        "codes": "walkway_a_devil"
+    },
+    {
+        "name": "Aqueduct of Dragons A Giant Merman",
+        "type": "toggle",
+        "img": "images/items/aqueduct_a_merman.png",
+        "codes": "aqueduct_a_merman"
+    },
+    {
+        "name": "Clock Tower A Max Slimer",
+        "type": "toggle",
+        "img": "images/items/clock_a_slimer.png",
+        "codes": "clock_a_slimer"
+    },
+    {
+        "name": "Clock Tower B Peeping Big",
+        "type": "toggle",
+        "img": "images/items/clock_b_peeping.png",
+        "codes": "clock_b_peeping"
+    },
+    {
+        "name": "Sky Walkway B Legion (Saint)",
+        "type": "toggle",
+        "img": "images/items/walkway_b_legion.png",
+        "codes": "walkway_b_legion"
+    },
+    {
+        "name": "Sky Walkway B Shadow",
+        "type": "toggle",
+        "img": "images/items/walkway_b_shadow.png",
+        "codes": "walkway_b_shadow"
+    },
+    {
+        "name": "Castle Top Floor A Minotaur Lv2",
+        "type": "toggle",
+        "img": "images/items/top_a_minotaur.png",
+        "codes": "top_a_minotaur"
+    },
+    {
+        "name": "Skeleton Cave A Legion (Corpse)",
+        "type": "toggle",
+        "img": "images/items/skeleton_a_legion.png",
+        "codes": "skeleton_a_legion"
+    },
+    {
+        "name": "Luminous Cavern A Talos",
+        "type": "toggle",
+        "img": "images/items/luminous_a_talos.png",
+        "codes": "luminous_a_talos"
+    },
+    {
+        "name": "Luminous Cavern A Death",
+        "type": "toggle",
+        "img": "images/items/luminous_a_death.png",
+        "codes": "luminous_a_death"
+    },
+    {
+        "name": "Shrine of the Apostates B Cyclops",
+        "type": "toggle",
+        "img": "images/items/shrine_b_cyclops.png",
+        "codes": "shrine_b_cyclops"
+    },
+    {
+        "name": "Castle Top Floor A Pazuzu",
+        "type": "toggle",
+        "img": "images/items/top_a_pazuzu.png",
+        "codes": "top_a_pazuzu"
+    }
+]

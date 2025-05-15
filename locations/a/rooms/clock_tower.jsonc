@@ -13,13 +13,13 @@
     {
         "name": "ClockTowerAMedusaHomeAttic",
         "access_rules": [
-            "@ClockTowerAWestEntranceShaft"
+            "@ClockTowerAWestEntranceShaft,$jump"
         ]
     },
     {
         "name": "ClockTowerAAboveGrandfatherRuler",
         "access_rules": [
-            "@ClockTowerAWestEntranceShaft",
+            "@ClockTowerAWestEntranceShaft,$jump",
             "@ClockTowerAAtticEngineRoom"
         ]
     },
@@ -32,7 +32,7 @@
     {
         "name": "ClockTowerAWestOfGrandfatherRuler",
         "access_rules": [
-            "@ClockTowerAWestEntranceShaft",
+            "@ClockTowerAWestEntranceShaft,$jump",
             "@ClockTowerAAboveGrandfatherRuler",
             "@ClockTowerAGrandfatherRuler"
         ]

@@ -1,9 +1,9 @@
 [
-	{
-		"name": "Bosses",
-		"children": [
+    {
+        "name": "Bosses",
+        "children": [
             {
-                "name": "Giant Bat",
+                "name": "[Boss] Giant Bat",
                 "access_rules": [
                     "@MarbleCorridorAGiantBat"
                 ],
@@ -24,7 +24,375 @@
                         "y": 72
                     }
                 ]
+            },
+            {
+                "name": "[Boss] Skull Knight",
+                "access_rules": [
+                    "@SkeletonCaveBSkullKnightArena"
+                ],
+                "sections": [
+                    {
+                        "hosted_item": "skeleton_b_knight"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Castle B",
+                        "x": 242,
+                        "y": 572
+                    },
+                    {
+                        "map": "Skeleton Cave B",
+                        "x": 62,
+                        "y": 92
+                    }
+                ]
+            },
+            {
+                "name": "[Boss] Living Armor",
+                "access_rules": [
+                    "@ShrineOfTheApostatesALivingArmorHall"
+                ],
+                "sections": [
+                    {
+                        "hosted_item": "shrine_a_armor"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Castle A",
+                        "x": 322,
+                        "y": 372
+                    },
+                    {
+                        "map": "Shrine of the Apostates A",
+                        "x": 62,
+                        "y": 72
+                    }
+                ]
+            },
+            {
+                "name": "[Boss] Golem",
+                "access_rules": [
+                    "@LuminousCavernBGolemHall"
+                ],
+                "sections": [
+                    {
+                        "hosted_item": "luminous_b_golem"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Castle B",
+                        "x": 962,
+                        "y": 512
+                    },
+                    {
+                        "map": "Luminous Cavern B",
+                        "x": 362,
+                        "y": 92
+                    }
+                ]
+            },
+            {
+                "name": "[Boss] Minotaur",
+                "access_rules": [
+                    "@CastleTopFloorBMinotaurArena"
+                ],
+                "sections": [
+                    {
+                        "hosted_item": "top_b_minotaur"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Castle B",
+                        "x": 682,
+                        "y": 192
+                    },
+                    {
+                        "map": "Castle Top Floor B",
+                        "x": 182,
+                        "y": 212
+                    }
+                ]
+            },
+            {
+                "name": "[Boss] Devil",
+                "access_rules": [
+                    "@SkyWalkwayADevilChamber"
+                ],
+                "sections": [
+                    {
+                        "hosted_item": "walkway_a_devil"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Castle A",
+                        "x": 902,
+                        "y": 232
+                    },
+                    {
+                        "map": "Sky Walkway A",
+                        "x": 242,
+                        "y": 92
+                    }
+                ]
+            },
+            {
+                "name": "[Boss] Giant Merman",
+                "access_rules": [
+                    "@AqueductOfDragonsAGiantMermanArena"
+                ],
+                "sections": [
+                    {
+                        "hosted_item": "aqueduct_a_merman"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Castle A",
+                        "x": 922,
+                        "y": 352
+                    },
+                    {
+                        "map": "Aqueduct of Dragons A",
+                        "x": 202,
+                        "y": 72
+                    }
+                ]
+            },
+            {
+                "name": "[Boss] Max Slimer",
+                "access_rules": [
+                    "@ClockTowerASlimeLaboratory"
+                ],
+                "sections": [
+                    {
+                        "hosted_item": "clock_a_slimer"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Castle A",
+                        "x": 1102,
+                        "y": 192
+                    },
+                    {
+                        "map": "Clock Tower A",
+                        "x": 182,
+                        "y": 72
+                    }
+                ]
+            },
+            {
+                "name": "[Boss] Peeping Big",
+                "access_rules": [
+                    "@ClockTowerBPeepingBig"
+                ],
+                "sections": [
+                    {
+                        "hosted_item": "clock_b_peeping"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Castle B",
+                        "x": 1042,
+                        "y": 252
+                    },
+                    {
+                        "map": "Clock Tower B",
+                        "x": 122,
+                        "y": 132
+                    }
+                ]
+            },
+            {
+                "name": "[Boss] Legion (Saint)",
+                "access_rules": [
+                    "@SkyWalkwayBLegionSaintChamber"
+                ],
+                "sections": [
+                    {
+                        "hosted_item": "walkway_b_legion"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Castle B",
+						"x": 902,
+						"y": 232
+					},
+					{
+						"map": "Sky Walkway B",
+						"x": 242,
+						"y": 92
+                    }
+                ]
+            },
+            {
+                "name": "[Boss] Shadow",
+                "access_rules": [
+                    "@SkyWalkwayBMaximMemento"
+                ],
+                "sections": [
+                    {
+                        "hosted_item": "walkway_b_shadow"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Castle B",
+						"x": 702,
+						"y": 232
+					},
+					{
+						"map": "Sky Walkway B",
+						"x": 42,
+						"y": 92
+                    }
+                ]
+            },
+            {
+                "name": "[Boss] Minotaur Lv2",
+                "access_rules": [
+                    "@CastleTopFloorAMinotaurArena"
+                ],
+                "sections": [
+                    {
+                        "hosted_item": "top_a_minotaur"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Castle A",
+                        "x": 682,
+                        "y": 192
+                    },
+                    {
+                        "map": "Castle Top Floor A",
+                        "x": 182,
+                        "y": 212
+                    }
+                ]
+            },
+            {
+                "name": "[Boss] Legion (Corpse)",
+                "access_rules": [
+                    "@SkeletonCaveALegionHall"
+                ],
+                "sections": [
+                    {
+                        "hosted_item": "skeleton_a_legion"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Castle A",
+                        "x": 242,
+                        "y": 572
+                    },
+                    {
+                        "map": "Skeleton Cave A",
+                        "x": 62,
+                        "y": 92
+                    }
+                ]
+            },
+            {
+                "name": "[Boss] Talos",
+                "access_rules": [
+                    "@LuminousCavernATalosArena"
+                ],
+                "sections": [
+                    {
+                        "hosted_item": "luminous_a_talos"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Castle A",
+                        "x": 962,
+                        "y": 512
+                    },
+                    {
+                        "map": "Luminous Cavern A",
+                        "x": 362,
+                        "y": 92
+                    }
+                ]
+            },
+            {
+                "name": "[Boss] Death",
+                "access_rules": [
+                    "@LuminousCavernADeathHall"
+                ],
+                "sections": [
+                    {
+                        "hosted_item": "luminous_a_death"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Castle A",
+                        "x": 762,
+                        "y": 552
+                    },
+                    {
+                        "map": "Luminous Cavern A",
+                        "x": 162,
+                        "y": 132
+                    }
+                ]
+            },
+            {
+                "name": "[Boss] Cyclops",
+                "access_rules": [
+                    "@ShrineOfTheApostatesBCyclopsArena"
+                ],
+                "sections": [
+                    {
+                        "hosted_item": "shrine_b_cyclops"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Castle B",
+                        "x": 322,
+                        "y": 372
+                    },
+                    {
+                        "map": "Shrine of the Apostates B",
+                        "x": 62,
+                        "y": 72
+                    }
+                ]
+            },
+            {
+                "name": "[Boss] Pazuzu",
+                "access_rules": [
+                    "@CastleTopFloorAPazuzuThrone"
+                ],
+                "sections": [
+                    {
+                        "hosted_item": "top_a_pazuzu"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Castle A",
+                        "x": 582,
+                        "y": 52
+                    },
+                    {
+                        "map": "Castle Top Floor A",
+                        "x": 82,
+                        "y": 72
+                    }
+                ]
             }
-		]
-	}
+        ]
+    }
 ]

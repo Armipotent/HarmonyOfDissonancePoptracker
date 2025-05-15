@@ -250,7 +250,7 @@
             {
                 "name": "Lower Spider Den Wall",
                 "access_rules": [
-                    "@SkeletonCaveALowerSpiderDen"
+                    "@SkeletonCaveALowerSpiderDen,crush_stone"
                 ],
                 "sections": [
                     {

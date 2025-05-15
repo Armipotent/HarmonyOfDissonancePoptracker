@@ -69,21 +69,84 @@ EVENT_FLAG_MAPPING = {
 		status = 0,
 		codes = { { code = "corridor_a_bat", setting = nil } },
 	},
-	-- TODO
-    -- 0xE2: "FLAG_DEFEATED_SKULL_KNIGHT",
-    -- 0xE3: "FLAG_DEFEATED_LIVING_ARMOR",
-    -- 0xE4: "FLAG_DEFEATED_GOLEM",
-    -- 0xE5: "FLAG_DEFEATED_MINOTAUR",
-    -- 0xE6: "FLAG_DEFEATED_DEVIL",
-    -- 0xE7: "FLAG_DEFEATED_GIANT_MERMAN",
-    -- 0xE8: "FLAG_DEFEATED_MAX_SLIMER",
-    -- 0xE9: "FLAG_DEFEATED_PEEPING_BIG",
-    -- 0xEA: "FLAG_DEFEATED_LEGION_SAINT",
-    -- 0xEB: "FLAG_DEFEATED_SHADOW",
-    -- 0xEC: "FLAG_DEFEATED_MINOTAUR_LV2",
-    -- 0xED: "FLAG_DEFEATED_LEGION_CORPSE",
-    -- 0xEE: "FLAG_DEFEATED_TALOS",
-    -- 0xEF: "FLAG_DEFEATED_DEATH",
-    -- 0xD0: "FLAG_DEFEATED_CYCLOPS",
-    -- 0xD2: "FLAG_DEFEATED_PAZUZU",
+	{
+		bit = 14,
+		status = 0,
+		codes = { { code = "skeleton_b_knight", setting = nil } },
+	},
+	{
+		bit = 15,
+		status = 0,
+		codes = { { code = "shrine_a_armor", setting = nil } },
+	},
+	{
+		bit = 16,
+		status = 0,
+		codes = { { code = "luminous_b_golem", setting = nil } },
+	},
+	{
+		bit = 17,
+		status = 0,
+		codes = { { code = "top_b_minotaur", setting = nil } },
+	},
+	{
+		bit = 18,
+		status = 0,
+		codes = { { code = "walkway_a_devil", setting = nil } },
+	},
+	{
+		bit = 19,
+		status = 0,
+		codes = { { code = "aqueduct_a_merman", setting = nil } },
+	},
+	{
+		bit = 20,
+		status = 0,
+		codes = { { code = "clock_a_slimer", setting = nil } },
+	},
+	{
+		bit = 21,
+		status = 0,
+		codes = { { code = "clock_b_peeping", setting = nil } },
+	},
+	{
+		bit = 22,
+		status = 0,
+		codes = { { code = "walkway_b_legion", setting = nil } },
+	},
+	{
+		bit = 23,
+		status = 0,
+		codes = { { code = "walkway_b_shadow", setting = nil } },
+	},
+	{
+		bit = 24,
+		status = 0,
+		codes = { { code = "top_a_minotaur", setting = nil } },
+	},
+	{
+		bit = 25,
+		status = 0,
+		codes = { { code = "skeleton_a_legion", setting = nil } },
+	},
+	{
+		bit = 26,
+		status = 0,
+		codes = { { code = "luminous_a_talos", setting = nil } },
+	},
+	{
+		bit = 27,
+		status = 0,
+		codes = { { code = "luminous_a_death", setting = nil } },
+	},
+	{
+		bit = 28,
+		status = 0,
+		codes = { { code = "shrine_b_cyclops", setting = nil } },
+	},
+	{
+		bit = 29,
+		status = 0,
+		codes = { { code = "top_a_pazuzu", setting = nil } },
+	}
 }

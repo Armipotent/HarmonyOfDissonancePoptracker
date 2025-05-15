@@ -104,8 +104,8 @@
     {
         "name": "CastleTopFloorAMinotaurArena",
         "access_rules": [
-            "@CastleTopFloorAElevatorRoomStairs",
-            "@CastleTopFloorABehindMinotaur"
+            "@CastleTopFloorAElevatorRoomStairs,[$hard_boss_check]",
+            "@CastleTopFloorABehindMinotaur,[$hard_boss_check]"
         ]
     },
     {

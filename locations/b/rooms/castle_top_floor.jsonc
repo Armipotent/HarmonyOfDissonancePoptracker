@@ -98,7 +98,7 @@
             "@CastleTopFloorBAboveMinotaurCorridor",
             "@CastleTreasuryBEntrance,$jump,er_disabled",
             "er_enabled,castle_top_floor_b_south_floor_transition",
-            "@CastleTopFloorBCorridorGriffinPassage"
+            "@CastleTopFloorBCorridorGriffinPassage,$fly"
         ]
     },
     {

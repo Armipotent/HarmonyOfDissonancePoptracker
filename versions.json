@@ -1,6 +1,19 @@
 {
 	"versions": [
 		{
+			"package_version": "1.1.5",
+			"download_url": "https://github.com/Armipotent/HarmonyOfDissonancePoptracker/archive/refs/tags/v1.1.5/HarmonyOfDissonancePoptracker.zip",
+			"sha256": "1fd3964a609bcbfe5ac24018eeb92a27001d66a8fa9c6568b19ca0dc543b4fa1",
+			"changelog": [
+				"Added autotracking for more bosses",
+				"Moved map events to their own tab",
+				"Fixed a logic bug regarding needing double jump for a lot of Clock Tower from its West entrance",
+				"Fixed a logic bug where Minotaur Lv2 didn't have any spellbound boss logic",
+				"Fixed a logic bug where the Skeleton Cave A breakable wall didn't require crushing stone",
+				"Fixed a logic bug where Castle Top Floor B West Skull Door erroneously claimed the rest of Top Floor B was accessible without flight"
+			]
+		},
+		{
 			"package_version": "1.1.4",
 			"download_url": "https://github.com/Armipotent/HarmonyOfDissonancePoptracker/archive/refs/tags/v1.1.4/HarmonyOfDissonancePoptracker.zip",
 			"sha256": "1fd3964a609bcbfe5ac24018eeb92a27001d66a8fa9c6568b19ca0dc543b4fa1",

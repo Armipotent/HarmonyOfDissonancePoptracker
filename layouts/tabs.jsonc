@@ -312,6 +312,37 @@
                 }
             },
             {
+                "title": "Events",
+                "icon": "images/items/soul_orb.png",
+                "content": {
+                    "type": "dock",
+                    "content": [
+                        {
+                            "type": "tabbed",
+                            "dock": "top",
+                            "tabs": [
+                                {
+                                    "title": "Map Events",
+                                    "icon": "images/items/collect_sidetable.png",
+                                    "content": {
+                                        "type": "layout",
+                                        "key": "switches_breaks"
+                                    }
+                                },
+                                {
+                                    "title": "Boss Kills",
+                                    "icon": "images/items/crush_stone.png",
+                                    "content": {
+                                        "type": "layout",
+                                        "key": "boss_kills_grid"
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                }
+            },
+            {
                 "title": "Endings",
                 "icon": "images/items/collect_wizardurn.png",
                 "content": {
@@ -641,6 +672,37 @@
                                     "Castle Top Floor B"
                                 ]
                             }
+                        }
+                    ]
+                }
+            },
+            {
+                "title": "Events",
+                "icon": "images/items/soul_orb.png",
+                "content": {
+                    "type": "dock",
+                    "content": [
+                        {
+                            "type": "tabbed",
+                            "dock": "top",
+                            "tabs": [
+                                {
+                                    "title": "Map Events",
+                                    "icon": "images/items/collect_sidetable.png",
+                                    "content": {
+                                        "type": "layout",
+                                        "key": "switches_breaks"
+                                    }
+                                },
+                                {
+                                    "title": "Boss Kills",
+                                    "icon": "images/items/crush_stone.png",
+                                    "content": {
+                                        "type": "layout",
+                                        "key": "boss_kills_grid"
+                                    }
+                                }
+                            ]
                         }
                     ]
                 }

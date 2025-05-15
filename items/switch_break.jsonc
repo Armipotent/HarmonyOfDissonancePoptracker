@@ -1,22 +1,16 @@
 [
     {
-        "name": "Marble Corridor A Giant Bat",
-        "type": "toggle",
-        "img": "images/items/corridor_a_bat.png",
-        "codes": "corridor_a_bat"
-    },
-    {
         "name": "Shrine Of The Apostates A Switch",
         "type": "toggle",
         "img": "images/items/shrine_a_slab.png",
         "codes": "shrine_a_slab"
     },
-    {
-        "name": "Luminous Cavern B Switch",
-        "type": "toggle",
-        "img": "images/items/luminous_b_slab.png",
-        "codes": "luminous_b_slab"
-    },
+    // {
+    //     "name": "Luminous Cavern B Switch",
+    //     "type": "toggle",
+    //     "img": "images/items/luminous_b_slab.png",
+    //     "codes": "luminous_b_slab"
+    // },
     {
         "name": "Luminous Cavern A Breakable",
         "type": "toggle",

@@ -293,31 +293,31 @@
                         "y": 72
                     }
                 ]
-            },
-            {
-                "name": "Push Crate Puzzle",
-                "access_rules": [
-                    "@LuminousCavernBPushCrate"
-                ],
-                "sections": [
-                    {
-                        "name": "Completed",
-                        "hosted_item": "luminous_b_slab"
-                    }
-                ],
-                "map_locations": [
-                    {
-                        "map": "Castle B",
-                        "x": 832,
-                        "y": 572
-                    },
-                    {
-                        "map": "Luminous Cavern B",
-                        "x": 232,
-                        "y": 152
-                    }
-                ]
             }
+            // {
+            //     "name": "Push Crate Puzzle",
+            //     "access_rules": [
+            //         "@LuminousCavernBPushCrate"
+            //     ],
+            //     "sections": [
+            //         {
+            //             "name": "Completed",
+            //             "hosted_item": "luminous_b_slab"
+            //         }
+            //     ],
+            //     "map_locations": [
+            //         {
+            //             "map": "Castle B",
+            //             "x": 832,
+            //             "y": 572
+            //         },
+            //         {
+            //             "map": "Luminous Cavern B",
+            //             "x": 232,
+            //             "y": 152
+            //         }
+            //     ]
+            // }
         ]
     }
 ]

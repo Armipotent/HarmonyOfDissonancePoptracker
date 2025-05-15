@@ -19,6 +19,7 @@ ScriptHost:LoadScript("scripts/utils.lua")
 
 
 -- Items
+Tracker:AddItems("items/boss.jsonc")
 Tracker:AddItems("items/meta_items.jsonc")
 Tracker:AddItems("items/items.jsonc")
 Tracker:AddItems("items/switch_break.jsonc")

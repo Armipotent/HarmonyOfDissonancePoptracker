@@ -13,13 +13,13 @@
     {
         "name": "ClockTowerBSkeletonFatailityAttic",
         "access_rules": [
-            "@ClockTowerBWestEntranceShaft"
+            "@ClockTowerBWestEntranceShaft,$jump"
         ]
     },
     {
         "name": "ClockTowerBAbovePeepingBig",
         "access_rules": [
-            "@ClockTowerBWestEntranceShaft",
+            "@ClockTowerBWestEntranceShaft,$jump",
             "@ClockTowerBWreckedAttic"
         ]
     },
@@ -32,7 +32,7 @@
     {
         "name": "ClockTowerBWestOfPeepingBig",
         "access_rules": [
-            "@ClockTowerBWestEntranceShaft",
+            "@ClockTowerBWestEntranceShaft,$jump",
             "@ClockTowerBAbovePeepingBig",
             "@ClockTowerBPeepingBig"
         ]

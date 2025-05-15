@@ -144,36 +144,6 @@
             }
         ]
     },
-    "switches_breaks": {
-        "type": "array",
-        "orientation": "vertical",
-        "margin": "0,0",
-        "content": [
-            {
-                "type": "itemgrid",
-                "item_margin": "5, 0",
-                "item_size": "72,72",
-                "h_alignment": "left",
-                "rows": [
-                    [
-                        "corridor_a_bat",
-                        "clock_a_slab",
-                        "clock_b_guard",
-                        "luminous_a_breakable",
-                        "clock_b_crankshaft",
-                        "clock_a_death"
-                    ],
-                    [
-                        "top_a_slab",
-                        "luminous_a_floodgate",
-                        "walkway_b_breakable",
-                        "top_a_hand",
-                        "skeleton_a_breakable"
-                    ]
-                ]
-            }
-        ]
-    },
     "vertical_shared_item_grid": {
         "type": "array",
         "orientation": "horizontal",
@@ -325,40 +295,101 @@
             }
         ]
     },
-    "vertical_switches_breaks": {
-        "type": "array",
-        "orientation": "vertical",
+    "switches_breaks": {
+        "header": "Map Events",
+        "type": "group",
+        "orientation": "horizontal",
         "margin": "0,0",
         "content": [
             {
                 "type": "itemgrid",
                 "item_margin": "5, 0",
-                "item_size": "72,72",
+                "item_size": "144,144",
                 "h_alignment": "left",
                 "rows": [
                     [
                         "corridor_a_bat",
-                        "clock_a_slab"
-                    ],
-                    [
+                        "clock_a_slab",
                         "clock_b_guard",
-                        "luminous_a_breakable"
+                        "luminous_a_breakable",
+                        "clock_b_crankshaft",
+                        "clock_a_death"
                     ],
                     [
                         "top_a_slab",
-                        "luminous_a_floodgate"
-                    ],
-                    [
+                        "luminous_a_floodgate",
                         "walkway_b_breakable",
-                        "top_a_hand"
-                    ],
-                    [
-                        "clock_b_crankshaft",
+                        "top_a_hand",
                         "skeleton_a_breakable"
-                    ],
-                    [
-                        "clock_a_death"
                     ]
+                ]
+            }
+        ]
+    },
+    "boss_kills_grid": {
+        "header": "Boss Kills",
+        "type": "group",
+        "orientation": "horizontal",
+        "margin": "0,0",
+        "content": [
+            {
+                "header": "Castle A",
+                "type": "group",
+                "orientation": "horizontal",
+                "margin": "0,0",
+                "content": [
+                    {
+                        "type": "itemgrid",
+                        "item_margin": "5, 0",
+                        "item_size": "144,144",
+                        "v_alignment": "top",
+                        "h_alignment": "left",
+                        "rows": [
+                            [
+                                "corridor_a_bat",
+                                "shrine_a_armor",
+                                "walkway_a_devil",
+                                "aqueduct_a_merman"
+                            ],
+                            [
+                                "clock_a_slimer",
+                                "top_a_minotaur",
+                                "skeleton_a_legion",
+                                "luminous_a_talos"
+                            ],
+                            [
+                                "luminous_a_death",
+                                "top_a_pazuzu"
+                            ]
+                        ]
+                    }
+                ]
+            },
+            {
+                "header": "Castle B",
+                "type": "group",
+                "orientation": "horizontal",
+                "margin": "0,0",
+                "content": [
+                    {
+                        "type": "itemgrid",
+                        "item_margin": "5, 0",
+                        "item_size": "144,144",
+                        "h_alignment": "left",
+                        "rows": [
+                            [
+                                "luminous_b_golem",
+                                "skeleton_b_knight",
+                                "top_b_minotaur",
+                                "clock_b_peeping"
+                            ],
+                            [
+                                "walkway_b_legion",
+                                "walkway_b_shadow",
+                                "shrine_b_cyclops"
+                            ]
+                        ]
+                    }
                 ]
             }
         ]
