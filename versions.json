@@ -3,7 +3,7 @@
 		{
 			"package_version": "1.1.6",
 			"download_url": "https://github.com/Armipotent/HarmonyOfDissonancePoptracker/archive/refs/tags/v1.1.6/HarmonyOfDissonancePoptracker.zip",
-			"sha256": "1cd7431636d6529c3c87be43db6f4c5596ec94e5fee15c84d0baa8244ca90efe",
+			"sha256": "039085d304ad39445887c81601d97167c04d564f12d2b93beb171ac5d83d6adc",
 			"changelog": [
 				"Fixed area randomization recognition",
 				"Changed default item size for default map tracker",
