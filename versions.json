@@ -3,7 +3,7 @@
 		{
 			"package_version": "1.1.5",
 			"download_url": "https://github.com/Armipotent/HarmonyOfDissonancePoptracker/archive/refs/tags/v1.1.5/HarmonyOfDissonancePoptracker.zip",
-			"sha256": "1fd3964a609bcbfe5ac24018eeb92a27001d66a8fa9c6568b19ca0dc543b4fa1",
+			"sha256": "40bf61edc5252500f75cd630ed963ab843453e3ed8afa536efb91c37cdb1f49a",
 			"changelog": [
 				"Added autotracking for more bosses",
 				"Moved map events to their own tab",
