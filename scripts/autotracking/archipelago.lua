@@ -97,7 +97,7 @@ function apply_slot_data(slot_data)
 	Tracker:FindObjectForCode("furniture_setting").AcquiredCount = slot_data["furniture_amount_required"]
 	Tracker:FindObjectForCode("spellbound").CurrentStage = slot_data["spellbound_boss_logic"]
 	Tracker:FindObjectForCode("warp_condition").CurrentStage = slot_data["castle_warp_condition"]
-	if slot_data["area_shuffle"] > 1 then
+	if slot_data["area_shuffle"] >= 1 then
 		Tracker:FindObjectForCode("entrance_rando").CurrentStage = 1
 	else
 		Tracker:FindObjectForCode("entrance_rando").CurrentStage = 0
