@@ -295,7 +295,7 @@
             }
         ]
     },
-    "switches_breaks": {
+	"switches_breaks": {
         "header": "Map Events",
         "type": "group",
         "orientation": "horizontal",
@@ -304,7 +304,7 @@
             {
                 "type": "itemgrid",
                 "item_margin": "5, 0",
-                "item_size": "96,96",
+                "item_size": "108,108",
                 "h_alignment": "left",
                 "rows": [
                     [
@@ -343,7 +343,7 @@
                     {
                         "type": "itemgrid",
                         "item_margin": "5, 0",
-                        "item_size": "96,96",
+                        "item_size": "108,108",
                         "v_alignment": "top",
                         "h_alignment": "left",
                         "rows": [
@@ -376,7 +376,7 @@
                     {
                         "type": "itemgrid",
                         "item_margin": "5, 0",
-                        "item_size": "96,96",
+                        "item_size": "108,108",
                         "h_alignment": "left",
                         "rows": [
                             [

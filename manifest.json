@@ -1,7 +1,7 @@
 {
   "name": "Castlevania: Harmony of Dissonance Tracker",
   "game_name": "Castlevania - Harmony of Dissonance",
-  "package_version": "1.1.5",
+  "package_version": "1.1.6",
   "package_uid": "cvhod",
   "author": "Armipotent",
   "min_poptracker_version": "0.25.9",
@@ -9,6 +9,18 @@
   "variants": {
     "standard": {
       "display_name": "Map Tracker",
+      "flags": [
+        "ap"
+      ]
+    },
+    "var_mediumsize": {
+      "display_name": "Map Tracker (Medium)",
+      "flags": [
+        "ap"
+      ]
+    },
+    "var_largesize": {
+      "display_name": "Map Tracker (Large)",
       "flags": [
         "ap"
       ]
