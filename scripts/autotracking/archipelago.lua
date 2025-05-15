@@ -89,8 +89,8 @@ end
 function apply_slot_data(slot_data)
 	-- toggle setting items
 	-- DEBUG:
-	print("Slot settings: ")
-	print(dump_table(slot_data,10))
+	-- print("Slot settings: ")
+	-- print(dump_table(slot_data,10))
 	Tracker:FindObjectForCode("bad_ending_setting").Active = slot_data["medium_ending_required"]
 	Tracker:FindObjectForCode("worst_ending_setting").Active = slot_data["worst_ending_required"]
 	Tracker:FindObjectForCode("best_ending_setting").Active = slot_data["best_ending_required"]
