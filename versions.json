@@ -1,6 +1,16 @@
 {
 	"versions": [
 		{
+			"package_version": "1.1.6",
+			"download_url": "https://github.com/Armipotent/HarmonyOfDissonancePoptracker/archive/refs/tags/v1.1.6/HarmonyOfDissonancePoptracker.zip",
+			"sha256": "1cd7431636d6529c3c87be43db6f4c5596ec94e5fee15c84d0baa8244ca90efe",
+			"changelog": [
+				"Fixed area randomization recognition",
+				"Changed default item size for default map tracker",
+				"Added larger tracker variants for easier viewing of item icons (I have a large monitor personally)"
+			]
+		},
+		{
 			"package_version": "1.1.5",
 			"download_url": "https://github.com/Armipotent/HarmonyOfDissonancePoptracker/archive/refs/tags/v1.1.5/HarmonyOfDissonancePoptracker.zip",
 			"sha256": "40bf61edc5252500f75cd630ed963ab843453e3ed8afa536efb91c37cdb1f49a",
