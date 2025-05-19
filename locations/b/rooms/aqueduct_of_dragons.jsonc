@@ -27,7 +27,7 @@
         "name": "AqueductOfDragonsBBeforeGhostOfGiantMerman",
         "access_rules": [
             "@AqueductOfDragonsBWestZombieZone",
-            "@AqueductOfDragonsBGhostOfGiantMerman"
+            "@AqueductOfDragonsBGhostOfGiantMerman,$jump"
         ]
     },
     {
