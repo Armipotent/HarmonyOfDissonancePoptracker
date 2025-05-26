@@ -83,6 +83,7 @@
     {
         "name": "EntranceBUpperGuardHall",
         "access_rules": [
+            "@EntranceBLowerGuardHall",
             "@EntranceBToUpperWarpRoom"
         ]
     },
