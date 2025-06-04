@@ -1,6 +1,16 @@
 {
 	"versions": [
 		{
+			"package_version": "1.1.7",
+			"download_url": "https://github.com/Armipotent/HarmonyOfDissonancePoptracker/archive/refs/tags/v1.1.7/HarmonyOfDissonancePoptracker.zip",
+			"sha256": "eb6121b64ed33a98bbc013a3414bf8b67b055f1214d59f5a452317afb57e1533",
+			"changelog": [
+				"Fixed a logic bug where Aqueduct A/B didn't require any form of up to go upwards",
+				"Fixed a logic bug where Warped Wine Cellar in Entrance B hard-required JB Bracelet",
+				"Fixed Sky Walkway B map displaying a warp point where there wasn't one"
+			]
+		},
+		{
 			"package_version": "1.1.6",
 			"download_url": "https://github.com/Armipotent/HarmonyOfDissonancePoptracker/archive/refs/tags/v1.1.6/HarmonyOfDissonancePoptracker.zip",
 			"sha256": "039085d304ad39445887c81601d97167c04d564f12d2b93beb171ac5d83d6adc",
