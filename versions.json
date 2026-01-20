@@ -1,6 +1,17 @@
 {
 	"versions": [
 		{
+			"package_version": "1.1.8",
+			"download_url": "https://github.com/Armipotent/HarmonyOfDissonancePoptracker/archive/refs/tags/v1.1.8/HarmonyOfDissonancePoptracker.zip",
+			"sha256": "3115c4e695fae614375813c36892890247dc30bf77e7d5632dd21d8858618d8b",
+			"changelog": [
+				"Fixed weird behavior with Wailing Way B and Entrance Randomizer",
+				"Fixed Wailing Way B Contorted Pants Room TL and TR being incorrectly marked as scoutable in certain situations",
+				"Fixed Castle Treasury B's area-specific map not showing the RoIA-CTB teleporter",
+				"Fixed Castle Treasury B's area-specific map showing the worst and best endings in the wrong location"
+			]
+		},
+		{
 			"package_version": "1.1.7",
 			"download_url": "https://github.com/Armipotent/HarmonyOfDissonancePoptracker/archive/refs/tags/v1.1.7/HarmonyOfDissonancePoptracker.zip",
 			"sha256": "9c2f2bff969d06eb04fa163e6d2184e9bcb4dfb37239c69796252ee1da83ff76",
