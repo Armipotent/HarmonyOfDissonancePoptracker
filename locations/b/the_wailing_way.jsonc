@@ -78,7 +78,6 @@
             {
                 "name": "Contorted Pants Room - Top-Left",
                 "access_rules": [
-                    "{@TheWailingWayBContortedPantsRoom}",
                     "@TheWailingWayBContortedPantsRoom,$fly"
                 ],
                 "sections": [
@@ -103,7 +102,6 @@
             {
                 "name": "Contorted Pants Room - Top-Right",
                 "access_rules": [
-                    "{@TheWailingWayBContortedPantsRoom}",
                     "@TheWailingWayBContortedPantsRoom,$fly"
                 ],
                 "sections": [

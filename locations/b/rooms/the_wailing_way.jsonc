@@ -2,8 +2,8 @@
     {
         "name": "TheWailingWayBMarbleCorridorExit",
         "access_rules": [
-            "@MarbleCorridorBWailingExit",
-            "@TheWailingWayBGryffinCrossroads,er_disabled",
+            "@MarbleCorridorBWailingExit,er_disabled",
+            "@TheWailingWayBGryffinCrossroads",
             "er_enabled,the_wailing_way_b_north_door"
         ]
     },
